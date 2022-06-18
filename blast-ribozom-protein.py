@@ -15,7 +15,7 @@ def handle_entrez(protein_id):
     # Fetch the handle for the protein, based on protein ID as a fasta file
     handle = Entrez.efetch(db="protein", id=protein_id, rettype='fasta', retmode='text')
     # Save handle as a fasta file
-    output = open(f'{protein_id}.fasta', 'w')
+    output = open(f'./seq-files/{protein_id}.fasta', 'w')
     output.write(handle.read())
     output.close()
     # Close the handle
@@ -25,14 +25,14 @@ def handle_entrez(protein_id):
 def blast_results_to_xml(record, protein_id):
     result_handle = NCBIWWW.qblast(program="blastp", database="refseq_protein", sequence=record.seq, hitlist_size=500)
     # Save the results of the search as an XML file MAKE SURE YOU SAVE SINCE RUNTIME IS LONG
-    with open(f'{protein_id}.xml', 'w') as f:
+    with open(f'./xml-files/{protein_id}.xml', 'w') as f:
         f.write(result_handle.read())
     result_handle.close()
 
 
 def get_blast_from_xml(protein_id):
     # Parse the BLASTp results which were saved into xml file as a BLAST record object
-    result_handle = open(f'{protein_id}.xml')
+    result_handle = open(f'./xml-files/{protein_id}.xml')
     blast_records = NCBIXML.read(result_handle)
     result_handle.close()
     return blast_records
@@ -42,7 +42,7 @@ def results_to_csv(blast_records, protein_id):
     # iterate over all hits, print information, generate a report dataframe and a fasta of the protein sequence of all hits
     report = {i: [] for i in ['query_id', 'protein_name', 'organism', 'e-value',
                               'score']}  # initialize a dictionary to store the report data
-    sqeuence_fasta = open(f'{protein_id}_hits.fasta', 'w')  # initialize a fasta file to store the protein sequences of all hits
+    sqeuence_fasta = open(f'./hits-files/{protein_id}_hits.fasta', 'w')  # initialize a fasta file to store the protein sequences of all hits
     for alignment in blast_records.alignments:  # iterate over all hits
         for hsp in alignment.hsps:  # iterate over all hsps
             if hsp.expect < 0.05:  # if the e-value is less than 0.05
@@ -62,7 +62,7 @@ def results_to_csv(blast_records, protein_id):
                 sqeuence_fasta.write(
                     '>' + alignment.title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
     report_df = pd.DataFrame(report)  # convert the report dictionary to a dataframe
-    report_df.to_csv(f'{protein_id}.csv', index=False)  # save the report dataframe to a csv file
+    report_df.to_csv(f'./csv-files/{protein_id}.csv', index=False)  # save the report dataframe to a csv file
     sqeuence_fasta.close()  # close the fasta file handle
 
 

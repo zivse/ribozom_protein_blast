@@ -5,7 +5,6 @@ ssl._create_default_https_context = ssl._create_unverified_context
 import os
 PATH = os.getcwd()
 from Bio import SeqIO
-import pandas as pd
 from Bio import Entrez
 from Bio import SearchIO
 from Bio.Blast import NCBIWWW, NCBIXML

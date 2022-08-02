@@ -1,3 +1,4 @@
+import csv
 import ssl  # monkey patch for BioPython 1.68 & 1.69
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -10,6 +11,8 @@ from Bio import SearchIO
 from Bio.Blast import NCBIWWW, NCBIXML
 Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
 Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
+from pathlib import Path
+import pandas as pd
 
 
 def handle_entrez(protein_id):
@@ -82,10 +85,4 @@ with open('protein-ribozom.txt') as f:
     proteins = f.readlines()
     for protein_id in proteins:
         handle_protein(protein_id.replace('\n', ''))
-        break
-
-
-
-
-
 

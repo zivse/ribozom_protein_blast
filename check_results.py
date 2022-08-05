@@ -5,12 +5,14 @@ import re
 
 
 def check_csv():
-    # print('1')
+    #check the names of all the proteins in the csv files
     directory = 'csv-files'
     files = Path(directory).glob('*')
+    #go over all the files in csv-files
     for file in files:
-        delete_protein_from_hits_files('28S ribosomal protein S10', file)
-        break
+        # delete_protein_from_hits_files('28S ribosomal protein S10', file)
+        # break
+        #using df to check the names of all the proteins
         df = pd.read_csv(file)
         protein_names = df[['protein_name']]
         original_name = protein_names.iloc[0].values[0].strip()
@@ -28,15 +30,17 @@ def delete_protein_from_csv(protein_to_delete, file_name):
     delete_protein.drop(delete_protein.index[(delete_protein["protein_name"] == protein_to_delete)], axis=0, inplace=True)
     delete_protein.to_csv(file_name, sep=',', index=False)
     delete_protein_from_hits_files(protein_to_delete, file_name)
+    #delete the protein from the csv fike and then send it to be deleted from the fasta
 
 
 def delete_protein_from_hits_files(protein_to_delete, file_name):
+    #delete from fasta - doesnt work yet
     protein_id = os.path.basename(file_name)
     file_name_array =protein_id.split('.')
     fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
-    # print(fasta_file_name)
     with open(fasta_file_name, 'r') as fasta_file:
-        new_fasta = re.sub("^>ref.*{%s}*.\n"%protein_to_delete, fasta_file)
+        fasta_read = fasta_file.read()
+        new_fasta = re.sub("^>ref.*{%s}*.\n"%protein_to_delete, '', fasta_read)
         print(new_fasta)
 
 

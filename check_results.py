@@ -21,6 +21,7 @@ def check_csv():
             predicted = 'PREDICTED: '+original_name
             if protein[0].strip() != original_name and protein[0].strip() != predicted:
                 delete_protein_from_csv(protein[0], file)
+                delete_protein_from_hits_files(protein[0], file)
                 break
             break
 
@@ -29,18 +30,17 @@ def delete_protein_from_csv(protein_to_delete, file_name):
     delete_protein = pd.read_csv(file_name)
     delete_protein.drop(delete_protein.index[(delete_protein["protein_name"] == protein_to_delete)], axis=0, inplace=True)
     delete_protein.to_csv(file_name, sep=',', index=False)
-    delete_protein_from_hits_files(protein_to_delete, file_name)
     #delete the protein from the csv fike and then send it to be deleted from the fasta
 
 
 def delete_protein_from_hits_files(protein_to_delete, file_name):
     #delete from fasta - doesnt work yet
     protein_id = os.path.basename(file_name)
-    file_name_array =protein_id.split('.')
+    file_name_array = protein_id.split('.')
     fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
     with open(fasta_file_name, 'r') as fasta_file:
         fasta_read = fasta_file.read()
-        new_fasta = re.sub("^>ref.*{%s}*.\n"%protein_to_delete, '', fasta_read)
+        new_fasta = re.sub("/^(>ref.*%s.*?)>ref/gm" % protein_to_delete, '', fasta_read)
         print(new_fasta)
 
 

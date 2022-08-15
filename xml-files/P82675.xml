@@ -5,7 +5,7 @@
   <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
   <BlastOutput_db>refseq_protein</BlastOutput_db>
-  <BlastOutput_query-ID>Query_42831</BlastOutput_query-ID>
+  <BlastOutput_query-ID>Query_19131</BlastOutput_query-ID>
   <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
   <BlastOutput_query-len>430</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,7 +20,7 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_42831</Iteration_query-ID>
+  <Iteration_query-ID>Query_19131</Iteration_query-ID>
   <Iteration_query-def>unnamed protein product</Iteration_query-def>
   <Iteration_query-len>430</Iteration_query-len>
 <Iteration_hits>
@@ -4170,6 +4170,34 @@
 </Hit>
 <Hit>
   <Hit_num>149</Hit_num>
+  <Hit_id>ref|XP_049640365.1|</Hit_id>
+  <Hit_def>28S ribosomal protein S5, mitochondrial [Suncus etruscus]</Hit_def>
+  <Hit_accession>XP_049640365</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>702.975</Hsp_bit-score>
+      <Hsp_score>1813</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>348</Hsp_identity>
+      <Hsp_positive>382</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>MATAVRAVGCLPVLCSGTAGHLLGRQCSLNTLPAASILAWKSVLGNGHLSSLGTRDTHPYASLSRALQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRAAT</Hsp_qseq>
+      <Hsp_hseq>MAATRHAASWVSALCSAQAGRVWSRKFCLTTFPASSILALKPVLNNGLLSSSGTRGNHLLSCVTRALQTQCCITSSRNLMGQQHRSYSFFTKLTADELWKGALAETGAGARKGRGKRTKKKRRKDLNRGQIIGEGRHGFLWPGLNVPLMRNGAMQTIAQRSKEEQAKVEAHMVQLREEWDRKRKMKIKRERGWSGNQWGGVSLGPPDPGPNGETYEDFDTRILEVRNVFNMTAKEGRKKSVRVLVAVGNGRGAAGFAIGKATDRMDAFRKAKNKAAHYLHFIERYEEHTIFHDISLTFKRTHIKMKKKPKGYGLRCHRAIITICRLIGIKDMYAKVSGSVNMLNLTRGLFHGLSRQETHQQLADKKSLHVVEFREECGPLPIVVASPRGALRKDPEPEDDVPNIRLDWEDVKAAQKMKHSVWSGLKRAAT</Hsp_hseq>
+      <Hsp_midline>MA    A   +  LCS  AG +  R+  L T PA+SILA K VL NG LSS GTR  H  + ++RALQTQCCI+S  +LM QQ+R YSFFTKLTADELWKGALAETGAGA+KGRGKRTKKK+RKDLNRGQIIGEGR+GFLWPGLNVPLM+NGA+QTIAQRSKEEQ KVEA M+Q REEWDRK+KMK+KRERGWSGN WGG+SLGPPDPGP GETYEDFDTRILEVRNVF MTAKEGRKKS+RVLVAVGNG+GAAGF+IGKATDRMDAFRKAKN+A H+LH+IERYE+HTIFHDISL FKRTHIKMKK+PKGYGLRCHRAIITICRLIGIKDMYAKVSGS+NML+LT+GLF GLSRQETHQQLADKK LHVVE REECGPLPIVVASPRG LRKDPEPED+VP+++LDWEDVK AQ MK SVWS LKRAAT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>150</Hit_num>
   <Hit_id>ref|XP_020942744.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Sus scrofa]</Hit_def>
   <Hit_accession>XP_020942744</Hit_accession>
@@ -4197,7 +4225,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>150</Hit_num>
+  <Hit_num>151</Hit_num>
   <Hit_id>ref|XP_020942743.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Sus scrofa]</Hit_def>
   <Hit_accession>XP_020942743</Hit_accession>
@@ -4225,7 +4253,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>151</Hit_num>
+  <Hit_num>152</Hit_num>
   <Hit_id>ref|XP_047637184.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Phacochoerus africanus]</Hit_def>
   <Hit_accession>XP_047637184</Hit_accession>
@@ -4253,7 +4281,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>152</Hit_num>
+  <Hit_num>153</Hit_num>
   <Hit_id>ref|XP_005400698.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Chinchilla lanigera]</Hit_def>
   <Hit_accession>XP_005400698</Hit_accession>
@@ -4281,7 +4309,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>153</Hit_num>
+  <Hit_num>154</Hit_num>
   <Hit_id>ref|XP_036912655.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Sturnira hondurensis]</Hit_def>
   <Hit_accession>XP_036912655</Hit_accession>
@@ -4309,7 +4337,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>154</Hit_num>
+  <Hit_num>155</Hit_num>
   <Hit_id>ref|XP_007470265.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Lipotes vexillifer]</Hit_def>
   <Hit_accession>XP_007470265</Hit_accession>
@@ -4337,7 +4365,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>155</Hit_num>
+  <Hit_num>156</Hit_num>
   <Hit_id>ref|XP_036735963.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Manis pentadactyla]</Hit_def>
   <Hit_accession>XP_036735963</Hit_accession>
@@ -4365,7 +4393,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>156</Hit_num>
+  <Hit_num>157</Hit_num>
   <Hit_id>ref|XP_012582765.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Condylura cristata]</Hit_def>
   <Hit_accession>XP_012582765</Hit_accession>
@@ -4393,7 +4421,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>157</Hit_num>
+  <Hit_num>158</Hit_num>
   <Hit_id>ref|XP_004590809.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Ochotona princeps]</Hit_def>
   <Hit_accession>XP_004590809</Hit_accession>
@@ -4421,7 +4449,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>158</Hit_num>
+  <Hit_num>159</Hit_num>
   <Hit_id>ref|XP_037663621.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Choloepus didactylus]</Hit_def>
   <Hit_accession>XP_037663621</Hit_accession>
@@ -4449,7 +4477,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>159</Hit_num>
+  <Hit_num>160</Hit_num>
   <Hit_id>ref|XP_025850122.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Vulpes vulpes]</Hit_def>
   <Hit_accession>XP_025850122</Hit_accession>
@@ -4477,7 +4505,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>160</Hit_num>
+  <Hit_num>161</Hit_num>
   <Hit_id>ref|XP_021565107.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Carlito syrichta]</Hit_def>
   <Hit_accession>XP_021565107</Hit_accession>
@@ -4505,7 +4533,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>161</Hit_num>
+  <Hit_num>162</Hit_num>
   <Hit_id>ref|XP_011380320.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Pteropus vampyrus]</Hit_def>
   <Hit_accession>XP_011380320</Hit_accession>
@@ -4533,7 +4561,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>162</Hit_num>
+  <Hit_num>163</Hit_num>
   <Hit_id>ref|XP_041612075.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Vulpes lagopus] &gt;ref|XP_041612076.1| 28S ribosomal protein S5, mitochondrial isoform X3 [Vulpes lagopus]</Hit_def>
   <Hit_accession>XP_041612075</Hit_accession>
@@ -4561,7 +4589,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>163</Hit_num>
+  <Hit_num>164</Hit_num>
   <Hit_id>ref|XP_006909504.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Pteropus alecto]</Hit_def>
   <Hit_accession>XP_006909504</Hit_accession>
@@ -4589,7 +4617,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>164</Hit_num>
+  <Hit_num>165</Hit_num>
   <Hit_id>ref|XP_044628817.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Equus asinus]</Hit_def>
   <Hit_accession>XP_044628817</Hit_accession>
@@ -4617,7 +4645,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>165</Hit_num>
+  <Hit_num>166</Hit_num>
   <Hit_id>ref|XP_015998371.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Rousettus aegyptiacus]</Hit_def>
   <Hit_accession>XP_015998371</Hit_accession>
@@ -4645,7 +4673,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>166</Hit_num>
+  <Hit_num>167</Hit_num>
   <Hit_id>ref|NP_001099975.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Rattus norvegicus]</Hit_def>
   <Hit_accession>NP_001099975</Hit_accession>
@@ -4673,7 +4701,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>167</Hit_num>
+  <Hit_num>168</Hit_num>
   <Hit_id>ref|XP_032760059.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Rattus rattus]</Hit_def>
   <Hit_accession>XP_032760059</Hit_accession>
@@ -4701,7 +4729,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>168</Hit_num>
+  <Hit_num>169</Hit_num>
   <Hit_id>ref|XP_047379051.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial-like [Neosciurus carolinensis]</Hit_def>
   <Hit_accession>XP_047379051</Hit_accession>
@@ -4729,7 +4757,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>169</Hit_num>
+  <Hit_num>170</Hit_num>
   <Hit_id>ref|XP_039728512.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Pteropus giganteus]</Hit_def>
   <Hit_accession>XP_039728512</Hit_accession>
@@ -4757,7 +4785,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>170</Hit_num>
+  <Hit_num>171</Hit_num>
   <Hit_id>ref|XP_047709048.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Prionailurus viverrinus]</Hit_def>
   <Hit_accession>XP_047709048</Hit_accession>
@@ -4785,7 +4813,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>171</Hit_num>
+  <Hit_num>172</Hit_num>
   <Hit_id>ref|XP_037663623.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Choloepus didactylus]</Hit_def>
   <Hit_accession>XP_037663623</Hit_accession>
@@ -4813,7 +4841,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>172</Hit_num>
+  <Hit_num>173</Hit_num>
   <Hit_id>ref|XP_021508293.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Meriones unguiculatus] &gt;ref|XP_021508294.1| 28S ribosomal protein S5, mitochondrial [Meriones unguiculatus]</Hit_def>
   <Hit_accession>XP_021508293</Hit_accession>
@@ -4841,7 +4869,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>173</Hit_num>
+  <Hit_num>174</Hit_num>
   <Hit_id>ref|XP_033617578.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Fukomys damarensis]</Hit_def>
   <Hit_accession>XP_033617578</Hit_accession>
@@ -4869,7 +4897,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>174</Hit_num>
+  <Hit_num>175</Hit_num>
   <Hit_id>ref|XP_037383743.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Talpa occidentalis]</Hit_def>
   <Hit_accession>XP_037383743</Hit_accession>
@@ -4897,7 +4925,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>175</Hit_num>
+  <Hit_num>176</Hit_num>
   <Hit_id>ref|XP_004844396.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Heterocephalus glaber]</Hit_def>
   <Hit_accession>XP_004844396</Hit_accession>
@@ -4925,7 +4953,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>176</Hit_num>
+  <Hit_num>177</Hit_num>
   <Hit_id>ref|XP_030683034.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Nomascus leucogenys] &gt;ref|XP_030683035.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Nomascus leucogenys]</Hit_def>
   <Hit_accession>XP_030683034</Hit_accession>
@@ -4953,7 +4981,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>177</Hit_num>
+  <Hit_num>178</Hit_num>
   <Hit_id>ref|XP_021049530.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mus pahari]</Hit_def>
   <Hit_accession>XP_021049530</Hit_accession>
@@ -4981,7 +5009,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>178</Hit_num>
+  <Hit_num>179</Hit_num>
   <Hit_id>ref|XP_038187213.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Arvicola amphibius]</Hit_def>
   <Hit_accession>XP_038187213</Hit_accession>
@@ -5009,7 +5037,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>179</Hit_num>
+  <Hit_num>180</Hit_num>
   <Hit_id>ref|XP_034350124.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Arvicanthis niloticus]</Hit_def>
   <Hit_accession>XP_034350124</Hit_accession>
@@ -5037,7 +5065,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>180</Hit_num>
+  <Hit_num>181</Hit_num>
   <Hit_id>ref|XP_045684584.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Phyllostomus hastatus] &gt;ref|XP_045684585.1| 28S ribosomal protein S5, mitochondrial isoform X3 [Phyllostomus hastatus]</Hit_def>
   <Hit_accession>XP_045684584</Hit_accession>
@@ -5065,7 +5093,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>181</Hit_num>
+  <Hit_num>182</Hit_num>
   <Hit_id>ref|XP_021009227.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mus caroli]</Hit_def>
   <Hit_accession>XP_021009227</Hit_accession>
@@ -5093,7 +5121,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>182</Hit_num>
+  <Hit_num>183</Hit_num>
   <Hit_id>ref|XP_005343174.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Microtus ochrogaster]</Hit_def>
   <Hit_accession>XP_005343174</Hit_accession>
@@ -5121,7 +5149,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>183</Hit_num>
+  <Hit_num>184</Hit_num>
   <Hit_id>ref|NP_084239.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mus musculus]</Hit_def>
   <Hit_accession>NP_084239</Hit_accession>
@@ -5149,7 +5177,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>184</Hit_num>
+  <Hit_num>185</Hit_num>
   <Hit_id>ref|XP_041526625.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Microtus oregoni]</Hit_def>
   <Hit_accession>XP_041526625</Hit_accession>
@@ -5177,7 +5205,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>185</Hit_num>
+  <Hit_num>186</Hit_num>
   <Hit_id>ref|XP_005364498.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Microtus ochrogaster]</Hit_def>
   <Hit_accession>XP_005364498</Hit_accession>
@@ -5205,7 +5233,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>186</Hit_num>
+  <Hit_num>187</Hit_num>
   <Hit_id>ref|XP_014438934.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Tupaia chinensis]</Hit_def>
   <Hit_accession>XP_014438934</Hit_accession>
@@ -5233,7 +5261,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>187</Hit_num>
+  <Hit_num>188</Hit_num>
   <Hit_id>ref|XP_041535082.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial-like [Microtus oregoni]</Hit_def>
   <Hit_accession>XP_041535082</Hit_accession>
@@ -5261,7 +5289,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>188</Hit_num>
+  <Hit_num>189</Hit_num>
   <Hit_id>ref|XP_011380319.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Pteropus vampyrus]</Hit_def>
   <Hit_accession>XP_011380319</Hit_accession>
@@ -5289,7 +5317,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>189</Hit_num>
+  <Hit_num>190</Hit_num>
   <Hit_id>ref|XP_048315565.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Myodes glareolus]</Hit_def>
   <Hit_accession>XP_048315565</Hit_accession>
@@ -5317,7 +5345,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>190</Hit_num>
+  <Hit_num>191</Hit_num>
   <Hit_id>ref|XP_028748540.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Peromyscus leucopus]</Hit_def>
   <Hit_accession>XP_028748540</Hit_accession>
@@ -5345,7 +5373,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>191</Hit_num>
+  <Hit_num>192</Hit_num>
   <Hit_id>ref|XP_005068647.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mesocricetus auratus]</Hit_def>
   <Hit_accession>XP_005068647</Hit_accession>
@@ -5373,7 +5401,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>192</Hit_num>
+  <Hit_num>193</Hit_num>
   <Hit_id>ref|XP_023380063.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Pteropus vampyrus]</Hit_def>
   <Hit_accession>XP_023380063</Hit_accession>
@@ -5401,7 +5429,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>193</Hit_num>
+  <Hit_num>194</Hit_num>
   <Hit_id>ref|XP_042132125.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Peromyscus maniculatus bairdii]</Hit_def>
   <Hit_accession>XP_042132125</Hit_accession>
@@ -5429,7 +5457,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>194</Hit_num>
+  <Hit_num>195</Hit_num>
   <Hit_id>ref|XP_036858053.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Manis javanica]</Hit_def>
   <Hit_accession>XP_036858053</Hit_accession>
@@ -5457,7 +5485,35 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>195</Hit_num>
+  <Hit_num>196</Hit_num>
+  <Hit_id>ref|XP_049713595.1|</Hit_id>
+  <Hit_def>28S ribosomal protein S5, mitochondrial [Elephas maximus indicus]</Hit_def>
+  <Hit_accession>XP_049713595</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>661.759</Hsp_bit-score>
+      <Hsp_score>1706</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>430</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>334</Hsp_identity>
+      <Hsp_positive>377</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>MATAVRAVGCLPVLCSGTAGHLLGRQCSLNTLPAASILAWKSVLGNGHLSSLGTRDTHPYASLSRALQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRAAT</Hsp_qseq>
+      <Hsp_hseq>MAAAVRAAGCLPGLCGVPAGHLWARQLFLNAFPTTSILALKTALSNGPLSSTGIRGNRHYASLTPVLQTQCCIYSPSNWMSQQYRPYSFFIKLTAEELWKGVLAETGAGAKKGRGKRTKKKRRKDLNRGQIIGEGRSGFLWPGLNVPLMRNGVVQTIAQRSKEEQKKVEANMVRRREEQEQKKKIKVKQERGWSGNTWGGVSLGPPDPGPNGETYEDFDTRVLEVKNVFNMTAKEGRKKSARVLVAVGNGRGAAGFAVAKAAERMDAFRKAKNKAVNVLHYIERYEDHTIFHDVSLTFRKTHIRMKRQHRGYGLRCHRAIITLCRLVGIKDMYAKVSGPVNMLSLTRGFFHGLSHQETHQQLADRKRLHVVEFREECGPLPIVVASPQSTLRKNPEPEEEVPNIRLDWNDVKTMQGIKRSVWSGLKRGAT</Hsp_hseq>
+      <Hsp_midline>MA AVRA GCLP LC   AGHL  RQ  LN  P  SILA K+ L NG LSS G R    YASL+  LQTQCCI SPS+ MSQQYRPYSFF KLTA+ELWKG LAETGAGAKKGRGKRTKKK+RKDLNRGQIIGEGR GFLWPGLNVPLM+NG VQTIAQRSKEEQ+KVEA+M+++REE ++KKK+KVK+ERGWSGN+WGG+SLGPPDPGP GETYEDFDTR+LEV+NVF MTAKEGRKKS RVLVAVGNG+GAAGF++ KA +RMDAFRKAKN+AV+ LHYIERYEDHTIFHD+SL F++THI+MK+Q +GYGLRCHRAIIT+CRL+GIKDMYAKVSG +NMLSLT+G F GLS QETHQQLAD+K LHVVE REECGPLPIVVASP+  LRK+PEPE+EVP+++LDW DVKT QG+KRSVWS LKR AT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>197</Hit_num>
   <Hit_id>ref|XP_039728513.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Pteropus giganteus]</Hit_def>
   <Hit_accession>XP_039728513</Hit_accession>
@@ -5485,7 +5541,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>196</Hit_num>
+  <Hit_num>198</Hit_num>
   <Hit_id>ref|XP_024900819.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Pteropus alecto]</Hit_def>
   <Hit_accession>XP_024900819</Hit_accession>
@@ -5513,7 +5569,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>197</Hit_num>
+  <Hit_num>199</Hit_num>
   <Hit_id>ref|XP_028611730.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Grammomys surdaster]</Hit_def>
   <Hit_accession>XP_028611730</Hit_accession>
@@ -5541,7 +5597,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>198</Hit_num>
+  <Hit_num>200</Hit_num>
   <Hit_id>ref|XP_003497851.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Cricetulus griseus] &gt;ref|XP_027277688.1| 28S ribosomal protein S5, mitochondrial [Cricetulus griseus]</Hit_def>
   <Hit_accession>XP_003497851</Hit_accession>
@@ -5569,7 +5625,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>199</Hit_num>
+  <Hit_num>201</Hit_num>
   <Hit_id>ref|XP_036735964.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Manis pentadactyla]</Hit_def>
   <Hit_accession>XP_036735964</Hit_accession>
@@ -5597,7 +5653,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>200</Hit_num>
+  <Hit_num>202</Hit_num>
   <Hit_id>ref|XP_008826400.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Nannospalax galili]</Hit_def>
   <Hit_accession>XP_008826400</Hit_accession>
@@ -5625,7 +5681,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>201</Hit_num>
+  <Hit_num>203</Hit_num>
   <Hit_id>ref|XP_045835658.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Meles meles]</Hit_def>
   <Hit_accession>XP_045835658</Hit_accession>
@@ -5653,7 +5709,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>202</Hit_num>
+  <Hit_num>204</Hit_num>
   <Hit_id>ref|XP_030776802.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Rhinopithecus roxellana]</Hit_def>
   <Hit_accession>XP_030776802</Hit_accession>
@@ -5681,7 +5737,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>203</Hit_num>
+  <Hit_num>205</Hit_num>
   <Hit_id>ref|XP_037860059.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Chlorocebus sabaeus]</Hit_def>
   <Hit_accession>XP_037860059</Hit_accession>
@@ -5709,7 +5765,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>204</Hit_num>
+  <Hit_num>206</Hit_num>
   <Hit_id>ref|XP_006899005.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Elephantulus edwardii]</Hit_def>
   <Hit_accession>XP_006899005</Hit_accession>
@@ -5737,7 +5793,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>205</Hit_num>
+  <Hit_num>207</Hit_num>
   <Hit_id>ref|XP_022260410.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Canis lupus familiaris] &gt;ref|XP_025309787.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Canis lupus dingo] &gt;ref|XP_038547316.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Canis lupus familiaris]</Hit_def>
   <Hit_accession>XP_022260410</Hit_accession>
@@ -5765,7 +5821,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>206</Hit_num>
+  <Hit_num>208</Hit_num>
   <Hit_id>ref|XP_016065136.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Miniopterus natalensis]</Hit_def>
   <Hit_accession>XP_016065136</Hit_accession>
@@ -5793,7 +5849,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>207</Hit_num>
+  <Hit_num>209</Hit_num>
   <Hit_id>ref|XP_025850123.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Vulpes vulpes]</Hit_def>
   <Hit_accession>XP_025850123</Hit_accession>
@@ -5821,7 +5877,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>208</Hit_num>
+  <Hit_num>210</Hit_num>
   <Hit_id>ref|XP_041612073.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Vulpes lagopus] &gt;ref|XP_041612077.1| 28S ribosomal protein S5, mitochondrial isoform X1 [Vulpes lagopus]</Hit_def>
   <Hit_accession>XP_041612073</Hit_accession>
@@ -5849,7 +5905,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>209</Hit_num>
+  <Hit_num>211</Hit_num>
   <Hit_id>ref|XP_032266335.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Phoca vitulina] &gt;ref|XP_032266336.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Phoca vitulina] &gt;ref|XP_032266337.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Phoca vitulina] &gt;ref|XP_035930746.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Halichoerus grypus] &gt;ref|XP_035930747.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Halichoerus grypus]</Hit_def>
   <Hit_accession>XP_032266335</Hit_accession>
@@ -5877,7 +5933,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>210</Hit_num>
+  <Hit_num>212</Hit_num>
   <Hit_id>ref|XP_015998370.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Rousettus aegyptiacus]</Hit_def>
   <Hit_accession>XP_015998370</Hit_accession>
@@ -5905,7 +5961,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>211</Hit_num>
+  <Hit_num>213</Hit_num>
   <Hit_id>ref|XP_037591211.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X5 [Cebus imitator]</Hit_def>
   <Hit_accession>XP_037591211</Hit_accession>
@@ -5933,7 +5989,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>212</Hit_num>
+  <Hit_num>214</Hit_num>
   <Hit_id>ref|XP_034856913.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Mirounga leonina]</Hit_def>
   <Hit_accession>XP_034856913</Hit_accession>
@@ -5961,7 +6017,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>213</Hit_num>
+  <Hit_num>215</Hit_num>
   <Hit_id>ref|XP_044935087.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Mustela putorius furo] &gt;ref|XP_044935089.1| 28S ribosomal protein S5, mitochondrial isoform X1 [Mustela putorius furo]</Hit_def>
   <Hit_accession>XP_044935087</Hit_accession>
@@ -5989,7 +6045,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>214</Hit_num>
+  <Hit_num>216</Hit_num>
   <Hit_id>ref|XP_036119369.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Molossus molossus]</Hit_def>
   <Hit_accession>XP_036119369</Hit_accession>
@@ -6017,7 +6073,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>215</Hit_num>
+  <Hit_num>217</Hit_num>
   <Hit_id>ref|XP_014647112.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Ceratotherium simum simum]</Hit_def>
   <Hit_accession>XP_014647112</Hit_accession>
@@ -6045,7 +6101,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>216</Hit_num>
+  <Hit_num>218</Hit_num>
   <Hit_id>ref|XP_014390448.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial isoform X1 [Myotis brandtii]</Hit_def>
   <Hit_accession>XP_014390448</Hit_accession>
@@ -6073,7 +6129,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>217</Hit_num>
+  <Hit_num>219</Hit_num>
   <Hit_id>ref|XP_036174408.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Myotis myotis]</Hit_def>
   <Hit_accession>XP_036174408</Hit_accession>
@@ -6101,7 +6157,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>218</Hit_num>
+  <Hit_num>220</Hit_num>
   <Hit_id>ref|XP_022376137.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Enhydra lutris kenyoni]</Hit_def>
   <Hit_accession>XP_022376137</Hit_accession>
@@ -6129,7 +6185,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>219</Hit_num>
+  <Hit_num>221</Hit_num>
   <Hit_id>ref|XP_047637185.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Phacochoerus africanus] &gt;ref|XP_047637186.1| 28S ribosomal protein S5, mitochondrial isoform X3 [Phacochoerus africanus]</Hit_def>
   <Hit_accession>XP_047637185</Hit_accession>
@@ -6157,7 +6213,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>220</Hit_num>
+  <Hit_num>222</Hit_num>
   <Hit_id>ref|XP_044117580.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Neogale vison] &gt;ref|XP_044117581.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Neogale vison]</Hit_def>
   <Hit_accession>XP_044117580</Hit_accession>
@@ -6185,7 +6241,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>221</Hit_num>
+  <Hit_num>223</Hit_num>
   <Hit_id>ref|XP_047599813.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Lutra lutra]</Hit_def>
   <Hit_accession>XP_047599813</Hit_accession>
@@ -6213,7 +6269,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>222</Hit_num>
+  <Hit_num>224</Hit_num>
   <Hit_id>ref|XP_032125372.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Sapajus apella] &gt;ref|XP_032125373.1| 28S ribosomal protein S5, mitochondrial isoform X3 [Sapajus apella]</Hit_def>
   <Hit_accession>XP_032125372</Hit_accession>
@@ -6241,7 +6297,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>223</Hit_num>
+  <Hit_num>225</Hit_num>
   <Hit_id>ref|XP_039331964.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Saimiri boliviensis boliviensis]</Hit_def>
   <Hit_accession>XP_039331964</Hit_accession>
@@ -6269,7 +6325,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>224</Hit_num>
+  <Hit_num>226</Hit_num>
   <Hit_id>ref|XP_035127422.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X6 [Callithrix jacchus] &gt;ref|XP_035127423.1| 28S ribosomal protein S5, mitochondrial isoform X6 [Callithrix jacchus]</Hit_def>
   <Hit_accession>XP_035127422</Hit_accession>
@@ -6297,7 +6353,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>225</Hit_num>
+  <Hit_num>227</Hit_num>
   <Hit_id>ref|XP_045684586.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Phyllostomus hastatus] &gt;ref|XP_045684587.1| 28S ribosomal protein S5, mitochondrial isoform X4 [Phyllostomus hastatus]</Hit_def>
   <Hit_accession>XP_045684586</Hit_accession>
@@ -6325,7 +6381,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>226</Hit_num>
+  <Hit_num>228</Hit_num>
   <Hit_id>ref|XP_015417740.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Myotis davidii]</Hit_def>
   <Hit_accession>XP_015417740</Hit_accession>
@@ -6353,7 +6409,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>227</Hit_num>
+  <Hit_num>229</Hit_num>
   <Hit_id>ref|XP_036912657.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Sturnira hondurensis]</Hit_def>
   <Hit_accession>XP_036912657</Hit_accession>
@@ -6381,7 +6437,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>228</Hit_num>
+  <Hit_num>230</Hit_num>
   <Hit_id>ref|XP_023067267.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Piliocolobus tephrosceles]</Hit_def>
   <Hit_accession>XP_023067267</Hit_accession>
@@ -6409,7 +6465,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>229</Hit_num>
+  <Hit_num>231</Hit_num>
   <Hit_id>ref|XP_003758155.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sarcophilus harrisii]</Hit_def>
   <Hit_accession>XP_003758155</Hit_accession>
@@ -6437,7 +6493,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>230</Hit_num>
+  <Hit_num>232</Hit_num>
   <Hit_id>ref|XP_006873608.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Chrysochloris asiatica]</Hit_def>
   <Hit_accession>XP_006873608</Hit_accession>
@@ -6465,7 +6521,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>231</Hit_num>
+  <Hit_num>233</Hit_num>
   <Hit_id>ref|XP_014321747.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Myotis lucifugus]</Hit_def>
   <Hit_accession>XP_014321747</Hit_accession>
@@ -6493,7 +6549,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>232</Hit_num>
+  <Hit_num>234</Hit_num>
   <Hit_id>ref|XP_030776801.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Rhinopithecus roxellana]</Hit_def>
   <Hit_accession>XP_030776801</Hit_accession>
@@ -6521,7 +6577,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>233</Hit_num>
+  <Hit_num>235</Hit_num>
   <Hit_id>ref|XP_023573168.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Octodon degus]</Hit_def>
   <Hit_accession>XP_023573168</Hit_accession>
@@ -6549,7 +6605,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>234</Hit_num>
+  <Hit_num>236</Hit_num>
   <Hit_id>ref|XP_024432478.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Desmodus rotundus] &gt;ref|XP_045040838.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Desmodus rotundus] &gt;ref|XP_045040839.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Desmodus rotundus]</Hit_def>
   <Hit_accession>XP_024432478</Hit_accession>
@@ -6577,7 +6633,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>235</Hit_num>
+  <Hit_num>237</Hit_num>
   <Hit_id>ref|XP_027479117.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Zalophus californianus]</Hit_def>
   <Hit_accession>XP_027479117</Hit_accession>
@@ -6605,7 +6661,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>236</Hit_num>
+  <Hit_num>238</Hit_num>
   <Hit_id>ref|XP_036729084.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Balaenoptera musculus]</Hit_def>
   <Hit_accession>XP_036729084</Hit_accession>
@@ -6633,7 +6689,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>237</Hit_num>
+  <Hit_num>239</Hit_num>
   <Hit_id>ref|XP_017521240.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Manis javanica] &gt;ref|XP_017521241.1| 28S ribosomal protein S5, mitochondrial isoform X3 [Manis javanica]</Hit_def>
   <Hit_accession>XP_017521240</Hit_accession>
@@ -6661,7 +6717,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>238</Hit_num>
+  <Hit_num>240</Hit_num>
   <Hit_id>ref|XP_028018447.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Balaenoptera acutorostrata scammoni]</Hit_def>
   <Hit_accession>XP_028018447</Hit_accession>
@@ -6689,7 +6745,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>239</Hit_num>
+  <Hit_num>241</Hit_num>
   <Hit_id>ref|XP_028930226.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Ornithorhynchus anatinus]</Hit_def>
   <Hit_accession>XP_028930226</Hit_accession>
@@ -6717,7 +6773,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>240</Hit_num>
+  <Hit_num>242</Hit_num>
   <Hit_id>ref|XP_033094703.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Trachypithecus francoisi]</Hit_def>
   <Hit_accession>XP_033094703</Hit_accession>
@@ -6745,7 +6801,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>241</Hit_num>
+  <Hit_num>243</Hit_num>
   <Hit_id>ref|XP_006203911.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Vicugna pacos]</Hit_def>
   <Hit_accession>XP_006203911</Hit_accession>
@@ -6773,7 +6829,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>242</Hit_num>
+  <Hit_num>244</Hit_num>
   <Hit_id>ref|XP_045003551.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Jaculus jaculus]</Hit_def>
   <Hit_accession>XP_045003551</Hit_accession>
@@ -6801,7 +6857,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>243</Hit_num>
+  <Hit_num>245</Hit_num>
   <Hit_id>ref|XP_036608598.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Trichosurus vulpecula]</Hit_def>
   <Hit_accession>XP_036608598</Hit_accession>
@@ -6829,7 +6885,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>244</Hit_num>
+  <Hit_num>246</Hit_num>
   <Hit_id>ref|XP_043842580.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Dromiciops gliroides]</Hit_def>
   <Hit_accession>XP_043842580</Hit_accession>
@@ -6857,7 +6913,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>245</Hit_num>
+  <Hit_num>247</Hit_num>
   <Hit_id>ref|XP_011753516.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Macaca nemestrina]</Hit_def>
   <Hit_accession>XP_011753516</Hit_accession>
@@ -6885,7 +6941,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>246</Hit_num>
+  <Hit_num>248</Hit_num>
   <Hit_id>ref|XP_027709598.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Vombatus ursinus]</Hit_def>
   <Hit_accession>XP_027709598</Hit_accession>
@@ -6913,7 +6969,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>247</Hit_num>
+  <Hit_num>249</Hit_num>
   <Hit_id>ref|XP_012927571.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Heterocephalus glaber]</Hit_def>
   <Hit_accession>XP_012927571</Hit_accession>
@@ -6941,7 +6997,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>248</Hit_num>
+  <Hit_num>250</Hit_num>
   <Hit_id>ref|XP_015288676.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Macaca fascicularis]</Hit_def>
   <Hit_accession>XP_015288676</Hit_accession>
@@ -6969,7 +7025,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>249</Hit_num>
+  <Hit_num>251</Hit_num>
   <Hit_id>ref|XP_012927570.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Heterocephalus glaber]</Hit_def>
   <Hit_accession>XP_012927570</Hit_accession>
@@ -6997,7 +7053,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>250</Hit_num>
+  <Hit_num>252</Hit_num>
   <Hit_id>ref|XP_028930230.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Ornithorhynchus anatinus]</Hit_def>
   <Hit_accession>XP_028930230</Hit_accession>
@@ -7025,7 +7081,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>251</Hit_num>
+  <Hit_num>253</Hit_num>
   <Hit_id>ref|XP_038607752.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Tachyglossus aculeatus]</Hit_def>
   <Hit_accession>XP_038607752</Hit_accession>
@@ -7053,7 +7109,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>252</Hit_num>
+  <Hit_num>254</Hit_num>
   <Hit_id>ref|XP_030744359.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Echinops telfairi]</Hit_def>
   <Hit_accession>XP_030744359</Hit_accession>
@@ -7081,7 +7137,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>253</Hit_num>
+  <Hit_num>255</Hit_num>
   <Hit_id>ref|XP_019301360.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial isoform X2 [Panthera pardus]</Hit_def>
   <Hit_accession>XP_019301360</Hit_accession>
@@ -7109,7 +7165,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>254</Hit_num>
+  <Hit_num>256</Hit_num>
   <Hit_id>ref|XP_023474457.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Equus caballus]</Hit_def>
   <Hit_accession>XP_023474457</Hit_accession>
@@ -7137,7 +7193,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>255</Hit_num>
+  <Hit_num>257</Hit_num>
   <Hit_id>ref|XP_001382072.2|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Monodelphis domestica]</Hit_def>
   <Hit_accession>XP_001382072</Hit_accession>
@@ -7165,7 +7221,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>256</Hit_num>
+  <Hit_num>258</Hit_num>
   <Hit_id>ref|XP_044516720.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Gracilinanus agilis]</Hit_def>
   <Hit_accession>XP_044516720</Hit_accession>
@@ -7193,7 +7249,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>257</Hit_num>
+  <Hit_num>259</Hit_num>
   <Hit_id>ref|XP_019786653.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Tursiops truncatus] &gt;ref|XP_026984804.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Lagenorhynchus obliquidens]</Hit_def>
   <Hit_accession>XP_019786653</Hit_accession>
@@ -7221,7 +7277,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>258</Hit_num>
+  <Hit_num>260</Hit_num>
   <Hit_id>ref|XP_033257815.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Orcinus orca]</Hit_def>
   <Hit_accession>XP_033257815</Hit_accession>
@@ -7249,7 +7305,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>259</Hit_num>
+  <Hit_num>261</Hit_num>
   <Hit_id>ref|XP_030694845.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Globicephala melas]</Hit_def>
   <Hit_accession>XP_030694845</Hit_accession>
@@ -7277,7 +7333,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>260</Hit_num>
+  <Hit_num>262</Hit_num>
   <Hit_id>ref|XP_020843882.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Phascolarctos cinereus]</Hit_def>
   <Hit_accession>XP_020843882</Hit_accession>
@@ -7305,7 +7361,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>261</Hit_num>
+  <Hit_num>263</Hit_num>
   <Hit_id>ref|XP_020843891.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Phascolarctos cinereus]</Hit_def>
   <Hit_accession>XP_020843891</Hit_accession>
@@ -7333,7 +7389,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>262</Hit_num>
+  <Hit_num>264</Hit_num>
   <Hit_id>ref|XP_023590123.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Trichechus manatus latirostris]</Hit_def>
   <Hit_accession>XP_023590123</Hit_accession>
@@ -7361,7 +7417,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>263</Hit_num>
+  <Hit_num>265</Hit_num>
   <Hit_id>ref|XP_041108130.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Polyodon spathula]</Hit_def>
   <Hit_accession>XP_041108130</Hit_accession>
@@ -7389,7 +7445,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>264</Hit_num>
+  <Hit_num>266</Hit_num>
   <Hit_id>ref|XP_033873304.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Acipenser ruthenus]</Hit_def>
   <Hit_accession>XP_033873304</Hit_accession>
@@ -7417,7 +7473,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>265</Hit_num>
+  <Hit_num>267</Hit_num>
   <Hit_id>ref|XP_048338060.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sphaerodactylus townsendi]</Hit_def>
   <Hit_accession>XP_048338060</Hit_accession>
@@ -7445,7 +7501,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>266</Hit_num>
+  <Hit_num>268</Hit_num>
   <Hit_id>ref|XP_023396851.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Loxodonta africana]</Hit_def>
   <Hit_accession>XP_023396851</Hit_accession>
@@ -7473,7 +7529,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>267</Hit_num>
+  <Hit_num>269</Hit_num>
   <Hit_id>ref|XP_030414127.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Gopherus evgoodei]</Hit_def>
   <Hit_accession>XP_030414127</Hit_accession>
@@ -7501,7 +7557,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>268</Hit_num>
+  <Hit_num>270</Hit_num>
   <Hit_id>ref|XP_030414128.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Gopherus evgoodei]</Hit_def>
   <Hit_accession>XP_030414128</Hit_accession>
@@ -7529,7 +7585,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>269</Hit_num>
+  <Hit_num>271</Hit_num>
   <Hit_id>ref|XP_039386303.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Mauremys reevesii]</Hit_def>
   <Hit_accession>XP_039386303</Hit_accession>
@@ -7557,7 +7613,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>270</Hit_num>
+  <Hit_num>272</Hit_num>
   <Hit_id>ref|XP_039386304.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Mauremys reevesii]</Hit_def>
   <Hit_accession>XP_039386304</Hit_accession>
@@ -7585,7 +7641,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>271</Hit_num>
+  <Hit_num>273</Hit_num>
   <Hit_id>ref|XP_014435291.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Pelodiscus sinensis]</Hit_def>
   <Hit_accession>XP_014435291</Hit_accession>
@@ -7613,7 +7669,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>272</Hit_num>
+  <Hit_num>274</Hit_num>
   <Hit_id>ref|XP_012374946.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Dasypus novemcinctus]</Hit_def>
   <Hit_accession>XP_012374946</Hit_accession>
@@ -7641,7 +7697,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>273</Hit_num>
+  <Hit_num>275</Hit_num>
   <Hit_id>ref|XP_043368147.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Dermochelys coriacea]</Hit_def>
   <Hit_accession>XP_043368147</Hit_accession>
@@ -7669,7 +7725,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>274</Hit_num>
+  <Hit_num>276</Hit_num>
   <Hit_id>ref|XP_044867467.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mauremys mutica]</Hit_def>
   <Hit_accession>XP_044867467</Hit_accession>
@@ -7697,7 +7753,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>275</Hit_num>
+  <Hit_num>277</Hit_num>
   <Hit_id>ref|XP_038253748.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Dermochelys coriacea]</Hit_def>
   <Hit_accession>XP_038253748</Hit_accession>
@@ -7725,7 +7781,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>276</Hit_num>
+  <Hit_num>278</Hit_num>
   <Hit_id>ref|XP_006007415.2|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Latimeria chalumnae]</Hit_def>
   <Hit_accession>XP_006007415</Hit_accession>
@@ -7753,7 +7809,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>277</Hit_num>
+  <Hit_num>279</Hit_num>
   <Hit_id>ref|XP_025046646.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Pelodiscus sinensis] &gt;ref|XP_025046651.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Pelodiscus sinensis]</Hit_def>
   <Hit_accession>XP_025046646</Hit_accession>
@@ -7781,7 +7837,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>278</Hit_num>
+  <Hit_num>280</Hit_num>
   <Hit_id>ref|XP_033000887.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Lacerta agilis]</Hit_def>
   <Hit_accession>XP_033000887</Hit_accession>
@@ -7809,7 +7865,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>279</Hit_num>
+  <Hit_num>281</Hit_num>
   <Hit_id>ref|XP_038655060.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Scyliorhinus canicula]</Hit_def>
   <Hit_accession>XP_038655060</Hit_accession>
@@ -7837,7 +7893,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>280</Hit_num>
+  <Hit_num>282</Hit_num>
   <Hit_id>ref|XP_005293620.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Chrysemys picta bellii]</Hit_def>
   <Hit_accession>XP_005293620</Hit_accession>
@@ -7865,7 +7921,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>281</Hit_num>
+  <Hit_num>283</Hit_num>
   <Hit_id>ref|XP_042708653.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Chrysemys picta bellii]</Hit_def>
   <Hit_accession>XP_042708653</Hit_accession>
@@ -7893,7 +7949,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>282</Hit_num>
+  <Hit_num>284</Hit_num>
   <Hit_id>ref|XP_024069701.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Terrapene carolina triunguis]</Hit_def>
   <Hit_accession>XP_024069701</Hit_accession>
@@ -7921,7 +7977,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>283</Hit_num>
+  <Hit_num>285</Hit_num>
   <Hit_id>ref|XP_042708654.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Chrysemys picta bellii]</Hit_def>
   <Hit_accession>XP_042708654</Hit_accession>
@@ -7949,7 +8005,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>284</Hit_num>
+  <Hit_num>286</Hit_num>
   <Hit_id>ref|XP_008165302.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Chrysemys picta bellii]</Hit_def>
   <Hit_accession>XP_008165302</Hit_accession>
@@ -7977,7 +8033,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>285</Hit_num>
+  <Hit_num>287</Hit_num>
   <Hit_id>ref|XP_016044765.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Erinaceus europaeus]</Hit_def>
   <Hit_accession>XP_016044765</Hit_accession>
@@ -8005,7 +8061,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>286</Hit_num>
+  <Hit_num>288</Hit_num>
   <Hit_id>ref|XP_028676370.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Erpetoichthys calabaricus]</Hit_def>
   <Hit_accession>XP_028676370</Hit_accession>
@@ -8033,7 +8089,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>287</Hit_num>
+  <Hit_num>289</Hit_num>
   <Hit_id>ref|XP_034619797.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Trachemys scripta elegans]</Hit_def>
   <Hit_accession>XP_034619797</Hit_accession>
@@ -8061,7 +8117,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>288</Hit_num>
+  <Hit_num>290</Hit_num>
   <Hit_id>ref|XP_034619796.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Trachemys scripta elegans]</Hit_def>
   <Hit_accession>XP_034619796</Hit_accession>
@@ -8089,7 +8145,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>289</Hit_num>
+  <Hit_num>291</Hit_num>
   <Hit_id>ref|XP_012497452.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Propithecus coquereli]</Hit_def>
   <Hit_accession>XP_012497452</Hit_accession>
@@ -8117,7 +8173,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>290</Hit_num>
+  <Hit_num>292</Hit_num>
   <Hit_id>ref|XP_003216145.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Anolis carolinensis]</Hit_def>
   <Hit_accession>XP_003216145</Hit_accession>
@@ -8145,7 +8201,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>291</Hit_num>
+  <Hit_num>293</Hit_num>
   <Hit_id>ref|XP_042189392.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Callorhinchus milii]</Hit_def>
   <Hit_accession>XP_042189392</Hit_accession>
@@ -8173,7 +8229,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>292</Hit_num>
+  <Hit_num>294</Hit_num>
   <Hit_id>ref|XP_023620170.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Myotis lucifugus]</Hit_def>
   <Hit_accession>XP_023620170</Hit_accession>
@@ -8201,7 +8257,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>293</Hit_num>
+  <Hit_num>295</Hit_num>
   <Hit_id>ref|XP_048387817.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Stegostoma fasciatum]</Hit_def>
   <Hit_accession>XP_048387817</Hit_accession>
@@ -8229,7 +8285,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>294</Hit_num>
+  <Hit_num>296</Hit_num>
   <Hit_id>ref|XP_043400162.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Chelonia mydas]</Hit_def>
   <Hit_accession>XP_043400162</Hit_accession>
@@ -8257,7 +8313,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>295</Hit_num>
+  <Hit_num>297</Hit_num>
   <Hit_id>ref|XP_037752323.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Chelonia mydas]</Hit_def>
   <Hit_accession>XP_037752323</Hit_accession>
@@ -8285,7 +8341,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>296</Hit_num>
+  <Hit_num>298</Hit_num>
   <Hit_id>ref|XP_010360360.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Rhinopithecus roxellana]</Hit_def>
   <Hit_accession>XP_010360360</Hit_accession>
@@ -8313,7 +8369,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>297</Hit_num>
+  <Hit_num>299</Hit_num>
   <Hit_id>ref|XP_017949732.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Xenopus tropicalis]</Hit_def>
   <Hit_accession>XP_017949732</Hit_accession>
@@ -8341,7 +8397,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>298</Hit_num>
+  <Hit_num>300</Hit_num>
   <Hit_id>ref|XP_042318846.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sceloporus undulatus]</Hit_def>
   <Hit_accession>XP_042318846</Hit_accession>
@@ -8369,7 +8425,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>299</Hit_num>
+  <Hit_num>301</Hit_num>
   <Hit_id>ref|XP_041043088.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Carcharodon carcharias]</Hit_def>
   <Hit_accession>XP_041043088</Hit_accession>
@@ -8397,7 +8453,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>300</Hit_num>
+  <Hit_num>302</Hit_num>
   <Hit_id>ref|XP_048698181.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Caretta caretta]</Hit_def>
   <Hit_accession>XP_048698181</Hit_accession>
@@ -8425,7 +8481,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>301</Hit_num>
+  <Hit_num>303</Hit_num>
   <Hit_id>ref|XP_017558045.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pygocentrus nattereri]</Hit_def>
   <Hit_accession>XP_017558045</Hit_accession>
@@ -8453,7 +8509,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>302</Hit_num>
+  <Hit_num>304</Hit_num>
   <Hit_id>ref|XP_018118404.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Xenopus laevis]</Hit_def>
   <Hit_accession>XP_018118404</Hit_accession>
@@ -8481,7 +8537,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>303</Hit_num>
+  <Hit_num>305</Hit_num>
   <Hit_id>ref|XP_005147478.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Melopsittacus undulatus]</Hit_def>
   <Hit_accession>XP_005147478</Hit_accession>
@@ -8509,7 +8565,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>304</Hit_num>
+  <Hit_num>306</Hit_num>
   <Hit_id>ref|XP_010221001.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Tinamus guttatus]</Hit_def>
   <Hit_accession>XP_010221001</Hit_accession>
@@ -8537,7 +8593,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>305</Hit_num>
+  <Hit_num>307</Hit_num>
   <Hit_id>ref|XP_030643340.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Chanos chanos]</Hit_def>
   <Hit_accession>XP_030643340</Hit_accession>
@@ -8565,7 +8621,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>306</Hit_num>
+  <Hit_num>308</Hit_num>
   <Hit_id>ref|XP_029450198.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Rhinatrema bivittatum]</Hit_def>
   <Hit_accession>XP_029450198</Hit_accession>
@@ -8593,7 +8649,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>307</Hit_num>
+  <Hit_num>309</Hit_num>
   <Hit_id>ref|XP_040906367.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Toxotes jaculatrix]</Hit_def>
   <Hit_accession>XP_040906367</Hit_accession>
@@ -8621,7 +8677,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>308</Hit_num>
+  <Hit_num>310</Hit_num>
   <Hit_id>ref|XP_036449051.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Colossoma macropomum]</Hit_def>
   <Hit_accession>XP_036449051</Hit_accession>
@@ -8649,7 +8705,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>309</Hit_num>
+  <Hit_num>311</Hit_num>
   <Hit_id>ref|XP_032877992.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Amblyraja radiata]</Hit_def>
   <Hit_accession>XP_032877992</Hit_accession>
@@ -8677,7 +8733,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>310</Hit_num>
+  <Hit_num>312</Hit_num>
   <Hit_id>ref|XP_043543108.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Chiloscyllium plagiosum]</Hit_def>
   <Hit_accession>XP_043543108</Hit_accession>
@@ -8705,7 +8761,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>311</Hit_num>
+  <Hit_num>313</Hit_num>
   <Hit_id>ref|XP_042290330.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Thunnus maccoyii]</Hit_def>
   <Hit_accession>XP_042290330</Hit_accession>
@@ -8733,7 +8789,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>312</Hit_num>
+  <Hit_num>314</Hit_num>
   <Hit_id>ref|XP_020350926.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oncorhynchus kisutch]</Hit_def>
   <Hit_accession>XP_020350926</Hit_accession>
@@ -8761,7 +8817,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>313</Hit_num>
+  <Hit_num>315</Hit_num>
   <Hit_id>ref|XP_044229264.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Thunnus albacares]</Hit_def>
   <Hit_accession>XP_044229264</Hit_accession>
@@ -8789,7 +8845,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>314</Hit_num>
+  <Hit_num>316</Hit_num>
   <Hit_id>ref|XP_030051776.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Microcaecilia unicolor]</Hit_def>
   <Hit_accession>XP_030051776</Hit_accession>
@@ -8817,7 +8873,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>315</Hit_num>
+  <Hit_num>317</Hit_num>
   <Hit_id>ref|XP_028580780.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Podarcis muralis]</Hit_def>
   <Hit_accession>XP_028580780</Hit_accession>
@@ -8845,7 +8901,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>316</Hit_num>
+  <Hit_num>318</Hit_num>
   <Hit_id>ref|XP_036912656.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Sturnira hondurensis]</Hit_def>
   <Hit_accession>XP_036912656</Hit_accession>
@@ -8873,7 +8929,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>317</Hit_num>
+  <Hit_num>319</Hit_num>
   <Hit_id>ref|XP_018550820.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Lates calcarifer]</Hit_def>
   <Hit_accession>XP_018550820</Hit_accession>
@@ -8901,7 +8957,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>318</Hit_num>
+  <Hit_num>320</Hit_num>
   <Hit_id>ref|XP_031758148.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Xenopus tropicalis]</Hit_def>
   <Hit_accession>XP_031758148</Hit_accession>
@@ -8929,7 +8985,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>319</Hit_num>
+  <Hit_num>321</Hit_num>
   <Hit_id>ref|XP_034966975.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Zootoca vivipara]</Hit_def>
   <Hit_accession>XP_034966975</Hit_accession>
@@ -8957,7 +9013,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>320</Hit_num>
+  <Hit_num>322</Hit_num>
   <Hit_id>ref|XP_036404550.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Megalops cyprinoides]</Hit_def>
   <Hit_accession>XP_036404550</Hit_accession>
@@ -8985,7 +9041,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>321</Hit_num>
+  <Hit_num>323</Hit_num>
   <Hit_id>ref|XP_039386305.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Mauremys reevesii]</Hit_def>
   <Hit_accession>XP_039386305</Hit_accession>
@@ -9013,7 +9069,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>322</Hit_num>
+  <Hit_num>324</Hit_num>
   <Hit_id>ref|XP_030603891.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Archocentrus centrarchus]</Hit_def>
   <Hit_accession>XP_030603891</Hit_accession>
@@ -9041,7 +9097,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>323</Hit_num>
+  <Hit_num>325</Hit_num>
   <Hit_id>ref|XP_012695896.3|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Clupea harengus]</Hit_def>
   <Hit_accession>XP_012695896</Hit_accession>
@@ -9069,7 +9125,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>324</Hit_num>
+  <Hit_num>326</Hit_num>
   <Hit_id>ref|XP_033094704.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Trachypithecus francoisi]</Hit_def>
   <Hit_accession>XP_033094704</Hit_accession>
@@ -9097,7 +9153,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>325</Hit_num>
+  <Hit_num>327</Hit_num>
   <Hit_id>ref|XP_024153744.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oryzias melastigma]</Hit_def>
   <Hit_accession>XP_024153744</Hit_accession>
@@ -9125,7 +9181,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>326</Hit_num>
+  <Hit_num>328</Hit_num>
   <Hit_id>ref|XP_034465118.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Hippoglossus hippoglossus] &gt;ref|XP_035029135.2| 28S ribosomal protein S5, mitochondrial [Hippoglossus stenolepis]</Hit_def>
   <Hit_accession>XP_034465118</Hit_accession>
@@ -9153,7 +9209,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>327</Hit_num>
+  <Hit_num>329</Hit_num>
   <Hit_id>ref|XP_030304266.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Calypte anna]</Hit_def>
   <Hit_accession>XP_030304266</Hit_accession>
@@ -9181,7 +9237,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>328</Hit_num>
+  <Hit_num>330</Hit_num>
   <Hit_id>ref|XP_005022109.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Anas platyrhynchos]</Hit_def>
   <Hit_accession>XP_005022109</Hit_accession>
@@ -9209,7 +9265,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>329</Hit_num>
+  <Hit_num>331</Hit_num>
   <Hit_id>ref|XP_019942826.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Paralichthys olivaceus]</Hit_def>
   <Hit_accession>XP_019942826</Hit_accession>
@@ -9237,7 +9293,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>330</Hit_num>
+  <Hit_num>332</Hit_num>
   <Hit_id>ref|XP_032040705.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Aythya fuligula]</Hit_def>
   <Hit_accession>XP_032040705</Hit_accession>
@@ -9265,7 +9321,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>331</Hit_num>
+  <Hit_num>333</Hit_num>
   <Hit_id>ref|XP_027309312.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Anas platyrhynchos]</Hit_def>
   <Hit_accession>XP_027309312</Hit_accession>
@@ -9293,7 +9349,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>332</Hit_num>
+  <Hit_num>334</Hit_num>
   <Hit_id>ref|XP_029927021.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Myripristis murdjan]</Hit_def>
   <Hit_accession>XP_029927021</Hit_accession>
@@ -9321,7 +9377,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>333</Hit_num>
+  <Hit_num>335</Hit_num>
   <Hit_id>ref|XP_026165913.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mastacembelus armatus]</Hit_def>
   <Hit_accession>XP_026165913</Hit_accession>
@@ -9349,7 +9405,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>334</Hit_num>
+  <Hit_num>336</Hit_num>
   <Hit_id>ref|XP_033835939.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Periophthalmus magnuspinnatus]</Hit_def>
   <Hit_accession>XP_033835939</Hit_accession>
@@ -9377,7 +9433,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>335</Hit_num>
+  <Hit_num>337</Hit_num>
   <Hit_id>ref|XP_015271625.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Gekko japonicus]</Hit_def>
   <Hit_accession>XP_015271625</Hit_accession>
@@ -9405,7 +9461,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>336</Hit_num>
+  <Hit_num>338</Hit_num>
   <Hit_id>ref|XP_008939320.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial, partial [Merops nubicus]</Hit_def>
   <Hit_accession>XP_008939320</Hit_accession>
@@ -9433,7 +9489,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>337</Hit_num>
+  <Hit_num>339</Hit_num>
   <Hit_id>ref|XP_039856330.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Simochromis diagramma]</Hit_def>
   <Hit_accession>XP_039856330</Hit_accession>
@@ -9461,7 +9517,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>338</Hit_num>
+  <Hit_num>340</Hit_num>
   <Hit_id>ref|XP_031601489.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oreochromis aureus]</Hit_def>
   <Hit_accession>XP_031601489</Hit_accession>
@@ -9489,7 +9545,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>339</Hit_num>
+  <Hit_num>341</Hit_num>
   <Hit_id>ref|XP_005733793.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Pundamilia nyererei]</Hit_def>
   <Hit_accession>XP_005733793</Hit_accession>
@@ -9517,7 +9573,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>340</Hit_num>
+  <Hit_num>342</Hit_num>
   <Hit_id>ref|XP_029450197.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Rhinatrema bivittatum]</Hit_def>
   <Hit_accession>XP_029450197</Hit_accession>
@@ -9545,7 +9601,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>341</Hit_num>
+  <Hit_num>343</Hit_num>
   <Hit_id>ref|XP_020777032.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Boleophthalmus pectinirostris]</Hit_def>
   <Hit_accession>XP_020777032</Hit_accession>
@@ -9573,7 +9629,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>342</Hit_num>
+  <Hit_num>344</Hit_num>
   <Hit_id>ref|XP_045927232.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Micropterus dolomieu]</Hit_def>
   <Hit_accession>XP_045927232</Hit_accession>
@@ -9601,7 +9657,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>343</Hit_num>
+  <Hit_num>345</Hit_num>
   <Hit_id>ref|XP_025899811.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Nothoprocta perdicaria]</Hit_def>
   <Hit_accession>XP_025899811</Hit_accession>
@@ -9629,7 +9685,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>344</Hit_num>
+  <Hit_num>346</Hit_num>
   <Hit_id>ref|XP_038593713.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Micropterus salmoides]</Hit_def>
   <Hit_accession>XP_038593713</Hit_accession>
@@ -9657,7 +9713,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>345</Hit_num>
+  <Hit_num>347</Hit_num>
   <Hit_id>ref|XP_025966302.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Dromaius novaehollandiae]</Hit_def>
   <Hit_accession>XP_025966302</Hit_accession>
@@ -9685,7 +9741,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>346</Hit_num>
+  <Hit_num>348</Hit_num>
   <Hit_id>ref|XP_029377717.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Echeneis naucrates]</Hit_def>
   <Hit_accession>XP_029377717</Hit_accession>
@@ -9713,7 +9769,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>347</Hit_num>
+  <Hit_num>349</Hit_num>
   <Hit_id>ref|XP_005941347.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Haplochromis burtoni]</Hit_def>
   <Hit_accession>XP_005941347</Hit_accession>
@@ -9741,7 +9797,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>348</Hit_num>
+  <Hit_num>350</Hit_num>
   <Hit_id>ref|XP_031229118.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Mastomys coucha]</Hit_def>
   <Hit_accession>XP_031229118</Hit_accession>
@@ -9769,7 +9825,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>349</Hit_num>
+  <Hit_num>351</Hit_num>
   <Hit_id>ref|XP_035262907.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Anguilla anguilla]</Hit_def>
   <Hit_accession>XP_035262907</Hit_accession>
@@ -9797,7 +9853,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>350</Hit_num>
+  <Hit_num>352</Hit_num>
   <Hit_id>ref|XP_028845230.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Denticeps clupeoides]</Hit_def>
   <Hit_accession>XP_028845230</Hit_accession>
@@ -9825,7 +9881,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>351</Hit_num>
+  <Hit_num>353</Hit_num>
   <Hit_id>ref|XP_042189393.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Callorhinchus milii]</Hit_def>
   <Hit_accession>XP_042189393</Hit_accession>
@@ -9853,7 +9909,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>352</Hit_num>
+  <Hit_num>354</Hit_num>
   <Hit_id>ref|XP_015800183.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Nothobranchius furzeri]</Hit_def>
   <Hit_accession>XP_015800183</Hit_accession>
@@ -9881,7 +9937,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>353</Hit_num>
+  <Hit_num>355</Hit_num>
   <Hit_id>ref|XP_039640162.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Perca fluviatilis]</Hit_def>
   <Hit_accession>XP_039640162</Hit_accession>
@@ -9891,7 +9947,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>519.235</Hsp_bit-score>
       <Hsp_score>1336</Hsp_score>
-      <Hsp_evalue>1.39371e-180</Hsp_evalue>
+      <Hsp_evalue>1.40265e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -9909,7 +9965,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>354</Hit_num>
+  <Hit_num>356</Hit_num>
   <Hit_id>ref|XP_017331332.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Ictalurus punctatus]</Hit_def>
   <Hit_accession>XP_017331332</Hit_accession>
@@ -9919,7 +9975,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>518.85</Hsp_bit-score>
       <Hsp_score>1335</Hsp_score>
-      <Hsp_evalue>1.43546e-180</Hsp_evalue>
+      <Hsp_evalue>1.44466e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>52</Hsp_hit-from>
@@ -9937,7 +9993,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>355</Hit_num>
+  <Hit_num>357</Hit_num>
   <Hit_id>ref|XP_003438366.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oreochromis niloticus]</Hit_def>
   <Hit_accession>XP_003438366</Hit_accession>
@@ -9947,7 +10003,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>520.39</Hsp_bit-score>
       <Hsp_score>1339</Hsp_score>
-      <Hsp_evalue>1.4875e-180</Hsp_evalue>
+      <Hsp_evalue>1.49703e-180</Hsp_evalue>
       <Hsp_query-from>3</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>17</Hsp_hit-from>
@@ -9965,7 +10021,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>356</Hit_num>
+  <Hit_num>358</Hit_num>
   <Hit_id>ref|XP_028459202.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Perca flavescens]</Hit_def>
   <Hit_accession>XP_028459202</Hit_accession>
@@ -9975,7 +10031,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>518.85</Hsp_bit-score>
       <Hsp_score>1335</Hsp_score>
-      <Hsp_evalue>1.75334e-180</Hsp_evalue>
+      <Hsp_evalue>1.76459e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -9993,7 +10049,35 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>357</Hit_num>
+  <Hit_num>359</Hit_num>
+  <Hit_id>ref|XP_049592791.1|</Hit_id>
+  <Hit_def>28S ribosomal protein S5, mitochondrial [Syngnathus scovelli]</Hit_def>
+  <Hit_accession>XP_049592791</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.464</Hsp_bit-score>
+      <Hsp_score>1334</Hsp_score>
+      <Hsp_evalue>2.0158e-180</Hsp_evalue>
+      <Hsp_query-from>82</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>50</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>234</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>346</Hsp_align-len>
+      <Hsp_qseq>QQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKR</Hsp_qseq>
+      <Hsp_hseq>QPSRHGSFFNKLTAEELWKGVLAESGAGARKGRGKRTKRKLRRDLNRGQSIGEGHGGFLWPGLNMPVLKDGTVQSMSRRGQAEQQEVKAELVRQRDEWEKRRKMKVKRERGWTGNSWGGISLGPPDPGPNGETYEDFDSRVIEVKSVFNMTAKEGRKRSISCLVAVGNGQGAAGFALGKAADRPTALRKAKNRAIHYLYYIERYNNHTIYHDIESKFKRTTLRMKKQNEGYGLHCHRAIITMCKLIGLKDMYCKVEGSVNMLNITRALFAGLAKQETHQMLAEKKQLHVVEFRQERGLLPVVVASPKNGVQAQPEPEDEIPDTRLHWDDVRAAQGFKRSIWAGVKR</Hsp_hseq>
+      <Hsp_midline>Q  R  SFF KLTA+ELWKG LAE+GAGA+KGRGKRTK+K R+DLNRGQ IGEG  GFLWPGLN+P++K+G VQ++++R + EQ++V+A++++QR+EW++++KMKVKRERGW+GNSWGGISLGPPDPGP GETYEDFD+R++EV++VF MTAKEGRK+SI  LVAVGNG+GAAGF++GKA DR  A RKAKNRA+H+L+YIERY +HTI+HDI  +FKRT ++MKKQ +GYGL CHRAIIT+C+LIG+KDMY KV GS+NML++T+ LF GL++QETHQ LA+KK LHVVE R+E G LP+VVASP+  ++  PEPEDE+PD +L W+DV+ AQG KRS+W+ +KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>360</Hit_num>
   <Hit_id>ref|XP_027134064.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Larimichthys crocea]</Hit_def>
   <Hit_accession>XP_027134064</Hit_accession>
@@ -10003,7 +10087,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>517.694</Hsp_bit-score>
       <Hsp_score>1332</Hsp_score>
-      <Hsp_evalue>3.80659e-180</Hsp_evalue>
+      <Hsp_evalue>3.83099e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>49</Hsp_hit-from>
@@ -10021,7 +10105,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>358</Hit_num>
+  <Hit_num>361</Hit_num>
   <Hit_id>ref|XP_044070704.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Siniperca chuatsi]</Hit_def>
   <Hit_accession>XP_044070704</Hit_accession>
@@ -10031,7 +10115,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>517.694</Hsp_bit-score>
       <Hsp_score>1332</Hsp_score>
-      <Hsp_evalue>4.63847e-180</Hsp_evalue>
+      <Hsp_evalue>4.66822e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -10049,7 +10133,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>359</Hit_num>
+  <Hit_num>362</Hit_num>
   <Hit_id>ref|XP_031171854.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sander lucioperca]</Hit_def>
   <Hit_accession>XP_031171854</Hit_accession>
@@ -10059,7 +10143,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>517.309</Hsp_bit-score>
       <Hsp_score>1331</Hsp_score>
-      <Hsp_evalue>6.23089e-180</Hsp_evalue>
+      <Hsp_evalue>6.27084e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -10077,7 +10161,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>360</Hit_num>
+  <Hit_num>363</Hit_num>
   <Hit_id>ref|XP_010749826.3|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Larimichthys crocea]</Hit_def>
   <Hit_accession>XP_010749826</Hit_accession>
@@ -10087,7 +10171,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>517.309</Hsp_bit-score>
       <Hsp_score>1331</Hsp_score>
-      <Hsp_evalue>6.50936e-180</Hsp_evalue>
+      <Hsp_evalue>6.5511e-180</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -10105,7 +10189,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>361</Hit_num>
+  <Hit_num>364</Hit_num>
   <Hit_id>ref|XP_035982349.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Fundulus heteroclitus]</Hit_def>
   <Hit_accession>XP_035982349</Hit_accession>
@@ -10115,7 +10199,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.924</Hsp_bit-score>
       <Hsp_score>1330</Hsp_score>
-      <Hsp_evalue>1.07624e-179</Hsp_evalue>
+      <Hsp_evalue>1.08314e-179</Hsp_evalue>
       <Hsp_query-from>27</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>8</Hsp_hit-from>
@@ -10133,7 +10217,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>362</Hit_num>
+  <Hit_num>365</Hit_num>
   <Hit_id>ref|XP_013816656.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Apteryx mantelli mantelli]</Hit_def>
   <Hit_accession>XP_013816656</Hit_accession>
@@ -10143,7 +10227,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.538</Hsp_bit-score>
       <Hsp_score>1329</Hsp_score>
-      <Hsp_evalue>1.1875e-179</Hsp_evalue>
+      <Hsp_evalue>1.19511e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>35</Hsp_hit-from>
@@ -10161,7 +10245,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>363</Hit_num>
+  <Hit_num>366</Hit_num>
   <Hit_id>ref|XP_022528356.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Astyanax mexicanus]</Hit_def>
   <Hit_accession>XP_022528356</Hit_accession>
@@ -10171,7 +10255,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.538</Hsp_bit-score>
       <Hsp_score>1329</Hsp_score>
-      <Hsp_evalue>1.22324e-179</Hsp_evalue>
+      <Hsp_evalue>1.23108e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>30</Hsp_hit-from>
@@ -10189,7 +10273,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>364</Hit_num>
+  <Hit_num>367</Hit_num>
   <Hit_id>ref|XP_044070703.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Siniperca chuatsi]</Hit_def>
   <Hit_accession>XP_044070703</Hit_accession>
@@ -10199,7 +10283,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.924</Hsp_bit-score>
       <Hsp_score>1330</Hsp_score>
-      <Hsp_evalue>1.24403e-179</Hsp_evalue>
+      <Hsp_evalue>1.252e-179</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>66</Hsp_hit-from>
@@ -10217,7 +10301,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>365</Hit_num>
+  <Hit_num>368</Hit_num>
   <Hit_id>ref|XP_044147554.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Bufo gargarizans]</Hit_def>
   <Hit_accession>XP_044147554</Hit_accession>
@@ -10227,7 +10311,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.538</Hsp_bit-score>
       <Hsp_score>1329</Hsp_score>
-      <Hsp_evalue>1.25028e-179</Hsp_evalue>
+      <Hsp_evalue>1.25829e-179</Hsp_evalue>
       <Hsp_query-from>67</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -10245,7 +10329,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>366</Hit_num>
+  <Hit_num>369</Hit_num>
   <Hit_id>ref|XP_046258431.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Scatophagus argus]</Hit_def>
   <Hit_accession>XP_046258431</Hit_accession>
@@ -10255,7 +10339,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>516.538</Hsp_bit-score>
       <Hsp_score>1329</Hsp_score>
-      <Hsp_evalue>1.5996e-179</Hsp_evalue>
+      <Hsp_evalue>1.60985e-179</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -10273,7 +10357,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>367</Hit_num>
+  <Hit_num>370</Hit_num>
   <Hit_id>ref|XP_046711798.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Silurus meridionalis]</Hit_def>
   <Hit_accession>XP_046711798</Hit_accession>
@@ -10283,7 +10367,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>515.768</Hsp_bit-score>
       <Hsp_score>1327</Hsp_score>
-      <Hsp_evalue>1.95068e-179</Hsp_evalue>
+      <Hsp_evalue>1.96318e-179</Hsp_evalue>
       <Hsp_query-from>77</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>42</Hsp_hit-from>
@@ -10301,7 +10385,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>368</Hit_num>
+  <Hit_num>371</Hit_num>
   <Hit_id>ref|XP_022528357.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Astyanax mexicanus]</Hit_def>
   <Hit_accession>XP_022528357</Hit_accession>
@@ -10311,7 +10395,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>515.768</Hsp_bit-score>
       <Hsp_score>1327</Hsp_score>
-      <Hsp_evalue>2.50961e-179</Hsp_evalue>
+      <Hsp_evalue>2.5257e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>29</Hsp_hit-from>
@@ -10329,7 +10413,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>369</Hit_num>
+  <Hit_num>372</Hit_num>
   <Hit_id>ref|XP_009809354.1|</Hit_id>
   <Hit_def>PREDICTED: LOW QUALITY PROTEIN: 28S ribosomal protein S5, mitochondrial [Gavia stellata]</Hit_def>
   <Hit_accession>XP_009809354</Hit_accession>
@@ -10339,7 +10423,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.998</Hsp_bit-score>
       <Hsp_score>1325</Hsp_score>
-      <Hsp_evalue>4.45576e-179</Hsp_evalue>
+      <Hsp_evalue>4.48433e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>31</Hsp_hit-from>
@@ -10357,7 +10441,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>370</Hit_num>
+  <Hit_num>373</Hit_num>
   <Hit_id>ref|XP_047208544.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Girardinichthys multiradiatus]</Hit_def>
   <Hit_accession>XP_047208544</Hit_accession>
@@ -10367,7 +10451,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.998</Hsp_bit-score>
       <Hsp_score>1325</Hsp_score>
-      <Hsp_evalue>5.82486e-179</Hsp_evalue>
+      <Hsp_evalue>5.86221e-179</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>55</Hsp_hit-from>
@@ -10385,7 +10469,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>371</Hit_num>
+  <Hit_num>374</Hit_num>
   <Hit_id>ref|XP_034164281.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pangasianodon hypophthalmus]</Hit_def>
   <Hit_accession>XP_034164281</Hit_accession>
@@ -10395,7 +10479,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.612</Hsp_bit-score>
       <Hsp_score>1324</Hsp_score>
-      <Hsp_evalue>6.88e-179</Hsp_evalue>
+      <Hsp_evalue>6.92412e-179</Hsp_evalue>
       <Hsp_query-from>83</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>53</Hsp_hit-from>
@@ -10413,7 +10497,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>372</Hit_num>
+  <Hit_num>375</Hit_num>
   <Hit_id>ref|XP_047677249.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Tachysurus fulvidraco]</Hit_def>
   <Hit_accession>XP_047677249</Hit_accession>
@@ -10423,7 +10507,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.998</Hsp_bit-score>
       <Hsp_score>1325</Hsp_score>
-      <Hsp_evalue>9.28484e-179</Hsp_evalue>
+      <Hsp_evalue>9.34437e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>49</Hsp_hit-from>
@@ -10441,7 +10525,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>373</Hit_num>
+  <Hit_num>376</Hit_num>
   <Hit_id>ref|XP_016319162.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial-like isoform X1 [Sinocyclocheilus anshuiensis] &gt;ref|XP_016319163.1| PREDICTED: 28S ribosomal protein S5, mitochondrial-like isoform X2 [Sinocyclocheilus anshuiensis] &gt;ref|XP_016413483.1| PREDICTED: 28S ribosomal protein S5, mitochondrial-like [Sinocyclocheilus rhinocerous]</Hit_def>
   <Hit_accession>XP_016319162</Hit_accession>
@@ -10451,7 +10535,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.227</Hsp_bit-score>
       <Hsp_score>1323</Hsp_score>
-      <Hsp_evalue>9.46933e-179</Hsp_evalue>
+      <Hsp_evalue>9.53005e-179</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -10469,7 +10553,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>374</Hit_num>
+  <Hit_num>377</Hit_num>
   <Hit_id>ref|XP_035177763.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oxyura jamaicensis]</Hit_def>
   <Hit_accession>XP_035177763</Hit_accession>
@@ -10479,7 +10563,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.612</Hsp_bit-score>
       <Hsp_score>1324</Hsp_score>
-      <Hsp_evalue>9.63154e-179</Hsp_evalue>
+      <Hsp_evalue>9.6933e-179</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -10497,7 +10581,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>375</Hit_num>
+  <Hit_num>378</Hit_num>
   <Hit_id>ref|XP_044284606.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Varanus komodoensis]</Hit_def>
   <Hit_accession>XP_044284606</Hit_accession>
@@ -10507,7 +10591,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>514.227</Hsp_bit-score>
       <Hsp_score>1323</Hsp_score>
-      <Hsp_evalue>1.5578e-178</Hsp_evalue>
+      <Hsp_evalue>1.56779e-178</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>42</Hsp_hit-from>
@@ -10525,7 +10609,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>376</Hit_num>
+  <Hit_num>379</Hit_num>
   <Hit_id>ref|XP_019515619.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Hipposideros armiger]</Hit_def>
   <Hit_accession>XP_019515619</Hit_accession>
@@ -10535,7 +10619,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.449</Hsp_bit-score>
       <Hsp_score>1308</Hsp_score>
-      <Hsp_evalue>2.52419e-178</Hsp_evalue>
+      <Hsp_evalue>2.54037e-178</Hsp_evalue>
       <Hsp_query-from>149</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -10553,7 +10637,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>377</Hit_num>
+  <Hit_num>380</Hit_num>
   <Hit_id>ref|XP_023271527.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Seriola lalandi dorsalis]</Hit_def>
   <Hit_accession>XP_023271527</Hit_accession>
@@ -10563,7 +10647,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>513.072</Hsp_bit-score>
       <Hsp_score>1320</Hsp_score>
-      <Hsp_evalue>3.2938e-178</Hsp_evalue>
+      <Hsp_evalue>3.31492e-178</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -10581,7 +10665,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>378</Hit_num>
+  <Hit_num>381</Hit_num>
   <Hit_id>ref|XP_036040183.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Onychomys torridus]</Hit_def>
   <Hit_accession>XP_036040183</Hit_accession>
@@ -10591,7 +10675,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.834</Hsp_bit-score>
       <Hsp_score>1309</Hsp_score>
-      <Hsp_evalue>3.58807e-178</Hsp_evalue>
+      <Hsp_evalue>3.61108e-178</Hsp_evalue>
       <Hsp_query-from>135</Hsp_query-from>
       <Hsp_query-to>430</Hsp_query-to>
       <Hsp_hit-from>8</Hsp_hit-from>
@@ -10609,7 +10693,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>379</Hit_num>
+  <Hit_num>382</Hit_num>
   <Hit_id>ref|XP_032397262.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Etheostoma spectabile] &gt;ref|XP_032397263.1| 28S ribosomal protein S5, mitochondrial [Etheostoma spectabile]</Hit_def>
   <Hit_accession>XP_032397262</Hit_accession>
@@ -10619,7 +10703,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>512.686</Hsp_bit-score>
       <Hsp_score>1319</Hsp_score>
-      <Hsp_evalue>4.37635e-178</Hsp_evalue>
+      <Hsp_evalue>4.40441e-178</Hsp_evalue>
       <Hsp_query-from>27</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>9</Hsp_hit-from>
@@ -10637,7 +10721,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>380</Hit_num>
+  <Hit_num>383</Hit_num>
   <Hit_id>ref|XP_022608679.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Seriola dumerili]</Hit_def>
   <Hit_accession>XP_022608679</Hit_accession>
@@ -10647,7 +10731,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>512.301</Hsp_bit-score>
       <Hsp_score>1318</Hsp_score>
-      <Hsp_evalue>6.77609e-178</Hsp_evalue>
+      <Hsp_evalue>6.81953e-178</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -10665,7 +10749,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>381</Hit_num>
+  <Hit_num>384</Hit_num>
   <Hit_id>ref|XP_026211694.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Anabas testudineus]</Hit_def>
   <Hit_accession>XP_026211694</Hit_accession>
@@ -10675,7 +10759,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>512.301</Hsp_bit-score>
       <Hsp_score>1318</Hsp_score>
-      <Hsp_evalue>7.55867e-178</Hsp_evalue>
+      <Hsp_evalue>7.60713e-178</Hsp_evalue>
       <Hsp_query-from>27</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>9</Hsp_hit-from>
@@ -10693,7 +10777,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>382</Hit_num>
+  <Hit_num>385</Hit_num>
   <Hit_id>ref|XP_036816113.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oncorhynchus mykiss]</Hit_def>
   <Hit_accession>XP_036816113</Hit_accession>
@@ -10703,7 +10787,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>512.301</Hsp_bit-score>
       <Hsp_score>1318</Hsp_score>
-      <Hsp_evalue>8.36157e-178</Hsp_evalue>
+      <Hsp_evalue>8.41519e-178</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -10721,7 +10805,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>383</Hit_num>
+  <Hit_num>386</Hit_num>
   <Hit_id>ref|XP_040408251.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Cygnus olor]</Hit_def>
   <Hit_accession>XP_040408251</Hit_accession>
@@ -10731,7 +10815,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.916</Hsp_bit-score>
       <Hsp_score>1317</Hsp_score>
-      <Hsp_evalue>9.25221e-178</Hsp_evalue>
+      <Hsp_evalue>9.31153e-178</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -10749,7 +10833,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>384</Hit_num>
+  <Hit_num>387</Hit_num>
   <Hit_id>ref|XP_009460154.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Nipponia nippon]</Hit_def>
   <Hit_accession>XP_009460154</Hit_accession>
@@ -10759,7 +10843,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.916</Hsp_bit-score>
       <Hsp_score>1317</Hsp_score>
-      <Hsp_evalue>1.02648e-177</Hsp_evalue>
+      <Hsp_evalue>1.03306e-177</Hsp_evalue>
       <Hsp_query-from>19</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>3</Hsp_hit-from>
@@ -10777,7 +10861,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>385</Hit_num>
+  <Hit_num>388</Hit_num>
   <Hit_id>ref|XP_010139127.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial, partial [Buceros rhinoceros silvestris]</Hit_def>
   <Hit_accession>XP_010139127</Hit_accession>
@@ -10787,7 +10871,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>510.76</Hsp_bit-score>
       <Hsp_score>1314</Hsp_score>
-      <Hsp_evalue>1.09937e-177</Hsp_evalue>
+      <Hsp_evalue>1.10642e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>13</Hsp_hit-from>
@@ -10805,7 +10889,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>386</Hit_num>
+  <Hit_num>389</Hit_num>
   <Hit_id>ref|XP_024284531.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oncorhynchus tshawytscha]</Hit_def>
   <Hit_accession>XP_024284531</Hit_accession>
@@ -10815,7 +10899,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.916</Hsp_bit-score>
       <Hsp_score>1317</Hsp_score>
-      <Hsp_evalue>1.19927e-177</Hsp_evalue>
+      <Hsp_evalue>1.20695e-177</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -10833,7 +10917,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>387</Hit_num>
+  <Hit_num>390</Hit_num>
   <Hit_id>ref|XP_029963253.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Salarias fasciatus]</Hit_def>
   <Hit_accession>XP_029963253</Hit_accession>
@@ -10843,7 +10927,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.531</Hsp_bit-score>
       <Hsp_score>1316</Hsp_score>
-      <Hsp_evalue>1.37882e-177</Hsp_evalue>
+      <Hsp_evalue>1.38766e-177</Hsp_evalue>
       <Hsp_query-from>66</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>41</Hsp_hit-from>
@@ -10861,7 +10945,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>388</Hit_num>
+  <Hit_num>391</Hit_num>
   <Hit_id>ref|XP_037128607.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Syngnathus acus]</Hit_def>
   <Hit_accession>XP_037128607</Hit_accession>
@@ -10871,7 +10955,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.146</Hsp_bit-score>
       <Hsp_score>1315</Hsp_score>
-      <Hsp_evalue>1.38232e-177</Hsp_evalue>
+      <Hsp_evalue>1.39118e-177</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>50</Hsp_hit-from>
@@ -10889,7 +10973,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>389</Hit_num>
+  <Hit_num>392</Hit_num>
   <Hit_id>ref|XP_016379278.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial-like [Sinocyclocheilus rhinocerous]</Hit_def>
   <Hit_accession>XP_016379278</Hit_accession>
@@ -10899,7 +10983,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.146</Hsp_bit-score>
       <Hsp_score>1315</Hsp_score>
-      <Hsp_evalue>1.4244e-177</Hsp_evalue>
+      <Hsp_evalue>1.43353e-177</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -10917,7 +11001,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>390</Hit_num>
+  <Hit_num>393</Hit_num>
   <Hit_id>ref|XP_034283405.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pantherophis guttatus]</Hit_def>
   <Hit_accession>XP_034283405</Hit_accession>
@@ -10927,7 +11011,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.531</Hsp_bit-score>
       <Hsp_score>1316</Hsp_score>
-      <Hsp_evalue>1.57633e-177</Hsp_evalue>
+      <Hsp_evalue>1.58644e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -10945,7 +11029,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>391</Hit_num>
+  <Hit_num>394</Hit_num>
   <Hit_id>ref|XP_010887418.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Esox lucius]</Hit_def>
   <Hit_accession>XP_010887418</Hit_accession>
@@ -10955,7 +11039,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.531</Hsp_bit-score>
       <Hsp_score>1316</Hsp_score>
-      <Hsp_evalue>1.75282e-177</Hsp_evalue>
+      <Hsp_evalue>1.76406e-177</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -10973,7 +11057,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>392</Hit_num>
+  <Hit_num>395</Hit_num>
   <Hit_id>ref|XP_043992339.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Gambusia affinis]</Hit_def>
   <Hit_accession>XP_043992339</Hit_accession>
@@ -10983,7 +11067,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>511.146</Hsp_bit-score>
       <Hsp_score>1315</Hsp_score>
-      <Hsp_evalue>1.79236e-177</Hsp_evalue>
+      <Hsp_evalue>1.80385e-177</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11001,7 +11085,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>393</Hit_num>
+  <Hit_num>396</Hit_num>
   <Hit_id>ref|XP_025936456.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Apteryx rowi]</Hit_def>
   <Hit_accession>XP_025936456</Hit_accession>
@@ -11011,7 +11095,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>513.842</Hsp_bit-score>
       <Hsp_score>1322</Hsp_score>
-      <Hsp_evalue>1.92462e-177</Hsp_evalue>
+      <Hsp_evalue>1.93696e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>103</Hsp_hit-from>
@@ -11029,7 +11113,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>394</Hit_num>
+  <Hit_num>397</Hit_num>
   <Hit_id>ref|XP_043913269.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Protopterus annectens]</Hit_def>
   <Hit_accession>XP_043913269</Hit_accession>
@@ -11039,7 +11123,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>510.375</Hsp_bit-score>
       <Hsp_score>1313</Hsp_score>
-      <Hsp_evalue>3.2872e-177</Hsp_evalue>
+      <Hsp_evalue>3.30827e-177</Hsp_evalue>
       <Hsp_query-from>49</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>21</Hsp_hit-from>
@@ -11057,7 +11141,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>395</Hit_num>
+  <Hit_num>398</Hit_num>
   <Hit_id>ref|XP_035408835.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Cygnus atratus]</Hit_def>
   <Hit_accession>XP_035408835</Hit_accession>
@@ -11067,7 +11151,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>510.375</Hsp_bit-score>
       <Hsp_score>1313</Hsp_score>
-      <Hsp_evalue>3.43411e-177</Hsp_evalue>
+      <Hsp_evalue>3.45613e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -11085,7 +11169,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>396</Hit_num>
+  <Hit_num>399</Hit_num>
   <Hit_id>ref|XP_018931142.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Cyprinus carpio]</Hit_def>
   <Hit_accession>XP_018931142</Hit_accession>
@@ -11095,7 +11179,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.99</Hsp_bit-score>
       <Hsp_score>1312</Hsp_score>
-      <Hsp_evalue>3.60685e-177</Hsp_evalue>
+      <Hsp_evalue>3.62997e-177</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11113,7 +11197,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>397</Hit_num>
+  <Hit_num>400</Hit_num>
   <Hit_id>ref|XP_036980610.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Acanthopagrus latus]</Hit_def>
   <Hit_accession>XP_036980610</Hit_accession>
@@ -11123,7 +11207,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>510.375</Hsp_bit-score>
       <Hsp_score>1313</Hsp_score>
-      <Hsp_evalue>3.60746e-177</Hsp_evalue>
+      <Hsp_evalue>3.63059e-177</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11141,7 +11225,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>398</Hit_num>
+  <Hit_num>401</Hit_num>
   <Hit_id>ref|XP_034538131.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Notolabrus celidotus]</Hit_def>
   <Hit_accession>XP_034538131</Hit_accession>
@@ -11151,7 +11235,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>510.375</Hsp_bit-score>
       <Hsp_score>1313</Hsp_score>
-      <Hsp_evalue>3.68718e-177</Hsp_evalue>
+      <Hsp_evalue>3.71082e-177</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11169,7 +11253,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>399</Hit_num>
+  <Hit_num>402</Hit_num>
   <Hit_id>ref|XP_010010221.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial, partial [Nestor notabilis]</Hit_def>
   <Hit_accession>XP_010010221</Hit_accession>
@@ -11179,7 +11263,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.22</Hsp_bit-score>
       <Hsp_score>1310</Hsp_score>
-      <Hsp_evalue>4.55376e-177</Hsp_evalue>
+      <Hsp_evalue>4.58296e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>13</Hsp_hit-from>
@@ -11197,7 +11281,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>400</Hit_num>
+  <Hit_num>403</Hit_num>
   <Hit_id>ref|XP_005814190.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Xiphophorus maculatus] &gt;ref|XP_032409247.1| 28S ribosomal protein S5, mitochondrial-like [Xiphophorus hellerii]</Hit_def>
   <Hit_accession>XP_005814190</Hit_accession>
@@ -11207,7 +11291,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.99</Hsp_bit-score>
       <Hsp_score>1312</Hsp_score>
-      <Hsp_evalue>5.34653e-177</Hsp_evalue>
+      <Hsp_evalue>5.38081e-177</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11225,7 +11309,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>401</Hit_num>
+  <Hit_num>404</Hit_num>
   <Hit_id>ref|XP_048047084.1|</Hit_id>
   <Hit_def>LOW QUALITY PROTEIN: 28S ribosomal protein S5, mitochondrial [Megalobrama amblycephala]</Hit_def>
   <Hit_accession>XP_048047084</Hit_accession>
@@ -11235,7 +11319,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.605</Hsp_bit-score>
       <Hsp_score>1311</Hsp_score>
-      <Hsp_evalue>6.09509e-177</Hsp_evalue>
+      <Hsp_evalue>6.13417e-177</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11253,7 +11337,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>402</Hit_num>
+  <Hit_num>405</Hit_num>
   <Hit_id>ref|XP_009697449.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial, partial [Cariama cristata]</Hit_def>
   <Hit_accession>XP_009697449</Hit_accession>
@@ -11263,7 +11347,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.22</Hsp_bit-score>
       <Hsp_score>1310</Hsp_score>
-      <Hsp_evalue>7.33969e-177</Hsp_evalue>
+      <Hsp_evalue>7.38675e-177</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>27</Hsp_hit-from>
@@ -11281,7 +11365,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>403</Hit_num>
+  <Hit_num>406</Hit_num>
   <Hit_id>ref|XP_016125266.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial-like [Sinocyclocheilus grahami]</Hit_def>
   <Hit_accession>XP_016125266</Hit_accession>
@@ -11291,7 +11375,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.22</Hsp_bit-score>
       <Hsp_score>1310</Hsp_score>
-      <Hsp_evalue>8.27738e-177</Hsp_evalue>
+      <Hsp_evalue>8.33046e-177</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11309,7 +11393,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>404</Hit_num>
+  <Hit_num>407</Hit_num>
   <Hit_id>ref|XP_039594167.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Polypterus senegalus]</Hit_def>
   <Hit_accession>XP_039594167</Hit_accession>
@@ -11319,7 +11403,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.834</Hsp_bit-score>
       <Hsp_score>1309</Hsp_score>
-      <Hsp_evalue>1.11497e-176</Hsp_evalue>
+      <Hsp_evalue>1.12212e-176</Hsp_evalue>
       <Hsp_query-from>63</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>30</Hsp_hit-from>
@@ -11337,7 +11421,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>405</Hit_num>
+  <Hit_num>408</Hit_num>
   <Hit_id>ref|XP_026141383.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Carassius auratus]</Hit_def>
   <Hit_accession>XP_026141383</Hit_accession>
@@ -11347,7 +11431,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.834</Hsp_bit-score>
       <Hsp_score>1309</Hsp_score>
-      <Hsp_evalue>1.2403e-176</Hsp_evalue>
+      <Hsp_evalue>1.24825e-176</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11365,7 +11449,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>406</Hit_num>
+  <Hit_num>409</Hit_num>
   <Hit_id>ref|XP_043368148.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Dermochelys coriacea]</Hit_def>
   <Hit_accession>XP_043368148</Hit_accession>
@@ -11375,7 +11459,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.064</Hsp_bit-score>
       <Hsp_score>1307</Hsp_score>
-      <Hsp_evalue>1.25867e-176</Hsp_evalue>
+      <Hsp_evalue>1.26674e-176</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>31</Hsp_hit-from>
@@ -11393,7 +11477,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>407</Hit_num>
+  <Hit_num>410</Hit_num>
   <Hit_id>ref|XP_034777064.1|</Hit_id>
   <Hit_def>LOW QUALITY PROTEIN: 28S ribosomal protein S5, mitochondrial-like [Acipenser ruthenus]</Hit_def>
   <Hit_accession>XP_034777064</Hit_accession>
@@ -11403,7 +11487,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>505.753</Hsp_bit-score>
       <Hsp_score>1301</Hsp_score>
-      <Hsp_evalue>1.80481e-176</Hsp_evalue>
+      <Hsp_evalue>1.81638e-176</Hsp_evalue>
       <Hsp_query-from>103</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -11421,7 +11505,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>408</Hit_num>
+  <Hit_num>411</Hit_num>
   <Hit_id>ref|XP_047904338.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Anser cygnoides]</Hit_def>
   <Hit_accession>XP_047904338</Hit_accession>
@@ -11431,7 +11515,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.449</Hsp_bit-score>
       <Hsp_score>1308</Hsp_score>
-      <Hsp_evalue>2.0842e-176</Hsp_evalue>
+      <Hsp_evalue>2.09757e-176</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -11449,7 +11533,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>409</Hit_num>
+  <Hit_num>412</Hit_num>
   <Hit_id>ref|XP_046885431.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Hypomesus transpacificus]</Hit_def>
   <Hit_accession>XP_046885431</Hit_accession>
@@ -11459,7 +11543,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>2.93933e-176</Hsp_evalue>
+      <Hsp_evalue>2.95818e-176</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11477,7 +11561,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>410</Hit_num>
+  <Hit_num>413</Hit_num>
   <Hit_id>ref|XP_046885430.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Hypomesus transpacificus]</Hit_def>
   <Hit_accession>XP_046885430</Hit_accession>
@@ -11487,7 +11571,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>3.13212e-176</Hsp_evalue>
+      <Hsp_evalue>3.15221e-176</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11505,7 +11589,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>411</Hit_num>
+  <Hit_num>414</Hit_num>
   <Hit_id>ref|XP_027863079.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Xiphophorus couchianus]</Hit_def>
   <Hit_accession>XP_027863079</Hit_accession>
@@ -11515,7 +11599,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>4.26447e-176</Hsp_evalue>
+      <Hsp_evalue>4.29182e-176</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11533,7 +11617,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>412</Hit_num>
+  <Hit_num>415</Hit_num>
   <Hit_id>ref|XP_020457318.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Monopterus albus]</Hit_def>
   <Hit_accession>XP_020457318</Hit_accession>
@@ -11543,7 +11627,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>4.86205e-176</Hsp_evalue>
+      <Hsp_evalue>4.89322e-176</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -11561,7 +11645,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>413</Hit_num>
+  <Hit_num>416</Hit_num>
   <Hit_id>ref|XP_023863386.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Salvelinus alpinus]</Hit_def>
   <Hit_accession>XP_023863386</Hit_accession>
@@ -11571,7 +11655,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>5.26067e-176</Hsp_evalue>
+      <Hsp_evalue>5.29441e-176</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -11589,7 +11673,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>414</Hit_num>
+  <Hit_num>417</Hit_num>
   <Hit_id>ref|XP_035650758.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oncorhynchus keta]</Hit_def>
   <Hit_accession>XP_035650758</Hit_accession>
@@ -11599,7 +11683,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>507.679</Hsp_bit-score>
       <Hsp_score>1306</Hsp_score>
-      <Hsp_evalue>6.13031e-176</Hsp_evalue>
+      <Hsp_evalue>6.16962e-176</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -11617,7 +11701,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>415</Hit_num>
+  <Hit_num>418</Hit_num>
   <Hit_id>ref|XP_020457319.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Monopterus albus]</Hit_def>
   <Hit_accession>XP_020457319</Hit_accession>
@@ -11627,7 +11711,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.138</Hsp_bit-score>
       <Hsp_score>1302</Hsp_score>
-      <Hsp_evalue>7.01194e-176</Hsp_evalue>
+      <Hsp_evalue>7.0569e-176</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>28</Hsp_hit-from>
@@ -11645,7 +11729,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>416</Hit_num>
+  <Hit_num>419</Hit_num>
   <Hit_id>ref|XP_038847925.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial-like [Salvelinus namaycush]</Hit_def>
   <Hit_accession>XP_038847925</Hit_accession>
@@ -11655,7 +11739,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.908</Hsp_bit-score>
       <Hsp_score>1304</Hsp_score>
-      <Hsp_evalue>8.37568e-176</Hsp_evalue>
+      <Hsp_evalue>8.42938e-176</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>29</Hsp_hit-from>
@@ -11673,7 +11757,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>417</Hit_num>
+  <Hit_num>420</Hit_num>
   <Hit_id>ref|XP_040285564.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Bufo bufo]</Hit_def>
   <Hit_accession>XP_040285564</Hit_accession>
@@ -11683,7 +11767,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.908</Hsp_bit-score>
       <Hsp_score>1304</Hsp_score>
-      <Hsp_evalue>8.37568e-176</Hsp_evalue>
+      <Hsp_evalue>8.42938e-176</Hsp_evalue>
       <Hsp_query-from>67</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -11701,7 +11785,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>418</Hit_num>
+  <Hit_num>421</Hit_num>
   <Hit_id>ref|XP_026888618.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Electrophorus electricus]</Hit_def>
   <Hit_accession>XP_026888618</Hit_accession>
@@ -11711,7 +11795,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.908</Hsp_bit-score>
       <Hsp_score>1304</Hsp_score>
-      <Hsp_evalue>9.91905e-176</Hsp_evalue>
+      <Hsp_evalue>9.98265e-176</Hsp_evalue>
       <Hsp_query-from>54</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>30</Hsp_hit-from>
@@ -11729,7 +11813,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>419</Hit_num>
+  <Hit_num>422</Hit_num>
   <Hit_id>ref|XP_026700502.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial-like [Athene cunicularia]</Hit_def>
   <Hit_accession>XP_026700502</Hit_accession>
@@ -11739,7 +11823,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>509.605</Hsp_bit-score>
       <Hsp_score>1311</Hsp_score>
-      <Hsp_evalue>1.06736e-175</Hsp_evalue>
+      <Hsp_evalue>1.0742e-175</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>114</Hsp_hit-from>
@@ -11757,7 +11841,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>420</Hit_num>
+  <Hit_num>423</Hit_num>
   <Hit_id>ref|XP_035751445.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Egretta garzetta]</Hit_def>
   <Hit_accession>XP_035751445</Hit_accession>
@@ -11767,7 +11851,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>508.449</Hsp_bit-score>
       <Hsp_score>1308</Hsp_score>
-      <Hsp_evalue>1.11221e-175</Hsp_evalue>
+      <Hsp_evalue>1.11934e-175</Hsp_evalue>
       <Hsp_query-from>46</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>58</Hsp_hit-from>
@@ -11785,7 +11869,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>421</Hit_num>
+  <Hit_num>424</Hit_num>
   <Hit_id>ref|XP_030297535.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sparus aurata]</Hit_def>
   <Hit_accession>XP_030297535</Hit_accession>
@@ -11795,7 +11879,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.523</Hsp_bit-score>
       <Hsp_score>1303</Hsp_score>
-      <Hsp_evalue>1.45019e-175</Hsp_evalue>
+      <Hsp_evalue>1.45949e-175</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -11813,7 +11897,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>422</Hit_num>
+  <Hit_num>425</Hit_num>
   <Hit_id>ref|XP_029496248.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Oncorhynchus nerka]</Hit_def>
   <Hit_accession>XP_029496248</Hit_accession>
@@ -11823,7 +11907,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.523</Hsp_bit-score>
       <Hsp_score>1303</Hsp_score>
-      <Hsp_evalue>1.63907e-175</Hsp_evalue>
+      <Hsp_evalue>1.64958e-175</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -11841,7 +11925,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>423</Hit_num>
+  <Hit_num>426</Hit_num>
   <Hit_id>ref|XP_040454446.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Falco naumanni]</Hit_def>
   <Hit_accession>XP_040454446</Hit_accession>
@@ -11851,7 +11935,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.138</Hsp_bit-score>
       <Hsp_score>1302</Hsp_score>
-      <Hsp_evalue>1.66267e-175</Hsp_evalue>
+      <Hsp_evalue>1.67333e-175</Hsp_evalue>
       <Hsp_query-from>23</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>5</Hsp_hit-from>
@@ -11869,7 +11953,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>424</Hit_num>
+  <Hit_num>427</Hit_num>
   <Hit_id>ref|XP_026141382.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Carassius auratus]</Hit_def>
   <Hit_accession>XP_026141382</Hit_accession>
@@ -11879,7 +11963,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>505.753</Hsp_bit-score>
       <Hsp_score>1301</Hsp_score>
-      <Hsp_evalue>2.37189e-175</Hsp_evalue>
+      <Hsp_evalue>2.3871e-175</Hsp_evalue>
       <Hsp_query-from>39</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>24</Hsp_hit-from>
@@ -11897,7 +11981,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>425</Hit_num>
+  <Hit_num>428</Hit_num>
   <Hit_id>ref|XP_009890825.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Charadrius vociferus]</Hit_def>
   <Hit_accession>XP_009890825</Hit_accession>
@@ -11907,7 +11991,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.908</Hsp_bit-score>
       <Hsp_score>1304</Hsp_score>
-      <Hsp_evalue>2.41893e-175</Hsp_evalue>
+      <Hsp_evalue>2.43444e-175</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>65</Hsp_hit-from>
@@ -11925,7 +12009,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>426</Hit_num>
+  <Hit_num>429</Hit_num>
   <Hit_id>ref|XP_048793698.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Lagopus muta]</Hit_def>
   <Hit_accession>XP_048793698</Hit_accession>
@@ -11935,7 +12019,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>505.753</Hsp_bit-score>
       <Hsp_score>1301</Hsp_score>
-      <Hsp_evalue>3.06509e-175</Hsp_evalue>
+      <Hsp_evalue>3.08474e-175</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -11953,7 +12037,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>427</Hit_num>
+  <Hit_num>430</Hit_num>
   <Hit_id>ref|XP_014061735.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Salmo salar]</Hit_def>
   <Hit_accession>XP_014061735</Hit_accession>
@@ -11963,7 +12047,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>505.753</Hsp_bit-score>
       <Hsp_score>1301</Hsp_score>
-      <Hsp_evalue>3.26266e-175</Hsp_evalue>
+      <Hsp_evalue>3.28358e-175</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -11981,7 +12065,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>428</Hit_num>
+  <Hit_num>431</Hit_num>
   <Hit_id>ref|XP_042742548.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Lagopus leucura]</Hit_def>
   <Hit_accession>XP_042742548</Hit_accession>
@@ -11991,7 +12075,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>505.368</Hsp_bit-score>
       <Hsp_score>1300</Hsp_score>
-      <Hsp_evalue>4.02798e-175</Hsp_evalue>
+      <Hsp_evalue>4.0538e-175</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -12009,7 +12093,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>429</Hit_num>
+  <Hit_num>432</Hit_num>
   <Hit_id>ref|XP_032409548.1|</Hit_id>
   <Hit_def>LOW QUALITY PROTEIN: 28S ribosomal protein S5, mitochondrial-like [Xiphophorus hellerii]</Hit_def>
   <Hit_accession>XP_032409548</Hit_accession>
@@ -12019,7 +12103,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>504.212</Hsp_bit-score>
       <Hsp_score>1297</Hsp_score>
-      <Hsp_evalue>4.25822e-175</Hsp_evalue>
+      <Hsp_evalue>4.28552e-175</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>28</Hsp_hit-from>
@@ -12037,7 +12121,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>430</Hit_num>
+  <Hit_num>433</Hit_num>
   <Hit_id>ref|XP_037322374.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pungitius pungitius]</Hit_def>
   <Hit_accession>XP_037322374</Hit_accession>
@@ -12047,7 +12131,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>506.138</Hsp_bit-score>
       <Hsp_score>1302</Hsp_score>
-      <Hsp_evalue>4.72848e-175</Hsp_evalue>
+      <Hsp_evalue>4.7588e-175</Hsp_evalue>
       <Hsp_query-from>34</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>48</Hsp_hit-from>
@@ -12065,7 +12149,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>431</Hit_num>
+  <Hit_num>434</Hit_num>
   <Hit_id>ref|XP_029554536.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Salmo trutta]</Hit_def>
   <Hit_accession>XP_029554536</Hit_accession>
@@ -12075,7 +12159,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>504.982</Hsp_bit-score>
       <Hsp_score>1299</Hsp_score>
-      <Hsp_evalue>6.93446e-175</Hsp_evalue>
+      <Hsp_evalue>6.97892e-175</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -12093,7 +12177,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>432</Hit_num>
+  <Hit_num>435</Hit_num>
   <Hit_id>ref|XP_004553479.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Maylandia zebra] &gt;ref|XP_026046053.1| 28S ribosomal protein S5, mitochondrial [Astatotilapia calliptera]</Hit_def>
   <Hit_accession>XP_004553479</Hit_accession>
@@ -12103,7 +12187,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>504.597</Hsp_bit-score>
       <Hsp_score>1298</Hsp_score>
-      <Hsp_evalue>6.9958e-175</Hsp_evalue>
+      <Hsp_evalue>7.04065e-175</Hsp_evalue>
       <Hsp_query-from>23</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>5</Hsp_hit-from>
@@ -12121,7 +12205,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>433</Hit_num>
+  <Hit_num>436</Hit_num>
   <Hit_id>ref|XP_046210047.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial-like [Oncorhynchus gorbuscha]</Hit_def>
   <Hit_accession>XP_046210047</Hit_accession>
@@ -12131,7 +12215,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>504.212</Hsp_bit-score>
       <Hsp_score>1297</Hsp_score>
-      <Hsp_evalue>1.02766e-174</Hsp_evalue>
+      <Hsp_evalue>1.03425e-174</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -12149,7 +12233,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>434</Hit_num>
+  <Hit_num>437</Hit_num>
   <Hit_id>ref|XP_016343411.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial-like [Sinocyclocheilus anshuiensis]</Hit_def>
   <Hit_accession>XP_016343411</Hit_accession>
@@ -12159,7 +12243,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.827</Hsp_bit-score>
       <Hsp_score>1296</Hsp_score>
-      <Hsp_evalue>1.0955e-174</Hsp_evalue>
+      <Hsp_evalue>1.10252e-174</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -12177,7 +12261,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>435</Hit_num>
+  <Hit_num>438</Hit_num>
   <Hit_id>ref|XP_037638099.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Sebastes umbrosus]</Hit_def>
   <Hit_accession>XP_037638099</Hit_accession>
@@ -12187,7 +12271,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.827</Hsp_bit-score>
       <Hsp_score>1296</Hsp_score>
-      <Hsp_evalue>1.62278e-174</Hsp_evalue>
+      <Hsp_evalue>1.63319e-174</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -12205,7 +12289,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>436</Hit_num>
+  <Hit_num>439</Hit_num>
   <Hit_id>ref|XP_037247979.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Falco rusticolus]</Hit_def>
   <Hit_accession>XP_037247979</Hit_accession>
@@ -12215,7 +12299,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.442</Hsp_bit-score>
       <Hsp_score>1295</Hsp_score>
-      <Hsp_evalue>1.66805e-174</Hsp_evalue>
+      <Hsp_evalue>1.67874e-174</Hsp_evalue>
       <Hsp_query-from>23</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>5</Hsp_hit-from>
@@ -12233,7 +12317,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>437</Hit_num>
+  <Hit_num>440</Hit_num>
   <Hit_id>ref|XP_041866782.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Melanotaenia boesemani]</Hit_def>
   <Hit_accession>XP_041866782</Hit_accession>
@@ -12243,7 +12327,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.442</Hsp_bit-score>
       <Hsp_score>1295</Hsp_score>
-      <Hsp_evalue>2.03064e-174</Hsp_evalue>
+      <Hsp_evalue>2.04366e-174</Hsp_evalue>
       <Hsp_query-from>34</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>18</Hsp_hit-from>
@@ -12261,7 +12345,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>438</Hit_num>
+  <Hit_num>441</Hit_num>
   <Hit_id>ref|XP_042708655.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X5 [Chrysemys picta bellii]</Hit_def>
   <Hit_accession>XP_042708655</Hit_accession>
@@ -12271,7 +12355,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>502.286</Hsp_bit-score>
       <Hsp_score>1292</Hsp_score>
-      <Hsp_evalue>2.48525e-174</Hsp_evalue>
+      <Hsp_evalue>2.50119e-174</Hsp_evalue>
       <Hsp_query-from>46</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>19</Hsp_hit-from>
@@ -12289,7 +12373,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>439</Hit_num>
+  <Hit_num>442</Hit_num>
   <Hit_id>ref|XP_027520467.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Corapipo altera]</Hit_def>
   <Hit_accession>XP_027520467</Hit_accession>
@@ -12299,7 +12383,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.056</Hsp_bit-score>
       <Hsp_score>1294</Hsp_score>
-      <Hsp_evalue>2.68966e-174</Hsp_evalue>
+      <Hsp_evalue>2.7069e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -12317,7 +12401,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>440</Hit_num>
+  <Hit_num>443</Hit_num>
   <Hit_id>ref|XP_042676418.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Centrocercus urophasianus]</Hit_def>
   <Hit_accession>XP_042676418</Hit_accession>
@@ -12327,7 +12411,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.056</Hsp_bit-score>
       <Hsp_score>1294</Hsp_score>
-      <Hsp_evalue>2.75624e-174</Hsp_evalue>
+      <Hsp_evalue>2.77392e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -12345,7 +12429,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>441</Hit_num>
+  <Hit_num>444</Hit_num>
   <Hit_id>ref|XP_021245951.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Numida meleagris]</Hit_def>
   <Hit_accession>XP_021245951</Hit_accession>
@@ -12355,7 +12439,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.056</Hsp_bit-score>
       <Hsp_score>1294</Hsp_score>
-      <Hsp_evalue>3.14242e-174</Hsp_evalue>
+      <Hsp_evalue>3.16257e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -12373,7 +12457,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>442</Hit_num>
+  <Hit_num>445</Hit_num>
   <Hit_id>ref|XP_031453136.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Phasianus colchicus]</Hit_def>
   <Hit_accession>XP_031453136</Hit_accession>
@@ -12383,7 +12467,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>503.056</Hsp_bit-score>
       <Hsp_score>1294</Hsp_score>
-      <Hsp_evalue>3.24713e-174</Hsp_evalue>
+      <Hsp_evalue>3.26795e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -12401,7 +12485,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>443</Hit_num>
+  <Hit_num>446</Hit_num>
   <Hit_id>ref|XP_041646148.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Cheilinus undulatus]</Hit_def>
   <Hit_accession>XP_041646148</Hit_accession>
@@ -12411,7 +12495,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>502.286</Hsp_bit-score>
       <Hsp_score>1292</Hsp_score>
-      <Hsp_evalue>5.33992e-174</Hsp_evalue>
+      <Hsp_evalue>5.37416e-174</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -12429,7 +12513,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>444</Hit_num>
+  <Hit_num>447</Hit_num>
   <Hit_id>ref|XP_016091005.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial-like [Sinocyclocheilus grahami]</Hit_def>
   <Hit_accession>XP_016091005</Hit_accession>
@@ -12439,7 +12523,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.901</Hsp_bit-score>
       <Hsp_score>1291</Hsp_score>
-      <Hsp_evalue>6.02581e-174</Hsp_evalue>
+      <Hsp_evalue>6.06445e-174</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -12457,7 +12541,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>445</Hit_num>
+  <Hit_num>448</Hit_num>
   <Hit_id>ref|XP_010208366.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial, partial [Colius striatus]</Hit_def>
   <Hit_accession>XP_010208366</Hit_accession>
@@ -12467,7 +12551,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.13</Hsp_bit-score>
       <Hsp_score>1289</Hsp_score>
-      <Hsp_evalue>6.60889e-174</Hsp_evalue>
+      <Hsp_evalue>6.65127e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>13</Hsp_hit-from>
@@ -12485,7 +12569,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>446</Hit_num>
+  <Hit_num>449</Hit_num>
   <Hit_id>ref|XP_027573312.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pipra filicauda]</Hit_def>
   <Hit_accession>XP_027573312</Hit_accession>
@@ -12495,7 +12579,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.901</Hsp_bit-score>
       <Hsp_score>1291</Hsp_score>
-      <Hsp_evalue>7.93419e-174</Hsp_evalue>
+      <Hsp_evalue>7.98506e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -12513,7 +12597,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>447</Hit_num>
+  <Hit_num>450</Hit_num>
   <Hit_id>ref|XP_017674461.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Lepidothrix coronata]</Hit_def>
   <Hit_accession>XP_017674461</Hit_accession>
@@ -12523,7 +12607,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.901</Hsp_bit-score>
       <Hsp_score>1291</Hsp_score>
-      <Hsp_evalue>7.93419e-174</Hsp_evalue>
+      <Hsp_evalue>7.98506e-174</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -12541,7 +12625,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>448</Hit_num>
+  <Hit_num>451</Hit_num>
   <Hit_id>ref|XP_044284607.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Varanus komodoensis] &gt;ref|XP_044284608.1| 28S ribosomal protein S5, mitochondrial isoform X2 [Varanus komodoensis]</Hit_def>
   <Hit_accession>XP_044284607</Hit_accession>
@@ -12551,7 +12635,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.59</Hsp_bit-score>
       <Hsp_score>1285</Hsp_score>
-      <Hsp_evalue>8.12685e-174</Hsp_evalue>
+      <Hsp_evalue>8.17896e-174</Hsp_evalue>
       <Hsp_query-from>80</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -12569,7 +12653,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>449</Hit_num>
+  <Hit_num>452</Hit_num>
   <Hit_id>ref|XP_027309313.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Anas platyrhynchos]</Hit_def>
   <Hit_accession>XP_027309313</Hit_accession>
@@ -12579,7 +12663,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.59</Hsp_bit-score>
       <Hsp_score>1285</Hsp_score>
-      <Hsp_evalue>9.19464e-174</Hsp_evalue>
+      <Hsp_evalue>9.25359e-174</Hsp_evalue>
       <Hsp_query-from>80</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -12597,7 +12681,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>450</Hit_num>
+  <Hit_num>453</Hit_num>
   <Hit_id>ref|XP_041742533.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Coregonus clupeaformis]</Hit_def>
   <Hit_accession>XP_041742533</Hit_accession>
@@ -12607,7 +12691,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.901</Hsp_bit-score>
       <Hsp_score>1291</Hsp_score>
-      <Hsp_evalue>9.86562e-174</Hsp_evalue>
+      <Hsp_evalue>9.92888e-174</Hsp_evalue>
       <Hsp_query-from>83</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>63</Hsp_hit-from>
@@ -12625,7 +12709,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>451</Hit_num>
+  <Hit_num>454</Hit_num>
   <Hit_id>ref|XP_032040706.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Aythya fuligula]</Hit_def>
   <Hit_accession>XP_032040706</Hit_accession>
@@ -12635,7 +12719,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.204</Hsp_bit-score>
       <Hsp_score>1284</Hsp_score>
-      <Hsp_evalue>1.26256e-173</Hsp_evalue>
+      <Hsp_evalue>1.27065e-173</Hsp_evalue>
       <Hsp_query-from>80</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -12653,7 +12737,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>452</Hit_num>
+  <Hit_num>455</Hit_num>
   <Hit_id>ref|XP_030346613.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Strigops habroptila]</Hit_def>
   <Hit_accession>XP_030346613</Hit_accession>
@@ -12663,7 +12747,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.13</Hsp_bit-score>
       <Hsp_score>1289</Hsp_score>
-      <Hsp_evalue>1.36307e-173</Hsp_evalue>
+      <Hsp_evalue>1.37181e-173</Hsp_evalue>
       <Hsp_query-from>23</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -12681,7 +12765,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>453</Hit_num>
+  <Hit_num>456</Hit_num>
   <Hit_id>ref|XP_027552804.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Neopelma chrysocephalum]</Hit_def>
   <Hit_accession>XP_027552804</Hit_accession>
@@ -12691,7 +12775,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.13</Hsp_bit-score>
       <Hsp_score>1289</Hsp_score>
-      <Hsp_evalue>1.61419e-173</Hsp_evalue>
+      <Hsp_evalue>1.62454e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -12709,7 +12793,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>454</Hit_num>
+  <Hit_num>457</Hit_num>
   <Hit_id>ref|XP_023863385.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Salvelinus alpinus]</Hit_def>
   <Hit_accession>XP_023863385</Hit_accession>
@@ -12719,7 +12803,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.516</Hsp_bit-score>
       <Hsp_score>1290</Hsp_score>
-      <Hsp_evalue>1.84202e-173</Hsp_evalue>
+      <Hsp_evalue>1.85383e-173</Hsp_evalue>
       <Hsp_query-from>59</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>39</Hsp_hit-from>
@@ -12737,7 +12821,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>455</Hit_num>
+  <Hit_num>458</Hit_num>
   <Hit_id>ref|XP_010560791.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial isoform X1 [Haliaeetus leucocephalus]</Hit_def>
   <Hit_accession>XP_010560791</Hit_accession>
@@ -12747,7 +12831,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.13</Hsp_bit-score>
       <Hsp_score>1289</Hsp_score>
-      <Hsp_evalue>1.89184e-173</Hsp_evalue>
+      <Hsp_evalue>1.90397e-173</Hsp_evalue>
       <Hsp_query-from>23</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -12765,7 +12849,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>456</Hit_num>
+  <Hit_num>459</Hit_num>
   <Hit_id>ref|XP_021151992.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Columba livia]</Hit_def>
   <Hit_accession>XP_021151992</Hit_accession>
@@ -12775,7 +12859,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.975</Hsp_bit-score>
       <Hsp_score>1286</Hsp_score>
-      <Hsp_evalue>2.83677e-173</Hsp_evalue>
+      <Hsp_evalue>2.85496e-173</Hsp_evalue>
       <Hsp_query-from>35</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>5</Hsp_hit-from>
@@ -12793,7 +12877,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>457</Hit_num>
+  <Hit_num>460</Hit_num>
   <Hit_id>ref|XP_005232380.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Falco peregrinus]</Hit_def>
   <Hit_accession>XP_005232380</Hit_accession>
@@ -12803,7 +12887,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>500.36</Hsp_bit-score>
       <Hsp_score>1287</Hsp_score>
-      <Hsp_evalue>5.23187e-173</Hsp_evalue>
+      <Hsp_evalue>5.26542e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>52</Hsp_hit-from>
@@ -12821,7 +12905,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>458</Hit_num>
+  <Hit_num>461</Hit_num>
   <Hit_id>ref|XP_010560793.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial isoform X3 [Haliaeetus leucocephalus]</Hit_def>
   <Hit_accession>XP_010560793</Hit_accession>
@@ -12831,7 +12915,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.819</Hsp_bit-score>
       <Hsp_score>1283</Hsp_score>
-      <Hsp_evalue>6.11182e-173</Hsp_evalue>
+      <Hsp_evalue>6.15101e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>15</Hsp_hit-from>
@@ -12849,7 +12933,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>459</Hit_num>
+  <Hit_num>462</Hit_num>
   <Hit_id>ref|XP_010560792.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial isoform X2 [Haliaeetus leucocephalus]</Hit_def>
   <Hit_accession>XP_010560792</Hit_accession>
@@ -12859,7 +12943,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.204</Hsp_bit-score>
       <Hsp_score>1284</Hsp_score>
-      <Hsp_evalue>7.0839e-173</Hsp_evalue>
+      <Hsp_evalue>7.12933e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>25</Hsp_hit-from>
@@ -12877,7 +12961,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>460</Hit_num>
+  <Hit_num>463</Hit_num>
   <Hit_id>ref|XP_021151991.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Columba livia]</Hit_def>
   <Hit_accession>XP_021151991</Hit_accession>
@@ -12887,7 +12971,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.204</Hsp_bit-score>
       <Hsp_score>1284</Hsp_score>
-      <Hsp_evalue>7.43729e-173</Hsp_evalue>
+      <Hsp_evalue>7.48498e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>31</Hsp_hit-from>
@@ -12905,7 +12989,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>461</Hit_num>
+  <Hit_num>464</Hit_num>
   <Hit_id>ref|XP_032539585.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Chiroxiphia lanceolata]</Hit_def>
   <Hit_accession>XP_032539585</Hit_accession>
@@ -12915,7 +12999,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.204</Hsp_bit-score>
       <Hsp_score>1284</Hsp_score>
-      <Hsp_evalue>9.79306e-173</Hsp_evalue>
+      <Hsp_evalue>9.85585e-173</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -12933,7 +13017,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>462</Hit_num>
+  <Hit_num>465</Hit_num>
   <Hit_id>ref|XP_009554844.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Cuculus canorus]</Hit_def>
   <Hit_accession>XP_009554844</Hit_accession>
@@ -12943,7 +13027,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.819</Hsp_bit-score>
       <Hsp_score>1283</Hsp_score>
-      <Hsp_evalue>1.39007e-172</Hsp_evalue>
+      <Hsp_evalue>1.39898e-172</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>33</Hsp_hit-from>
@@ -12961,7 +13045,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>463</Hit_num>
+  <Hit_num>466</Hit_num>
   <Hit_id>ref|XP_040025280.1|</Hit_id>
   <Hit_def>LOW QUALITY PROTEIN: 28S ribosomal protein S5, mitochondrial-like [Gasterosteus aculeatus aculeatus]</Hit_def>
   <Hit_accession>XP_040025280</Hit_accession>
@@ -12971,7 +13055,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.204</Hsp_bit-score>
       <Hsp_score>1284</Hsp_score>
-      <Hsp_evalue>1.78243e-172</Hsp_evalue>
+      <Hsp_evalue>1.79386e-172</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>75</Hsp_hit-from>
@@ -12989,7 +13073,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>464</Hit_num>
+  <Hit_num>467</Hit_num>
   <Hit_id>ref|XP_028982985.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Betta splendens]</Hit_def>
   <Hit_accession>XP_028982985</Hit_accession>
@@ -12999,7 +13083,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.434</Hsp_bit-score>
       <Hsp_score>1282</Hsp_score>
-      <Hsp_evalue>1.98211e-172</Hsp_evalue>
+      <Hsp_evalue>1.99482e-172</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>56</Hsp_hit-from>
@@ -13017,7 +13101,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>465</Hit_num>
+  <Hit_num>468</Hit_num>
   <Hit_id>ref|XP_041921376.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Alosa sapidissima]</Hit_def>
   <Hit_accession>XP_041921376</Hit_accession>
@@ -13027,7 +13111,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.049</Hsp_bit-score>
       <Hsp_score>1281</Hsp_score>
-      <Hsp_evalue>2.31104e-172</Hsp_evalue>
+      <Hsp_evalue>2.32586e-172</Hsp_evalue>
       <Hsp_query-from>57</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>27</Hsp_hit-from>
@@ -13045,7 +13129,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>466</Hit_num>
+  <Hit_num>469</Hit_num>
   <Hit_id>ref|XP_020494674.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Labrus bergylta]</Hit_def>
   <Hit_accession>XP_020494674</Hit_accession>
@@ -13055,7 +13139,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.049</Hsp_bit-score>
       <Hsp_score>1281</Hsp_score>
-      <Hsp_evalue>2.64005e-172</Hsp_evalue>
+      <Hsp_evalue>2.65698e-172</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -13073,7 +13157,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>467</Hit_num>
+  <Hit_num>470</Hit_num>
   <Hit_id>ref|XP_039996008.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Xiphias gladius]</Hit_def>
   <Hit_accession>XP_039996008</Hit_accession>
@@ -13083,7 +13167,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.049</Hsp_bit-score>
       <Hsp_score>1281</Hsp_score>
-      <Hsp_evalue>3.0764e-172</Hsp_evalue>
+      <Hsp_evalue>3.09613e-172</Hsp_evalue>
       <Hsp_query-from>41</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>22</Hsp_hit-from>
@@ -13101,7 +13185,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>468</Hit_num>
+  <Hit_num>471</Hit_num>
   <Hit_id>ref|XP_008319510.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Cynoglossus semilaevis]</Hit_def>
   <Hit_accession>XP_008319510</Hit_accession>
@@ -13111,7 +13195,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>498.049</Hsp_bit-score>
       <Hsp_score>1281</Hsp_score>
-      <Hsp_evalue>3.08425e-172</Hsp_evalue>
+      <Hsp_evalue>3.10402e-172</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -13129,7 +13213,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>469</Hit_num>
+  <Hit_num>472</Hit_num>
   <Hit_id>ref|XP_027657554.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Falco cherrug]</Hit_def>
   <Hit_accession>XP_027657554</Hit_accession>
@@ -13139,7 +13223,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>501.516</Hsp_bit-score>
       <Hsp_score>1290</Hsp_score>
-      <Hsp_evalue>3.31543e-172</Hsp_evalue>
+      <Hsp_evalue>3.33669e-172</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>127</Hsp_hit-from>
@@ -13157,7 +13241,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>470</Hit_num>
+  <Hit_num>473</Hit_num>
   <Hit_id>ref|XP_026551725.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Pseudonaja textilis]</Hit_def>
   <Hit_accession>XP_026551725</Hit_accession>
@@ -13167,7 +13251,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>497.664</Hsp_bit-score>
       <Hsp_score>1280</Hsp_score>
-      <Hsp_evalue>4.09749e-172</Hsp_evalue>
+      <Hsp_evalue>4.12376e-172</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -13185,7 +13269,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>471</Hit_num>
+  <Hit_num>474</Hit_num>
   <Hit_id>ref|XP_033792739.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Geotrypetes seraphini]</Hit_def>
   <Hit_accession>XP_033792739</Hit_accession>
@@ -13195,7 +13279,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>497.278</Hsp_bit-score>
       <Hsp_score>1279</Hsp_score>
-      <Hsp_evalue>6.10763e-172</Hsp_evalue>
+      <Hsp_evalue>6.14679e-172</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>34</Hsp_hit-from>
@@ -13213,7 +13297,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>472</Hit_num>
+  <Hit_num>475</Hit_num>
   <Hit_id>ref|XP_014819862.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Calidris pugnax]</Hit_def>
   <Hit_accession>XP_014819862</Hit_accession>
@@ -13223,7 +13307,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>496.893</Hsp_bit-score>
       <Hsp_score>1278</Hsp_score>
-      <Hsp_evalue>8.56974e-172</Hsp_evalue>
+      <Hsp_evalue>8.62469e-172</Hsp_evalue>
       <Hsp_query-from>19</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>2</Hsp_hit-from>
@@ -13241,7 +13325,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>473</Hit_num>
+  <Hit_num>476</Hit_num>
   <Hit_id>ref|XP_034008516.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Trematomus bernacchii]</Hit_def>
   <Hit_accession>XP_034008516</Hit_accession>
@@ -13251,7 +13335,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>495.738</Hsp_bit-score>
       <Hsp_score>1275</Hsp_score>
-      <Hsp_evalue>2.24141e-171</Hsp_evalue>
+      <Hsp_evalue>2.25578e-171</Hsp_evalue>
       <Hsp_query-from>42</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>14</Hsp_hit-from>
@@ -13269,7 +13353,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>474</Hit_num>
+  <Hit_num>477</Hit_num>
   <Hit_id>ref|XP_033957138.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Pseudochaenichthys georgianus]</Hit_def>
   <Hit_accession>XP_033957138</Hit_accession>
@@ -13279,7 +13363,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>495.738</Hsp_bit-score>
       <Hsp_score>1275</Hsp_score>
-      <Hsp_evalue>2.39326e-171</Hsp_evalue>
+      <Hsp_evalue>2.40861e-171</Hsp_evalue>
       <Hsp_query-from>44</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>24</Hsp_hit-from>
@@ -13297,7 +13381,35 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>475</Hit_num>
+  <Hit_num>478</Hit_num>
+  <Hit_id>ref|XP_049674201.1|</Hit_id>
+  <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Accipiter gentilis]</Hit_def>
+  <Hit_accession>XP_049674201</Hit_accession>
+  <Hit_len>404</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>495.352</Hsp_bit-score>
+      <Hsp_score>1274</Hsp_score>
+      <Hsp_evalue>3.30648e-171</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>427</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>YASLSRALQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKR</Hsp_qseq>
+      <Hsp_hseq>YCSLAWAFQARCSISAPWTVAVEQRRQSSFFNTLTADELWKGALAETGVGVKKGRGKRRKKKLRKNLNRGQEIGEGRSGFLWPGLNAPLIQSGRVQAVSQRKQEERERIQSEIVQQRDTWEKKRKIKIKREGGWSGKCWGGVILDPPDPGPNGETYQDFETRVIELKNVFTMNAKEGRKKSMRALVAIGNGKGAAGFALGKAGDRMNALRKAKNKAIRCLHLIELYQNHTVFHDITVKFKRTTIRMKKQNKGYGLRCHRAIITICKLIGIKDMYAKVSGSKNLINITRALFKGLTQQETHQQLANEKGLYVVEFREEQGPLPIVVALPEGPVREDPEPEDEVPDTKLEWSDVKEAQGMKKSPWANVRR</Hsp_hseq>
+      <Hsp_midline>Y SL+ A Q +C IS+P  +  +Q R  SFF  LTADELWKGALAETG G KKGRGKR KKK RK+LNRGQ IGEGR GFLWPGLN PL+++G VQ ++QR +EE+E+++++++QQR+ W++K+K+K+KRE GWSG  WGG+ L PPDPGP GETY+DF+TR++E++NVFTM AKEGRKKS+R LVA+GNGKGAAGF++GKA DRM+A RKAKN+A+  LH IE Y++HT+FHDI+++FKRT I+MKKQ KGYGLRCHRAIITIC+LIGIKDMYAKVSGS N++++T+ LF+GL++QETHQQLA++KGL+VVE REE GPLPIVVA P GP+R+DPEPEDEVPD KL+W DVK AQGMK+S W+N++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>479</Hit_num>
   <Hit_id>ref|XP_018414321.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Nanorana parkeri]</Hit_def>
   <Hit_accession>XP_018414321</Hit_accession>
@@ -13307,7 +13419,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>495.352</Hsp_bit-score>
       <Hsp_score>1274</Hsp_score>
-      <Hsp_evalue>3.39488e-171</Hsp_evalue>
+      <Hsp_evalue>3.41665e-171</Hsp_evalue>
       <Hsp_query-from>68</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>40</Hsp_hit-from>
@@ -13325,7 +13437,35 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>476</Hit_num>
+  <Hit_num>480</Hit_num>
+  <Hit_id>ref|XP_049674202.1|</Hit_id>
+  <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Accipiter gentilis]</Hit_def>
+  <Hit_accession>XP_049674202</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>494.582</Hsp_bit-score>
+      <Hsp_score>1272</Hsp_score>
+      <Hsp_evalue>5.13878e-171</Hsp_evalue>
+      <Hsp_query-from>60</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>YASLSRALQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRAA</Hsp_qseq>
+      <Hsp_hseq>YCSLAWAFQARCSISAPWTVAVEQRRQSSFFNTLTADELWKGALAETGVGVKKGRGKRRKKKLRKNLNRGQEIGEGRSGFLWPGLNAPLIQSGRVQAVSQRKQEERERIQSEIVQQRDTWEKKRKIKIKREGGWSGKCWGGVILDPPDPGPNGETYQDFETRVIELKNVFTMNAKEGRKKSMRALVAIGNGKGAAGFALGKAGDRMNALRKAKNKAIRCLHLIELYQNHTVFHDITVKFKRTTIRMKKQNKGYGLRCHRAIITICKLIGIKDMYAKVSGSKNLINITRALFKGLTQQETHQQLANEKGLYVVEFREEQGPLPIVVALPEGPVREDPEPEDEVPDTKLEWSDVKEAQGMKKSPWANVRRTV</Hsp_hseq>
+      <Hsp_midline>Y SL+ A Q +C IS+P  +  +Q R  SFF  LTADELWKGALAETG G KKGRGKR KKK RK+LNRGQ IGEGR GFLWPGLN PL+++G VQ ++QR +EE+E+++++++QQR+ W++K+K+K+KRE GWSG  WGG+ L PPDPGP GETY+DF+TR++E++NVFTM AKEGRKKS+R LVA+GNGKGAAGF++GKA DRM+A RKAKN+A+  LH IE Y++HT+FHDI+++FKRT I+MKKQ KGYGLRCHRAIITIC+LIGIKDMYAKVSGS N++++T+ LF+GL++QETHQQLA++KGL+VVE REE GPLPIVVA P GP+R+DPEPEDEVPD KL+W DVK AQGMK+S W+N++R  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>481</Hit_num>
   <Hit_id>ref|XP_029820737.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Manacus vitellinus]</Hit_def>
   <Hit_accession>XP_029820737</Hit_accession>
@@ -13335,7 +13475,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>499.59</Hsp_bit-score>
       <Hsp_score>1285</Hsp_score>
-      <Hsp_evalue>5.1208e-171</Hsp_evalue>
+      <Hsp_evalue>5.15363e-171</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>165</Hsp_hit-from>
@@ -13353,7 +13493,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>477</Hit_num>
+  <Hit_num>482</Hit_num>
   <Hit_id>ref|XP_029894951.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X4 [Aquila chrysaetos chrysaetos]</Hit_def>
   <Hit_accession>XP_029894951</Hit_accession>
@@ -13363,7 +13503,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.426</Hsp_bit-score>
       <Hsp_score>1269</Hsp_score>
-      <Hsp_evalue>8.6343e-171</Hsp_evalue>
+      <Hsp_evalue>8.68966e-171</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>15</Hsp_hit-from>
@@ -13381,7 +13521,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>478</Hit_num>
+  <Hit_num>483</Hit_num>
   <Hit_id>ref|XP_015712598.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Coturnix japonica]</Hit_def>
   <Hit_accession>XP_015712598</Hit_accession>
@@ -13391,7 +13531,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>494.197</Hsp_bit-score>
       <Hsp_score>1271</Hsp_score>
-      <Hsp_evalue>9.12062e-171</Hsp_evalue>
+      <Hsp_evalue>9.1791e-171</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -13409,7 +13549,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>479</Hit_num>
+  <Hit_num>484</Hit_num>
   <Hit_id>ref|XP_039176796.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Crotalus tigris]</Hit_def>
   <Hit_accession>XP_039176796</Hit_accession>
@@ -13419,7 +13559,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>494.197</Hsp_bit-score>
       <Hsp_score>1271</Hsp_score>
-      <Hsp_evalue>9.3221e-171</Hsp_evalue>
+      <Hsp_evalue>9.38187e-171</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>37</Hsp_hit-from>
@@ -13437,7 +13577,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>480</Hit_num>
+  <Hit_num>485</Hit_num>
   <Hit_id>ref|XP_029691198.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Takifugu rubripes]</Hit_def>
   <Hit_accession>XP_029691198</Hit_accession>
@@ -13447,7 +13587,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.812</Hsp_bit-score>
       <Hsp_score>1270</Hsp_score>
-      <Hsp_evalue>9.82908e-171</Hsp_evalue>
+      <Hsp_evalue>9.89211e-171</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>53</Hsp_hit-from>
@@ -13465,7 +13605,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>481</Hit_num>
+  <Hit_num>486</Hit_num>
   <Hit_id>ref|XP_037752324.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Chelonia mydas]</Hit_def>
   <Hit_accession>XP_037752324</Hit_accession>
@@ -13475,7 +13615,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.041</Hsp_bit-score>
       <Hsp_score>1268</Hsp_score>
-      <Hsp_evalue>1.20498e-170</Hsp_evalue>
+      <Hsp_evalue>1.2127e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>31</Hsp_hit-from>
@@ -13493,7 +13633,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>482</Hit_num>
+  <Hit_num>487</Hit_num>
   <Hit_id>ref|XP_029894947.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X3 [Aquila chrysaetos chrysaetos]</Hit_def>
   <Hit_accession>XP_029894947</Hit_accession>
@@ -13503,7 +13643,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.426</Hsp_bit-score>
       <Hsp_score>1269</Hsp_score>
-      <Hsp_evalue>1.25848e-170</Hsp_evalue>
+      <Hsp_evalue>1.26655e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>21</Hsp_hit-from>
@@ -13521,7 +13661,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>483</Hit_num>
+  <Hit_num>488</Hit_num>
   <Hit_id>ref|XP_049456087.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Epinephelus fuscoguttatus]</Hit_def>
   <Hit_accession>XP_049456087</Hit_accession>
@@ -13531,7 +13671,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.812</Hsp_bit-score>
       <Hsp_score>1270</Hsp_score>
-      <Hsp_evalue>1.33352e-170</Hsp_evalue>
+      <Hsp_evalue>1.34207e-170</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -13549,7 +13689,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>484</Hit_num>
+  <Hit_num>489</Hit_num>
   <Hit_id>ref|XP_040552853.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Gallus gallus] &gt;ref|XP_046769295.1| 28S ribosomal protein S5, mitochondrial isoform X1 [Gallus gallus]</Hit_def>
   <Hit_accession>XP_040552853</Hit_accession>
@@ -13559,7 +13699,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.041</Hsp_bit-score>
       <Hsp_score>1268</Hsp_score>
-      <Hsp_evalue>1.34768e-170</Hsp_evalue>
+      <Hsp_evalue>1.35632e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>18</Hsp_hit-from>
@@ -13577,7 +13717,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>485</Hit_num>
+  <Hit_num>490</Hit_num>
   <Hit_id>ref|XP_015712597.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Coturnix japonica]</Hit_def>
   <Hit_accession>XP_015712597</Hit_accession>
@@ -13587,7 +13727,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.812</Hsp_bit-score>
       <Hsp_score>1270</Hsp_score>
-      <Hsp_evalue>1.37316e-170</Hsp_evalue>
+      <Hsp_evalue>1.38196e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>38</Hsp_hit-from>
@@ -13605,7 +13745,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>486</Hit_num>
+  <Hit_num>491</Hit_num>
   <Hit_id>ref|XP_029894937.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Aquila chrysaetos chrysaetos]</Hit_def>
   <Hit_accession>XP_029894937</Hit_accession>
@@ -13615,7 +13755,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.041</Hsp_bit-score>
       <Hsp_score>1268</Hsp_score>
-      <Hsp_evalue>1.86425e-170</Hsp_evalue>
+      <Hsp_evalue>1.8762e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>25</Hsp_hit-from>
@@ -13633,7 +13773,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>487</Hit_num>
+  <Hit_num>492</Hit_num>
   <Hit_id>ref|NP_001186319.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Gallus gallus]</Hit_def>
   <Hit_accession>NP_001186319</Hit_accession>
@@ -13643,7 +13783,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.426</Hsp_bit-score>
       <Hsp_score>1269</Hsp_score>
-      <Hsp_evalue>2.02977e-170</Hsp_evalue>
+      <Hsp_evalue>2.04278e-170</Hsp_evalue>
       <Hsp_query-from>24</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>10</Hsp_hit-from>
@@ -13661,7 +13801,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>488</Hit_num>
+  <Hit_num>493</Hit_num>
   <Hit_id>ref|XP_029894927.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial isoform X1 [Aquila chrysaetos chrysaetos]</Hit_def>
   <Hit_accession>XP_029894927</Hit_accession>
@@ -13671,7 +13811,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.041</Hsp_bit-score>
       <Hsp_score>1268</Hsp_score>
-      <Hsp_evalue>2.17481e-170</Hsp_evalue>
+      <Hsp_evalue>2.18875e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>34</Hsp_hit-from>
@@ -13689,7 +13829,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>489</Hit_num>
+  <Hit_num>494</Hit_num>
   <Hit_id>ref|XP_009273093.1|</Hit_id>
   <Hit_def>PREDICTED: 28S ribosomal protein S5, mitochondrial [Aptenodytes forsteri]</Hit_def>
   <Hit_accession>XP_009273093</Hit_accession>
@@ -13699,7 +13839,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>493.041</Hsp_bit-score>
       <Hsp_score>1268</Hsp_score>
-      <Hsp_evalue>2.32794e-170</Hsp_evalue>
+      <Hsp_evalue>2.34286e-170</Hsp_evalue>
       <Hsp_query-from>19</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>3</Hsp_hit-from>
@@ -13717,7 +13857,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>490</Hit_num>
+  <Hit_num>495</Hit_num>
   <Hit_id>ref|XP_043119133.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Puntigrus tetrazona]</Hit_def>
   <Hit_accession>XP_043119133</Hit_accession>
@@ -13727,7 +13867,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>492.656</Hsp_bit-score>
       <Hsp_score>1267</Hsp_score>
-      <Hsp_evalue>2.55925e-170</Hsp_evalue>
+      <Hsp_evalue>2.57566e-170</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>428</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -13745,7 +13885,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>491</Hit_num>
+  <Hit_num>496</Hit_num>
   <Hit_id>ref|XP_009094450.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Serinus canaria]</Hit_def>
   <Hit_accession>XP_009094450</Hit_accession>
@@ -13755,7 +13895,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>492.271</Hsp_bit-score>
       <Hsp_score>1266</Hsp_score>
-      <Hsp_evalue>5.06873e-170</Hsp_evalue>
+      <Hsp_evalue>5.10123e-170</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>36</Hsp_hit-from>
@@ -13773,7 +13913,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>492</Hit_num>
+  <Hit_num>497</Hit_num>
   <Hit_id>ref|NP_001070064.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial precursor [Danio rerio]</Hit_def>
   <Hit_accession>NP_001070064</Hit_accession>
@@ -13783,7 +13923,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>491.5</Hsp_bit-score>
       <Hsp_score>1264</Hsp_score>
-      <Hsp_evalue>7.92668e-170</Hsp_evalue>
+      <Hsp_evalue>7.97751e-170</Hsp_evalue>
       <Hsp_query-from>25</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>6</Hsp_hit-from>
@@ -13801,7 +13941,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>493</Hit_num>
+  <Hit_num>498</Hit_num>
   <Hit_id>ref|XP_018595770.2|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Scleropages formosus]</Hit_def>
   <Hit_accession>XP_018595770</Hit_accession>
@@ -13811,7 +13951,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>491.5</Hsp_bit-score>
       <Hsp_score>1264</Hsp_score>
-      <Hsp_evalue>1.01832e-169</Hsp_evalue>
+      <Hsp_evalue>1.02485e-169</Hsp_evalue>
       <Hsp_query-from>77</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>48</Hsp_hit-from>
@@ -13829,7 +13969,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>494</Hit_num>
+  <Hit_num>499</Hit_num>
   <Hit_id>ref|XP_032866932.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Tyto alba]</Hit_def>
   <Hit_accession>XP_032866932</Hit_accession>
@@ -13839,7 +13979,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>491.5</Hsp_bit-score>
       <Hsp_score>1264</Hsp_score>
-      <Hsp_evalue>1.13197e-169</Hsp_evalue>
+      <Hsp_evalue>1.13922e-169</Hsp_evalue>
       <Hsp_query-from>60</Hsp_query-from>
       <Hsp_query-to>429</Hsp_query-to>
       <Hsp_hit-from>34</Hsp_hit-from>
@@ -13857,7 +13997,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>495</Hit_num>
+  <Hit_num>500</Hit_num>
   <Hit_id>ref|XP_034754454.1|</Hit_id>
   <Hit_def>28S ribosomal protein S5, mitochondrial [Etheostoma cragini] &gt;ref|XP_034754455.1| 28S ribosomal protein S5, mitochondrial [Etheostoma cragini]</Hit_def>
   <Hit_accession>XP_034754454</Hit_accession>
@@ -13867,7 +14007,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>491.115</Hsp_bit-score>
       <Hsp_score>1263</Hsp_score>
-      <Hsp_evalue>1.44305e-169</Hsp_evalue>
+      <Hsp_evalue>1.4523e-169</Hsp_evalue>
       <Hsp_query-from>82</Hsp_query-from>
       <Hsp_query-to>427</Hsp_query-to>
       <Hsp_hit-from>57</Hsp_hit-from>
@@ -13884,151 +14024,11 @@
     </Hsp>
   </Hit_hsps>
 </Hit>
-<Hit>
-  <Hit_num>496</Hit_num>
-  <Hit_id>ref|XP_015673444.1|</Hit_id>
-  <Hit_def>28S ribosomal protein S5, mitochondrial [Protobothrops mucrosquamatus]</Hit_def>
-  <Hit_accession>XP_015673444</Hit_accession>
-  <Hit_len>406</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>489.96</Hsp_bit-score>
-      <Hsp_score>1260</Hsp_score>
-      <Hsp_evalue>4.81057e-169</Hsp_evalue>
-      <Hsp_query-from>60</Hsp_query-from>
-      <Hsp_query-to>428</Hsp_query-to>
-      <Hsp_hit-from>37</Hsp_hit-from>
-      <Hsp_hit-to>404</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>237</Hsp_identity>
-      <Hsp_positive>304</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>369</Hsp_align-len>
-      <Hsp_qseq>YASLSRALQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRA</Hsp_qseq>
-      <Hsp_hseq>HAALAWTFQTHCNISASYNVTVQQRRQRSFFNKLTASELWKGVAAENTAGGRKGRGKRGKKKKTRDLNRGQFLGEGKIGFLWPGLNAPLMVSGKVQSIAQRDEEEQKALQLAKAEEIKQLDKRRKIRIKKERGWTGRSWGGVSLGPPDPGPNGETFEDFDSRILELRSVFNMTANEGRKRSMRALVAVGNGKGSAGFALGKASHMKNALRKAKNKAIHHLQYVERYDDHTIYHDIAATFKKTTIRMKKQNKGYGLRCHRAIITLCKLIGIKDMYARVYGSNNILNLTTCLFKGLANQETHQNLANKKKLYVVEFREECGPLPIVVAKPNGPVREDPESEEAALDVKLEWKEVKAAQGI-RSRWADVKRA</Hsp_hseq>
-      <Hsp_midline>+A+L+   QT C IS+  ++  QQ R  SFF KLTA ELWKG  AE  AG +KGRGKR KKKK +DLNRGQ +GEG+ GFLWPGLN PLM +G VQ+IAQR +EEQ+ ++    ++ ++ D+++K+++K+ERGW+G SWGG+SLGPPDPGP GET+EDFD+RILE+R+VF MTA EGRK+S+R LVAVGNGKG+AGF++GKA+   +A RKAKN+A+HHL Y+ERY+DHTI+HDI+  FK+T I+MKKQ KGYGLRCHRAIIT+C+LIGIKDMYA+V GS N+L+LT  LF+GL+ QETHQ LA+KK L+VVE REECGPLPIVVA P GP+R+DPE E+   DVKL+W++VK AQG+ RS W+++KRA</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>497</Hit_num>
-  <Hit_id>ref|XP_033792741.1|</Hit_id>
-  <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Geotrypetes seraphini]</Hit_def>
-  <Hit_accession>XP_033792741</Hit_accession>
-  <Hit_len>358</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>487.649</Hsp_bit-score>
-      <Hsp_score>1254</Hsp_score>
-      <Hsp_evalue>5.67644e-169</Hsp_evalue>
-      <Hsp_query-from>73</Hsp_query-from>
-      <Hsp_query-to>429</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>357</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>242</Hsp_identity>
-      <Hsp_positive>304</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>357</Hsp_align-len>
-      <Hsp_qseq>ISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRAA</Hsp_qseq>
-      <Hsp_hseq>MSAPCGIMIQQCRQGSFFNKLTADELWRGVLAETGSGKRKGRGKRSKKKFKRDLNRGQVIGEGRSGLLWPGLNAPIVKSGTIQAIGKRDKAQQEEIRAEILRQRDEWDKKRKKKVKRERGWTGNSWGGIGLGPPDPSLKGEKYEDFESRVIELKNVASMTAKEGRKKSVSALVVVGNKNGAAGFALGKASDRTIALRKAKNQAINYLHFIERYNNHTIYEDISSTFNKTTIRMKKQNRGYGLRCHRAIITICKLIGITDMYAKVSGSINLLNITRALFQGLTRQETHQTLADKKGLHVVEFRDECGILPLVVASPREAVRKDPEPEEEVPDTKLEWDDVKEAQGMKRSFWANVKRTV</Hsp_hseq>
-      <Hsp_midline>+S+P  +M QQ R  SFF KLTADELW+G LAETG+G +KGRGKR+KKK ++DLNRGQ+IGEGR G LWPGLN P++K+G +Q I +R K +QE++ A++++QR+EWD+K+K KVKRERGW+GNSWGGI LGPPDP   GE YEDF++R++E++NV +MTAKEGRKKS+  LV VGN  GAAGF++GKA+DR  A RKAKN+A+++LH+IERY +HTI+ DIS  F +T I+MKKQ +GYGLRCHRAIITIC+LIGI DMYAKVSGSIN+L++T+ LF+GL+RQETHQ LADKKGLHVVE R+ECG LP+VVASPR  +RKDPEPE+EVPD KL+W+DVK AQGMKRS W+N+KR  </Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>498</Hit_num>
-  <Hit_id>ref|XP_025966303.1|</Hit_id>
-  <Hit_def>28S ribosomal protein S5, mitochondrial isoform X2 [Dromaius novaehollandiae]</Hit_def>
-  <Hit_accession>XP_025966303</Hit_accession>
-  <Hit_len>339</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>486.878</Hsp_bit-score>
-      <Hsp_score>1252</Hsp_score>
-      <Hsp_evalue>6.10828e-169</Hsp_evalue>
-      <Hsp_query-from>93</Hsp_query-from>
-      <Hsp_query-to>429</Hsp_query-to>
-      <Hsp_hit-from>2</Hsp_hit-from>
-      <Hsp_hit-to>338</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>240</Hsp_identity>
-      <Hsp_positive>297</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>337</Hsp_align-len>
-      <Hsp_qseq>LTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKRAA</Hsp_qseq>
-      <Hsp_hseq>LTADELWKGALAETGVGVKKGRGKRRKKKLRKNLNRGQEIGEGRSGFLWPGLNTPVIQSGRVQAVTQRKKEERERIQSEIVQQRDTWEKKRKIKVKREGGWSGNCWGGVILDPPDPGPNGETYEDFETRVIEVKNVFCMKAKEGRKKSIRAVVAIGNGKGAAGFAVGKAGDRMNALRKAKNKAIRCLHFIELYQNHTIYHDISVKFKRTTIRMKKQNKGYGLRCHRAIITICKLIGIKDMYAKVSGSKNLINITRALFKGLTEQETHQQLANQKSLYVVEFREEQGPLPIVVASPEGAIREDPEPEDEVPDTKLEWSEVKEAQGMKKSPWANVRRTA</Hsp_hseq>
-      <Hsp_midline>LTADELWKGALAETG G KKGRGKR KKK RK+LNRGQ IGEGR GFLWPGLN P++++G VQ + QR KEE+E+++++++QQR+ W++K+K+KVKRE GWSGN WGG+ L PPDPGP GETYEDF+TR++EV+NVF M AKEGRKKSIR +VA+GNGKGAAGF++GKA DRM+A RKAKN+A+  LH+IE Y++HTI+HDIS++FKRT I+MKKQ KGYGLRCHRAIITIC+LIGIKDMYAKVSGS N++++T+ LF+GL+ QETHQQLA++K L+VVE REE GPLPIVVASP G +R+DPEPEDEVPD KL+W +VK AQGMK+S W+N++R A</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>499</Hit_num>
-  <Hit_id>ref|XP_028279810.1|</Hit_id>
-  <Hit_def>28S ribosomal protein S5, mitochondrial [Parambassis ranga]</Hit_def>
-  <Hit_accession>XP_028279810</Hit_accession>
-  <Hit_len>404</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>489.189</Hsp_bit-score>
-      <Hsp_score>1258</Hsp_score>
-      <Hsp_evalue>9.42342e-169</Hsp_evalue>
-      <Hsp_query-from>67</Hsp_query-from>
-      <Hsp_query-to>427</Hsp_query-to>
-      <Hsp_hit-from>41</Hsp_hit-from>
-      <Hsp_hit-to>401</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>237</Hsp_identity>
-      <Hsp_positive>301</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>361</Hsp_align-len>
-      <Hsp_qseq>LQTQCCISSPSHLMSQQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKR</Hsp_qseq>
-      <Hsp_hseq>LQTHSAVPLFPPTVWQQTRHGSFFNKLTAEELWKGVLADTGAGGRKGRGKRTKRKFKRDLNRGQSIGEGRGGFLWPGLNVPIWKDGAVLKMSQRGQMEQQEVQAELLRQRDEWERRKKMKVKRERGWTGNSWGGISLGPPDPGPNGETYNDFDSRVIEVKSVFNMTAKEGRKRSISCLVAVGNGNGAAGFALGKATDRNTALRKAKNRAMHYLYYIERFNNHTIYHDIQSKFKKTTLCMKKQNEGYGLHCHRAVITLCKLIGIKDMYCKVEGSVNLLNITRALFTGLANQETHQTVADKKHLHVVEFQLQRGPLPTVVASPKDGAQHNPEPEDEIPDKRLHWDDVRAAQGNKRSIWAGVKR</Hsp_hseq>
-      <Hsp_midline>LQT   +      + QQ R  SFF KLTA+ELWKG LA+TGAG +KGRGKRTK+K ++DLNRGQ IGEGR GFLWPGLNVP+ K+GAV  ++QR + EQ++V+A++++QR+EW+R+KKMKVKRERGW+GNSWGGISLGPPDPGP GETY DFD+R++EV++VF MTAKEGRK+SI  LVAVGNG GAAGF++GKATDR  A RKAKNRA+H+L+YIER+ +HTI+HDI  +FK+T + MKKQ +GYGL CHRA+IT+C+LIGIKDMY KV GS+N+L++T+ LF GL+ QETHQ +ADKK LHVVE + + GPLP VVASP+   + +PEPEDE+PD +L W+DV+ AQG KRS+W+ +KR</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>500</Hit_num>
-  <Hit_id>ref|XP_033469650.1|</Hit_id>
-  <Hit_def>28S ribosomal protein S5, mitochondrial [Epinephelus lanceolatus]</Hit_def>
-  <Hit_accession>XP_033469650</Hit_accession>
-  <Hit_len>405</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>489.189</Hsp_bit-score>
-      <Hsp_score>1258</Hsp_score>
-      <Hsp_evalue>9.44644e-169</Hsp_evalue>
-      <Hsp_query-from>82</Hsp_query-from>
-      <Hsp_query-to>427</Hsp_query-to>
-      <Hsp_hit-from>57</Hsp_hit-from>
-      <Hsp_hit-to>402</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>225</Hsp_identity>
-      <Hsp_positive>296</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>346</Hsp_align-len>
-      <Hsp_qseq>QQYRPYSFFTKLTADELWKGALAETGAGAKKGRGKRTKKKKRKDLNRGQIIGEGRYGFLWPGLNVPLMKNGAVQTIAQRSKEEQEKVEADMIQQREEWDRKKKMKVKRERGWSGNSWGGISLGPPDPGPCGETYEDFDTRILEVRNVFTMTAKEGRKKSIRVLVAVGNGKGAAGFSIGKATDRMDAFRKAKNRAVHHLHYIERYEDHTIFHDISLRFKRTHIKMKKQPKGYGLRCHRAIITICRLIGIKDMYAKVSGSINMLSLTQGLFRGLSRQETHQQLADKKGLHVVEIREECGPLPIVVASPRGPLRKDPEPEDEVPDVKLDWEDVKTAQGMKRSVWSNLKR</Hsp_qseq>
-      <Hsp_hseq>QQTRHGSFFNKLTAEQLWKGVLAESGAGARKGRGKRTKRKVKRDLYKGQIIGEGRGGFLWPGLNSPVAKDGNLLSVRRRGESEQQEVQAELVHQRDEWDRKRKMKVKRERGWTGNSWGGLSLGPPDPGPNGETYQDFDSRVIEVKSVFNMTAKEGRKRSVSCLVAVGNGNGAAGFAVAKAADRNTALRKAKNRAMHYLYYIERYNNKTIYHDINSKFKRTTLRIKKQNEGYGLHCHRAVITLCKLIGIQDMYCKVEGSVNLLNITRALFTGLANQEVHQKLADKKKLHVVEFQSQQGPLPIVVASPKDGAQPDPEPEDEIPNTRLHWDDVQAAQGTRRSIWADVKR</Hsp_hseq>
-      <Hsp_midline>QQ R  SFF KLTA++LWKG LAE+GAGA+KGRGKRTK+K ++DL +GQIIGEGR GFLWPGLN P+ K+G + ++ +R + EQ++V+A+++ QR+EWDRK+KMKVKRERGW+GNSWGG+SLGPPDPGP GETY+DFD+R++EV++VF MTAKEGRK+S+  LVAVGNG GAAGF++ KA DR  A RKAKNRA+H+L+YIERY + TI+HDI+ +FKRT +++KKQ +GYGL CHRA+IT+C+LIGI+DMY KV GS+N+L++T+ LF GL+ QE HQ+LADKK LHVVE + + GPLPIVVASP+   + DPEPEDE+P+ +L W+DV+ AQG +RS+W+++KR</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>227381124</Statistics_db-num>
-      <Statistics_db-len>1598776142</Statistics_db-len>
+      <Statistics_db-num>228827738</Statistics_db-num>
+      <Statistics_db-len>88059143001</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>

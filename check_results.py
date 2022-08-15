@@ -22,8 +22,7 @@ def check_csv():
             if protein[0].strip() != original_name and protein[0].strip() != predicted:
                 delete_protein_from_csv(protein[0], file)
                 delete_protein_from_hits_files(protein[0], file)
-                break
-            break
+        break
 
 
 def delete_protein_from_csv(protein_to_delete, file_name):
@@ -40,8 +39,9 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
     fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
     with open(fasta_file_name, 'r') as fasta_file:
         fasta_read = fasta_file.read()
-        new_fasta = re.sub("/^(>ref.*%s.*?)>ref/gm" % protein_to_delete, '', fasta_read)
-        print(new_fasta)
+        new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % protein_to_delete, '>ref', fasta_read, 0, re.M)
+    with open(fasta_file_name, 'w') as fasta_file:
+        fasta_file.write(new_fasta)
 
 
 if __name__ == '__main__':

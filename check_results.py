@@ -44,5 +44,28 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
         fasta_file.write(new_fasta)
 
 
+def animals_list():
+    directory = 'csv-files'
+    files = Path(directory).glob('*')
+    files_list = list(files)
+    first_file = files_list[0]
+    df = pd.read_csv(first_file)
+    # df = df.iloc[1:]
+    df = df.drop(df.index[:1])
+    organisms_list = df[['organism']]
+    numpy_organisms = organisms_list.to_numpy()
+    # organisms_list = organisms_list.iloc[1:]
+    not_common_organisms = []
+    common_organisms = []
+    for organism in numpy_organisms:
+        for file in files_list:
+            check_df = pd.read_csv(file)
+            if organism[0] not in set(check_df['organism']):
+                not_common_organisms.append(organism[0])
+                break
+        common_organisms.append(organism[0])
+
+
 if __name__ == '__main__':
-    check_csv()
+    animals_list()
+    #check_csv()

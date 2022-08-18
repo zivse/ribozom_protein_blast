@@ -50,11 +50,9 @@ def animals_list():
     files_list = list(files)
     first_file = files_list[0]
     df = pd.read_csv(first_file)
-    # df = df.iloc[1:]
     df = df.drop(df.index[:1])
     organisms_list = df[['organism']]
     numpy_organisms = organisms_list.to_numpy()
-    # organisms_list = organisms_list.iloc[1:]
     not_common_organisms = []
     common_organisms = []
     for organism in numpy_organisms:
@@ -64,6 +62,13 @@ def animals_list():
                 not_common_organisms.append(organism[0])
                 break
         common_organisms.append(organism[0])
+    df = pd.read_csv('table_of_organisms.csv')
+    organism_from_table_list = df[['organism']]
+    numpy_organism_from_table_list = organism_from_table_list.to_numpy()
+    for organism in common_organisms:
+        if organism not in numpy_organism_from_table_list:
+            common_organisms.remove(organism)
+            break
 
 
 if __name__ == '__main__':

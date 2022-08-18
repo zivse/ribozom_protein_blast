@@ -51,10 +51,12 @@ def animals_list():
     first_file = files_list[0]
     df = pd.read_csv(first_file)
     df = df.drop(df.index[:1])
+    #take the list from the first csv
     organisms_list = df[['organism']]
     numpy_organisms = organisms_list.to_numpy()
     not_common_organisms = []
     common_organisms = []
+    #for each organisms in the lists check that appear in all the other csvs
     for organism in numpy_organisms:
         for file in files_list:
             check_df = pd.read_csv(file)
@@ -64,6 +66,7 @@ def animals_list():
         common_organisms.append(organism[0])
     df = pd.read_csv('table_of_organisms.csv')
     organism_from_table_list = df[['organism']]
+    #check that all the organisms in the lists appear in the table
     numpy_organism_from_table_list = organism_from_table_list.to_numpy()
     for organism in common_organisms:
         if organism not in numpy_organism_from_table_list:

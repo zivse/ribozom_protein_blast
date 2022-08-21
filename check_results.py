@@ -10,8 +10,6 @@ def check_csv():
     files = Path(directory).glob('*')
     #go over all the files in csv-files
     for file in files:
-        # delete_protein_from_hits_files('28S ribosomal protein S10', file)
-        # break
         #using df to check the names of all the proteins
         df = pd.read_csv(file)
         protein_names = df[['protein_name']]
@@ -53,7 +51,7 @@ def protein_from_animal():
         protein_and_organism_names = df[['protein_name', 'organism']]
         numpy_proteins = protein_and_organism_names.to_numpy()
         #check if organism in common organisms list
-        for protein in protein_and_organism_names:
+        for protein in numpy_proteins:
             #if not delete it
             if protein[1] not in common_organisms:
                 delete_protein_from_csv(protein[0], file)

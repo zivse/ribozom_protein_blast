@@ -33,7 +33,6 @@ def delete_protein_from_csv(protein_to_delete, file_name):
 
 
 def delete_protein_from_hits_files(protein_to_delete, file_name):
-    #delete from fasta - doesnt work yet
     protein_id = os.path.basename(file_name)
     file_name_array = protein_id.split('.')
     fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
@@ -42,6 +41,24 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
         new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % protein_to_delete, '>ref', fasta_read, 0, re.M)
     with open(fasta_file_name, 'w') as fasta_file:
         fasta_file.write(new_fasta)
+
+
+def protein_from_animal():
+    common_organisms = animals_list()
+    directory = 'csv-files'
+    files = Path(directory).glob('*')
+    # go over all the files in csv-files
+    for file in files:
+        df = pd.read_csv(file)
+        protein_and_organism_names = df[['protein_name', 'organism']]
+        numpy_proteins = protein_and_organism_names.to_numpy()
+        #check if organism in common organisms list
+        for protein in protein_and_organism_names:
+            #if not delete it
+            if protein[1] not in common_organisms:
+                delete_protein_from_csv(protein[0], file)
+                delete_protein_from_hits_files(protein[0], file)
+            break
 
 
 def animals_list():
@@ -72,8 +89,10 @@ def animals_list():
         if organism not in numpy_organism_from_table_list:
             common_organisms.remove(organism)
             break
+    return common_organisms
 
 
 if __name__ == '__main__':
-    animals_list()
+    # animals_list()
     #check_csv()
+    protein_from_animal()

@@ -49,12 +49,6 @@ def results_to_csv(blast_records, protein_id):
     for alignment in blast_records.alignments:  # iterate over all hits
         for hsp in alignment.hsps:  # iterate over all hsps
             if hsp.expect < 0.05:  # if the e-value is less than 0.05
-                # print('****Alignment****')
-                # print('sequence:', alignment.title)
-                # print('length:', alignment.length)
-                # print('e value:', hsp.expect)
-                # print('match:', hsp.match)
-                # print('sbjct:', hsp.sbjct)
                 report['query_id'].append(alignment.title.split('|')[1])  # add the query id to the report dictionary
                 report['protein_name'].append(
                     alignment.title.split('|')[2].split(',')[0])  # add the protein name to the report dictionary

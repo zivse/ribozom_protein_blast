@@ -1,10 +1,9 @@
 import os
 from pathlib import Path
 import pandas as pd
-import re
-
+import pickle
 from Bio import Entrez, SeqIO
-
+from ast import literal_eval # Used to convert the list column to a real list
 
 def check_csv():
     #check the names of all the proteins in the csv files
@@ -44,25 +43,6 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
     with open(fasta_file_name, 'w') as fasta_file:
         fasta_file.write(new_fasta)
 
-
-def protein_from_animal():
-    common_organisms = animals_list()
-    directory = 'csv-files'
-    files = Path(directory).glob('*')
-    # go over all the files in csv-files
-    for file in files:
-        df = pd.read_csv(file)
-        protein_and_organism_names = df[['protein_name', 'organism']]
-        numpy_proteins = protein_and_organism_names.to_numpy()
-        #check if organism in common organisms list
-        for protein in numpy_proteins:
-            #if not delete it
-            if protein[1] not in common_organisms:
-                delete_protein_from_csv(protein[0], file)
-                delete_protein_from_hits_files(protein[0], file)
-            break
-
-
 def animals_list():
     directory = 'csv-files'
     files = Path(directory).glob('*')
@@ -92,8 +72,30 @@ def animals_list():
             common_organisms.remove(organism)
             #check the break
             break
+    # Save the list to a file
+    with open('common_organisms', 'wb') as f: # Save the list to a file
+        pickle.dump(common_organisms, f)
     return common_organisms
 
+def protein_from_animal():
+    if os.path.exists('common_organisms'): # Load the list from file if it exists
+        with open('common_organisms', 'rb') as f:
+            common_organisms = pickle.load(f)
+    else: common_organisms = animals_list() # If the list doesn't exist, create it
+    directory = 'csv-files'
+    files = Path(directory).glob('*')
+    # go over all the files in csv-files
+    for file in files:
+        df = pd.read_csv(file)
+        protein_and_organism_names = df[['protein_name', 'organism']]
+        numpy_proteins = protein_and_organism_names.to_numpy()
+        #check if organism in common organisms list
+        for protein in numpy_proteins:
+            #if not delete it
+            if protein[1] not in common_organisms:
+                delete_protein_from_csv(protein[0], file)
+                delete_protein_from_hits_files(protein[0], file)
+            break
 
 def remove_duplicate():
     directory = 'csv-files'
@@ -134,29 +136,45 @@ def record_check(ID, type = 'gb'):
     net_handle.close()
     out_handle.close()
 
-def rrnL_csv():
+def gene_csv(gene):
     PATH = os.getcwd()
-    common_organism = animals_list()
+    if os.path.exists('common_organisms'): # Load the list from file if it exists
+        with open('common_organisms', 'rb') as f:
+            common_organisms = pickle.load(f)  # If the list doesn't exist, create it
+    else: common_organisms = animals_list()
+    common_organisms = common_organisms[0:10]
     df = df = pd.read_csv("table_of_organisms.csv")
-    for organism in animals_list:
-        organism_id = df.loc[df['organism'] == organism]['RefSeq']
-        organism_locs = df.loc[df['organism'] == organism]['Gene_locations']
-        organism_gene_order = df.loc[df['organism'] == organism]['Gene_order']
+    for c in ['Gene_locations', 'Gene_order']: # Convert the columns to lists TODO(Ziv) Read about this function
+        df[c] = df[c].apply(literal_eval)
+
+    fasta_lines = ''
+    for organism in common_organisms:
+        try: # Try to find the gene in the organism
+            organism_id = df.loc[df['organism'] == organism]['RefSeq'].iloc[0]  # Get the RefSeq ID of the organism, .iloc[0] is required because otherwise it returns a series
+            organism_locs = df.loc[df['organism'] == organism]['Gene_locations'].iloc[0]
+            organism_gene_order = df.loc[df['organism'] == organism]['Gene_order'].iloc[0]
+        except IndexError: # If the organism is not in the table, skip it
+            print('Could not find ' + organism + ' in the table')
+            continue
         record_check(
             organism_id)  # Use the above function to create the record for the organism if it does not exist (better to save handles if you have enough memory)
         record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'),
                             'genbank')  # Load the record file (genbank format)
         seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
-        name = 'rrnL'  # The gene name
+        name = gene  # The gene name
         ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
         loc = organism_locs[ind]  # The gene location based on the list of gene locations
+        print(loc)
         start, end, strand = loc.split(':')  # Split the start, end and strand
         print(
-            f'rrnL starts at {start} and ends at {end} in the {strand} strand')  # Print the start and end location of the gene
+            f'{gene} starts at {start} and ends at {end} in the {strand} strand')  # Print the start and end location of the gene
         if strand == -1:
             cur_seq = seq[int(start):int(end)].reverse_complement()  # Reverse complement ONLY IF strand is -1
-        with open('test_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file
-            fasta.write(f'>{organism_id}_{name}\n{cur_seq}\n')  # This is just for one organism, need to do for all
+        else: cur_seq = seq[int(start):int(end)] # Ziv - You forgot the else statement!
+        fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
+    with open('test_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
+        fasta.write(fasta_lines)
+        
 
 # if __name__ == '__main__':
 #     # animals_list()

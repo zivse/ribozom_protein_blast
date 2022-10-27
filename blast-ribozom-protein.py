@@ -3,6 +3,7 @@ import ssl  # monkey patch for BioPython 1.68 & 1.69
 ssl._create_default_https_context = ssl._create_unverified_context
 
 import os
+# TODO: change name of the variable below to be more specific
 PATH = os.getcwd()
 from Bio import SeqIO
 from Bio import Entrez
@@ -13,8 +14,14 @@ Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key her
 from pathlib import Path
 import pandas as pd
 
+"""
+TODO: move file names to constants in a new file named `consts.py`
+TODO: add function documentation to all functions
+"""
+
 
 def handle_entrez(protein_id):
+    # TODO: add function documentation instead of the comments below
     # Fetch the handle for the protein, based on protein ID as a fasta file
     handle = Entrez.efetch(db="protein", id=protein_id, rettype='fasta', retmode='text')
     # Save handle as a fasta file
@@ -35,6 +42,7 @@ def blast_results_to_xml(record, protein_id):
 
 def get_blast_from_xml(protein_id):
     # Parse the BLASTp results which were saved into xml file as a BLAST record object
+    # TODO: use `with` statement when dealing with the file
     result_handle = open(os.path.join(PATH, 'xml-files', protein_id + '.xml'), 'r')
     blast_records = NCBIXML.read(result_handle)
     result_handle.close()
@@ -42,6 +50,7 @@ def get_blast_from_xml(protein_id):
 
 
 def results_to_csv(blast_records, protein_id):
+    # TODO: add function documentation
     # iterate over all hits, print information, generate a report dataframe and a fasta of the protein sequence of all hits
     report = {i: [] for i in ['query_id', 'protein_name', 'organism', 'e-value',
                               'score']}  # initialize a dictionary to store the report data
@@ -64,6 +73,7 @@ def results_to_csv(blast_records, protein_id):
 
 
 def handle_protein(protein_id):
+    # TODO: add function documentation
     handle_entrez(protein_id)
     # Read the record after it has been saved as a file.
     record = SeqIO.read(os.path.join('seq-files', f'{protein_id}.fasta'), 'fasta')

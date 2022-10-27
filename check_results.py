@@ -5,7 +5,12 @@ import pickle
 from Bio import Entrez, SeqIO
 from ast import literal_eval # Used to convert the list column to a real list
 
+"""
+TODO: move file names to constants in a new file named `consts.py`
+"""
+
 def check_csv():
+    # TODO: add function documentation
     #check the names of all the proteins in the csv files
     directory = 'csv-files'
     files = Path(directory).glob('*')
@@ -18,6 +23,7 @@ def check_csv():
         numpy_proteins = protein_names.to_numpy()
         for protein in numpy_proteins:
             predicted = 'PREDICTED: '+original_name
+            # TODO: `protein[0]` is used in many places in this function, make it a variable
             if protein[0].strip() != original_name and protein[0].strip() != predicted:
                 delete_protein_from_csv(protein[0], file)
                 delete_protein_from_hits_files(protein[0], file)
@@ -34,16 +40,19 @@ def delete_protein_from_csv(protein_to_delete, file_name):
 
 
 def delete_protein_from_hits_files(protein_to_delete, file_name):
+    # TODO: the name of the variable below doesnt make sense
     protein_id = os.path.basename(file_name)
     file_name_array = protein_id.split('.')
     fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
     with open(fasta_file_name, 'r') as fasta_file:
         fasta_read = fasta_file.read()
+        # TODO: add explanation for how and what the regex is doing
         new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % protein_to_delete, '>ref', fasta_read, 0, re.M)
     with open(fasta_file_name, 'w') as fasta_file:
         fasta_file.write(new_fasta)
 
 def animals_list():
+    # TODO: add functions documentation
     directory = 'csv-files'
     files = Path(directory).glob('*')
     files_list = list(files)
@@ -55,6 +64,7 @@ def animals_list():
     numpy_organisms = organisms_list.to_numpy()
     not_common_organisms = []
     common_organisms = []
+    # TODO: extract to seperate function the logic for getting common and uncommon organisms
     #for each organisms in the lists check that appear in all the other csvs
     for organism in numpy_organisms:
         for file in files_list:
@@ -78,6 +88,7 @@ def animals_list():
     return common_organisms
 
 def protein_from_animal():
+    # TODO: add documentation to the function
     if os.path.exists('common_organisms'): # Load the list from file if it exists
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)
@@ -85,6 +96,7 @@ def protein_from_animal():
     directory = 'csv-files'
     files = Path(directory).glob('*')
     # go over all the files in csv-files
+    # TODO: extract the logic below to a different function and document it
     for file in files:
         df = pd.read_csv(file)
         protein_and_organism_names = df[['protein_name', 'organism']]
@@ -97,8 +109,12 @@ def protein_from_animal():
                 delete_protein_from_hits_files(protein[0], file)
             break
 
+# TODO: change the name of the function to be more specific.
+#       right now we dont know where it removes the duplicates from
 def remove_duplicate():
     directory = 'csv-files'
+    # TODO: move two lines below to a seperate function
+    #       and use the function everywhere where needed
     files = Path(directory).glob('*')
     files_list = list(files)
     #for each csv find the duplicate and select the one with the lowest e-value
@@ -136,14 +152,16 @@ def record_check(ID, type = 'gb'):
     net_handle.close()
     out_handle.close()
 
+# TODO: in the function below there are lots of comments that noam added for you, see whats relevant and remove the rest
 def gene_csv(gene):
+    # TODO: add documentation for the function
     PATH = os.getcwd()
     if os.path.exists('common_organisms'): # Load the list from file if it exists
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)  # If the list doesn't exist, create it
-    else: common_organisms = animals_list()
-    common_organisms = common_organisms[0:10]
-    df = df = pd.read_csv("table_of_organisms.csv")
+    else: common_organisms = animals_list()  # TODO: fix indentation
+    common_organisms = common_organisms[0:10]  # TODO: why 0:10 ? document it
+    df = df = pd.read_csv("table_of_organisms.csv")  # TODO: why `df = df`?
     for c in ['Gene_locations', 'Gene_order']: # Convert the columns to lists TODO(Ziv) Read about this function
         df[c] = df[c].apply(literal_eval)
 
@@ -156,20 +174,21 @@ def gene_csv(gene):
         except IndexError: # If the organism is not in the table, skip it
             print('Could not find ' + organism + ' in the table')
             continue
-        record_check(
-            organism_id)  # Use the above function to create the record for the organism if it does not exist (better to save handles if you have enough memory)
-        record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'),
-                            'genbank')  # Load the record file (genbank format)
+        record_check(organism_id)  # Use the above function to create the record for the organism if it does not exist (better to save handles if you have enough memory)
+        # TODO: move the two lines below to a function and return the `seq` from the function
+        record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'), 'genbank')  # Load the record file (genbank format)
+        # TODO: you can take all the logic that is related to finding the sequence of the protein and put it inside a seperate function, then call it here
         seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
+        # TODO: why define a new variable called `name` instead of using the variable `gene`
         name = gene  # The gene name
         ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
         loc = organism_locs[ind]  # The gene location based on the list of gene locations
         print(loc)
         start, end, strand = loc.split(':')  # Split the start, end and strand
-        print(
-            f'{gene} starts at {start} and ends at {end} in the {strand} strand')  # Print the start and end location of the gene
+        print(f'{gene} starts at {start} and ends at {end} in the {strand} strand')  # Print the start and end location of the gene
         if strand == -1:
             cur_seq = seq[int(start):int(end)].reverse_complement()  # Reverse complement ONLY IF strand is -1
+        #TODO: fix indentation of the else statement
         else: cur_seq = seq[int(start):int(end)] # Ziv - You forgot the else statement!
         fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
     with open('test_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once

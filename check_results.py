@@ -1,9 +1,12 @@
 import os
 from pathlib import Path
+from typing import re
+
 import pandas as pd
 import pickle
 from Bio import Entrez, SeqIO
 from ast import literal_eval # Used to convert the list column to a real list
+
 
 def check_csv():
     #check the names of all the proteins in the csv files
@@ -43,6 +46,7 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
     with open(fasta_file_name, 'w') as fasta_file:
         fasta_file.write(new_fasta)
 
+
 def animals_list():
     directory = 'csv-files'
     files = Path(directory).glob('*')
@@ -76,6 +80,7 @@ def animals_list():
     with open('common_organisms', 'wb') as f: # Save the list to a file
         pickle.dump(common_organisms, f)
     return common_organisms
+
 
 def protein_from_animal():
     if os.path.exists('common_organisms'): # Load the list from file if it exists

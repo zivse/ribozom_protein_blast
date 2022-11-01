@@ -163,22 +163,21 @@ def record_check( ID, type = 'gb'):
 # TODO: in the function below there are lots of comments that noam added for you, see whats relevant and remove the rest
 def gene_csv(gene):
     """
-        Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
+    Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
 
-        Parameters
-        ----------
-        gene : str
-            Name of the gene.
-        """
+    Parameters
+    ----------
+    gene : str
+        Name of the gene.
+    """
     PATH = os.getcwd()
     if os.path.exists('common_organisms'): # Load the list from file if it exists
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)  # If the list doesn't exist, create it
-    else:
-        common_organisms = animals_list()
-    common_organisms = common_organisms[0:10]  # TODO: why 0:10 ? document it
+
+    else: common_organisms = animals_list()
     df = pd.read_csv("table_of_organisms.csv")
-    for c in ['Gene_locations', 'Gene_order']: # Convert the columns to lists
+    for c in ['Gene_locations', 'Gene_order']: # Convert the column values to lists TODO(Ziv) Read about this function
         df[c] = df[c].apply(literal_eval)
 
     fasta_lines = ''
@@ -207,7 +206,7 @@ def gene_csv(gene):
         else:
             cur_seq = seq[int(start):int(end)]
         fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
-    with open('test_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
+    with open(f'{gene}_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
         fasta.write(fasta_lines)
         
 

@@ -31,7 +31,7 @@ def check_csv():
                 delete_protein_from_csv(protein_0, file)
                 delete_protein_from_hits_files(protein_0, file)
 
-    remove_duplicate()
+    remove_duplicate_organisms_from_csv_files()
 
 
 def delete_protein_from_csv(protein_to_delete, file_name):
@@ -98,7 +98,7 @@ def generate_common_and_noncommon_organisms(numpy_organisms, files_list):
 
 
 def protein_from_animal():
-    # TODO: add documentation to the function
+    """delete all the information related to organisms that dont exist in the common organisms list """
     if os.path.exists('common_organisms'): # Load the list from file if it exists
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)
@@ -106,7 +106,6 @@ def protein_from_animal():
     directory = 'csv-files'
     files = Path(directory).glob('*')
     # go over all the files in csv-files
-    # TODO: extract the logic below to a different function and document it
     for file in files:
         df = pd.read_csv(file)
         protein_and_organism_names = df[['protein_name', 'organism']]
@@ -117,11 +116,9 @@ def protein_from_animal():
             if protein[1] not in common_organisms:
                 delete_protein_from_csv(protein[0], file)
                 delete_protein_from_hits_files(protein[0], file)
-            break
 
-# TODO: change the name of the function to be more specific.
-#       right now we dont know where it removes the duplicates from
-def remove_duplicate():
+
+def remove_duplicate_organisms_from_csv_files():
     directory = 'csv-files'
     # TODO: move two lines below to a seperate function
     #       and use the function everywhere where needed
@@ -164,7 +161,14 @@ def record_check( ID, type = 'gb'):
 
 # TODO: in the function below there are lots of comments that noam added for you, see whats relevant and remove the rest
 def gene_csv(gene):
-    # TODO: add documentation for the function
+    """
+        Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
+
+        Parameters
+        ----------
+        gene : str
+            Name of the gene.
+        """
     PATH = os.getcwd()
     if os.path.exists('common_organisms'): # Load the list from file if it exists
         with open('common_organisms', 'rb') as f:
@@ -173,7 +177,7 @@ def gene_csv(gene):
         common_organisms = animals_list()
     common_organisms = common_organisms[0:10]  # TODO: why 0:10 ? document it
     df = pd.read_csv("table_of_organisms.csv")
-    for c in ['Gene_locations', 'Gene_order']: # Convert the columns to lists TODO(Ziv) Read about this function
+    for c in ['Gene_locations', 'Gene_order']: # Convert the columns to lists
         df[c] = df[c].apply(literal_eval)
 
     fasta_lines = ''

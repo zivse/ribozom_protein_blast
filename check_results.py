@@ -7,6 +7,8 @@ import pickle
 from Bio import Entrez, SeqIO
 from ast import literal_eval # Used to convert the list column to a real list
 
+from consts import HITS_FILES_NAME, CSV_FILES_NAME
+
 """
 TODO: move file names to constants in a new file named `consts.py`
 """
@@ -43,7 +45,7 @@ def delete_protein_from_csv(protein_to_delete, file_name):
 def delete_protein_from_hits_files(protein_to_delete, file_name):
     protein_file_path = os.path.basename(file_name)
     file_name_array = protein_file_path.split('.')
-    fasta_file_name = 'hits-files/' + file_name_array[0] + '_hits.fasta'
+    fasta_file_name = HITS_FILES_NAME +'/' + file_name_array[0] + '_hits.fasta'
     with open(fasta_file_name, 'r') as fasta_file:
         fasta_read = fasta_file.read()
         # find the line containing the protein we want to delete and replace it
@@ -101,7 +103,7 @@ def protein_from_animal():
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)
     else: common_organisms = animals_list() # If the list doesn't exist, create it
-    directory = 'csv-files'
+    directory = CSV_FILES_NAME
     files = Path(directory).glob('*')
     # go over all the files in csv-files
     for file in files:
@@ -126,7 +128,7 @@ def remove_duplicate_organisms_from_csv_files():
 
 
 def generate_files_list():
-    directory = 'csv-files'
+    directory = CSV_FILES_NAME
     files = Path(directory).glob('*')
     files_list = list(files)
     return files_list
@@ -212,7 +214,6 @@ def find_protein_seq(PATH,organism_id):
     seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
     return seq
 
-    return seq
 # if __name__ == '__main__':
 #     # animals_list()
 #     #check_csv()

@@ -54,9 +54,7 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
 
 def animals_list():
     """returns a list of strings representing the common organizems and saving them to a file"""
-    directory = 'csv-files'
-    files = Path(directory).glob('*')
-    files_list = list(files)
+    files_list = generate_files_list()
     first_file = files_list[0]
     df = pd.read_csv(first_file)
     df = df.drop(df.index[:1])
@@ -97,7 +95,6 @@ def generate_common_and_noncommon_organisms(numpy_organisms, files_list):
     return common_organisms, not_common_organisms
 
 
-
 def protein_from_animal():
     """delete all the information related to organisms that dont exist in the common organisms list """
     if os.path.exists('common_organisms'): # Load the list from file if it exists
@@ -120,20 +117,22 @@ def protein_from_animal():
 
 
 def remove_duplicate_organisms_from_csv_files():
-    directory = 'csv-files'
-    # TODO: move two lines below to a seperate function
-    #       and use the function everywhere where needed
-    files = Path(directory).glob('*')
-    files_list = list(files)
-    #for each csv find the duplicate and select the one with the lowest e-value
+    """"#for each csv find the duplicate and select the one with the lowest e-value"""
+    files_list = generate_files_list()
     for file in files_list:
         df = pd.read_csv(file)
         df1 = df.loc[df.groupby('organism', sort=False)['e-value'].idxmin()]
         df1.to_csv(file, sep=',', index=False)
 
 
-def record_check( ID, type = 'gb'):
+def generate_files_list():
+    directory = 'csv-files'
+    files = Path(directory).glob('*')
+    files_list = list(files)
+    return files_list
 
+
+def record_check( ID, type = 'gb'):
   """
   Check whether org genbank exists, if not download it, based on RefSeq ID.
 
@@ -160,7 +159,7 @@ def record_check( ID, type = 'gb'):
     net_handle.close()
     out_handle.close()
 
-# TODO: in the function below there are lots of comments that noam added for you, see whats relevant and remove the rest
+
 def gene_csv(gene):
     """
     Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
@@ -175,9 +174,10 @@ def gene_csv(gene):
         with open('common_organisms', 'rb') as f:
             common_organisms = pickle.load(f)  # If the list doesn't exist, create it
 
-    else: common_organisms = animals_list()
+    else:
+        common_organisms = animals_list()
     df = pd.read_csv("table_of_organisms.csv")
-    for c in ['Gene_locations', 'Gene_order']: # Convert the column values to lists TODO(Ziv) Read about this function
+    for c in ['Gene_locations', 'Gene_order']: # Convert the column values to lists
         df[c] = df[c].apply(literal_eval)
 
     fasta_lines = ''
@@ -189,12 +189,7 @@ def gene_csv(gene):
         except IndexError: # If the organism is not in the table, skip it
             print('Could not find ' + organism + ' in the table')
             continue
-        record_check(organism_id)  # Use the above function to create the record for the organism if it does not exist (better to save handles if you have enough memory)
-        # TODO: move the two lines below to a function and return the `seq` from the function
-        record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'), 'genbank')  # Load the record file (genbank format)
-        # TODO: you can take all the logic that is related to finding the sequence of the protein and put it inside a seperate function, then call it here
-        seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
-        # TODO: why define a new variable called `name` instead of using the variable `gene`
+        seq = find_protein_seq(PATH, organism_id)
         name = gene  # The gene name
         ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
         loc = organism_locs[ind]  # The gene location based on the list of gene locations
@@ -208,8 +203,16 @@ def gene_csv(gene):
         fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
     with open(f'{gene}_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
         fasta.write(fasta_lines)
-        
 
+
+def find_protein_seq(PATH,organism_id):
+    record_check(organism_id)
+    record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'),
+                        'genbank')  # Load the record file (genbank format)
+    seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
+    return seq
+
+    return seq
 # if __name__ == '__main__':
 #     # animals_list()
 #     #check_csv()

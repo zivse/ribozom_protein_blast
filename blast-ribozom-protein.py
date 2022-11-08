@@ -12,10 +12,6 @@ Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
 Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
 import pandas as pd
 
-"""
-TODO: move file names to constants in a new file named `consts.py`
-"""
-
 
 def handle_entrez(protein_id):
     """Fetch the handle for the protein, based on protein ID as a fasta file"""

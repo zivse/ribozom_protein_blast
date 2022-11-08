@@ -9,10 +9,6 @@ from ast import literal_eval # Used to convert the list column to a real list
 
 from consts import HITS_FILES_NAME, CSV_FILES_NAME
 
-"""
-TODO: move file names to constants in a new file named `consts.py`
-"""
-
 
 def check_csv():
     """check that all the protein in the csv have right names and delete the ones that dont"""
@@ -214,7 +210,10 @@ def find_protein_seq(PATH,organism_id):
     seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
     return seq
 
-# if __name__ == '__main__':
+
+if __name__ == '__main__':
+    gene_csv('rrnL')
 #     # animals_list()
 #     #check_csv()
 #     protein_from_animal()
+

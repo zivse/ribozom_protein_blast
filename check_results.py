@@ -1,6 +1,9 @@
+import ssl  # monkey patch for BioPython 1.68 & 1.69
+ssl._create_default_https_context = ssl._create_unverified_context
+
 import os
 from pathlib import Path
-from typing import re
+import re
 
 import pandas as pd
 import pickle
@@ -8,7 +11,8 @@ from Bio import Entrez, SeqIO
 from ast import literal_eval # Used to convert the list column to a real list
 
 from consts import HITS_FILES_NAME, CSV_FILES_NAME
-
+Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
+Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
 
 def check_csv():
     """check that all the protein in the csv have right names and delete the ones that dont"""
@@ -212,8 +216,8 @@ def find_protein_seq(PATH,organism_id):
 
 
 if __name__ == '__main__':
-    gene_csv('rrnL')
-#     # animals_list()
-#     #check_csv()
-#     protein_from_animal()
+    # gene_csv('rrnL')
+    # animals_list()
+    check_csv()
+    # protein_from_animal()
 

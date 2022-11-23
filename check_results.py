@@ -7,7 +7,7 @@ import re
 
 import pandas as pd
 import pickle
-from Bio import Entrez, SeqIO
+from Bio import Entrez, SeqIO, Seq
 from ast import literal_eval # Used to convert the list column to a real list
 Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
 Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
@@ -198,10 +198,13 @@ def gene_csv(gene):
             organism_locs = df.loc[df['organism'] == organism]['Gene_locations'].iloc[0]
             organism_gene_order = df.loc[df['organism'] == organism]['Gene_order'].iloc[0]
         except IndexError: # If the organism is not in the table, skip it
-            print('Could not find ' + organism + ' in the table')
+            print('ERROR: Could not find ' + organism + ' in the table')
             continue
         seq = find_protein_seq(PATH, organism_id)
-
+        try: seq[0]
+        except Seq.UndefinedSequenceError:
+            print('ERROR: Could not find ' + organism + ' in the genbank DB bad sequence!')
+            continue
         name = gene  # The gene name
         try:
             ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
@@ -221,8 +224,8 @@ def gene_csv(gene):
         fasta.write(fasta_lines)
 
 if __name__ == '__main__':
-    # gene_csv('rrnL')
+    gene_csv('rrnL')
     # animals_list()
-    check_csv()
+    # check_csv()
     # protein_from_animal()
 

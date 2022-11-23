@@ -6,6 +6,8 @@ import pandas as pd
 import pickle
 from Bio import Entrez, SeqIO
 from ast import literal_eval # Used to convert the list column to a real list
+Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
+Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
 
 from consts import HITS_FILES_NAME, CSV_FILES_NAME
 
@@ -158,6 +160,13 @@ def record_check( ID, type = 'gb'):
     out_handle.close()
 
 
+def find_protein_seq(PATH,organism_id):
+    record_check(organism_id)
+    record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'),
+                        'genbank')  # Load the record file (genbank format)
+    seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
+    return seq
+
 def gene_csv(gene):
     """
     Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
@@ -188,8 +197,13 @@ def gene_csv(gene):
             print('Could not find ' + organism + ' in the table')
             continue
         seq = find_protein_seq(PATH, organism_id)
+
         name = gene  # The gene name
-        ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
+        try:
+            ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
+        except ValueError: # If the gene is not in the organism, skip it
+            print('Could not find ' + name + ' in ' + organism)
+            continue
         loc = organism_locs[ind]  # The gene location based on the list of gene locations
         print(loc)
         start, end, strand = loc.split(':')  # Split the start, end and strand
@@ -201,15 +215,6 @@ def gene_csv(gene):
         fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
     with open(f'{gene}_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
         fasta.write(fasta_lines)
-
-
-def find_protein_seq(PATH,organism_id):
-    record_check(organism_id)
-    record = SeqIO.read(os.path.join(PATH, 'genbank_DB', organism_id + '.gbk'),
-                        'genbank')  # Load the record file (genbank format)
-    seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
-    return seq
-
 
 if __name__ == '__main__':
     gene_csv('rrnL')

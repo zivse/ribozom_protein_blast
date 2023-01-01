@@ -1,11 +1,11 @@
 from Bio.Align.Applications import MuscleCommandline
 from pathlib import Path
 import os
-from consts import XML_FOLDER_NAME, MUSCLE_EXE, MUSCLE_FILES_NAME
+from consts import XML_FOLDER_NAME, MUSCLE_EXE, MUSCLE_FILES_NAME, HITS_FILES_NAME
 
 
 def generate_files_list():
-    files = Path(XML_FOLDER_NAME).glob('*')
+    files = Path(HITS_FILES_NAME).glob('*')
     return list(files)
 
 

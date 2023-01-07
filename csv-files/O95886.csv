@@ -1,0 +1,507 @@
+query_id,protein_name,organism,e-value,score
+NP_001073887.1, disks large-associated protein 3 [Homo sapiens] >ref,Homo sapiens,0.0,5139.0
+XP_003812611.2, disks large-associated protein 3 [Pan paniscus] >ref,Pan paniscus,0.0,5136.0
+XP_005544081.1, PREDICTED: disks large-associated protein 3 [Macaca fascicularis] >ref,Macaca fascicularis,0.0,5129.0
+XP_017740069.1, PREDICTED: LOW QUALITY PROTEIN: disks large-associated protein 3 [Rhinopithecus bieti],Rhinopithecus bieti,0.0,5124.0
+XP_004025478.1, disks large-associated protein 3 [Gorilla gorilla gorilla] >ref,Gorilla gorilla gorilla,0.0,5124.0
+XP_007977663.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Chlorocebus sabaeus],Chlorocebus sabaeus,0.0,5120.0
+XP_005544081.2, disks large-associated protein 3 [Macaca fascicularis] >ref,Macaca fascicularis,0.0,5120.0
+XP_030679248.1, disks large-associated protein 3 [Nomascus leucogenys] >ref,Nomascus leucogenys,0.0,5119.0
+XP_003891613.2, disks large-associated protein 3 [Papio anubis] >ref,Papio anubis,0.0,5117.0
+XP_032016077.1, disks large-associated protein 3 [Hylobates moloch] >ref,Hylobates moloch,0.0,5116.0
+XP_032102749.1, disks large-associated protein 3 isoform X1 [Sapajus apella] >ref,Sapajus apella,0.0,5115.0
+XP_012295589.1, disks large-associated protein 3 [Aotus nancymaae] >ref,Aotus nancymaae,0.0,5114.0
+XP_026312994.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Piliocolobus tephrosceles],Piliocolobus tephrosceles,0.0,5113.0
+XP_003937576.1, disks large-associated protein 3 [Saimiri boliviensis boliviensis] >ref,Saimiri boliviensis boliviensis,0.0,5111.0
+XP_017373522.1, disks large-associated protein 3 [Cebus imitator] >ref,Cebus imitator,0.0,5111.0
+XP_035106630.1, disks large-associated protein 3 [Callithrix jacchus] >ref,Callithrix jacchus,0.0,5100.0
+XP_045404259.1, disks large-associated protein 3 [Lemur catta],Lemur catta,0.0,5049.0
+XP_012497705.1, PREDICTED: disks large-associated protein 3 [Propithecus coquereli] >ref,Propithecus coquereli,0.0,5048.0
+XP_014719505.1, disks large-associated protein 3 [Equus asinus] >ref,Equus asinus,0.0,5047.0
+XP_023489531.1, disks large-associated protein 3 [Equus caballus] >ref,Equus caballus,0.0,5047.0
+XP_012620741.1, disks large-associated protein 3 [Microcebus murinus] >ref,Microcebus murinus,0.0,5046.0
+NP_001179367.1, disks large-associated protein 3 [Bos taurus] >ref,Bos taurus,0.0,5044.0
+XP_026249219.1, disks large-associated protein 3 [Urocitellus parryii] >ref,Urocitellus parryii,0.0,5040.0
+XP_013217589.1, disks large-associated protein 3 [Ictidomys tridecemlineatus] >ref,Ictidomys tridecemlineatus,0.0,5038.0
+XP_007948597.1, disks large-associated protein 3 [Orycteropus afer afer],Orycteropus afer afer,0.0,5038.0
+XP_032351770.1, disks large-associated protein 3 [Camelus ferus] >ref,Camelus ferus,0.0,5037.0
+XP_047418934.1, disks large-associated protein 3 isoform X1 [Sciurus carolinensis] >ref,Sciurus carolinensis,0.0,5036.0
+XP_025144924.1, disks large-associated protein 3 [Bubalus bubalis] >ref,Bubalus bubalis,0.0,5036.0
+XP_027823401.2, disks large-associated protein 3 [Ovis aries] >ref,Ovis aries,0.0,5032.0
+XP_004425986.1, PREDICTED: disks large-associated protein 3 [Ceratotherium simum simum],Ceratotherium simum simum,0.0,5032.0
+XP_004372020.1, disks large-associated protein 3 [Trichechus manatus latirostris],Trichechus manatus latirostris,0.0,5031.0
+XP_039107689.1, disks large-associated protein 3 [Hyaena hyaena],Hyaena hyaena,0.0,5028.0
+XP_049734658.1, disks large-associated protein 3 [Elephas maximus indicus] >ref,Elephas maximus indicus,0.0,5027.0
+XP_035921202.1, disks large-associated protein 3 isoform X2 [Halichoerus grypus],Halichoerus grypus,0.0,5026.0
+XP_044093700.1, disks large-associated protein 3 [Neogale vison] >ref,Neogale vison,0.0,5026.0
+XP_003788239.1, disks large-associated protein 3 [Otolemur garnettii],Otolemur garnettii,0.0,5024.0
+XP_036112256.1, disks large-associated protein 3 [Molossus molossus],Molossus molossus,0.0,5024.0
+XP_004402750.1, PREDICTED: disks large-associated protein 3 [Odobenus rosmarus divergens],Odobenus rosmarus divergens,0.0,5023.0
+XP_043733812.1, disks large-associated protein 3 [Cervus elaphus],Cervus elaphus,0.0,5023.0
+XP_011283044.2, disks large-associated protein 3 [Felis catus] >ref,Felis catus,0.0,5022.0
+XP_027969773.1, disks large-associated protein 3 [Eumetopias jubatus],Eumetopias jubatus,0.0,5022.0
+XP_032244165.1, disks large-associated protein 3 [Phoca vitulina] >ref,Phoca vitulina,0.0,5022.0
+XP_027456103.1, disks large-associated protein 3 [Zalophus californianus] >ref,Zalophus californianus,0.0,5022.0
+XP_032158157.1, disks large-associated protein 3 [Mustela erminea] >ref,Mustela erminea,0.0,5022.0
+XP_036846626.1, disks large-associated protein 3 [Manis javanica] >ref,Manis javanica,0.0,5021.0
+XP_043430361.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Prionailurus bengalensis],Prionailurus bengalensis,0.0,5021.0
+XP_043317911.1, disks large-associated protein 3 [Cervus canadensis] >ref,Cervus canadensis,0.0,5020.0
+XP_022352970.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Enhydra lutris kenyoni],Enhydra lutris kenyoni,0.0,5020.0
+XP_047646634.1, disks large-associated protein 3 [Phacochoerus africanus],Phacochoerus africanus,0.0,5020.0
+XP_042853164.1, disks large-associated protein 3 [Panthera tigris] >ref,Panthera tigris,0.0,5019.0
+XP_032450144.1, disks large-associated protein 3 [Lynx canadensis] >ref,Lynx canadensis,0.0,5019.0
+XP_016002772.1, disks large-associated protein 3 [Rousettus aegyptiacus] >ref,Rousettus aegyptiacus,0.0,5019.0
+XP_036741166.1, disks large-associated protein 3 [Manis pentadactyla] >ref,Manis pentadactyla,0.0,5018.0
+XP_003415533.1, disks large-associated protein 3 [Loxodonta africana],Loxodonta africana,0.0,5018.0
+XP_034504795.1, disks large-associated protein 3 [Ailuropoda melanoleuca] >ref,Ailuropoda melanoleuca,0.0,5018.0
+XP_026372509.1, disks large-associated protein 3 [Ursus arctos],Ursus arctos,0.0,5017.0
+XP_036208344.1, disks large-associated protein 3 [Myotis myotis] >ref,Myotis myotis,0.0,5016.0
+XP_025790278.1, disks large-associated protein 3 [Puma concolor] >ref,Puma concolor,0.0,5015.0
+XP_004740892.2, LOW QUALITY PROTEIN: disks large-associated protein 3 [Mustela putorius furo],Mustela putorius furo,0.0,5015.0
+XP_035921200.1, disks large-associated protein 3 isoform X1 [Halichoerus grypus] >ref,Halichoerus grypus,0.0,5014.0
+XP_045638487.1, disks large-associated protein 3 [Ursus americanus],Ursus americanus,0.0,5014.0
+XP_019585653.1, PREDICTED: disks large-associated protein 3 [Rhinolophus sinicus] >ref,Rhinolophus sinicus,0.0,5013.0
+XP_047583902.1, disks large-associated protein 3 [Lutra lutra] >ref,Lutra lutra,0.0,5013.0
+XP_040087687.1, disks large-associated protein 3 [Oryx dammah],Oryx dammah,0.0,5012.0
+XP_020951527.1, disks large-associated protein 3 [Sus scrofa] >ref,Sus scrofa,0.0,5011.0
+XP_005395185.1, PREDICTED: disks large-associated protein 3 [Chinchilla lanigera],Chinchilla lanigera,0.0,5011.0
+XP_039706895.1, disks large-associated protein 3 isoform X1 [Pteropus giganteus] >ref,Pteropus giganteus,0.0,5009.0
+XP_032969968.1, disks large-associated protein 3 [Rhinolophus ferrumequinum] >ref,Rhinolophus ferrumequinum,0.0,5009.0
+XP_025712457.1, disks large-associated protein 3 [Callorhinus ursinus] >ref,Callorhinus ursinus,0.0,5008.0
+XP_020015208.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Castor canadensis],Castor canadensis,0.0,5007.0
+XP_032733065.1, disks large-associated protein 3 [Lontra canadensis] >ref,Lontra canadensis,0.0,5007.0
+XP_040475164.1, disks large-associated protein 3 [Ursus maritimus],Ursus maritimus,0.0,5007.0
+XP_045872975.1, disks large-associated protein 3 [Meles meles] >ref,Meles meles,0.0,5006.0
+XP_006886490.1, PREDICTED: disks large-associated protein 3 [Elephantulus edwardii],Elephantulus edwardii,0.0,5005.0
+XP_019514498.1, PREDICTED: disks large-associated protein 3 [Hipposideros armiger] >ref,Hipposideros armiger,0.0,5005.0
+XP_029804834.1, disks large-associated protein 3 [Suricata suricatta],Suricata suricatta,0.0,5004.0
+XP_017896722.1, PREDICTED: disks large-associated protein 3 [Capra hircus] >ref,Capra hircus,0.0,5004.0
+XP_021539356.1, disks large-associated protein 3 [Neomonachus schauinslandi],Neomonachus schauinslandi,0.0,5003.0
+XP_011356232.1, disks large-associated protein 3 isoform X2 [Pteropus vampyrus],Pteropus vampyrus,0.0,5002.0
+XP_037683706.1, disks large-associated protein 3 [Choloepus didactylus] >ref,Choloepus didactylus,0.0,5000.0
+XP_004850973.1, disks large-associated protein 3 [Heterocephalus glaber] >ref,Heterocephalus glaber,0.0,4999.0
+XP_008827456.1, disks large-associated protein 3 [Nannospalax galili] >ref,Nannospalax galili,0.0,4999.0
+XP_045715934.1, disks large-associated protein 3 [Phyllostomus hastatus] >ref,Phyllostomus hastatus,0.0,4998.0
+XP_045754088.1, disks large-associated protein 3 [Mirounga angustirostris],Mirounga angustirostris,0.0,4998.0
+XP_037354735.1, disks large-associated protein 3 [Talpa occidentalis],Talpa occidentalis,0.0,4997.0
+XP_026915529.1, disks large-associated protein 3 [Acinonyx jubatus] >ref,Acinonyx jubatus,0.0,4996.0
+XP_033710777.1, disks large-associated protein 3 [Tursiops truncatus],Tursiops truncatus,0.0,4994.0
+XP_042534276.1, disks large-associated protein 3 [Dipodomys spectabilis],Dipodomys spectabilis,0.0,4991.0
+XP_026966503.1, disks large-associated protein 3 [Lagenorhynchus obliquidens],Lagenorhynchus obliquidens,0.0,4990.0
+XP_034875041.1, disks large-associated protein 3 [Mirounga leonina],Mirounga leonina,0.0,4990.0
+XP_008155186.1, disks large-associated protein 3 [Eptesicus fuscus],Eptesicus fuscus,0.0,4990.0
+XP_022430887.1, disks large-associated protein 3 [Delphinapterus leucas] >ref,Delphinapterus leucas,0.0,4990.0
+XP_020764304.1, disks large-associated protein 3 [Odocoileus virginianus texanus] >ref,Odocoileus virginianus texanus,0.0,4989.0
+XP_031320559.1, disks large-associated protein 3 [Camelus dromedarius] >ref,Camelus dromedarius,0.0,4989.0
+XP_012889523.1, PREDICTED: disks large-associated protein 3 [Dipodomys ordii],Dipodomys ordii,0.0,4989.0
+XP_030721270.1, disks large-associated protein 3 [Globicephala melas],Globicephala melas,0.0,4989.0
+XP_003471523.1, disks large-associated protein 3 [Cavia porcellus] >ref,Cavia porcellus,0.0,4987.0
+XP_004266533.1, disks large-associated protein 3 isoform X1 [Orcinus orca] >ref,Orcinus orca,0.0,4986.0
+XP_036699250.1, disks large-associated protein 3 isoform X1 [Balaenoptera musculus],Balaenoptera musculus,0.0,4986.0
+XP_004678831.1, PREDICTED: disks large-associated protein 3 [Condylura cristata],Condylura cristata,0.0,4985.0
+XP_007523292.1, PREDICTED: disks large-associated protein 3 [Erinaceus europaeus],Erinaceus europaeus,0.0,4985.0
+XP_004614321.1, PREDICTED: disks large-associated protein 3 [Sorex araneus],Sorex araneus,0.0,4984.0
+XP_036917375.1, disks large-associated protein 3 [Sturnira hondurensis],Sturnira hondurensis,0.0,4984.0
+XP_029085395.1, disks large-associated protein 3 [Monodon monoceros],Monodon monoceros,0.0,4983.0
+XP_048205830.1, disks large-associated protein 3 [Perognathus longimembris pacificus] >ref,Perognathus longimembris pacificus,0.0,4983.0
+XP_025275769.1, disks large-associated protein 3 [Canis lupus dingo] >ref,Canis lupus dingo,0.0,4983.0
+XP_023981326.1, disks large-associated protein 3 [Physeter catodon],Physeter catodon,0.0,4981.0
+XP_032498473.1, disks large-associated protein 3 [Phocoena sinus],Phocoena sinus,0.0,4981.0
+XP_028368311.1, disks large-associated protein 3 [Phyllostomus discolor] >ref,Phyllostomus discolor,0.0,4979.0
+XP_041593771.1, disks large-associated protein 3 [Vulpes lagopus] >ref,Vulpes lagopus,0.0,4975.0
+XP_006732625.1, disks large-associated protein 3 isoform X2 [Leptonychotes weddellii],Leptonychotes weddellii,0.0,4974.0
+XP_006867580.1, PREDICTED: disks large-associated protein 3 [Chrysochloris asiatica],Chrysochloris asiatica,0.0,4973.0
+XP_037005742.1, disks large-associated protein 3 [Artibeus jamaicensis],Artibeus jamaicensis,0.0,4972.0
+XP_004641061.1, disks large-associated protein 3 [Octodon degus],Octodon degus,0.0,4970.0
+XP_040830342.1, disks large-associated protein 3 [Ochotona curzoniae] >ref,Ochotona curzoniae,0.0,4968.0
+XP_007453910.1, PREDICTED: disks large-associated protein 3 [Lipotes vexillifer],Lipotes vexillifer,0.0,4968.0
+XP_041507145.1, disks large-associated protein 3 [Microtus oregoni] >ref,Microtus oregoni,0.0,4964.0
+XP_006987509.1, disks large-associated protein 3 isoform X1 [Peromyscus maniculatus bairdii] >ref,Peromyscus maniculatus bairdii,0.0,4962.0
+XP_030883171.1, disks large-associated protein 3 isoform X1 [Leptonychotes weddellii] >ref,Leptonychotes weddellii,0.0,4962.0
+XP_008583464.1, PREDICTED: disks large-associated protein 3 [Galeopterus variegatus],Galeopterus variegatus,0.0,4960.0
+XP_036033356.1, disks large-associated protein 3 isoform X1 [Onychomys torridus] >ref,Onychomys torridus,0.0,4959.0
+XP_038189855.1, disks large-associated protein 3 [Arvicola amphibius],Arvicola amphibius,0.0,4945.0
+XP_021015734.1, disks large-associated protein 3 isoform X1 [Mus caroli] >ref,Mus caroli,0.0,4939.0
+XP_019813458.1, PREDICTED: disks large-associated protein 3 [Bos indicus],Bos indicus,0.0,4939.0
+XP_015340238.1, disks large-associated protein 3 [Marmota marmota marmota],Marmota marmota marmota,0.0,4914.0
+XP_024597367.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Neophocaena asiaeorientalis asiaeorientalis],Neophocaena asiaeorientalis asiaeorientalis,0.0,4849.0
+XP_007182685.1, disks large-associated protein 3 [Balaenoptera acutorostrata scammoni],Balaenoptera acutorostrata scammoni,0.0,4832.0
+XP_021565632.1, disks large-associated protein 3 [Carlito syrichta],Carlito syrichta,0.0,4821.0
+XP_006212785.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Vicugna pacos],Vicugna pacos,0.0,4771.0
+XP_010643586.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Fukomys damarensis],Fukomys damarensis,0.0,4731.0
+XP_014332920.1, PREDICTED: disks large-associated protein 3 [Bos mutus],Bos mutus,0.0,4725.0
+XP_023385111.1, disks large-associated protein 3 isoform X1 [Pteropus vampyrus] >ref,Pteropus vampyrus,0.0,4696.0
+XP_010958229.1, PREDICTED: LOW QUALITY PROTEIN: disks large-associated protein 3,Camelus bactrianus,0.0,4665.0
+XP_008531671.1, PREDICTED: LOW QUALITY PROTEIN: disks large-associated protein 3 [Equus przewalskii],Equus przewalskii,0.0,4649.0
+XP_025847578.1, disks large-associated protein 3 [Vulpes vulpes],Vulpes vulpes,0.0,4630.0
+XP_017205746.2, disks large-associated protein 3 [Oryctolagus cuniculus] >ref,Oryctolagus cuniculus,0.0,4610.0
+XP_010958229.2, LOW QUALITY PROTEIN: disks large-associated protein 3 [Camelus bactrianus],Camelus bactrianus,0.0,4519.0
+XP_021500476.1, disks large-associated protein 3 [Meriones unguiculatus] >ref,Meriones unguiculatus,0.0,4512.0
+NP_001288805.1, disks large-associated protein 3 isoform 3 [Rattus norvegicus],Rattus norvegicus,0.0,4491.0
+XP_045046294.1, disks large-associated protein 3 [Desmodus rotundus],Desmodus rotundus,0.0,4489.0
+XP_028717466.1, disks large-associated protein 3 isoform X1 [Peromyscus leucopus] >ref,Peromyscus leucopus,0.0,4465.0
+XP_050009256.1, disks large-associated protein 3 [Microtus fortis],Microtus fortis,0.0,4461.0
+XP_005353282.1, disks large-associated protein 3 [Microtus ochrogaster] >ref,Microtus ochrogaster,0.0,4456.0
+XP_051027124.1, disks large-associated protein 3 [Acomys russatus] >ref,Acomys russatus,0.0,4445.0
+XP_051044789.1, disks large-associated protein 3 [Phodopus roborovskii] >ref,Phodopus roborovskii,0.0,4444.0
+XP_052574727.1, disks large-associated protein 3 isoform X1 [Peromyscus californicus insignis] >ref,Peromyscus californicus insignis,0.0,4401.0
+XP_039706897.1, disks large-associated protein 3 isoform X2 [Pteropus giganteus],Pteropus giganteus,0.0,4387.0
+XP_015861461.1, disks large-associated protein 3 isoform X2 [Peromyscus maniculatus bairdii],Peromyscus maniculatus bairdii,0.0,4385.0
+XP_028717471.1, disks large-associated protein 3 isoform X2 [Peromyscus leucopus],Peromyscus leucopus,0.0,4383.0
+XP_023385114.1, disks large-associated protein 3 isoform X3 [Pteropus vampyrus],Pteropus vampyrus,0.0,4382.0
+XP_036033359.1, disks large-associated protein 3 isoform X2 [Onychomys torridus],Onychomys torridus,0.0,4376.0
+XP_027255130.1, disks large-associated protein 3 isoform X2 [Cricetulus griseus],Cricetulus griseus,0.0,4371.0
+XP_049630624.1, disks large-associated protein 3 [Suncus etruscus],Suncus etruscus,0.0,4370.0
+XP_045007313.1, disks large-associated protein 3 [Jaculus jaculus],Jaculus jaculus,0.0,4366.0
+NP_001289010.1, disks large-associated protein 3 [Mus musculus] >ref,Mus musculus,0.0,4344.0
+XP_032753503.1, disks large-associated protein 3 isoform X1 [Rattus rattus] >ref,Rattus rattus,0.0,4340.0
+XP_028615592.1, disks large-associated protein 3 isoform X1 [Grammomys surdaster] >ref,Grammomys surdaster,0.0,4335.0
+XP_031234564.1, disks large-associated protein 3 isoform X1 [Mastomys coucha] >ref,Mastomys coucha,0.0,4334.0
+XP_005079518.1, disks large-associated protein 3 [Mesocricetus auratus] >ref,Mesocricetus auratus,0.0,4319.0
+XP_052574731.1, disks large-associated protein 3 isoform X2 [Peromyscus californicus insignis],Peromyscus californicus insignis,0.0,4317.0
+XP_006924319.1, disks large-associated protein 3 [Pteropus alecto] >ref,Pteropus alecto,0.0,4310.0
+XP_021055834.1, disks large-associated protein 3 isoform X1 [Mus pahari] >ref,Mus pahari,0.0,4305.0
+XP_011810752.1, PREDICTED: disks large-associated protein 3 [Colobus angolensis palliatus],Colobus angolensis palliatus,0.0,4275.0
+XP_004705037.1, disks large-associated protein 3 isoform X1 [Echinops telfairi] >ref,Echinops telfairi,0.0,4273.0
+NP_775161.2, disks large-associated protein 3 isoform 1 [Rattus norvegicus] >ref,Rattus norvegicus,0.0,4265.0
+XP_006503167.1, disks large-associated protein 3 isoform X2 [Mus musculus] >ref,Mus musculus,0.0,4258.0
+XP_032753511.1, disks large-associated protein 3 isoform X2 [Rattus rattus],Rattus rattus,0.0,4257.0
+XP_036300277.1, disks large-associated protein 3 [Pipistrellus kuhlii],Pipistrellus kuhlii,0.0,4256.0
+XP_029332656.1, disks large-associated protein 3 isoform X2 [Mus caroli],Mus caroli,0.0,4253.0
+XP_028615594.1, disks large-associated protein 3 isoform X2 [Grammomys surdaster],Grammomys surdaster,0.0,4253.0
+XP_031234567.1, disks large-associated protein 3 isoform X2 [Mastomys coucha],Mastomys coucha,0.0,4252.0
+XP_029395830.1, disks large-associated protein 3 isoform X2 [Mus pahari],Mus pahari,0.0,4225.0
+XP_045154770.1, disks large-associated protein 3 isoform X2 [Echinops telfairi],Echinops telfairi,0.0,4191.0
+NP_001263233.1, disks large-associated protein 3 isoform 2 [Rattus norvegicus],Rattus norvegicus,0.0,4184.0
+XP_023438488.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Dasypus novemcinctus],Dasypus novemcinctus,0.0,4135.0
+XP_023614304.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Myotis lucifugus],Myotis lucifugus,0.0,3861.0
+XP_044527448.1, disks large-associated protein 3 [Gracilinanus agilis],Gracilinanus agilis,0.0,3847.0
+XP_031817963.1, disks large-associated protein 3 [Sarcophilus harrisii] >ref,Sarcophilus harrisii,0.0,3843.0
+XP_043852062.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Dromiciops gliroides],Dromiciops gliroides,0.0,3840.0
+XP_036600985.1, disks large-associated protein 3 [Trichosurus vulpecula],Trichosurus vulpecula,0.0,3839.0
+XP_051843602.1, disks large-associated protein 3 isoform X1 [Antechinus flavipes] >ref,Antechinus flavipes,0.0,3838.0
+XP_027720454.1, disks large-associated protein 3 [Vombatus ursinus],Vombatus ursinus,0.0,3835.0
+XP_020839369.1, disks large-associated protein 3 isoform X1 [Phascolarctos cinereus] >ref,Phascolarctos cinereus,0.0,3828.0
+XP_051843604.1, disks large-associated protein 3 isoform X2 [Antechinus flavipes],Antechinus flavipes,0.0,3828.0
+XP_007492830.1, PREDICTED: disks large-associated protein 3 [Monodelphis domestica] >ref,Monodelphis domestica,0.0,3825.0
+XP_016074785.1, PREDICTED: disks large-associated protein 3 [Miniopterus natalensis],Miniopterus natalensis,0.0,3775.0
+XP_015428264.1, PREDICTED: disks large-associated protein 3 [Myotis davidii],Myotis davidii,0.0,3743.0
+XP_014396975.1, PREDICTED: disks large-associated protein 3 [Myotis brandtii],Myotis brandtii,0.0,3582.0
+XP_027631361.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Tupaia chinensis],Tupaia chinensis,0.0,3365.0
+XP_032102753.1, disks large-associated protein 3 isoform X2 [Sapajus apella],Sapajus apella,0.0,3177.0
+XP_047418937.1, disks large-associated protein 3 isoform X2 [Sciurus carolinensis],Sciurus carolinensis,0.0,3132.0
+XP_047418937.1, disks large-associated protein 3 isoform X2 [Sciurus carolinensis],Sciurus carolinensis,1.00827e-33,380.0
+XP_038233918.1, disks large-associated protein 3 isoform X2 [Dermochelys coriacea],Dermochelys coriacea,0.0,3096.0
+XP_044853675.1, disks large-associated protein 3 isoform X2 [Mauremys mutica],Mauremys mutica,0.0,3089.0
+XP_048681754.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Caretta caretta],Caretta caretta,0.0,3088.0
+XP_039367671.1, disks large-associated protein 3 isoform X2 [Mauremys reevesii],Mauremys reevesii,0.0,3088.0
+XP_037737885.1, disks large-associated protein 3 isoform X2 [Chelonia mydas],Chelonia mydas,0.0,3085.0
+XP_032658593.1, disks large-associated protein 3 isoform X2 [Chelonoidis abingdonii],Chelonoidis abingdonii,0.0,3071.0
+XP_050788545.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Gopherus flavomarginatus],Gopherus flavomarginatus,0.0,3070.0
+XP_030395144.1, disks large-associated protein 3 isoform X2 [Gopherus evgoodei],Gopherus evgoodei,0.0,3067.0
+XP_025960453.1, disks large-associated protein 3 isoform X2 [Dromaius novaehollandiae],Dromaius novaehollandiae,0.0,3065.0
+XP_011934960.1, PREDICTED: disks large-associated protein 3 isoform X2 [Cercocebus atys],Cercocebus atys,0.0,3064.0
+XP_038233913.1, disks large-associated protein 3 isoform X1 [Dermochelys coriacea],Dermochelys coriacea,0.0,3060.0
+XP_038614410.1, disks large-associated protein 3 [Tachyglossus aculeatus],Tachyglossus aculeatus,0.0,3057.0
+XP_039367667.1, disks large-associated protein 3 isoform X1 [Mauremys reevesii] >ref,Mauremys reevesii,0.0,3055.0
+XP_005298457.1, disks large-associated protein 3 isoform X2 [Chrysemys picta bellii],Chrysemys picta bellii,0.0,3054.0
+XP_044853669.1, disks large-associated protein 3 isoform X1 [Mauremys mutica] >ref,Mauremys mutica,0.0,3053.0
+XP_034610144.1, disks large-associated protein 3 isoform X2 [Trachemys scripta elegans],Trachemys scripta elegans,0.0,3052.0
+XP_037737884.1, disks large-associated protein 3 isoform X1 [Chelonia mydas],Chelonia mydas,0.0,3050.0
+XP_040545704.1, disks large-associated protein 3 isoform X2 [Gallus gallus] >ref,Gallus gallus,0.0,3049.0
+XP_033925247.1, disks large-associated protein 3 isoform X2 [Melopsittacus undulatus],Melopsittacus undulatus,0.0,3047.0
+XP_009469123.1, PREDICTED: disks large-associated protein 3 [Nipponia nippon],Nipponia nippon,0.0,3039.0
+XP_052667432.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Harpia harpyja],Harpia harpyja,0.0,3035.0
+XP_030360238.1, disks large-associated protein 3 isoform X2 [Strigops habroptila],Strigops habroptila,0.0,3035.0
+XP_032658592.1, disks large-associated protein 3 isoform X1 [Chelonoidis abingdonii],Chelonoidis abingdonii,0.0,3034.0
+XP_019478339.1, disks large-associated protein 3 isoform X2 [Meleagris gallopavo],Meleagris gallopavo,0.0,3033.0
+XP_052554602.1, disks large-associated protein 3 isoform X2 [Tympanuchus pallidicinctus],Tympanuchus pallidicinctus,0.0,3032.0
+XP_020664544.1, disks large-associated protein 3 [Pogona vitticeps],Pogona vitticeps,0.0,3031.0
+XP_025960452.1, disks large-associated protein 3 isoform X1 [Dromaius novaehollandiae],Dromaius novaehollandiae,0.0,3031.0
+XP_047908712.1, disks large-associated protein 3 isoform X2 [Anser cygnoides],Anser cygnoides,0.0,3030.0
+XP_030395143.1, disks large-associated protein 3 isoform X1 [Gopherus evgoodei],Gopherus evgoodei,0.0,3030.0
+XP_015738718.1, disks large-associated protein 3 isoform X2 [Coturnix japonica],Coturnix japonica,0.0,3028.0
+XP_048825196.1, disks large-associated protein 3 isoform X2 [Lagopus muta],Lagopus muta,0.0,3027.0
+XP_035201232.1, disks large-associated protein 3 isoform X2 [Oxyura jamaicensis],Oxyura jamaicensis,0.0,3027.0
+XP_029895225.1, disks large-associated protein 3 isoform X2 [Aquila chrysaetos chrysaetos],Aquila chrysaetos chrysaetos,0.0,3027.0
+XP_040391006.1, disks large-associated protein 3 isoform X2 [Cygnus olor],Cygnus olor,0.0,3025.0
+XP_037237688.1, disks large-associated protein 3 isoform X2 [Falco rusticolus],Falco rusticolus,0.0,3022.0
+XP_027299631.2, LOW QUALITY PROTEIN: disks large-associated protein 3 [Anas platyrhynchos],Anas platyrhynchos,0.0,3020.0
+XP_034610143.1, disks large-associated protein 3 isoform X1 [Trachemys scripta elegans],Trachemys scripta elegans,0.0,3019.0
+XP_040444373.1, disks large-associated protein 3 isoform X2 [Falco naumanni],Falco naumanni,0.0,3019.0
+XP_005298456.1, disks large-associated protein 3 isoform X1 [Chrysemys picta bellii],Chrysemys picta bellii,0.0,3019.0
+XP_034269278.1, disks large-associated protein 3 isoform X4 [Pantherophis guttatus],Pantherophis guttatus,0.0,3017.0
+XP_042649771.1, disks large-associated protein 3 isoform X2 [Tyto alba],Tyto alba,0.0,3016.0
+XP_028937357.1, disks large-associated protein 3 [Ornithorhynchus anatinus] >ref,Ornithorhynchus anatinus,0.0,3015.0
+XP_004947837.1, disks large-associated protein 3 isoform X1 [Gallus gallus] >ref,Gallus gallus,0.0,3014.0
+XP_033925245.1, disks large-associated protein 3 isoform X1 [Melopsittacus undulatus] >ref,Melopsittacus undulatus,0.0,3011.0
+XP_026512945.1, disks large-associated protein 3 [Terrapene carolina triunguis],Terrapene carolina triunguis,0.0,3008.0
+XP_039942065.1, disks large-associated protein 3 isoform X2 [Hirundo rustica],Hirundo rustica,0.0,3005.0
+XP_021410475.1, disks large-associated protein 3 isoform X2 [Lonchura striata domestica],Lonchura striata domestica,0.0,3005.0
+XP_050182392.1, disks large-associated protein 3 isoform X2 [Myiozetetes cayanensis],Myiozetetes cayanensis,0.0,3005.0
+XP_034269277.1, disks large-associated protein 3 isoform X3 [Pantherophis guttatus],Pantherophis guttatus,0.0,3004.0
+XP_030360236.1, disks large-associated protein 3 isoform X1 [Strigops habroptila] >ref,Strigops habroptila,0.0,3003.0
+XP_049676762.1, disks large-associated protein 3 isoform X2 [Accipiter gentilis],Accipiter gentilis,0.0,3003.0
+XP_051493922.1, disks large-associated protein 3 [Apus apus],Apus apus,0.0,3002.0
+XP_041273545.1, disks large-associated protein 3 [Onychostruthus taczanowskii],Onychostruthus taczanowskii,0.0,3002.0
+XP_021231174.1, disks large-associated protein 3 [Numida meleagris],Numida meleagris,0.0,3002.0
+XP_014801903.1, PREDICTED: disks large-associated protein 3 [Calidris pugnax],Calidris pugnax,0.0,3001.0
+XP_039209310.1, disks large-associated protein 3 isoform X2 [Crotalus tigris],Crotalus tigris,0.0,3001.0
+XP_035417950.2, disks large-associated protein 3 [Cygnus atratus],Cygnus atratus,0.0,3001.0
+XP_050765838.1, disks large-associated protein 3 [Gymnogyps californianus],Gymnogyps californianus,0.0,3000.0
+XP_038016488.1, disks large-associated protein 3 isoform X2 [Motacilla alba alba],Motacilla alba alba,0.0,3000.0
+XP_030320268.1, disks large-associated protein 3 isoform X2 [Calypte anna],Calypte anna,0.0,3000.0
+XP_027755830.1, disks large-associated protein 3 isoform X2 [Empidonax traillii],Empidonax traillii,0.0,2997.0
+XP_047908708.1, disks large-associated protein 3 isoform X1 [Anser cygnoides] >ref,Anser cygnoides,0.0,2997.0
+XP_041335318.1, disks large-associated protein 3 [Pyrgilauda ruficollis],Pyrgilauda ruficollis,0.0,2997.0
+XP_010721627.1, disks large-associated protein 3 isoform X1 [Meleagris gallopavo] >ref,Meleagris gallopavo,0.0,2997.0
+XP_032936590.1, disks large-associated protein 3-like isoform X2 [Catharus ustulatus] >ref,Catharus ustulatus,0.0,2997.0
+XP_052554601.1, disks large-associated protein 3 isoform X1 [Tympanuchus pallidicinctus],Tympanuchus pallidicinctus,0.0,2996.0
+XP_030088241.1, disks large-associated protein 3 isoform X2 [Serinus canaria],Serinus canaria,0.0,2996.0
+XP_051630458.1, disks large-associated protein 3 isoform X2 [Manacus candei],Manacus candei,0.0,2996.0
+XP_029895221.1, disks large-associated protein 3 isoform X1 [Aquila chrysaetos chrysaetos] >ref,Aquila chrysaetos chrysaetos,0.0,2996.0
+XP_027575130.1, disks large-associated protein 3 isoform X2 [Pipra filicauda],Pipra filicauda,0.0,2996.0
+XP_019367776.1, PREDICTED: disks large-associated protein 3 isoform X2 [Gavialis gangeticus],Gavialis gangeticus,0.0,2995.0
+XP_039589709.1, disks large-associated protein 3 isoform X2 [Passer montanus],Passer montanus,0.0,2995.0
+XP_015738716.1, disks large-associated protein 3 isoform X1 [Coturnix japonica] >ref,Coturnix japonica,0.0,2994.0
+XP_027517127.1, disks large-associated protein 3 isoform X2 [Corapipo altera],Corapipo altera,0.0,2993.0
+XP_035201228.1, disks large-associated protein 3 isoform X1 [Oxyura jamaicensis] >ref,Oxyura jamaicensis,0.0,2991.0
+XP_048183072.1, disks large-associated protein 3 isoform X2 [Corvus hawaiiensis],Corvus hawaiiensis,0.0,2991.0
+XP_005058327.1, PREDICTED: disks large-associated protein 3 isoform X2 [Ficedula albicollis],Ficedula albicollis,0.0,2991.0
+XP_041871448.1, disks large-associated protein 3 isoform X2 [Corvus kubaryi],Corvus kubaryi,0.0,2991.0
+XP_042689956.1, disks large-associated protein 3 [Centrocercus urophasianus] >ref,Centrocercus urophasianus,0.0,2991.0
+XP_042741010.1, disks large-associated protein 3 [Lagopus leucura],Lagopus leucura,0.0,2990.0
+XP_032058113.1, disks large-associated protein 3 [Aythya fuligula],Aythya fuligula,0.0,2990.0
+XP_040391001.1, disks large-associated protein 3 isoform X1 [Cygnus olor] >ref,Cygnus olor,0.0,2990.0
+XP_032565865.1, disks large-associated protein 3 isoform X2 [Chiroxiphia lanceolata],Chiroxiphia lanceolata,0.0,2990.0
+XP_019403308.1, PREDICTED: disks large-associated protein 3 isoform X2 [Crocodylus porosus],Crocodylus porosus,0.0,2989.0
+XP_037237686.1, disks large-associated protein 3 isoform X1 [Falco rusticolus] >ref,Falco rusticolus,0.0,2989.0
+XP_019329083.1, PREDICTED: disks large-associated protein 3 [Aptenodytes forsteri],Aptenodytes forsteri,0.0,2989.0
+XP_030146165.3, disks large-associated protein 3 isoform X2 [Taeniopygia guttata],Taeniopygia guttata,0.0,2988.0
+XP_031988294.1, disks large-associated protein 3 isoform X2 [Corvus moneduloides],Corvus moneduloides,0.0,2988.0
+XP_040444370.1, disks large-associated protein 3 isoform X1 [Falco naumanni] >ref,Falco naumanni,0.0,2986.0
+XP_019343610.1, PREDICTED: disks large-associated protein 3 isoform X2 [Alligator mississippiensis],Alligator mississippiensis,0.0,2985.0
+XP_014376983.1, disks large-associated protein 3 isoform X2 [Alligator sinensis],Alligator sinensis,0.0,2984.0
+XP_042649767.1, disks large-associated protein 3 isoform X1 [Tyto alba] >ref,Tyto alba,0.0,2984.0
+XP_025899182.1, disks large-associated protein 3 [Nothoprocta perdicaria],Nothoprocta perdicaria,0.0,2984.0
+XP_015675943.1, disks large-associated protein 3 [Protobothrops mucrosquamatus],Protobothrops mucrosquamatus,0.0,2981.0
+XP_023797053.1, disks large-associated protein 3 isoform X2 [Cyanistes caeruleus],Cyanistes caeruleus,0.0,2981.0
+XP_036252852.1, disks large-associated protein 3 [Molothrus ater],Molothrus ater,0.0,2980.0
+XP_034269276.1, disks large-associated protein 3 isoform X2 [Pantherophis guttatus],Pantherophis guttatus,0.0,2979.0
+XP_042297209.1, disks large-associated protein 3 isoform X2 [Sceloporus undulatus],Sceloporus undulatus,0.0,2978.0
+XP_050182389.1, disks large-associated protein 3 isoform X1 [Myiozetetes cayanensis] >ref,Myiozetetes cayanensis,0.0,2973.0
+XP_039942064.1, disks large-associated protein 3 isoform X1 [Hirundo rustica],Hirundo rustica,0.0,2972.0
+XP_021410472.1, disks large-associated protein 3 isoform X1 [Lonchura striata domestica] >ref,Lonchura striata domestica,0.0,2971.0
+XP_039209307.1, disks large-associated protein 3 isoform X1 [Crotalus tigris] >ref,Crotalus tigris,0.0,2970.0
+XP_015504887.1, disks large-associated protein 3 isoform X2 [Parus major],Parus major,0.0,2969.0
+XP_030320266.1, disks large-associated protein 3 isoform X1 [Calypte anna] >ref,Calypte anna,0.0,2969.0
+XP_049676758.1, disks large-associated protein 3 isoform X1 [Accipiter gentilis] >ref,Accipiter gentilis,0.0,2969.0
+XP_034269274.1, disks large-associated protein 3 isoform X1 [Pantherophis guttatus],Pantherophis guttatus,0.0,2968.0
+XP_038016487.1, disks large-associated protein 3 isoform X1 [Motacilla alba alba],Motacilla alba alba,0.0,2967.0
+XP_027755827.1, disks large-associated protein 3 isoform X1 [Empidonax traillii] >ref,Empidonax traillii,0.0,2966.0
+XP_030820256.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Camarhynchus parvulus],Camarhynchus parvulus,0.0,2965.0
+XP_026558635.1, disks large-associated protein 3 [Pseudonaja textilis],Pseudonaja textilis,0.0,2964.0
+XP_027575126.1, disks large-associated protein 3 isoform X1 [Pipra filicauda] >ref,Pipra filicauda,0.0,2964.0
+XP_026536459.1, disks large-associated protein 3 [Notechis scutatus],Notechis scutatus,0.0,2964.0
+XP_032936587.1, disks large-associated protein 3-like isoform X1 [Catharus ustulatus] >ref,Catharus ustulatus,0.0,2964.0
+XP_051630456.1, disks large-associated protein 3 isoform X1 [Manacus candei],Manacus candei,0.0,2964.0
+XP_017683766.1, PREDICTED: disks large-associated protein 3 [Lepidothrix coronata],Lepidothrix coronata,0.0,2964.0
+XP_039589707.1, disks large-associated protein 3 isoform X1 [Passer montanus] >ref,Passer montanus,0.0,2963.0
+XP_027557137.1, disks large-associated protein 3 isoform X2 [Neopelma chrysocephalum],Neopelma chrysocephalum,0.0,2962.0
+XP_030088237.1, disks large-associated protein 3 isoform X1 [Serinus canaria] >ref,Serinus canaria,0.0,2962.0
+XP_019367775.1, PREDICTED: disks large-associated protein 3 isoform X1 [Gavialis gangeticus],Gavialis gangeticus,0.0,2961.0
+XP_041871447.1, disks large-associated protein 3 isoform X1 [Corvus kubaryi],Corvus kubaryi,0.0,2960.0
+XP_005058326.1, PREDICTED: disks large-associated protein 3 isoform X1 [Ficedula albicollis],Ficedula albicollis,0.0,2960.0
+XP_027517124.1, disks large-associated protein 3 isoform X1 [Corapipo altera] >ref,Corapipo altera,0.0,2959.0
+XP_032565863.1, disks large-associated protein 3 isoform X1 [Chiroxiphia lanceolata] >ref,Chiroxiphia lanceolata,0.0,2957.0
+XP_048183071.1, disks large-associated protein 3 isoform X1 [Corvus hawaiiensis],Corvus hawaiiensis,0.0,2957.0
+XP_019403307.1, PREDICTED: disks large-associated protein 3 isoform X1 [Crocodylus porosus],Crocodylus porosus,0.0,2957.0
+XP_030146162.3, disks large-associated protein 3 isoform X1 [Taeniopygia guttata] >ref,Taeniopygia guttata,0.0,2957.0
+XP_031988290.1, disks large-associated protein 3 isoform X1 [Corvus moneduloides] >ref,Corvus moneduloides,0.0,2955.0
+XP_048356415.1, disks large-associated protein 3 isoform X2 [Sphaerodactylus townsendi],Sphaerodactylus townsendi,0.0,2955.0
+XP_019343606.1, PREDICTED: disks large-associated protein 3 isoform X1 [Alligator mississippiensis],Alligator mississippiensis,0.0,2952.0
+XP_027638847.1, disks large-associated protein 3 isoform X2 [Falco peregrinus],Falco peregrinus,0.0,2952.0
+XP_025063819.1, disks large-associated protein 3 isoform X1 [Alligator sinensis] >ref,Alligator sinensis,0.0,2950.0
+XP_007428364.1, disks large-associated protein 3 [Python bivittatus],Python bivittatus,0.0,2950.0
+XP_028594802.1, disks large-associated protein 3 isoform X4 [Podarcis muralis],Podarcis muralis,0.0,2948.0
+XP_023797051.1, disks large-associated protein 3 isoform X1 [Cyanistes caeruleus] >ref,Cyanistes caeruleus,0.0,2946.0
+XP_042297208.1, disks large-associated protein 3 isoform X1 [Sceloporus undulatus],Sceloporus undulatus,0.0,2943.0
+XP_014113949.1, PREDICTED: disks large-associated protein 3 [Pseudopodoces humilis],Pseudopodoces humilis,0.0,2943.0
+XP_015279307.1, PREDICTED: disks large-associated protein 3 [Gekko japonicus],Gekko japonicus,0.0,2936.0
+XP_014748395.1, PREDICTED: disks large-associated protein 3 [Sturnus vulgaris],Sturnus vulgaris,0.0,2935.0
+XP_015504883.1, disks large-associated protein 3 isoform X1 [Parus major] >ref,Parus major,0.0,2935.0
+XP_033013568.1, disks large-associated protein 3 [Lacerta agilis],Lacerta agilis,0.0,2933.0
+XP_014126333.1, disks large-associated protein 3 [Zonotrichia albicollis],Zonotrichia albicollis,0.0,2933.0
+XP_027557134.1, disks large-associated protein 3 isoform X1 [Neopelma chrysocephalum] >ref,Neopelma chrysocephalum,0.0,2927.0
+XP_048356414.1, disks large-associated protein 3 isoform X1 [Sphaerodactylus townsendi],Sphaerodactylus townsendi,0.0,2920.0
+XP_028594801.1, disks large-associated protein 3 isoform X3 [Podarcis muralis],Podarcis muralis,0.0,2918.0
+XP_005234897.1, disks large-associated protein 3 isoform X1 [Falco peregrinus],Falco peregrinus,0.0,2918.0
+XP_044280933.1, disks large-associated protein 3 [Varanus komodoensis],Varanus komodoensis,0.0,2906.0
+XP_032084234.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Thamnophis elegans],Thamnophis elegans,0.0,2894.0
+XP_034975374.1, disks large-associated protein 3 [Zootoca vivipara],Zootoca vivipara,0.0,2879.0
+XP_026719009.1, disks large-associated protein 3 [Athene cunicularia],Athene cunicularia,0.0,2786.0
+XP_010574617.1, PREDICTED: disks large-associated protein 3 [Haliaeetus leucocephalus],Haliaeetus leucocephalus,0.0,2778.0
+XP_030074322.1, disks large-associated protein 3 [Microcaecilia unicolor],Microcaecilia unicolor,0.0,2738.0
+XP_013927962.1, PREDICTED: disks large-associated protein 3,Thamnophis sirtalis,0.0,2720.0
+XP_025941865.1, disks large-associated protein 3 [Apteryx rowi],Apteryx rowi,0.0,2714.0
+XP_021153209.1, LOW QUALITY PROTEIN: disks large-associated protein 3 [Columba livia],Columba livia,0.0,2706.0
+XP_040277841.1, disks large-associated protein 3 [Bufo bufo],Bufo bufo,0.0,2701.0
+XP_009906796.1, PREDICTED: disks large-associated protein 3 [Dryobates pubescens],Dryobates pubescens,0.0,2698.0
+XP_009555683.1, PREDICTED: disks large-associated protein 3,Cuculus canorus,0.0,2681.0
+XP_031751493.1, disks large-associated protein 3 isoform X2 [Xenopus tropicalis],Xenopus tropicalis,0.0,2678.0
+XP_041438060.1, disks large-associated protein 3-like isoform X2 [Xenopus laevis],Xenopus laevis,0.0,2675.0
+XP_048356416.1, disks large-associated protein 3 isoform X3 [Sphaerodactylus townsendi],Sphaerodactylus townsendi,0.0,2661.0
+XP_006503168.1, disks large-associated protein 3 isoform X3 [Mus musculus],Mus musculus,0.0,2647.0
+XP_040193232.1, disks large-associated protein 3 isoform X5 [Rana temporaria],Rana temporaria,0.0,2646.0
+XP_038965278.1, disks large-associated protein 3 isoform X2 [Rattus norvegicus],Rattus norvegicus,0.0,2644.0
+XP_005988555.1, PREDICTED: disks large-associated protein 3 [Latimeria chalumnae],Latimeria chalumnae,0.0,2644.0
+XP_005428381.2, disks large-associated protein 3 [Geospiza fortis],Geospiza fortis,0.0,2643.0
+XP_020839371.1, disks large-associated protein 3 isoform X2 [Phascolarctos cinereus],Phascolarctos cinereus,0.0,2643.0
+NP_001106458.1, disks large-associated protein 3 [Xenopus tropicalis] >ref,Xenopus tropicalis,0.0,2641.0
+XP_049551386.1, disks large-associated protein 3 isoform X2 [Orcinus orca],Orcinus orca,0.0,2640.0
+XP_049551386.1, disks large-associated protein 3 isoform X2 [Orcinus orca],Orcinus orca,0.0,1511.0
+XP_018102179.2, disks large-associated protein 3-like isoform X1 [Xenopus laevis] >ref,Xenopus laevis,0.0,2637.0
+XP_041439922.1, disks large-associated protein 3 isoform X1 [Xenopus laevis],Xenopus laevis,0.0,2625.0
+XP_018105002.1, disks large-associated protein 3 isoform X2 [Xenopus laevis] >ref,Xenopus laevis,0.0,2625.0
+XP_033809476.1, disks large-associated protein 3 isoform X1 [Geotrypetes seraphini],Geotrypetes seraphini,0.0,2623.0
+XP_029427743.1, disks large-associated protein 3 isoform X1 [Rhinatrema bivittatum] >ref,Rhinatrema bivittatum,0.0,2623.0
+XP_040193230.1, disks large-associated protein 3 isoform X3 [Rana temporaria],Rana temporaria,0.0,2612.0
+XP_027661879.1, disks large-associated protein 3 [Falco cherrug],Falco cherrug,0.0,2552.0
+XP_036699335.1, disks large-associated protein 3 isoform X2 [Balaenoptera musculus],Balaenoptera musculus,0.0,2509.0
+XP_036699335.1, disks large-associated protein 3 isoform X2 [Balaenoptera musculus],Balaenoptera musculus,0.0,1487.0
+XP_011540182.1, disks large-associated protein 3 isoform X2 [Homo sapiens],Homo sapiens,0.0,2508.0
+XP_009995688.1, PREDICTED: disks large-associated protein 3 [Chaetura pelagica],Chaetura pelagica,0.0,2437.0
+XP_043915198.1, disks large-associated protein 3 [Protopterus annectens],Protopterus annectens,0.0,2390.0
+XP_009949491.1, PREDICTED: LOW QUALITY PROTEIN: disks large-associated protein 3,Leptosomus discolor,0.0,2389.0
+XP_051892071.1, disks large-associated protein 2-like [Pristis pectinata],Pristis pectinata,0.0,2351.0
+XP_038657014.1, disks large-associated protein 3 isoform X1 [Scyliorhinus canicula] >ref,Scyliorhinus canicula,0.0,2351.0
+XP_032901254.1, disks large-associated protein 3 isoform X2 [Amblyraja radiata],Amblyraja radiata,0.0,2332.0
+XP_048414120.1, disks large-associated protein 3 [Stegostoma fasciatum] >ref,Stegostoma fasciatum,0.0,2323.0
+XP_043573772.1, disks large-associated protein 3 isoform X1 [Chiloscyllium plagiosum] >ref,Chiloscyllium plagiosum,0.0,2321.0
+XP_017591628.1, PREDICTED: disks large-associated protein 3 [Corvus brachyrhynchos],Corvus brachyrhynchos,0.0,2316.0
+XP_042194814.1, disks large-associated protein 2 [Callorhinchus milii],Callorhinchus milii,0.0,2301.0
+XP_010153712.1, PREDICTED: disks large-associated protein 3,Eurypyga helias,0.0,2293.0
+XP_010153712.1, PREDICTED: disks large-associated protein 3,Eurypyga helias,6.2742e-11,193.0
+XP_048468910.1, disks large-associated protein 2 [Rhincodon typus],Rhincodon typus,0.0,2286.0
+XP_032901253.1, disks large-associated protein 3 isoform X1 [Amblyraja radiata],Amblyraja radiata,0.0,2285.0
+XP_038657057.1, disks large-associated protein 3 isoform X2 [Scyliorhinus canicula],Scyliorhinus canicula,0.0,2284.0
+XP_004591774.1, disks large-associated protein 3 [Ochotona princeps],Ochotona princeps,0.0,2259.0
+XP_004591774.1, disks large-associated protein 3 [Ochotona princeps],Ochotona princeps,0.0,1444.0
+XP_043573778.1, disks large-associated protein 3 isoform X2 [Chiloscyllium plagiosum],Chiloscyllium plagiosum,0.0,2252.0
+XP_035310759.1, disks large-associated protein 3 isoform X1 [Cricetulus griseus],Cricetulus griseus,0.0,2173.0
+XP_035310759.1, disks large-associated protein 3 isoform X1 [Cricetulus griseus],Cricetulus griseus,0.0,1497.0
+XP_009317002.1, PREDICTED: disks large-associated protein 3 [Pygoscelis adeliae],Pygoscelis adeliae,0.0,2117.0
+XP_038656332.1, disks large-associated protein 2 isoform X3 [Scyliorhinus canicula],Scyliorhinus canicula,0.0,1991.0
+XP_048387745.1, disks large-associated protein 2 isoform X3 [Stegostoma fasciatum],Stegostoma fasciatum,0.0,1969.0
+XP_043534931.1, disks large-associated protein 2 isoform X2 [Chiloscyllium plagiosum],Chiloscyllium plagiosum,0.0,1959.0
+XP_041044168.1, disks large-associated protein 2 [Carcharodon carcharias],Carcharodon carcharias,0.0,1957.0
+XP_034376189.1, disks large-associated protein 2 isoform X3 [Arvicanthis niloticus],Arvicanthis niloticus,0.0,1945.0
+XP_027696198.1, disks large-associated protein 2 [Vombatus ursinus],Vombatus ursinus,0.0,1938.0
+XP_036919279.1, disks large-associated protein 2 [Sturnira hondurensis],Sturnira hondurensis,0.0,1938.0
+XP_009888902.1, PREDICTED: disks large-associated protein 3 [Charadrius vociferus],Charadrius vociferus,0.0,1934.0
+XP_051880533.1, disks large-associated protein 2 [Pristis pectinata],Pristis pectinata,0.0,1933.0
+XP_006002498.1, PREDICTED: disks large-associated protein 2 [Latimeria chalumnae],Latimeria chalumnae,0.0,1932.0
+XP_035867010.1, disks large-associated protein 2 [Phyllostomus discolor],Phyllostomus discolor,0.0,1932.0
+XP_036985443.1, disks large-associated protein 2 [Artibeus jamaicensis],Artibeus jamaicensis,0.0,1923.0
+XP_048353672.1, disks large-associated protein 2 isoform X2 [Sphaerodactylus townsendi],Sphaerodactylus townsendi,0.0,1921.0
+XP_034764476.1, LOW QUALITY PROTEIN: disks large-associated protein 3-like [Acipenser ruthenus],Acipenser ruthenus,0.0,1915.0
+XP_036607820.1, disks large-associated protein 2 [Trichosurus vulpecula],Trichosurus vulpecula,0.0,1915.0
+XP_049646286.1, disks large-associated protein 2 isoform X1 [Suncus etruscus],Suncus etruscus,0.0,1915.0
+XP_012314109.1, disks large-associated protein 2 [Aotus nancymaae],Aotus nancymaae,0.0,1913.0
+XP_004642567.2, disks large-associated protein 2 [Octodon degus],Octodon degus,0.0,1913.0
+XP_033033615.1, disks large-associated protein 2 isoform X2 [Trachypithecus francoisi],Trachypithecus francoisi,0.0,1912.0
+XP_034376187.1, disks large-associated protein 2 isoform X1 [Arvicanthis niloticus],Arvicanthis niloticus,0.0,1911.0
+XP_034376188.1, disks large-associated protein 2 isoform X2 [Arvicanthis niloticus],Arvicanthis niloticus,0.0,1911.0
+XP_012501340.1, PREDICTED: disks large-associated protein 2 isoform X1 [Propithecus coquereli],Propithecus coquereli,0.0,1911.0
+XP_007892209.1, LOW QUALITY PROTEIN: disks large-associated protein 2 [Callorhinchus milii],Callorhinchus milii,0.0,1910.0
+XP_008536458.1, PREDICTED: disks large-associated protein 2 isoform X2 [Equus przewalskii],Equus przewalskii,0.0,1910.0
+XP_011792933.1, PREDICTED: disks large-associated protein 2 isoform X2 [Colobus angolensis palliatus],Colobus angolensis palliatus,0.0,1906.0
+XP_050656156.1, disks large-associated protein 2 isoform X1 [Macaca thibetana thibetana],Macaca thibetana thibetana,0.0,1905.0
+XP_044616533.1, disks large-associated protein 2 isoform X3 [Equus asinus],Equus asinus,0.0,1905.0
+XP_044516859.1, disks large-associated protein 2 [Gracilinanus agilis],Gracilinanus agilis,0.0,1904.0
+XP_038596492.1, disks large-associated protein 2 [Tachyglossus aculeatus],Tachyglossus aculeatus,0.0,1901.0
+XP_031195033.1, disks large-associated protein 2 isoform X2 [Mastomys coucha],Mastomys coucha,0.0,1901.0
+XP_012665294.1, disks large-associated protein 2 [Otolemur garnettii],Otolemur garnettii,0.0,1901.0
+XP_032018424.1, disks large-associated protein 2 isoform X2 [Hylobates moloch],Hylobates moloch,0.0,1900.0
+XP_011823989.1, PREDICTED: disks large-associated protein 2 isoform X1 [Mandrillus leucophaeus],Mandrillus leucophaeus,0.0,1900.0
+XP_011756918.1, disks large-associated protein 2 isoform X3 [Macaca nemestrina],Macaca nemestrina,0.0,1899.0
+XP_001381480.3, PREDICTED: disks large-associated protein 2 isoform X1 [Monodelphis domestica],Monodelphis domestica,0.0,1899.0
+XP_052018814.1, disks large-associated protein 2 [Apodemus sylvaticus],Apodemus sylvaticus,0.0,1897.0
+XP_031805042.1, disks large-associated protein 2 [Sarcophilus harrisii],Sarcophilus harrisii,0.0,1896.0
+XP_043840182.1, disks large-associated protein 2 isoform X8 [Dromiciops gliroides] >ref,Dromiciops gliroides,0.0,1896.0
+XP_007476279.1, PREDICTED: disks large-associated protein 2 isoform X2 [Monodelphis domestica],Monodelphis domestica,0.0,1896.0
+XP_038950085.1, disks large-associated protein 2 isoform X4 [Rattus norvegicus],Rattus norvegicus,0.0,1895.0
+XP_043840181.1, disks large-associated protein 2 isoform X7 [Dromiciops gliroides],Dromiciops gliroides,0.0,1895.0
+XP_027622027.1, disks large-associated protein 2 isoform X1 [Tupaia chinensis],Tupaia chinensis,0.0,1895.0
+XP_028708141.1, disks large-associated protein 2 isoform X3 [Macaca mulatta],Macaca mulatta,0.0,1893.0
+XP_051831965.1, disks large-associated protein 2 [Antechinus flavipes],Antechinus flavipes,0.0,1893.0
+XP_029388113.1, disks large-associated protein 2 isoform X3 [Mus pahari],Mus pahari,0.0,1893.0
+XP_007467395.1, PREDICTED: disks large-associated protein 2-like isoform X1 [Lipotes vexillifer],Lipotes vexillifer,0.0,1893.0
+XP_045254912.1, disks large-associated protein 2 isoform X3 [Macaca fascicularis],Macaca fascicularis,0.0,1892.0
+XP_020828676.1, disks large-associated protein 2 isoform X3 [Phascolarctos cinereus],Phascolarctos cinereus,0.0,1892.0
+XP_043840180.1, disks large-associated protein 2 isoform X6 [Dromiciops gliroides],Dromiciops gliroides,0.0,1892.0
+XP_020828675.1, disks large-associated protein 2 isoform X2 [Phascolarctos cinereus],Phascolarctos cinereus,0.0,1891.0
+XP_020828674.1, disks large-associated protein 2 isoform X1 [Phascolarctos cinereus],Phascolarctos cinereus,0.0,1891.0
+XP_043840179.1, disks large-associated protein 2 isoform X5 [Dromiciops gliroides],Dromiciops gliroides,0.0,1891.0
+XP_043840178.1, disks large-associated protein 2 isoform X4 [Dromiciops gliroides],Dromiciops gliroides,0.0,1891.0
+XP_043840174.1, disks large-associated protein 2 isoform X1 [Dromiciops gliroides] >ref,Dromiciops gliroides,0.0,1890.0
+XP_030618401.1, disks large-associated protein 2 isoform X3 [Delphinapterus leucas],Delphinapterus leucas,0.0,1890.0
+XP_034821474.1, disks large-associated protein 2 isoform X10 [Pan paniscus],Pan paniscus,0.0,1890.0
+XP_043840177.1, disks large-associated protein 2 isoform X3 [Dromiciops gliroides],Dromiciops gliroides,0.0,1890.0
+XP_043840176.1, disks large-associated protein 2 isoform X2 [Dromiciops gliroides],Dromiciops gliroides,0.0,1890.0
+XP_014650893.1, PREDICTED: disks large-associated protein 2 [Ceratotherium simum simum],Ceratotherium simum simum,0.0,1887.0
+XP_034821473.1, disks large-associated protein 2 isoform X9 [Pan paniscus],Pan paniscus,0.0,1887.0
+XP_034821472.1, disks large-associated protein 2 isoform X8 [Pan paniscus],Pan paniscus,0.0,1887.0
+XP_030793420.1, disks large-associated protein 2 [Rhinopithecus roxellana],Rhinopithecus roxellana,0.0,1886.0
+XP_036009910.1, disks large-associated protein 2 isoform X4 [Mus musculus],Mus musculus,0.0,1886.0
+XP_019393027.1, PREDICTED: disks large-associated protein 2 [Crocodylus porosus],Crocodylus porosus,0.0,1886.0
+XP_005366296.2, disks large-associated protein 2 isoform X2 [Microtus ochrogaster],Microtus ochrogaster,0.0,1886.0
+XP_019376164.1, PREDICTED: disks large-associated protein 2 [Gavialis gangeticus],Gavialis gangeticus,0.0,1886.0
+XP_034821470.1, disks large-associated protein 2 isoform X7 [Pan paniscus],Pan paniscus,0.0,1885.0
+XP_008536457.1, PREDICTED: disks large-associated protein 2 isoform X1 [Equus przewalskii] >ref,Equus przewalskii,0.0,1885.0
+XP_045677389.1, disks large-associated protein 2 isoform X3 [Phyllostomus hastatus],Phyllostomus hastatus,0.0,1885.0
+XP_012501341.1, PREDICTED: disks large-associated protein 2 isoform X2 [Propithecus coquereli],Propithecus coquereli,0.0,1885.0
+XP_006508846.1, disks large-associated protein 2 isoform X3 [Mus musculus],Mus musculus,0.0,1885.0
+XP_008116589.1, PREDICTED: disks large-associated protein 2 [Anolis carolinensis],Anolis carolinensis,0.0,1884.0
+XP_010565035.1, PREDICTED: disks large-associated protein 2 [Haliaeetus leucocephalus] >ref,Haliaeetus leucocephalus,0.0,1884.0
+XP_033033607.1, disks large-associated protein 2 isoform X1 [Trachypithecus francoisi],Trachypithecus francoisi,0.0,1884.0
+XP_020638295.1, disks large-associated protein 2 [Pogona vitticeps],Pogona vitticeps,0.0,1884.0
+XP_037841347.1, disks large-associated protein 2 isoform X4 [Chlorocebus sabaeus],Chlorocebus sabaeus,0.0,1884.0
+XP_024107373.1, disks large-associated protein 2 [Pongo abelii],Pongo abelii,0.0,1883.0
+XP_022270842.1, disks large-associated protein 2 isoform X4 [Canis lupus familiaris] >ref,Canis lupus familiaris,0.0,1883.0
+XP_034821467.1, disks large-associated protein 2 isoform X4 [Pan paniscus],Pan paniscus,0.0,1883.0
+XP_025250651.1, disks large-associated protein 2 [Theropithecus gelada],Theropithecus gelada,0.0,1883.0
+XP_034821468.1, disks large-associated protein 2 isoform X5 [Pan paniscus],Pan paniscus,0.0,1883.0
+XP_037841348.1, disks large-associated protein 2 isoform X5 [Chlorocebus sabaeus] >ref,Chlorocebus sabaeus,0.0,1883.0
+XP_045677387.1, disks large-associated protein 2 isoform X2 [Phyllostomus hastatus] >ref,Phyllostomus hastatus,0.0,1883.0
+XP_034821469.1, disks large-associated protein 2 isoform X6 [Pan paniscus],Pan paniscus,0.0,1882.0
+XP_018888289.1, disks large-associated protein 2 [Gorilla gorilla gorilla],Gorilla gorilla gorilla,0.0,1882.0
+XP_011756923.1, disks large-associated protein 2 isoform X8 [Macaca nemestrina],Macaca nemestrina,0.0,1881.0
+XP_032774830.1, disks large-associated protein 2 [Rattus rattus],Rattus rattus,0.0,1880.0
+XP_045677386.1, disks large-associated protein 2 isoform X1 [Phyllostomus hastatus],Phyllostomus hastatus,0.0,1880.0
+NP_001333739.1, disks large-associated protein 2 isoform 3 [Homo sapiens],Homo sapiens,0.0,1880.0
+XP_044616529.1, disks large-associated protein 2 isoform X1 [Equus asinus],Equus asinus,0.0,1879.0
+XP_037841346.1, disks large-associated protein 2 isoform X3 [Chlorocebus sabaeus],Chlorocebus sabaeus,0.0,1879.0
+XP_011756922.1, disks large-associated protein 2 isoform X7 [Macaca nemestrina],Macaca nemestrina,0.0,1879.0
+XP_006276036.2, PREDICTED: disks large-associated protein 2 [Alligator mississippiensis],Alligator mississippiensis,0.0,1879.0
+XP_011792932.1, PREDICTED: disks large-associated protein 2 isoform X1 [Colobus angolensis palliatus],Colobus angolensis palliatus,0.0,1879.0
+XP_034821466.1, disks large-associated protein 2 isoform X3 [Pan paniscus],Pan paniscus,0.0,1879.0
+XP_034821465.1, disks large-associated protein 2 isoform X2 [Pan paniscus],Pan paniscus,0.0,1879.0
+XP_024651850.1, disks large-associated protein 2 isoform X6 [Macaca nemestrina],Macaca nemestrina,0.0,1879.0
+XP_003807578.3, disks large-associated protein 2 isoform X1 [Pan paniscus],Pan paniscus,0.0,1878.0
+XP_011756920.1, disks large-associated protein 2 isoform X5 [Macaca nemestrina],Macaca nemestrina,0.0,1878.0
+XP_037841343.1, disks large-associated protein 2 isoform X1 [Chlorocebus sabaeus],Chlorocebus sabaeus,0.0,1878.0
+XP_050656157.1, disks large-associated protein 2 isoform X2 [Macaca thibetana thibetana],Macaca thibetana thibetana,0.0,1877.0
+XP_026309685.1, disks large-associated protein 2 [Piliocolobus tephrosceles],Piliocolobus tephrosceles,0.0,1877.0
+XP_023486581.1, disks large-associated protein 2 [Equus caballus] >ref,Equus caballus,0.0,1877.0
+XP_031195034.1, disks large-associated protein 2 isoform X3 [Mastomys coucha],Mastomys coucha,0.0,1876.0
+XP_029893514.1, disks large-associated protein 2 isoform X5 [Aquila chrysaetos chrysaetos] >ref,Aquila chrysaetos chrysaetos,0.0,1876.0
+XP_032018425.1, disks large-associated protein 2 isoform X3 [Hylobates moloch],Hylobates moloch,0.0,1876.0
+XP_037841344.1, disks large-associated protein 2 isoform X2 [Chlorocebus sabaeus] >ref,Chlorocebus sabaeus,0.0,1875.0
+XP_029893511.1, disks large-associated protein 2 isoform X2 [Aquila chrysaetos chrysaetos],Aquila chrysaetos chrysaetos,0.0,1875.0
+XP_011756915.1, disks large-associated protein 2 isoform X1 [Macaca nemestrina],Macaca nemestrina,0.0,1874.0
+XP_011756919.1, disks large-associated protein 2 isoform X4 [Macaca nemestrina],Macaca nemestrina,0.0,1874.0
+XP_011823990.1, PREDICTED: disks large-associated protein 2 isoform X2 [Mandrillus leucophaeus],Mandrillus leucophaeus,0.0,1874.0
+XP_032018423.1, disks large-associated protein 2 isoform X1 [Hylobates moloch],Hylobates moloch,0.0,1874.0
+XP_011948949.1, PREDICTED: disks large-associated protein 2 isoform X8 [Cercocebus atys],Cercocebus atys,0.0,1873.0
+XP_023417212.1, disks large-associated protein 2 isoform X1 [Cavia porcellus],Cavia porcellus,0.0,1873.0

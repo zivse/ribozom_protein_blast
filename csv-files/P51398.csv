@@ -1,0 +1,494 @@
+query_id,protein_name,organism,e-value,score
+NP_001186778.1, 28S ribosomal protein S29,Homo sapiens,0.0,2146.0
+XP_008972843.1, 28S ribosomal protein S29,Pan paniscus,0.0,2142.0
+XP_018879560.2, 28S ribosomal protein S29,Gorilla gorilla gorilla,0.0,2135.0
+NP_001127473.1, 28S ribosomal protein S29,Pongo abelii,0.0,2119.0
+XP_030680152.1, 28S ribosomal protein S29,Nomascus leucogenys,0.0,2110.0
+XP_032010180.1, 28S ribosomal protein S29,Hylobates moloch,0.0,2106.0
+XP_026312852.1, 28S ribosomal protein S29,Piliocolobus tephrosceles,0.0,2096.0
+XP_011832637.1, PREDICTED: 28S ribosomal protein S29,Mandrillus leucophaeus,0.0,2094.0
+XP_010366411.1, 28S ribosomal protein S29,Rhinopithecus roxellana,0.0,2093.0
+XP_037851623.1, 28S ribosomal protein S29,Chlorocebus sabaeus,0.0,2092.0
+XP_033052044.1, 28S ribosomal protein S29,Trachypithecus francoisi,0.0,2092.0
+XP_033052045.1, 28S ribosomal protein S29,Trachypithecus francoisi,0.0,2091.0
+XP_005541588.1, PREDICTED: 28S ribosomal protein S29,Macaca fascicularis,0.0,2090.0
+XP_005541587.2, PREDICTED: 28S ribosomal protein S29,Macaca fascicularis,0.0,2090.0
+XP_017803213.2, 28S ribosomal protein S29,Papio anubis,0.0,2087.0
+XP_025236883.1, 28S ribosomal protein S29,Theropithecus gelada,0.0,2085.0
+XP_014967062.1, 28S ribosomal protein S29,Macaca mulatta,0.0,2081.0
+XP_002801886.3, 28S ribosomal protein S29,Macaca mulatta,0.0,2081.0
+XP_016802626.1, 28S ribosomal protein S29,Pan troglodytes,0.0,2063.0
+XP_032116465.1, 28S ribosomal protein S29,Sapajus apella,0.0,2039.0
+XP_012305308.1, 28S ribosomal protein S29,Aotus nancymaae,0.0,2034.0
+XP_002760039.1, 28S ribosomal protein S29,Callithrix jacchus,0.0,2021.0
+XP_011933994.1, PREDICTED: 28S ribosomal protein S29,Cercocebus atys,0.0,2019.0
+XP_021786435.1, 28S ribosomal protein S29,Papio anubis,0.0,2011.0
+XP_028683964.1, 28S ribosomal protein S29,Macaca mulatta,0.0,2007.0
+XP_045231073.1, 28S ribosomal protein S29,Macaca fascicularis,0.0,2006.0
+XP_014967076.2, 28S ribosomal protein S29,Macaca mulatta,0.0,2006.0
+XP_011768056.1, 28S ribosomal protein S29,Macaca nemestrina,0.0,1990.0
+XP_050610794.1, 28S ribosomal protein S29,Macaca thibetana thibetana,0.0,1976.0
+XP_024305466.1, 28S ribosomal protein S29,Homo sapiens,0.0,1965.0
+XP_008569098.1, PREDICTED: 28S ribosomal protein S29,Galeopterus variegatus,0.0,1965.0
+XP_008569091.1, PREDICTED: 28S ribosomal protein S29,Galeopterus variegatus,0.0,1962.0
+XP_016802862.1, 28S ribosomal protein S29,Pan troglodytes,0.0,1961.0
+XP_020021756.1, 28S ribosomal protein S29,Castor canadensis,0.0,1955.0
+XP_045401279.1, 28S ribosomal protein S29,Lemur catta,0.0,1952.0
+XP_026312848.1, 28S ribosomal protein S29,Piliocolobus tephrosceles,0.0,1951.0
+XP_026312850.1, 28S ribosomal protein S29,Piliocolobus tephrosceles,0.0,1950.0
+XP_014647461.1, PREDICTED: 28S ribosomal protein S29,Ceratotherium simum simum,0.0,1948.0
+XP_012514126.1, PREDICTED: 28S ribosomal protein S29,Propithecus coquereli,0.0,1944.0
+XP_010952225.1, 28S ribosomal protein S29,Camelus bactrianus,0.0,1943.0
+XP_032319995.1, 28S ribosomal protein S29,Camelus ferus,0.0,1941.0
+XP_010952226.1, 28S ribosomal protein S29,Camelus bactrianus,0.0,1940.0
+XP_007171965.1, 28S ribosomal protein S29,Balaenoptera acutorostrata scammoni,0.0,1939.0
+XP_037681727.1, 28S ribosomal protein S29,Choloepus didactylus,0.0,1937.0
+XP_036687277.1, 28S ribosomal protein S29,Balaenoptera musculus,0.0,1935.0
+XP_030698053.1, 28S ribosomal protein S29,Globicephala melas,0.0,1935.0
+XP_030698049.1, 28S ribosomal protein S29,Globicephala melas,0.0,1934.0
+XP_052492708.1, 28S ribosomal protein S29,Budorcas taxicolor,0.0,1933.0
+XP_036687280.1, 28S ribosomal protein S29,Balaenoptera musculus,0.0,1933.0
+XP_033270539.1, 28S ribosomal protein S29,Orcinus orca,0.0,1932.0
+XP_004315238.1, 28S ribosomal protein S29,Tursiops truncatus,0.0,1932.0
+XP_030698054.1, 28S ribosomal protein S29,Globicephala melas,0.0,1932.0
+XP_033713359.1, 28S ribosomal protein S29,Tursiops truncatus,0.0,1931.0
+XP_020945369.1, 28S ribosomal protein S29,Sus scrofa,0.0,1931.0
+XP_052492706.1, 28S ribosomal protein S29,Budorcas taxicolor,0.0,1930.0
+XP_040086332.1, 28S ribosomal protein S29,Oryx dammah,0.0,1930.0
+XP_052492709.1, 28S ribosomal protein S29,Budorcas taxicolor,0.0,1929.0
+XP_019789151.1, 28S ribosomal protein S29,Tursiops truncatus,0.0,1929.0
+XP_012394014.1, 28S ribosomal protein S29,Orcinus orca,0.0,1929.0
+XP_026950974.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1929.0
+XP_040086333.1, 28S ribosomal protein S29,Oryx dammah,0.0,1928.0
+NP_001296246.1, 28S ribosomal protein S29,Equus caballus,0.0,1927.0
+XP_008071435.1, 28S ribosomal protein S29,Carlito syrichta,0.0,1926.0
+XP_026950975.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1925.0
+XP_010836574.1, PREDICTED: 28S ribosomal protein S29,Bison bison bison,0.0,1925.0
+XP_014692512.1, 28S ribosomal protein S29,Equus asinus,0.0,1924.0
+XP_007110467.1, 28S ribosomal protein S29,Physeter catodon,0.0,1924.0
+XP_015103657.1, 28S ribosomal protein S29,Vicugna pacos,0.0,1924.0
+XP_012038192.1, 28S ribosomal protein S29,Ovis aries,0.0,1924.0
+XP_020945372.1, 28S ribosomal protein S29,Sus scrofa,0.0,1924.0
+XP_046538727.1, 28S ribosomal protein S29,Equus quagga,0.0,1922.0
+XP_014947778.1, 28S ribosomal protein S29,Ovis aries,0.0,1921.0
+XP_015103658.1, 28S ribosomal protein S29,Vicugna pacos,0.0,1921.0
+XP_005898761.1, PREDICTED: 28S ribosomal protein S29,Bos mutus,0.0,1921.0
+XP_004002641.1, 28S ribosomal protein S29,Ovis aries,0.0,1919.0
+XP_022415407.1, 28S ribosomal protein S29,Delphinapterus leucas,0.0,1919.0
+XP_022415409.1, 28S ribosomal protein S29,Delphinapterus leucas,0.0,1919.0
+XP_012038186.3, 28S ribosomal protein S29,Ovis aries,0.0,1918.0
+XP_017901753.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1918.0
+XP_047640315.1, 28S ribosomal protein S29,Phacochoerus africanus,0.0,1918.0
+XP_013832204.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1918.0
+XP_022415410.1, 28S ribosomal protein S29,Delphinapterus leucas,0.0,1916.0
+XP_052492707.1, 28S ribosomal protein S29,Budorcas taxicolor,0.0,1915.0
+XP_021562242.1, 28S ribosomal protein S29,Carlito syrichta,0.0,1915.0
+XP_007457990.1, PREDICTED: 28S ribosomal protein S29,Lipotes vexillifer,0.0,1913.0
+XP_006153453.1, 28S ribosomal protein S29,Tupaia chinensis,0.0,1911.0
+NP_001186779.1, 28S ribosomal protein S29,Homo sapiens,0.0,1911.0
+XP_020768085.1, 28S ribosomal protein S29,Odocoileus virginianus texanus,0.0,1910.0
+XP_036199681.1, 28S ribosomal protein S29,Myotis myotis,0.0,1910.0
+XP_044614526.1, 28S ribosomal protein S29,Equus asinus,0.0,1910.0
+XP_016076875.1, PREDICTED: 28S ribosomal protein S29,Miniopterus natalensis,0.0,1908.0
+XP_020768086.1, 28S ribosomal protein S29,Odocoileus virginianus texanus,0.0,1907.0
+XP_005203704.1, 28S ribosomal protein S29,Bos taurus,0.0,1907.0
+XP_017365439.1, 28S ribosomal protein S29,Cebus imitator,0.0,1906.0
+XP_036199683.1, 28S ribosomal protein S29,Myotis myotis,0.0,1906.0
+XP_020945368.1, 28S ribosomal protein S29,Sus scrofa,0.0,1906.0
+XP_012664052.1, 28S ribosomal protein S29,Otolemur garnettii,0.0,1904.0
+XP_031514861.1, 28S ribosomal protein S29,Papio anubis,0.0,1904.0
+XP_005203705.1, 28S ribosomal protein S29,Bos taurus,0.0,1903.0
+XP_017901748.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1903.0
+NP_001106765.1, 28S ribosomal protein S29,Bos taurus,0.0,1902.0
+XP_020945370.1, 28S ribosomal protein S29,Sus scrofa,0.0,1901.0
+XP_050610796.1, 28S ribosomal protein S29,Macaca thibetana thibetana,0.0,1901.0
+XP_014967083.1, 28S ribosomal protein S29,Macaca mulatta,0.0,1901.0
+XP_037681725.1, 28S ribosomal protein S29,Choloepus didactylus,0.0,1899.0
+XP_031514896.1, 28S ribosomal protein S29,Papio anubis,0.0,1898.0
+XP_037681724.1, 28S ribosomal protein S29,Choloepus didactylus,0.0,1898.0
+XP_017532125.1, 28S ribosomal protein S29,Manis javanica,0.0,1897.0
+XP_005331415.1, 28S ribosomal protein S29,Ictidomys tridecemlineatus,0.0,1896.0
+XP_036872677.1, 28S ribosomal protein S29,Manis javanica,0.0,1896.0
+XP_043731820.1, 28S ribosomal protein S29,Cervus elaphus,0.0,1895.0
+XP_025145179.3, 28S ribosomal protein S29,Bubalus bubalis,0.0,1895.0
+XP_003415179.2, 28S ribosomal protein S29,Loxodonta africana,0.0,1894.0
+XP_043310377.1, 28S ribosomal protein S29,Cervus canadensis,0.0,1894.0
+XP_036778359.1, 28S ribosomal protein S29,Manis pentadactyla,0.0,1894.0
+XP_023598317.1, 28S ribosomal protein S29,Trichechus manatus latirostris,0.0,1894.0
+XP_002715461.2, 28S ribosomal protein S29,Oryctolagus cuniculus,0.0,1893.0
+XP_006052089.1, 28S ribosomal protein S29,Bubalus bubalis,0.0,1893.0
+XP_049736687.1, 28S ribosomal protein S29,Elephas maximus indicus,0.0,1892.0
+XP_049736688.1, 28S ribosomal protein S29,Elephas maximus indicus,0.0,1892.0
+XP_049736686.1, 28S ribosomal protein S29,Elephas maximus indicus,0.0,1892.0
+XP_010593117.1, 28S ribosomal protein S29,Loxodonta africana,0.0,1892.0
+XP_010593116.1, 28S ribosomal protein S29,Loxodonta africana,0.0,1892.0
+XP_006097893.1, 28S ribosomal protein S29,Myotis lucifugus,0.0,1891.0
+XP_043310384.1, 28S ribosomal protein S29,Cervus canadensis,0.0,1891.0
+XP_015358248.1, 28S ribosomal protein S29,Marmota marmota marmota,0.0,1890.0
+XP_043731821.1, 28S ribosomal protein S29,Cervus elaphus,0.0,1890.0
+XP_006052090.1, 28S ribosomal protein S29,Bubalus bubalis,0.0,1889.0
+XP_027776557.1, 28S ribosomal protein S29,Marmota flaviventris,0.0,1886.0
+XP_024429698.1, 28S ribosomal protein S29,Desmodus rotundus,0.0,1886.0
+XP_012588782.1, PREDICTED: 28S ribosomal protein S29,Condylura cristata,0.0,1885.0
+XP_024429691.1, 28S ribosomal protein S29,Desmodus rotundus,0.0,1883.0
+XP_030680154.1, 28S ribosomal protein S29,Nomascus leucogenys,0.0,1882.0
+XP_016802826.1, 28S ribosomal protein S29,Pan troglodytes,0.0,1882.0
+XP_047371793.1, 28S ribosomal protein S29,Sciurus carolinensis,0.0,1881.0
+XP_007525371.2, PREDICTED: 28S ribosomal protein S29,Erinaceus europaeus,0.0,1878.0
+XP_042537934.1, 28S ribosomal protein S29,Dipodomys spectabilis,0.0,1877.0
+XP_032010184.1, 28S ribosomal protein S29,Hylobates moloch,0.0,1877.0
+XP_026312849.1, 28S ribosomal protein S29,Piliocolobus tephrosceles,0.0,1877.0
+XP_006775754.1, PREDICTED: 28S ribosomal protein S29,Myotis davidii,0.0,1877.0
+XP_037354832.1, 28S ribosomal protein S29,Talpa occidentalis,0.0,1874.0
+XP_042537936.1, 28S ribosomal protein S29,Dipodomys spectabilis,0.0,1873.0
+XP_006775755.2, PREDICTED: 28S ribosomal protein S29,Myotis davidii,0.0,1873.0
+XP_036128018.1, 28S ribosomal protein S29,Molossus molossus,0.0,1873.0
+NP_001186780.1, 28S ribosomal protein S29,Homo sapiens,0.0,1872.0
+XP_012870834.1, PREDICTED: 28S ribosomal protein S29,Dipodomys ordii,0.0,1872.0
+XP_035871383.1, 28S ribosomal protein S29,Phyllostomus discolor,0.0,1872.0
+XP_028358721.1, 28S ribosomal protein S29,Phyllostomus discolor,0.0,1871.0
+XP_008153907.1, 28S ribosomal protein S29,Eptesicus fuscus,0.0,1870.0
+XP_026260743.1, 28S ribosomal protein S29,Urocitellus parryii,0.0,1869.0
+XP_004482906.1, 28S ribosomal protein S29,Dasypus novemcinctus,0.0,1868.0
+XP_016802949.1, 28S ribosomal protein S29,Pan troglodytes,0.0,1868.0
+XP_043333009.1, 28S ribosomal protein S29,Cervus canadensis,0.0,1867.0
+XP_045672409.1, 28S ribosomal protein S29,Phyllostomus hastatus,0.0,1867.0
+XP_005411672.1, PREDICTED: 28S ribosomal protein S29,Chinchilla lanigera,0.0,1866.0
+XP_043782168.1, 28S ribosomal protein S29,Cervus elaphus,0.0,1865.0
+XP_024841352.1, 28S ribosomal protein S29,Bos taurus,0.0,1864.0
+XP_033052046.1, 28S ribosomal protein S29,Trachypithecus francoisi,0.0,1862.0
+XP_011832640.1, PREDICTED: 28S ribosomal protein S29,Mandrillus leucophaeus,0.0,1862.0
+XP_036906444.1, 28S ribosomal protein S29,Sturnira hondurensis,0.0,1861.0
+XP_024841358.1, 28S ribosomal protein S29,Bos taurus,0.0,1861.0
+XP_011768051.1, 28S ribosomal protein S29,Macaca nemestrina,0.0,1860.0
+XP_006895846.1, PREDICTED: 28S ribosomal protein S29,Elephantulus edwardii,0.0,1860.0
+XP_011768053.1, 28S ribosomal protein S29,Macaca nemestrina,0.0,1859.0
+XP_032116467.1, 28S ribosomal protein S29,Sapajus apella,0.0,1859.0
+XP_022415411.1, 28S ribosomal protein S29,Delphinapterus leucas,0.0,1858.0
+XP_031514940.1, 28S ribosomal protein S29,Papio anubis,0.0,1856.0
+XP_015311604.1, PREDICTED: 28S ribosomal protein S29,Macaca fascicularis,0.0,1856.0
+XP_004482905.1, 28S ribosomal protein S29,Dasypus novemcinctus,0.0,1854.0
+XP_010642152.1, 28S ribosomal protein S29,Fukomys damarensis,0.0,1849.0
+XP_012369903.1, 28S ribosomal protein S29,Octodon degus,0.0,1848.0
+XP_015311604.2, 28S ribosomal protein S29,Macaca fascicularis,0.0,1848.0
+XP_003475663.1, 28S ribosomal protein S29,Cavia porcellus,0.0,1848.0
+XP_004871198.1, 28S ribosomal protein S29,Heterocephalus glaber,0.0,1847.0
+XP_019518057.1, PREDICTED: 28S ribosomal protein S29,Hipposideros armiger,0.0,1847.0
+XP_036988422.1, 28S ribosomal protein S29,Artibeus jamaicensis,0.0,1847.0
+XP_019518055.1, PREDICTED: 28S ribosomal protein S29,Hipposideros armiger,0.0,1846.0
+XP_006861622.1, PREDICTED: 28S ribosomal protein S29,Chrysochloris asiatica,0.0,1844.0
+XP_019518058.1, PREDICTED: 28S ribosomal protein S29,Hipposideros armiger,0.0,1844.0
+XP_036906446.1, 28S ribosomal protein S29,Sturnira hondurensis,0.0,1844.0
+XP_042637935.1, 28S ribosomal protein S29,Orycteropus afer afer,0.0,1844.0
+XP_019518054.1, PREDICTED: 28S ribosomal protein S29,Hipposideros armiger,0.0,1841.0
+XP_004619349.1, PREDICTED: 28S ribosomal protein S29,Sorex araneus,0.0,1839.0
+XP_008852277.1, 28S ribosomal protein S29,Nannospalax galili,0.0,1836.0
+XP_030680156.1, 28S ribosomal protein S29,Nomascus leucogenys,0.0,1836.0
+XP_040854972.1, 28S ribosomal protein S29,Ochotona curzoniae,0.0,1834.0
+XP_032948095.1, 28S ribosomal protein S29,Rhinolophus ferrumequinum,0.0,1834.0
+XP_032948099.1, 28S ribosomal protein S29,Rhinolophus ferrumequinum,0.0,1834.0
+XP_010642148.1, 28S ribosomal protein S29,Fukomys damarensis,0.0,1833.0
+XP_036298719.1, 28S ribosomal protein S29,Pipistrellus kuhlii,0.0,1829.0
+XP_020945375.1, 28S ribosomal protein S29,Sus scrofa,0.0,1829.0
+XP_002928327.1, 28S ribosomal protein S29,Ailuropoda melanoleuca,0.0,1825.0
+XP_045640140.1, 28S ribosomal protein S29,Ursus americanus,0.0,1822.0
+XP_019566666.1, PREDICTED: 28S ribosomal protein S29,Rhinolophus sinicus,0.0,1822.0
+XP_004589068.1, 28S ribosomal protein S29,Ochotona princeps,0.0,1821.0
+XP_019566664.1, PREDICTED: 28S ribosomal protein S29,Rhinolophus sinicus,0.0,1820.0
+XP_026340989.1, 28S ribosomal protein S29,Ursus arctos,0.0,1819.0
+XP_043424497.1, 28S ribosomal protein S29,Prionailurus bengalensis,0.0,1816.0
+XP_043424498.1, 28S ribosomal protein S29,Prionailurus bengalensis,0.0,1814.0
+XP_043424494.1, 28S ribosomal protein S29,Prionailurus bengalensis,0.0,1814.0
+XP_049638244.1, 28S ribosomal protein S29,Suncus etruscus,0.0,1814.0
+XP_045310335.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1811.0
+XP_046948634.1, 28S ribosomal protein S29,Lynx rufus,0.0,1811.0
+XP_048213517.1, 28S ribosomal protein S29,Perognathus longimembris pacificus,0.0,1810.0
+XP_004402996.1, PREDICTED: 28S ribosomal protein S29,Odobenus rosmarus divergens,0.0,1810.0
+XP_047640318.1, 28S ribosomal protein S29,Phacochoerus africanus,0.0,1810.0
+XP_047695905.1, 28S ribosomal protein S29,Prionailurus viverrinus,0.0,1810.0
+XP_047695908.1, 28S ribosomal protein S29,Prionailurus viverrinus,0.0,1810.0
+XP_027466052.1, 28S ribosomal protein S29,Zalophus californianus,0.0,1809.0
+XP_014935170.1, 28S ribosomal protein S29,Acinonyx jubatus,0.0,1808.0
+XP_045310341.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1807.0
+XP_046948641.1, 28S ribosomal protein S29,Lynx rufus,0.0,1807.0
+XP_020945374.1, 28S ribosomal protein S29,Sus scrofa,0.0,1806.0
+XP_035923398.1, 28S ribosomal protein S29,Halichoerus grypus,0.0,1806.0
+XP_046948635.1, 28S ribosomal protein S29,Lynx rufus,0.0,1806.0
+XP_023103389.2, 28S ribosomal protein S29,Felis catus,0.0,1806.0
+XP_007087966.1, 28S ribosomal protein S29,Panthera tigris,0.0,1806.0
+XP_040308633.1, 28S ribosomal protein S29,Puma yagouaroundi,0.0,1805.0
+XP_045310343.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1805.0
+XP_045310340.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1805.0
+XP_023103388.2, 28S ribosomal protein S29,Felis catus,0.0,1804.0
+XP_019286832.1, PREDICTED: 28S ribosomal protein S29,Panthera pardus,0.0,1804.0
+XP_026904114.1, 28S ribosomal protein S29,Acinonyx jubatus,0.0,1804.0
+XP_014935171.1, 28S ribosomal protein S29,Acinonyx jubatus,0.0,1804.0
+XP_017901751.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1804.0
+XP_017901752.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1803.0
+XP_040308630.1, 28S ribosomal protein S29,Puma yagouaroundi,0.0,1803.0
+XP_019286827.1, PREDICTED: 28S ribosomal protein S29,Panthera pardus,0.0,1803.0
+XP_017901747.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1803.0
+XP_049490825.1, 28S ribosomal protein S29,Panthera uncia,0.0,1801.0
+XP_040308635.1, 28S ribosomal protein S29,Puma yagouaroundi,0.0,1801.0
+XP_032254190.1, 28S ribosomal protein S29,Phoca vitulina,0.0,1800.0
+XP_049490822.1, 28S ribosomal protein S29,Panthera uncia,0.0,1799.0
+XP_025714526.1, 28S ribosomal protein S29,Callorhinus ursinus,0.0,1798.0
+XP_021537651.1, 28S ribosomal protein S29,Neomonachus schauinslandi,0.0,1793.0
+XP_004667315.1, 28S ribosomal protein S29,Jaculus jaculus,0.0,1791.0
+XP_025770963.1, 28S ribosomal protein S29,Puma concolor,0.0,1788.0
+XP_017901749.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1788.0
+XP_011933995.1, PREDICTED: 28S ribosomal protein S29,Cercocebus atys,0.0,1787.0
+XP_036128021.1, 28S ribosomal protein S29,Molossus molossus,0.0,1787.0
+XP_017901745.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1786.0
+XP_017901750.1, PREDICTED: 28S ribosomal protein S29,Capra hircus,0.0,1785.0
+XP_045310338.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1784.0
+XP_032116468.1, 28S ribosomal protein S29,Sapajus apella,0.0,1784.0
+XP_035923397.1, 28S ribosomal protein S29,Halichoerus grypus,0.0,1784.0
+XP_025286707.1, 28S ribosomal protein S29,Canis lupus dingo,0.0,1780.0
+XP_034793108.1, 28S ribosomal protein S29,Pan paniscus,0.0,1778.0
+XP_040854973.1, 28S ribosomal protein S29,Ochotona curzoniae,0.0,1775.0
+XP_045732543.1, 28S ribosomal protein S29,Mirounga angustirostris,0.0,1775.0
+XP_008982823.1, 28S ribosomal protein S29,Callithrix jacchus,0.0,1775.0
+XP_043424493.1, 28S ribosomal protein S29,Prionailurus bengalensis,0.0,1773.0
+NP_001011950.2, 28S ribosomal protein S29,Rattus norvegicus,0.0,1770.0
+XP_036687285.1, 28S ribosomal protein S29,Balaenoptera musculus,0.0,1766.0
+XP_025853050.1, 28S ribosomal protein S29,Vulpes vulpes,0.0,1766.0
+XP_007171967.1, 28S ribosomal protein S29,Balaenoptera acutorostrata scammoni,0.0,1764.0
+XP_021493375.1, 28S ribosomal protein S29,Meriones unguiculatus,0.0,1763.0
+XP_032254192.1, 28S ribosomal protein S29,Phoca vitulina,0.0,1761.0
+NP_075370.2, 28S ribosomal protein S29,Mus musculus,0.0,1760.0
+NP_001355348.1, 28S ribosomal protein S29,Mus musculus,0.0,1757.0
+XP_031230298.1, 28S ribosomal protein S29,Mastomys coucha,0.0,1755.0
+XP_021014289.1, 28S ribosomal protein S29,Mus caroli,0.0,1755.0
+XP_030698050.1, 28S ribosomal protein S29,Globicephala melas,0.0,1754.0
+XP_051013455.1, 28S ribosomal protein S29,Acomys russatus,0.0,1754.0
+XP_051013454.1, 28S ribosomal protein S29,Acomys russatus,0.0,1754.0
+XP_029331092.1, 28S ribosomal protein S29,Mus caroli,0.0,1753.0
+XP_033713360.1, 28S ribosomal protein S29,Tursiops truncatus,0.0,1752.0
+XP_031230300.1, 28S ribosomal protein S29,Mastomys coucha,0.0,1752.0
+XP_034356321.1, 28S ribosomal protein S29,Arvicanthis niloticus,0.0,1750.0
+XP_033270540.1, 28S ribosomal protein S29,Orcinus orca,0.0,1749.0
+XP_026950976.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1748.0
+XP_042111150.1, 28S ribosomal protein S29,Ovis aries,0.0,1746.0
+XP_042111139.1, 28S ribosomal protein S29,Ovis aries,0.0,1745.0
+XP_040608358.1, 28S ribosomal protein S29,Mesocricetus auratus,0.0,1744.0
+XP_039107325.1, 28S ribosomal protein S29,Hyaena hyaena,0.0,1742.0
+XP_035923400.1, 28S ribosomal protein S29,Halichoerus grypus,0.0,1742.0
+XP_040608360.1, 28S ribosomal protein S29,Mesocricetus auratus,0.0,1740.0
+XP_020768090.1, 28S ribosomal protein S29,Odocoileus virginianus texanus,0.0,1738.0
+XP_034865665.1, 28S ribosomal protein S29,Mirounga leonina,0.0,1738.0
+XP_021052397.1, 28S ribosomal protein S29,Mus pahari,0.0,1737.0
+XP_029393383.1, 28S ribosomal protein S29,Mus pahari,0.0,1737.0
+XP_007171966.1, 28S ribosomal protein S29,Balaenoptera acutorostrata scammoni,0.0,1735.0
+XP_020768091.1, 28S ribosomal protein S29,Odocoileus virginianus texanus,0.0,1732.0
+XP_016857783.1, 28S ribosomal protein S29,Homo sapiens,0.0,1730.0
+XP_052036049.1, 28S ribosomal protein S29,Apodemus sylvaticus,0.0,1730.0
+XP_028608924.1, 28S ribosomal protein S29,Grammomys surdaster,0.0,1729.0
+XP_051054793.1, 28S ribosomal protein S29,Phodopus roborovskii,0.0,1728.0
+XP_028608923.1, 28S ribosomal protein S29,Grammomys surdaster,0.0,1728.0
+XP_019518056.1, PREDICTED: 28S ribosomal protein S29,Hipposideros armiger,0.0,1728.0
+XP_029791877.1, 28S ribosomal protein S29,Suricata suricatta,0.0,1727.0
+XP_029791878.1, 28S ribosomal protein S29,Suricata suricatta,0.0,1723.0
+XP_007640419.1, 28S ribosomal protein S29,Cricetulus griseus,0.0,1722.0
+XP_032752832.1, 28S ribosomal protein S29,Rattus rattus,0.0,1722.0
+XP_036610708.1, 28S ribosomal protein S29,Trichosurus vulpecula,0.0,1720.0
+XP_044800205.2, 28S ribosomal protein S29,Bubalus bubalis,0.0,1720.0
+XP_021562244.1, 28S ribosomal protein S29,Carlito syrichta,0.0,1719.0
+XP_041511421.1, 28S ribosomal protein S29,Microtus oregoni,0.0,1719.0
+XP_028746607.1, 28S ribosomal protein S29,Peromyscus leucopus,0.0,1717.0
+XP_041511422.1, 28S ribosomal protein S29,Microtus oregoni,0.0,1717.0
+XP_036610707.1, 28S ribosomal protein S29,Trichosurus vulpecula,0.0,1715.0
+XP_027776559.1, 28S ribosomal protein S29,Marmota flaviventris,0.0,1712.0
+XP_005898762.1, PREDICTED: 28S ribosomal protein S29,Bos mutus,0.0,1712.0
+XP_027726896.1, 28S ribosomal protein S29,Vombatus ursinus,0.0,1711.0
+XP_039107326.1, 28S ribosomal protein S29,Hyaena hyaena,0.0,1711.0
+XP_005867604.1, PREDICTED: 28S ribosomal protein S29,Myotis brandtii,0.0,1709.0
+XP_003768126.3, 28S ribosomal protein S29,Sarcophilus harrisii,0.0,1708.0
+XP_045640138.1, 28S ribosomal protein S29,Ursus americanus,0.0,1708.0
+XP_038167064.1, 28S ribosomal protein S29,Arvicola amphibius,0.0,1708.0
+XP_020021759.1, 28S ribosomal protein S29,Castor canadensis,0.0,1708.0
+XP_050022299.1, 28S ribosomal protein S29,Microtus fortis,0.0,1708.0
+XP_050022300.1, 28S ribosomal protein S29,Microtus fortis,0.0,1707.0
+XP_026340986.1, 28S ribosomal protein S29,Ursus arctos,0.0,1707.0
+XP_040491703.1, 28S ribosomal protein S29,Ursus maritimus,0.0,1707.0
+XP_044531657.1, 28S ribosomal protein S29,Gracilinanus agilis,0.0,1705.0
+XP_020847245.1, 28S ribosomal protein S29,Phascolarctos cinereus,0.0,1705.0
+XP_038167065.1, 28S ribosomal protein S29,Arvicola amphibius,0.0,1703.0
+XP_039107324.1, 28S ribosomal protein S29,Hyaena hyaena,0.0,1703.0
+XP_020847244.1, 28S ribosomal protein S29,Phascolarctos cinereus,0.0,1702.0
+XP_036046647.1, 28S ribosomal protein S29,Onychomys torridus,0.0,1702.0
+XP_007457991.1, PREDICTED: 28S ribosomal protein S29,Lipotes vexillifer,0.0,1701.0
+XP_031822589.1, 28S ribosomal protein S29,Sarcophilus harrisii,0.0,1700.0
+XP_001143071.3, 28S ribosomal protein S29,Pan troglodytes,0.0,1699.0
+XP_051713181.1, 28S ribosomal protein S29,Oryctolagus cuniculus,0.0,1697.0
+XP_039705576.1, 28S ribosomal protein S29,Pteropus giganteus,0.0,1697.0
+XP_006923586.2, 28S ribosomal protein S29,Pteropus alecto,0.0,1696.0
+XP_008071436.1, 28S ribosomal protein S29,Carlito syrichta,0.0,1696.0
+XP_015453845.1, 28S ribosomal protein S29,Pteropus alecto,0.0,1695.0
+XP_023103390.2, 28S ribosomal protein S29,Felis catus,0.0,1694.0
+XP_037354831.1, 28S ribosomal protein S29,Talpa occidentalis,0.0,1694.0
+XP_005898763.1, PREDICTED: 28S ribosomal protein S29,Bos mutus,0.0,1693.0
+XP_006976420.1, 28S ribosomal protein S29,Peromyscus maniculatus bairdii,0.0,1693.0
+XP_007457992.1, PREDICTED: 28S ribosomal protein S29,Lipotes vexillifer,0.0,1692.0
+XP_016857784.1, 28S ribosomal protein S29,Homo sapiens,0.0,1692.0
+XP_016021650.2, 28S ribosomal protein S29,Rousettus aegyptiacus,0.0,1690.0
+XP_040608363.1, 28S ribosomal protein S29,Mesocricetus auratus,0.0,1688.0
+XP_048670689.1, 28S ribosomal protein S29,Marmota marmota marmota,0.0,1688.0
+XP_037681728.1, 28S ribosomal protein S29,Choloepus didactylus,0.0,1688.0
+XP_032174619.1, 28S ribosomal protein S29,Mustela erminea,0.0,1687.0
+XP_007482101.1, PREDICTED: 28S ribosomal protein S29,Monodelphis domestica,0.0,1685.0
+XP_032700932.1, 28S ribosomal protein S29,Lontra canadensis,0.0,1684.0
+XP_044122450.1, 28S ribosomal protein S29,Neogale vison,0.0,1682.0
+XP_051713182.1, 28S ribosomal protein S29,Oryctolagus cuniculus,0.0,1679.0
+XP_047371820.1, 28S ribosomal protein S29,Sciurus carolinensis,0.0,1675.0
+XP_035306399.1, 28S ribosomal protein S29,Cricetulus griseus,0.0,1675.0
+XP_004871200.1, 28S ribosomal protein S29,Heterocephalus glaber,0.0,1674.0
+XP_022276988.1, 28S ribosomal protein S29,Canis lupus familiaris,0.0,1673.0
+XP_023598318.1, 28S ribosomal protein S29,Trichechus manatus latirostris,0.0,1673.0
+XP_023409827.1, 28S ribosomal protein S29,Loxodonta africana,0.0,1672.0
+XP_023409826.1, 28S ribosomal protein S29,Loxodonta africana,0.0,1672.0
+XP_023569352.1, 28S ribosomal protein S29,Octodon degus,0.0,1670.0
+XP_045838981.1, 28S ribosomal protein S29,Meles meles,0.0,1670.0
+XP_023409828.1, 28S ribosomal protein S29,Loxodonta africana,0.0,1670.0
+XP_044942744.1, 28S ribosomal protein S29,Mustela putorius furo,0.0,1666.0
+XP_022346567.1, 28S ribosomal protein S29,Enhydra lutris kenyoni,0.0,1663.0
+XP_025853051.1, 28S ribosomal protein S29,Vulpes vulpes,0.0,1662.0
+XP_038167070.1, 28S ribosomal protein S29,Arvicola amphibius,0.0,1660.0
+XP_036906445.1, 28S ribosomal protein S29,Sturnira hondurensis,0.0,1660.0
+XP_027987227.1, 28S ribosomal protein S29,Eptesicus fuscus,0.0,1659.0
+XP_045838980.1, 28S ribosomal protein S29,Meles meles,0.0,1655.0
+XP_031230299.1, 28S ribosomal protein S29,Mastomys coucha,0.0,1655.0
+XP_017365440.1, 28S ribosomal protein S29,Cebus imitator,0.0,1651.0
+XP_035871388.1, 28S ribosomal protein S29,Phyllostomus discolor,0.0,1651.0
+XP_023569353.1, 28S ribosomal protein S29,Octodon degus,0.0,1649.0
+XP_039705574.1, 28S ribosomal protein S29,Pteropus giganteus,0.0,1647.0
+XP_030698051.1, 28S ribosomal protein S29,Globicephala melas,0.0,1645.0
+XP_034523373.1, 28S ribosomal protein S29,Ailuropoda melanoleuca,0.0,1644.0
+XP_033713362.1, 28S ribosomal protein S29,Tursiops truncatus,0.0,1643.0
+XP_033270541.1, 28S ribosomal protein S29,Orcinus orca,0.0,1643.0
+XP_026950977.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1640.0
+XP_045640141.1, 28S ribosomal protein S29,Ursus americanus,0.0,1640.0
+XP_026340990.1, 28S ribosomal protein S29,Ursus arctos,0.0,1640.0
+XP_004482908.1, 28S ribosomal protein S29,Dasypus novemcinctus,0.0,1637.0
+XP_020141113.1, 28S ribosomal protein S29,Microcebus murinus,0.0,1636.0
+XP_005622778.1, 28S ribosomal protein S29,Canis lupus familiaris,0.0,1633.0
+XP_030680158.1, 28S ribosomal protein S29,Nomascus leucogenys,0.0,1630.0
+XP_051849816.1, 28S ribosomal protein S29,Antechinus flavipes,0.0,1630.0
+XP_038957964.1, 28S ribosomal protein S29,Rattus norvegicus,0.0,1620.0
+XP_027466054.1, 28S ribosomal protein S29,Zalophus californianus,0.0,1619.0
+XP_036199682.1, 28S ribosomal protein S29,Myotis myotis,0.0,1617.0
+XP_032254193.1, 28S ribosomal protein S29,Phoca vitulina,0.0,1614.0
+XP_032254194.1, 28S ribosomal protein S29,Phoca vitulina,0.0,1611.0
+XP_025714527.1, 28S ribosomal protein S29,Callorhinus ursinus,0.0,1610.0
+XP_034356326.1, 28S ribosomal protein S29,Arvicanthis niloticus,0.0,1610.0
+XP_036350359.1, 28S ribosomal protein S29,Ochotona princeps,0.0,1606.0
+XP_021562245.1, 28S ribosomal protein S29,Carlito syrichta,0.0,1604.0
+XP_006232672.1, 28S ribosomal protein S29,Rattus norvegicus,0.0,1603.0
+XP_021537652.1, 28S ribosomal protein S29,Neomonachus schauinslandi,0.0,1603.0
+XP_030397761.1, 28S ribosomal protein S29,Gopherus evgoodei,0.0,1598.0
+XP_045732545.1, 28S ribosomal protein S29,Mirounga angustirostris,0.0,1598.0
+XP_038238634.1, 28S ribosomal protein S29,Dermochelys coriacea,0.0,1596.0
+XP_039368613.1, 28S ribosomal protein S29,Mauremys reevesii,0.0,1596.0
+XP_050786062.1, 28S ribosomal protein S29,Gopherus flavomarginatus,0.0,1596.0
+XP_007068148.2, 28S ribosomal protein S29,Chelonia mydas,0.0,1595.0
+XP_030397764.1, 28S ribosomal protein S29,Gopherus evgoodei,0.0,1595.0
+XP_032623072.1, 28S ribosomal protein S29,Chelonoidis abingdonii,0.0,1592.0
+XP_044847077.1, 28S ribosomal protein S29,Mauremys mutica,0.0,1592.0
+NP_001158005.1, 28S ribosomal protein S29,Mus musculus,0.0,1591.0
+XP_044993998.1, 28S ribosomal protein S29,Jaculus jaculus,0.0,1591.0
+XP_041622861.1, 28S ribosomal protein S29,Vulpes lagopus,0.0,1591.0
+XP_026513876.1, 28S ribosomal protein S29,Terrapene carolina triunguis,0.0,1590.0
+XP_048684372.1, 28S ribosomal protein S29,Caretta caretta,0.0,1590.0
+XP_035923401.1, 28S ribosomal protein S29,Halichoerus grypus,0.0,1588.0
+XP_030108605.1, 28S ribosomal protein S29,Mus musculus,0.0,1588.0
+XP_027987229.1, 28S ribosomal protein S29,Eptesicus fuscus,0.0,1588.0
+XP_005280712.1, 28S ribosomal protein S29,Chrysemys picta bellii,0.0,1585.0
+XP_006153456.1, 28S ribosomal protein S29,Tupaia chinensis,0.0,1583.0
+XP_044942743.1, 28S ribosomal protein S29,Mustela putorius furo,0.0,1566.0
+XP_032174618.1, 28S ribosomal protein S29,Mustela erminea,0.0,1561.0
+XP_048670690.1, 28S ribosomal protein S29,Marmota marmota marmota,0.0,1552.0
+XP_012870836.1, PREDICTED: 28S ribosomal protein S29,Dipodomys ordii,0.0,1551.0
+XP_022346565.1, 28S ribosomal protein S29,Enhydra lutris kenyoni,0.0,1547.0
+XP_016803083.1, 28S ribosomal protein S29,Pan troglodytes,0.0,1545.0
+XP_036128020.1, 28S ribosomal protein S29,Molossus molossus,0.0,1537.0
+XP_044531661.1, 28S ribosomal protein S29,Gracilinanus agilis,0.0,1533.0
+XP_026645023.1, 28S ribosomal protein S29,Microtus ochrogaster,0.0,1529.0
+XP_045640139.1, 28S ribosomal protein S29,Ursus americanus,0.0,1528.0
+XP_026340988.1, 28S ribosomal protein S29,Ursus arctos,0.0,1527.0
+XP_040491705.1, 28S ribosomal protein S29,Ursus maritimus,0.0,1527.0
+XP_043424500.1, 28S ribosomal protein S29,Prionailurus bengalensis,0.0,1525.0
+XP_004714814.3, 28S ribosomal protein S29,Echinops telfairi,0.0,1523.0
+XP_022276991.1, 28S ribosomal protein S29,Canis lupus familiaris,0.0,1522.0
+XP_030698055.1, 28S ribosomal protein S29,Globicephala melas,0.0,1522.0
+XP_029436218.1, 28S ribosomal protein S29,Rhinatrema bivittatum,0.0,1522.0
+XP_026950978.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1521.0
+XP_032174620.1, 28S ribosomal protein S29,Mustela erminea,0.0,1520.0
+XP_026950979.1, 28S ribosomal protein S29,Lagenorhynchus obliquidens,0.0,1519.0
+XP_029436216.1, 28S ribosomal protein S29,Rhinatrema bivittatum,0.0,1518.0
+XP_045310339.1, 28S ribosomal protein S29,Leopardus geoffroyi,0.0,1516.0
+XP_040308634.1, 28S ribosomal protein S29,Puma yagouaroundi,0.0,1514.0
+XP_026904115.1, 28S ribosomal protein S29,Acinonyx jubatus,0.0,1513.0
+XP_030397763.1, 28S ribosomal protein S29,Gopherus evgoodei,0.0,1513.0
+XP_019286833.1, PREDICTED: 28S ribosomal protein S29,Panthera pardus,0.0,1511.0
+XP_016021653.2, 28S ribosomal protein S29,Rousettus aegyptiacus,0.0,1510.0
+XP_050786063.1, 28S ribosomal protein S29,Gopherus flavomarginatus,0.0,1509.0
+XP_032623075.1, 28S ribosomal protein S29,Chelonoidis abingdonii,0.0,1505.0
+XP_022346568.1, 28S ribosomal protein S29,Enhydra lutris kenyoni,0.0,1503.0
+XP_006132105.1, 28S ribosomal protein S29,Pelodiscus sinensis,0.0,1501.0
+XP_045672414.1, 28S ribosomal protein S29,Phyllostomus hastatus,0.0,1501.0
+XP_013810047.1, PREDICTED: 28S ribosomal protein S29,Apteryx mantelli mantelli,0.0,1499.0
+XP_005514809.1, 28S ribosomal protein S29,Columba livia,0.0,1499.0
+XP_014816692.1, PREDICTED: 28S ribosomal protein S29,Calidris pugnax,0.0,1498.0
+XP_030321163.1, 28S ribosomal protein S29,Calypte anna,0.0,1498.0
+XP_014816693.1, PREDICTED: 28S ribosomal protein S29,Calidris pugnax,0.0,1498.0
+XP_035871387.1, 28S ribosomal protein S29,Phyllostomus discolor,0.0,1497.0
+XP_006132107.1, 28S ribosomal protein S29,Pelodiscus sinensis,0.0,1497.0
+XP_030321164.1, 28S ribosomal protein S29,Calypte anna,0.0,1496.0
+XP_025970904.1, 28S ribosomal protein S29,Dromaius novaehollandiae,0.0,1494.0
+XP_009889775.1, PREDICTED: 28S ribosomal protein S29,Charadrius vociferus,0.0,1493.0
+XP_010562306.1, PREDICTED: 28S ribosomal protein S29,Haliaeetus leucocephalus,0.0,1492.0
+XP_048785283.1, 28S ribosomal protein S29,Lagopus muta,0.0,1492.0
+XP_030330098.1, 28S ribosomal protein S29,Strigops habroptila,0.0,1492.0
+XP_031467298.1, 28S ribosomal protein S29,Phasianus colchicus,0.0,1488.0
+XP_032569179.1, 28S ribosomal protein S29,Chiroxiphia lanceolata,0.0,1487.0
+XP_021232342.1, 28S ribosomal protein S29,Numida meleagris,0.0,1486.0
+XP_015154144.2, 28S ribosomal protein S29,Gallus gallus,0.0,1486.0
+XP_052561502.1, 28S ribosomal protein S29,Tympanuchus pallidicinctus,0.0,1486.0
+XP_015740064.1, 28S ribosomal protein S29,Coturnix japonica,0.0,1486.0
+XP_027559120.1, 28S ribosomal protein S29,Neopelma chrysocephalum,0.0,1485.0
+XP_021232343.1, 28S ribosomal protein S29,Numida meleagris,0.0,1485.0
+XP_035423331.1, 28S ribosomal protein S29,Cygnus atratus,0.0,1484.0
+XP_034648599.1, 28S ribosomal protein S29,Trachemys scripta elegans,0.0,1484.0
+XP_027525120.1, 28S ribosomal protein S29,Corapipo altera,0.0,1484.0
+XP_051629290.1, 28S ribosomal protein S29,Manacus candei,0.0,1484.0
+XP_015740063.1, 28S ribosomal protein S29,Coturnix japonica,0.0,1483.0
+XP_040474658.1, 28S ribosomal protein S29,Falco naumanni,0.0,1483.0
+XP_029882084.1, 28S ribosomal protein S29,Aquila chrysaetos chrysaetos,0.0,1482.0
+XP_005514810.1, 28S ribosomal protein S29,Columba livia,0.0,1482.0
+XP_042694414.1, 28S ribosomal protein S29,Centrocercus urophasianus,0.0,1481.0
+XP_025947303.1, 28S ribosomal protein S29,Apteryx rowi,0.0,1481.0
+XP_047905129.1, 28S ribosomal protein S29,Anser cygnoides,0.0,1480.0
+XP_040546711.1, 28S ribosomal protein S29,Gallus gallus,0.0,1480.0
+XP_052651421.1, 28S ribosomal protein S29,Harpia harpyja,0.0,1479.0
+XP_039245934.1, 28S ribosomal protein S29,Pipra filicauda,0.0,1479.0
+XP_038023704.1, 28S ribosomal protein S29,Anas platyrhynchos,0.0,1479.0
+XP_042641208.1, 28S ribosomal protein S29,Tyto alba,0.0,1478.0
+XP_030397766.1, 28S ribosomal protein S29,Gopherus evgoodei,0.0,1478.0
+XP_015277601.1, PREDICTED: 28S ribosomal protein S29,Gekko japonicus,0.0,1478.0
+XP_052651425.1, 28S ribosomal protein S29,Harpia harpyja,0.0,1477.0
+XP_035202395.1, 28S ribosomal protein S29,Oxyura jamaicensis,0.0,1477.0
+XP_042750770.1, 28S ribosomal protein S29,Lagopus leucura,0.0,1477.0
+XP_049661336.1, 28S ribosomal protein S29,Accipiter gentilis,0.0,1476.0
+XP_049661341.1, 28S ribosomal protein S29,Accipiter gentilis,0.0,1476.0
+XP_030397768.1, 28S ribosomal protein S29,Gopherus evgoodei,0.0,1476.0
+XP_032060491.1, 28S ribosomal protein S29,Aythya fuligula,0.0,1475.0
+XP_037226912.1, 28S ribosomal protein S29,Falco rusticolus,0.0,1475.0
+XP_050786064.1, 28S ribosomal protein S29,Gopherus flavomarginatus,0.0,1475.0
+XP_033927087.1, 28S ribosomal protein S29,Melopsittacus undulatus,0.0,1475.0
+XP_050768247.1, 28S ribosomal protein S29,Gymnogyps californianus,0.0,1474.0
+XP_039368614.1, 28S ribosomal protein S29,Mauremys reevesii,0.0,1474.0
+XP_010722238.1, 28S ribosomal protein S29,Meleagris gallopavo,0.0,1472.0
+XP_022346566.1, 28S ribosomal protein S29,Enhydra lutris kenyoni,0.0,1472.0
+XP_032623076.1, 28S ribosomal protein S29,Chelonoidis abingdonii,0.0,1469.0
+XP_023797419.1, 28S ribosomal protein S29,Cyanistes caeruleus,0.0,1469.0
+XP_040474659.1, 28S ribosomal protein S29,Falco naumanni,0.0,1468.0

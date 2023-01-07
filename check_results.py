@@ -19,8 +19,7 @@ Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key her
 def check_csv():
     """check that all the protein in the csv have right names and delete the ones that dont"""
     #check the names of all the proteins in the csv files
-    directory = 'csv-files'
-    files = Path(directory).glob('*')
+    files = generate_files_list()
     #go over all the files in csv-files
     for file in files:
         #using df to check the names of all the proteins
@@ -44,6 +43,12 @@ def delete_protein_from_csv(protein_to_delete, file_name):
     delete_protein.to_csv(file_name, sep=',', index=False)
 
 
+def delete_protein_from_csv_by_organism(organism_to_delete, file_name):
+    delete_protein = pd.read_csv(file_name)
+    delete_protein.drop(delete_protein.index[(delete_protein["organism"] == organism_to_delete)], axis=0, inplace=True)
+    delete_protein.to_csv(file_name, sep=',', index=False)
+
+
 def delete_protein_from_hits_files(protein_to_delete, file_name):
     protein_file_path = os.path.basename(file_name)
     file_name_array = protein_file_path.split('.')
@@ -61,7 +66,6 @@ def animals_list():
     files_list = generate_files_list()
     first_file = files_list[0]
     df = pd.read_csv(first_file)
-    df = df.drop(df.index[:1])
     #take the list from the first csv
     organisms_list = df[['organism']]
     numpy_organisms = organisms_list.to_numpy()
@@ -101,12 +105,8 @@ def generate_common_and_noncommon_organisms(numpy_organisms, files_list):
 
 def protein_from_animal():
     """delete all the information related to organisms that dont exist in the common organisms list """
-    if os.path.exists('common_organisms'): # Load the list from file if it exists
-        with open('common_organisms', 'rb') as f:
-            common_organisms = pickle.load(f)
-    else: common_organisms = animals_list() # If the list doesn't exist, create it
-    directory = CSV_FILES_NAME
-    files = Path(directory).glob('*')
+    common_organisms = animals_list()
+    files = generate_files_list()
     # go over all the files in csv-files
     for file in files:
         df = pd.read_csv(file)
@@ -116,7 +116,7 @@ def protein_from_animal():
         for protein in numpy_proteins:
             #if not delete it
             if protein[1] not in common_organisms:
-                delete_protein_from_csv(protein[0], file)
+                delete_protein_from_csv_by_organism(protein[1], file)
                 delete_protein_from_hits_files(protein[0], file)
 
 
@@ -131,7 +131,7 @@ def remove_duplicate_organisms_from_csv_files():
 
 def generate_files_list():
     directory = CSV_FILES_NAME
-    files = Path(directory).glob('*')
+    files = Path(directory).glob('*.csv')
     files_list = list(files)
     return files_list
 
@@ -156,7 +156,7 @@ def record_check( ID, type = 'gb'):
     os.mkdir(loc) # create directory if it does not exist
   filename = os.path.join(PATH, loc, ID + suffix)
   if not os.path.isfile(filename):
-    print('Downloading ' + ID + '...')
+    # print('Downloading ' + ID + '...')
     net_handle = Entrez.efetch(db = 'nucleotide', id = ID, rettype = type, retmode = 'text')
     out_handle = open(filename, 'w')
     out_handle.write(net_handle.read())
@@ -223,9 +223,12 @@ def gene_csv(gene):
     with open(f'{gene}_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
         fasta.write(fasta_lines)
 
+
 if __name__ == '__main__':
-    gene_csv('rrnL')
-    # animals_list()
-    # check_csv()
-    # protein_from_animal()
+    #gene_csv('rrnL')
+    #animals_list()
+    check_csv()
+    protein_from_animal()
+    #generate_files_list()
+    #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))
 

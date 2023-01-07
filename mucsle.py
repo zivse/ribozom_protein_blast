@@ -16,3 +16,6 @@ if __name__ == '__main__':
         muscle_cline = MuscleCommandline(MUSCLE_EXE, input=file, out=out_file)
         print(muscle_cline)
         muscle_cline()
+
+
+

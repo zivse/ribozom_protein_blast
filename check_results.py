@@ -49,6 +49,13 @@ def delete_protein_from_csv_by_organism(organism_to_delete, file_name):
     delete_protein.to_csv(file_name, sep=',', index=False)
 
 
+def escape_characters(string):
+    """
+    escapes the '[' and ']' characters
+    """
+    return string.replace('[', '\[').replace(']', '\]')
+
+
 def delete_protein_from_hits_files(protein_to_delete, file_name):
     protein_file_path = os.path.basename(file_name)
     file_name_array = protein_file_path.split('.')
@@ -56,7 +63,7 @@ def delete_protein_from_hits_files(protein_to_delete, file_name):
     with open(fasta_file_name, 'r') as fasta_file:
         fasta_read = fasta_file.read()
         # find the line containing the protein we want to delete and replace it
-        new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % protein_to_delete, '>ref', fasta_read, 0, re.M)
+        new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % escape_characters(protein_to_delete), '>ref', fasta_read, 0, re.M)
     with open(fasta_file_name, 'w') as fasta_file:
         fasta_file.write(new_fasta)
 

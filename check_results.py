@@ -32,7 +32,6 @@ def check_csv():
             predicted = 'PREDICTED: '+original_name
             if protein_0.strip() != original_name and protein_0.strip() != predicted:
                 delete_protein_from_csv(protein_0, file)
-                delete_protein_from_hits_files(protein_0, file)
 
     remove_duplicate_organisms_from_csv_files()
 
@@ -56,18 +55,6 @@ def escape_characters(string):
     return string.replace('[', '\[').replace(']', '\]')
 
 
-def delete_protein_from_hits_files(protein_to_delete, file_name):
-    protein_file_path = os.path.basename(file_name)
-    file_name_array = protein_file_path.split('.')
-    fasta_file_name = HITS_FILES_NAME +'/' + file_name_array[0] + '_hits.fasta'
-    with open(fasta_file_name, 'r') as fasta_file:
-        fasta_read = fasta_file.read()
-        # find the line containing the protein we want to delete and replace it
-        new_fasta = re.sub(r"^(.*?%s(.|\n)*?)>ref" % escape_characters(protein_to_delete), '>ref', fasta_read, 0, re.M)
-    with open(fasta_file_name, 'w') as fasta_file:
-        fasta_file.write(new_fasta)
-
-
 def animals_list():
     """returns a list of strings representing the common organizems and saving them to a file"""
     files_list = generate_files_list()
@@ -78,6 +65,9 @@ def animals_list():
     numpy_organisms = organisms_list.to_numpy()
     common_organisms, not_common_organisms = generate_common_and_noncommon_organisms(numpy_organisms, files_list)
     common_organisms = compare_common_with_table(common_organisms)
+    for not_common_org in not_common_organisms:
+        if not_common_org in common_organisms:
+            common_organisms.remove(not_common_org)
     with open('common_organisms', 'wb') as f:  # Save the list to a file
         pickle.dump(common_organisms, f)
     return common_organisms
@@ -124,7 +114,6 @@ def protein_from_animal():
             #if not delete it
             if protein[1] not in common_organisms:
                 delete_protein_from_csv_by_organism(protein[1], file)
-                delete_protein_from_hits_files(protein[0], file)
 
 
 def remove_duplicate_organisms_from_csv_files():
@@ -231,11 +220,37 @@ def gene_csv(gene):
         fasta.write(fasta_lines)
 
 
+def remove_proteins_from_hits_if_not_in_ids(protein_ids, hits_file):
+    new_content = []
+    with open(hits_file) as fh:
+        for line1 in fh:
+            line2 = next(fh)
+            for protein_id in protein_ids:
+                if protein_id[0] in line1:
+                    new_content.append(line1)
+                    new_content.append(line2)
+    with open(hits_file, 'w') as fasta_file:
+        content_string = ''.join(new_content)
+        fasta_file.write(content_string)
+
+
+def sync_hits_files_with_csv_files():
+    files_list = generate_files_list()
+    for file in files_list:
+        df = pd.read_csv(file)
+        query_ids = df[['query_id']].to_numpy()
+        protein_file_path = os.path.basename(file)
+        file_name_array = protein_file_path.split('.')
+        fasta_file_name = HITS_FILES_NAME + '/' + file_name_array[0] + '_hits.fasta'
+        remove_proteins_from_hits_if_not_in_ids(query_ids, fasta_file_name)
+
+
 if __name__ == '__main__':
     #gene_csv('rrnL')
     #animals_list()
     check_csv()
     protein_from_animal()
+    sync_hits_files_with_csv_files()
     #generate_files_list()
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))
 

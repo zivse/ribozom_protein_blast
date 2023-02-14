@@ -1,20 +1,17 @@
 import ssl  # monkey patch for BioPython 1.68 & 1.69
 ssl._create_default_https_context = ssl._create_unverified_context
 
+
 import os
 from pathlib import Path
-import re
-
 import pandas as pd
 import pickle
 from Bio import Entrez, SeqIO, Seq
 from ast import literal_eval # Used to convert the list column to a real list
 Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
 Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
-
 from consts import HITS_FILES_NAME, CSV_FILES_NAME
-Entrez.email = 'zivse@post.bgu.ac.il' # Enter your email address here
-Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key here
+
 
 def check_csv():
     """check that all the protein in the csv have right names and delete the ones that dont"""
@@ -27,11 +24,11 @@ def check_csv():
         protein_names = df[['protein_name']]
         original_name = protein_names.iloc[0].values[0].strip()
         numpy_proteins = protein_names.to_numpy()
-        for protein in numpy_proteins:
-            protein_0 = protein[0]
-            predicted = 'PREDICTED: '+original_name
-            if protein_0.strip() != original_name and protein_0.strip() != predicted:
-                delete_protein_from_csv(protein_0, file)
+        # for protein in numpy_proteins:
+        #     protein_0 = protein[0]
+        #     predicted = 'PREDICTED: '+original_name
+        #     if protein_0.strip() != original_name and protein_0.strip() != predicted:
+        #         delete_protein_from_csv(protein_0, file)
 
     remove_duplicate_organisms_from_csv_files()
 
@@ -249,8 +246,8 @@ if __name__ == '__main__':
     #gene_csv('rrnL')
     #animals_list()
     check_csv()
-    protein_from_animal()
-    sync_hits_files_with_csv_files()
+    #protein_from_animal()
+    #sync_hits_files_with_csv_files()
     #generate_files_list()
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))
 

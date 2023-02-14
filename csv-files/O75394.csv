@@ -1,0 +1,377 @@
+query_id,protein_name,organism,e-value,score
+NP_004882.1, 39S ribosomal protein L33,Homo sapiens,1.38246e-38,329.0
+XP_030656297.1, 39S ribosomal protein L33,Nomascus leucogenys,1.27167e-37,323.0
+XP_009235705.1, 39S ribosomal protein L33,Pongo abelii,1.3142799999999998e-37,323.0
+XP_010369495.1, 39S ribosomal protein L33,Rhinopithecus roxellana,6.75362e-37,318.0
+XP_007969284.2, 39S ribosomal protein L33,Chlorocebus sabaeus,1.04801e-36,317.0
+XP_025261631.1, 39S ribosomal protein L33,Theropithecus gelada,4.00306e-36,313.0
+NP_001180348.1, 39S ribosomal protein L33,Macaca mulatta,4.27579e-36,313.0
+XP_012643765.1, 39S ribosomal protein L33,Microcebus murinus,1.47944e-35,309.0
+XP_017401168.1, 39S ribosomal protein L33,Cebus imitator,1.54589e-35,309.0
+XP_045222927.1, 39S ribosomal protein L33,Macaca fascicularis,1.42175e-34,303.0
+XP_045405262.1, 39S ribosomal protein L33,Lemur catta,1.67641e-34,302.0
+XP_003941585.1, 39S ribosomal protein L33,Saimiri boliviensis boliviensis,1.77831e-33,296.0
+XP_012507888.1, PREDICTED: 39S ribosomal protein L33,Propithecus coquereli,1.85819e-33,296.0
+XP_012330811.1, 39S ribosomal protein L33,Aotus nancymaae,2.88337e-33,294.0
+XP_002757961.1, 39S ribosomal protein L33,Callithrix jacchus,4.05301e-33,293.0
+XP_006767501.1, PREDICTED: 39S ribosomal protein L33,Myotis davidii,3.48921e-32,287.0
+XP_036119306.1, 39S ribosomal protein L33,Molossus molossus,9.584530000000001e-32,284.0
+XP_006099910.1, 39S ribosomal protein L33,Myotis lucifugus,1.20709e-31,284.0
+XP_016065324.1, PREDICTED: 39S ribosomal protein L33,Miniopterus natalensis,1.58851e-31,283.0
+XP_003125332.1, 39S ribosomal protein L33,Sus scrofa,1.75355e-31,283.0
+XP_017196340.1, 39S ribosomal protein L33,Oryctolagus cuniculus,1.93575e-31,282.0
+XP_024408372.1, LOW QUALITY PROTEIN: 39S ribosomal protein L33,Desmodus rotundus,1.9571299999999998e-31,282.0
+XP_003363064.1, 39S ribosomal protein L33,Equus caballus,2.11353e-31,282.0
+XP_019518555.1, PREDICTED: 39S ribosomal protein L33,Hipposideros armiger,2.8120699999999997e-31,281.0
+XP_016047337.1, PREDICTED: 39S ribosomal protein L33,Erinaceus europaeus,2.93837e-31,281.0
+XP_006189806.1, 39S ribosomal protein L33,Camelus ferus,3.7006199999999996e-31,281.0
+XP_044117797.1, 39S ribosomal protein L33,Neogale vison,4.41156e-31,280.0
+XP_004268210.1, 39S ribosomal protein L33,Orcinus orca,4.60969e-31,280.0
+XP_030713946.1, 39S ribosomal protein L33,Globicephala melas,4.71207e-31,280.0
+XP_019590902.1, PREDICTED: 39S ribosomal protein L33,Rhinolophus sinicus,4.7641e-31,280.0
+NP_001106779.1, 39S ribosomal protein L33,Bos taurus,5.31716e-31,279.0
+XP_017530479.1, 39S ribosomal protein L33,Manis javanica,5.8696e-31,279.0
+XP_040848931.1, 39S ribosomal protein L33,Ochotona curzoniae,5.93442e-31,279.0
+XP_004418255.1, PREDICTED: 39S ribosomal protein L33,Ceratotherium simum simum,6.62334e-31,279.0
+XP_005874900.1, PREDICTED: 39S ribosomal protein L33,Myotis brandtii,7.07451e-31,279.0
+NP_001273997.1, 39S ribosomal protein L33,Canis lupus familiaris,8.34149e-31,278.0
+XP_004394908.1, PREDICTED: 39S ribosomal protein L33,Odobenus rosmarus divergens,8.34149e-31,278.0
+XP_006910407.1, 39S ribosomal protein L33,Pteropus alecto,8.81237e-31,278.0
+XP_036290795.1, 39S ribosomal protein L33,Pipistrellus kuhlii,1.00538e-30,278.0
+XP_032281299.1, 39S ribosomal protein L33,Phoca vitulina,1.15968e-30,277.0
+XP_037668566.1, 39S ribosomal protein L33,Choloepus didactylus,1.25655e-30,277.0
+XP_010603012.1, 39S ribosomal protein L33,Fukomys damarensis,1.2943000000000001e-30,277.0
+XP_036759475.1, 39S ribosomal protein L33,Manis pentadactyla,1.7603100000000002e-30,276.0
+XP_004582752.1, 39S ribosomal protein L33,Ochotona princeps,1.96466e-30,276.0
+XP_044773009.1, 39S ribosomal protein L33,Neomonachus schauinslandi,2.0082900000000002e-30,276.0
+XP_006162197.1, 39S ribosomal protein L33,Tupaia chinensis,2.67202e-30,275.0
+XP_029793907.1, 39S ribosomal protein L33,Suricata suricatta,2.8540300000000002e-30,275.0
+XP_030167265.1, 39S ribosomal protein L33,Lynx canadensis,3.46539e-30,277.0
+XP_006748496.1, 39S ribosomal protein L33,Leptonychotes weddellii,3.75579e-30,274.0
+XP_041577755.1, 39S ribosomal protein L33,Vulpes lagopus,3.79727e-30,274.0
+XP_039094377.1, 39S ribosomal protein L33,Hyaena hyaena,4.19178e-30,274.0
+XP_011369032.2, 39S ribosomal protein L33,Pteropus vampyrus,4.48799e-30,276.0
+XP_025783085.1, 39S ribosomal protein L33,Puma concolor,4.60886e-30,276.0
+XP_027955176.1, 39S ribosomal protein L33,Eumetopias jubatus,5.15247e-30,276.0
+XP_025723758.1, 39S ribosomal protein L33,Callorhinus ursinus,5.32474e-30,276.0
+XP_028371734.1, 39S ribosomal protein L33,Phyllostomus discolor,6.0893e-30,273.0
+XP_016000841.1, 39S ribosomal protein L33,Rousettus aegyptiacus,6.2245300000000004e-30,272.0
+XP_043737513.1, 39S ribosomal protein L33,Cervus elaphus,7.17979e-30,272.0
+XP_020010221.1, 39S ribosomal protein L33,Castor canadensis,7.75353e-30,272.0
+XP_023442839.1, 39S ribosomal protein L33,Dasypus novemcinctus,8.01324e-30,272.0
+XP_008160508.1, 39S ribosomal protein L33,Eptesicus fuscus,8.191200000000001e-30,272.0
+XP_006835243.1, PREDICTED: 39S ribosomal protein L33,Chrysochloris asiatica,9.14206e-30,271.0
+XP_004839283.1, 39S ribosomal protein L33,Heterocephalus glaber,9.14206e-30,271.0
+XP_005073620.1, 39S ribosomal protein L33,Mesocricetus auratus,9.34508e-30,271.0
+XP_035959075.1, 39S ribosomal protein L33,Halichoerus grypus,9.87259e-30,271.0
+XP_047378076.1, 39S ribosomal protein L33,Sciurus carolinensis,1.05451e-29,271.0
+XP_035557633.2, 39S ribosomal protein L33,Canis lupus dingo,1.29919e-29,270.0
+XP_027706125.1, 39S ribosomal protein L33,Vombatus ursinus,1.60064e-29,270.0
+XP_004669458.1, 39S ribosomal protein L33,Jaculus jaculus,2.37683e-29,269.0
+XP_052054541.1, 39S ribosomal protein L33,Apodemus sylvaticus,3.05982e-29,268.0
+XP_037384203.1, 39S ribosomal protein L33,Talpa occidentalis,3.56837e-29,268.0
+XP_036922567.1, 39S ribosomal protein L33,Sturnira hondurensis,4.07102e-29,267.0
+XP_008837084.1, 39S ribosomal protein L33,Nannospalax galili,4.90664e-29,267.0
+XP_003496622.1, 39S ribosomal protein L33,Cricetulus griseus,5.659620000000001e-29,266.0
+XP_030740569.1, 39S ribosomal protein L33,Echinops telfairi,6.17936e-29,266.0
+XP_009182176.1, 39S ribosomal protein L33,Papio anubis,7.106870000000001e-29,267.0
+XP_020839443.1, 39S ribosomal protein L33,Phascolarctos cinereus,1.08189e-28,264.0
+XP_012868966.1, PREDICTED: 39S ribosomal protein L33,Dipodomys ordii,1.2074700000000002e-28,264.0
+XP_005368022.1, 39S ribosomal protein L33,Microtus ochrogaster,1.4876300000000002e-28,263.0
+XP_036154560.1, 39S ribosomal protein L33,Myotis myotis,1.5594900000000002e-28,265.0
+XP_005400581.1, PREDICTED: 39S ribosomal protein L33,Chinchilla lanigera,1.6065e-28,263.0
+XP_021018523.1, 39S ribosomal protein L33,Mus caroli,1.8530300000000002e-28,263.0
+XP_028729849.1, 39S ribosomal protein L33,Peromyscus leucopus,1.8530300000000002e-28,263.0
+XP_026267445.1, 39S ribosomal protein L33,Urocitellus parryii,1.9036900000000001e-28,264.0
+NP_001385516.1, mitochondrial ribosomal protein L33 [Rattus norvegicus],Rattus norvegicus,1.93624e-28,263.0
+XP_023367611.1, 39S ribosomal protein L33,Otolemur garnettii,1.93624e-28,263.0
+XP_049987994.1, 39S ribosomal protein L33,Microtus fortis,1.9792400000000002e-28,263.0
+XP_006984886.1, 39S ribosomal protein L33,Peromyscus maniculatus bairdii,2.0011e-28,263.0
+XP_038176423.1, 39S ribosomal protein L33,Arvicola amphibius,2.18486e-28,262.0
+XP_015335308.1, 39S ribosomal protein L33,Marmota marmota marmota,2.53215e-28,264.0
+XP_005322560.2, 39S ribosomal protein L33,Ictidomys tridecemlineatus,2.61688e-28,264.0
+XP_036605341.1, 39S ribosomal protein L33,Trichosurus vulpecula,3.31632e-28,261.0
+XP_003767146.1, 39S ribosomal protein L33,Sarcophilus harrisii,3.997e-28,261.0
+XP_036026137.1, 39S ribosomal protein L33,Onychomys torridus,5.03371e-28,260.0
+XP_003473031.1, 39S ribosomal protein L33,Cavia porcellus,5.202310000000001e-28,260.0
+XP_031213486.1, 39S ribosomal protein L33,Mastomys coucha,5.68002e-28,260.0
+XP_049640185.1, 39S ribosomal protein L33,Suncus etruscus,6.066880000000001e-28,259.0
+NP_080072.2, 39S ribosomal protein L33,Mus musculus,6.40932e-28,259.0
+XP_023406328.1, 39S ribosomal protein L33,Loxodonta africana,1.57719e-27,257.0
+XP_001371263.1, PREDICTED: 39S ribosomal protein L33,Monodelphis domestica,2.2168e-27,256.0
+XP_039743455.1, 39S ribosomal protein L33,Pteropus giganteus,2.3766e-27,261.0
+XP_043836411.1, 39S ribosomal protein L33,Dromiciops gliroides,2.6137399999999997e-27,255.0
+XP_038607397.1, 39S ribosomal protein L33,Tachyglossus aculeatus,4.05531e-27,254.0
+XP_023588216.1, 39S ribosomal protein L33,Trichechus manatus latirostris,5.51514e-27,253.0
+XP_048209169.1, 39S ribosomal protein L33,Perognathus longimembris pacificus,7.41854e-27,252.0
+XP_050609987.1, 39S ribosomal protein L33,Macaca thibetana thibetana,1.01015e-26,252.0
+XP_021491060.1, 39S ribosomal protein L33,Meriones unguiculatus,1.07761e-26,251.0
+XP_021574870.1, 39S ribosomal protein L33,Carlito syrichta,1.99306e-26,250.0
+XP_032479081.1, 39S ribosomal protein L33,Phocoena sinus,3.26676e-26,248.0
+XP_025118134.1, 39S ribosomal protein L33,Bubalus bubalis,4.9748200000000005e-26,248.0
+XP_027479950.1, 39S ribosomal protein L33,Zalophus californianus,8.4074e-26,248.0
+NP_001187977.1, 39S ribosomal protein L33,Ictalurus punctatus,1.05772e-25,245.0
+XP_038252175.1, 39S ribosomal protein L33,Dermochelys coriacea,1.43844e-25,244.0
+XP_037751490.1, 39S ribosomal protein L33,Chelonia mydas,2.6603e-25,242.0
+XP_034860316.1, LOW QUALITY PROTEIN: 39S ribosomal protein L33,Mirounga leonina,3.20624e-25,242.0
+XP_039386819.1, 39S ribosomal protein L33,Mauremys reevesii,6.403379999999999e-25,240.0
+XP_032646118.1, 39S ribosomal protein L33,Chelonoidis abingdonii,6.47407e-25,240.0
+XP_026799908.1, 39S ribosomal protein L33,Pangasianodon hypophthalmus,7.225400000000001e-25,239.0
+XP_051578420.1, 39S ribosomal protein L33,Myxocyprinus asiaticus,9.09909e-25,239.0
+XP_005289570.1, 39S ribosomal protein L33,Chrysemys picta bellii,1.3962500000000001e-24,237.0
+XP_016404414.1, PREDICTED: 39S ribosomal protein L33,Sinocyclocheilus rhinocerous,1.42725e-24,237.0
+XP_046711000.1, 39S ribosomal protein L33,Silurus meridionalis,1.6104600000000002e-24,237.0
+XP_051832191.1, 39S ribosomal protein L33,Antechinus flavipes,1.78582e-24,237.0
+XP_027024189.1, 39S ribosomal protein L33,Tachysurus fulvidraco,3.91903e-24,234.0
+XP_001509270.3, 39S ribosomal protein L33,Ornithorhynchus anatinus,4.55994e-24,234.0
+XP_004082848.1, 39S ribosomal protein L33,Oryzias latipes,6.4231000000000005e-24,233.0
+XP_024053941.1, 39S ribosomal protein L33,Terrapene carolina triunguis,8.08862e-24,232.0
+XP_015712906.1, 39S ribosomal protein L33,Coturnix japonica,8.17791e-24,232.0
+XP_033000498.1, 39S ribosomal protein L33,Lacerta agilis,9.22765e-24,232.0
+XP_037551410.1, 39S ribosomal protein L33,Nematolebias whitei,9.748360000000001e-24,232.0
+XP_027604695.1, 39S ribosomal protein L33,Pipra filicauda,9.85597e-24,232.0
+XP_048370365.1, 39S ribosomal protein L33,Sphaerodactylus townsendi,1.04121e-23,232.0
+NP_001264656.1, 39S ribosomal protein L33,Gallus gallus,1.0760800000000001e-23,232.0
+XP_046517803.1, uncharacterized protein LOC124239687 [Equus quagga],Equus quagga,1.0769e-23,243.0
+XP_051006490.1, 39S ribosomal protein L33,Acomys russatus,1.13178e-23,235.0
+XP_014053619.1, 39S ribosomal protein L33,Salmo salar,1.1493500000000001e-23,231.0
+XP_048386271.1, 39S ribosomal protein L33,Stegostoma fasciatum,1.37006e-23,231.0
+XP_016353820.1, PREDICTED: 39S ribosomal protein L33,Sinocyclocheilus anshuiensis,1.41594e-23,231.0
+XP_043543170.1, 39S ribosomal protein L33,Chiloscyllium plagiosum,1.61532e-23,230.0
+XP_017689726.1, PREDICTED: 39S ribosomal protein L33,Lepidothrix coronata,1.7253100000000002e-23,230.0
+XP_024132721.1, 39S ribosomal protein L33,Oryzias melastigma,1.86313e-23,230.0
+XP_026141199.1, 39S ribosomal protein L33,Carassius auratus,1.94677e-23,230.0
+XP_010574822.1, PREDICTED: 39S ribosomal protein L33,Haliaeetus leucocephalus,2.14895e-23,230.0
+XP_027497469.1, 39S ribosomal protein L33,Corapipo altera,2.2454200000000002e-23,230.0
+XP_051470046.1, 39S ribosomal protein L33,Apus apus,2.47862e-23,229.0
+XP_046900999.1, 39S ribosomal protein L33,Hypomesus transpacificus,2.47862e-23,229.0
+XP_019382386.1, PREDICTED: 39S ribosomal protein L33,Gavialis gangeticus,2.5336400000000002e-23,229.0
+XP_003962326.1, 39S ribosomal protein L33,Takifugu rubripes,2.67661e-23,229.0
+XP_032912037.1, 39S ribosomal protein L33,Catharus ustulatus,2.85885e-23,229.0
+NP_001185724.1, 39S ribosomal protein L33,Taeniopygia guttata,3.29742e-23,228.0
+XP_042645204.1, 39S ribosomal protein L33,Tyto alba,3.29742e-23,228.0
+XP_019940110.1, PREDICTED: 39S ribosomal protein L33,Paralichthys olivaceus,3.37062e-23,228.0
+XP_049689728.1, 39S ribosomal protein L33,Accipiter gentilis,3.5608100000000003e-23,228.0
+XP_028580276.1, 39S ribosomal protein L33,Podarcis muralis,4.01787e-23,228.0
+XP_016106971.1, PREDICTED: 39S ribosomal protein L33,Sinocyclocheilus grahami,4.43061e-23,231.0
+XP_041107052.1, 39S ribosomal protein L33,Polyodon spathula,4.8422600000000003e-23,227.0
+XP_041667793.1, 39S ribosomal protein L33,Cheilinus undulatus,4.8957200000000004e-23,227.0
+XP_028250475.1, 39S ribosomal protein L33,Parambassis ranga,5.46379e-23,227.0
+XP_019405150.1, PREDICTED: 39S ribosomal protein L33,Crocodylus porosus,6.03121e-23,227.0
+XP_036398025.1, 39S ribosomal protein L33,Megalops cyprinoides,6.03121e-23,227.0
+XP_038864971.1, 39S ribosomal protein L33,Salvelinus namaycush,6.58486e-23,226.0
+XP_030642659.1, 39S ribosomal protein L33,Chanos chanos,7.11083e-23,226.0
+XP_039509419.1, 39S ribosomal protein L33,Pimephales promelas,7.268690000000001e-23,226.0
+XP_041044660.1, 39S ribosomal protein L33,Carcharodon carcharias,8.95453e-23,226.0
+XP_028838924.1, 39S ribosomal protein L33,Denticeps clupeoides,9.05338e-23,226.0
+XP_020356413.1, 39S ribosomal protein L33,Oncorhynchus kisutch,1.0674e-22,225.0
+XP_048047925.1, 39S ribosomal protein L33,Megalobrama amblycephala,1.11531e-22,225.0
+XP_034967400.1, 39S ribosomal protein L33,Zootoca vivipara,1.2043999999999999e-22,225.0
+XP_035260233.1, 39S ribosomal protein L33,Anguilla anguilla,1.21769e-22,225.0
+XP_025902031.1, 39S ribosomal protein L33,Nothoprocta perdicaria,1.3006e-22,225.0
+XP_007575479.1, PREDICTED: 39S ribosomal protein L33,Poecilia formosa,1.53341e-22,224.0
+XP_010890668.1, 39S ribosomal protein L33,Esox lucius,1.6022399999999999e-22,224.0
+XP_037261586.1, 39S ribosomal protein L33,Falco rusticolus,1.6022399999999999e-22,224.0
+XP_050170578.1, 39S ribosomal protein L33,Myiozetetes cayanensis,1.76863e-22,224.0
+XP_045303275.1, 39S ribosomal protein L33,Leopardus geoffroyi,2.03019e-22,226.0
+XP_043460180.1, 39S ribosomal protein L33,Prionailurus bengalensis,2.03019e-22,226.0
+XP_022606163.1, 39S ribosomal protein L33,Seriola dumerili,2.06245e-22,223.0
+XP_019683308.1, 39S ribosomal protein L33,Felis catus,2.09799e-22,226.0
+XP_014919672.1, 39S ribosomal protein L33,Acinonyx jubatus,2.14444e-22,226.0
+XP_017546254.1, 39S ribosomal protein L33,Pygocentrus nattereri,2.20287e-22,223.0
+XP_023130033.1, 39S ribosomal protein L33,Amphiprion ocellaris,2.51304e-22,223.0
+XP_040203462.1, 39S ribosomal protein L33,Rana temporaria,2.53024e-22,224.0
+XP_033873800.1, 39S ribosomal protein L33,Acipenser ruthenus,2.6841399999999997e-22,222.0
+XP_052662349.1, 39S ribosomal protein L33,Harpia harpyja,2.6841399999999997e-22,222.0
+XP_022066340.1, 39S ribosomal protein L33,Acanthochromis polyacanthus,2.80463e-22,222.0
+XP_036449530.1, 39S ribosomal protein L33,Colossoma macropomum,3.1386999999999997e-22,224.0
+XP_049319461.1, 39S ribosomal protein L33,Astyanax mexicanus,3.19952e-22,222.0
+XP_005799168.1, 39S ribosomal protein L33,Xiphophorus maculatus,4.16394e-22,221.0
+XP_030354933.1, 39S ribosomal protein L33,Strigops habroptila,4.80265e-22,221.0
+XP_027309858.1, 39S ribosomal protein L33,Anas platyrhynchos,4.9634499999999995e-22,221.0
+XP_008295291.1, PREDICTED: 39S ribosomal protein L33,Stegastes partitus,6.25027e-22,220.0
+XP_007908257.2, 39S ribosomal protein L33,Callorhinchus milii,6.45953e-22,220.0
+XP_026857280.1, 39S ribosomal protein L33,Electrophorus electricus,6.89931e-22,220.0
+XP_025976955.1, 39S ribosomal protein L33,Dromaius novaehollandiae,7.05245e-22,220.0
+XP_035417782.1, 39S ribosomal protein L33,Cygnus atratus,7.1302999999999995e-22,220.0
+XP_008320662.1, 39S ribosomal protein L33,Cynoglossus semilaevis,7.36902e-22,220.0
+XP_008397895.1, PREDICTED: 39S ribosomal protein L33,Poecilia reticulata,7.61573e-22,219.0
+XP_050751069.1, 39S ribosomal protein L33,Gymnogyps californianus,8.687999999999999e-22,219.0
+XP_042333095.1, 39S ribosomal protein L33,Sceloporus undulatus,9.27948e-22,219.0
+XP_041928032.1, 39S ribosomal protein L33,Alosa sapidissima,9.590159999999999e-22,219.0
+XP_035177667.1, 39S ribosomal protein L33,Oxyura jamaicensis,9.91123e-22,219.0
+XP_033694712.1, 39S ribosomal protein L33,Tursiops truncatus,1.1191299999999999e-21,221.0
+XP_015240343.1, PREDICTED: 39S ribosomal protein L33,Cyprinodon variegatus,1.19446e-21,218.0
+XP_051880986.1, 39S ribosomal protein L33,Pristis pectinata,1.28986e-21,218.0
+XP_051941841.1, 39S ribosomal protein L33,Hippocampus zosterae,1.28986e-21,218.0
+XP_030413181.1, 39S ribosomal protein L33,Gopherus evgoodei,1.30604e-21,219.0
+XP_042552739.1, 39S ribosomal protein L33,Dipodomys spectabilis,1.3399399999999999e-21,219.0
+XP_033795222.1, 39S ribosomal protein L33,Geotrypetes seraphini,1.34776e-21,218.0
+XP_029087573.1, 39S ribosomal protein L33,Monodon monoceros,1.37147e-21,219.0
+XP_043903892.1, 39S ribosomal protein L33,Solea senegalensis,1.4554e-21,218.0
+XP_025915263.1, 39S ribosomal protein L33,Apteryx rowi,1.52073e-21,218.0
+XP_035529316.1, 39S ribosomal protein L33,Morone saxatilis,1.73483e-21,217.0
+XP_019731685.1, PREDICTED: 39S ribosomal protein L33,Hippocampus comes,2.00093e-21,217.0
+XP_038654992.1, 39S ribosomal protein L33,Scyliorhinus canicula,2.0453399999999998e-21,217.0
+XP_021248357.1, 39S ribosomal protein L33,Numida meleagris,2.0632099999999998e-21,217.0
+XP_047201055.1, 39S ribosomal protein L33,Girardinichthys multiradiatus,2.16074e-21,217.0
+XP_034015356.1, 39S ribosomal protein L33,Thalassophryne amazonica,2.2577199999999998e-21,216.0
+XP_026969326.1, 39S ribosomal protein L33,Lagenorhynchus obliquidens,2.2953999999999997e-21,220.0
+XP_030211636.1, 39S ribosomal protein L33,Gadus morhua,2.54747e-21,216.0
+NP_001290051.1, 39S ribosomal protein L33,Danio rerio,2.57559e-21,216.0
+XP_006012465.1, PREDICTED: 39S ribosomal protein L33,Latimeria chalumnae,2.78129e-21,216.0
+XP_030303327.1, 39S ribosomal protein L33,Calypte anna,2.78129e-21,216.0
+XP_029900837.1, 39S ribosomal protein L33,Myripristis murdjan,3.00342e-21,216.0
+XP_029448816.1, 39S ribosomal protein L33,Rhinatrema bivittatum,3.07008e-21,216.0
+XP_047638338.1, uncharacterized protein LOC125128220 isoform X1 [Phacochoerus africanus],Phacochoerus africanus,3.09835e-21,220.0
+XP_018588060.1, 39S ribosomal protein L33,Scleropages formosus,3.3152799999999997e-21,215.0
+XP_032876449.1, 39S ribosomal protein L33,Amblyraja radiata,3.5409699999999996e-21,215.0
+XP_022429893.1, 39S ribosomal protein L33,Delphinapterus leucas,3.61155e-21,217.0
+XP_033916274.1, 39S ribosomal protein L33,Melopsittacus undulatus,3.78203e-21,215.0
+XP_023991204.1, 39S ribosomal protein L33,Salvelinus alpinus,3.79457e-21,215.0
+XP_039992437.1, 39S ribosomal protein L33,Xiphias gladius,3.82377e-21,215.0
+XP_051252125.1, 39S ribosomal protein L33,Dicentrarchus labrax,4.76247e-21,214.0
+XP_020470188.1, 39S ribosomal protein L33,Monopterus albus,4.92191e-21,214.0
+XP_020497247.1, 39S ribosomal protein L33,Labrus bergylta,5.03116e-21,214.0
+XP_008102902.1, PREDICTED: 39S ribosomal protein L33,Anolis carolinensis,5.61484e-21,214.0
+XP_029972379.1, 39S ribosomal protein L33,Salarias fasciatus,5.99708e-21,214.0
+XP_035988732.1, 39S ribosomal protein L33,Fundulus heteroclitus,5.99708e-21,214.0
+XP_044130514.1, 39S ribosomal protein L33,Bufo gargarizans,6.19784e-21,214.0
+XP_029349296.1, 39S ribosomal protein L33,Echeneis naucrates,7.070399999999999e-21,213.0
+XP_015265624.1, PREDICTED: 39S ribosomal protein L33,Gekko japonicus,7.38775e-21,213.0
+XP_031436067.1, 39S ribosomal protein L33,Clupea harengus,7.782129999999999e-21,213.0
+XP_018411109.1, PREDICTED: 39S ribosomal protein L33,Nanorana parkeri,8.0658e-21,213.0
+XP_018118183.1, 39S ribosomal protein L33,Xenopus laevis,8.24482e-21,213.0
+XP_040478977.1, 39S ribosomal protein L33,Ursus maritimus,8.47879e-21,216.0
+XP_028996027.1, 39S ribosomal protein L33,Betta splendens,8.52083e-21,213.0
+XP_003445494.1, 39S ribosomal protein L33,Oreochromis niloticus,8.80608e-21,213.0
+XP_041827977.1, 39S ribosomal protein L33,Melanotaenia boesemani,1.0268799999999998e-20,212.0
+XP_052602155.1, 39S ribosomal protein L33,Peromyscus californicus insignis,1.0754499999999999e-20,213.0
+XP_040286578.1, 39S ribosomal protein L33,Bufo bufo,1.25119e-20,212.0
+XP_018550699.1, 39S ribosomal protein L33,Lates calcarifer,1.3217699999999998e-20,211.0
+XP_036981294.1, 39S ribosomal protein L33,Acanthopagrus latus,1.7013499999999998e-20,211.0
+XP_009902691.1, PREDICTED: 39S ribosomal protein L33,Dryobates pubescens,1.72597e-20,211.0
+XP_033499222.1, 39S ribosomal protein L33,Epinephelus lanceolatus,1.8987199999999998e-20,210.0
+XP_023649194.1, 39S ribosomal protein L33,Paramormyrops kingsleyae,1.9622799999999998e-20,210.0
+XP_048830417.1, 39S ribosomal protein L33,Brienomyrus brachyistius,1.9839399999999997e-20,210.0
+XP_033843956.1, 39S ribosomal protein L33,Periophthalmus magnuspinnatus,2.3134599999999998e-20,210.0
+XP_017287189.1, 39S ribosomal protein L33,Kryptolebias marmoratus,2.5257799999999997e-20,210.0
+XP_032821033.1, 39S ribosomal protein L33,Petromyzon marinus,2.7575899999999996e-20,209.0
+XP_027742881.1, 39S ribosomal protein L33,Empidonax traillii,2.97781e-20,209.0
+XP_006799452.1, 39S ribosomal protein L33,Neolamprologus brichardi,3.0106699999999995e-20,209.0
+XP_044021870.1, 39S ribosomal protein L33,Siniperca chuatsi,3.28697e-20,209.0
+XP_006257917.2, PREDICTED: 39S ribosomal protein L33,Alligator mississippiensis,3.32325e-20,209.0
+XP_013155746.1, 39S ribosomal protein L33,Falco peregrinus,3.3913799999999994e-20,208.0
+XP_040984441.1, 39S ribosomal protein L33,Aquila chrysaetos chrysaetos,3.54364e-20,208.0
+XP_015744961.1, 39S ribosomal protein L33,Python bivittatus,3.7644099999999994e-20,208.0
+XP_009319179.1, PREDICTED: 39S ribosomal protein L33,Pygoscelis adeliae,3.7767099999999994e-20,208.0
+XP_015830919.1, PREDICTED: 39S ribosomal protein L33,Nothobranchius furzeri,3.7910799999999996e-20,208.0
+XP_010705231.1, 39S ribosomal protein L33,Meleagris gallopavo,3.9504399999999995e-20,209.0
+XP_010128277.1, PREDICTED: 39S ribosomal protein L33,Chlamydotis macqueenii,4.20299e-20,208.0
+XP_014732754.1, PREDICTED: 39S ribosomal protein L33,Sturnus vulgaris,4.2033199999999996e-20,209.0
+XP_010287662.1, PREDICTED: 39S ribosomal protein L33,Phaethon lepturus,4.4018099999999996e-20,207.0
+XP_016152743.1, PREDICTED: 39S ribosomal protein L33,Ficedula albicollis,4.9149299999999996e-20,208.0
+XP_015476208.1, 39S ribosomal protein L33,Parus major,5.2039e-20,207.0
+XP_037098376.1, 39S ribosomal protein L33,Syngnathus acus,5.44578e-20,207.0
+XP_041907379.1, 39S ribosomal protein L33,Corvus kubaryi,5.606849999999999e-20,207.0
+XP_010734681.1, 39S ribosomal protein L33,Larimichthys crocea,5.752979999999999e-20,207.0
+XP_002938466.1, 39S ribosomal protein L33,Xenopus tropicalis,5.81646e-20,207.0
+XP_038583998.1, 39S ribosomal protein L33,Micropterus salmoides,6.212379999999999e-20,207.0
+XP_044296651.1, 39S ribosomal protein L33,Varanus komodoensis,6.42034e-20,207.0
+XP_009978516.1, PREDICTED: 39S ribosomal protein L33,Tauraco erythrolophus,6.535579999999999e-20,206.0
+XP_030915516.1, 39S ribosomal protein L33,Geospiza fortis,7.17241e-20,207.0
+XP_020775434.1, 39S ribosomal protein L33,Boleophthalmus pectinirostris,7.24418e-20,207.0
+XP_009503229.1, PREDICTED: 39S ribosomal protein L33,Phalacrocorax carbo,8.321119999999999e-20,206.0
+XP_030051749.1, 39S ribosomal protein L33,Microcaecilia unicolor,9.022329999999999e-20,206.0
+XP_041333248.1, 39S ribosomal protein L33,Pyrgilauda ruficollis,9.75717e-20,207.0
+XP_037002521.1, 39S ribosomal protein L33,Artibeus jamaicensis,1.16952e-19,208.0
+XP_034713350.1, 39S ribosomal protein L33,Etheostoma cragini,1.28187e-19,205.0
+XP_013055620.2, 39S ribosomal protein L33,Anser cygnoides,1.31638e-19,204.0
+XP_017600268.1, PREDICTED: 39S ribosomal protein L33,Corvus brachyrhynchos,1.34438e-19,206.0
+XP_027789228.1, 39S ribosomal protein L33,Marmota flaviventris,1.61768e-19,205.0
+XP_009674548.1, PREDICTED: 39S ribosomal protein L33,Struthio camelus australis,1.73654e-19,204.0
+XP_010003256.1, PREDICTED: 39S ribosomal protein L33,Chaetura pelagica,1.79356e-19,206.0
+XP_031177167.1, 39S ribosomal protein L33,Sander lucioperca,1.92397e-19,204.0
+XP_040917452.1, 39S ribosomal protein L33,Toxotes jaculatrix,1.96666e-19,204.0
+XP_041486905.1, LOW QUALITY PROTEIN: 39S ribosomal protein L33,Microtus oregoni,2.0144000000000001e-19,205.0
+XP_037652446.1, 39S ribosomal protein L33,Sebastes umbrosus,2.0324900000000001e-19,204.0
+XP_009562570.1, PREDICTED: 39S ribosomal protein L33,Cuculus canorus,2.0646500000000001e-19,210.0
+XP_034432617.1, 39S ribosomal protein L33,Hippoglossus hippoglossus,2.1237e-19,203.0
+XP_009282008.1, PREDICTED: 39S ribosomal protein L33,Aptenodytes forsteri,2.13918e-19,203.0
+XP_009579320.1, PREDICTED: 39S ribosomal protein L33,Fulmarus glacialis,2.36123e-19,203.0
+XP_040054990.1, 39S ribosomal protein L33,Gasterosteus aculeatus aculeatus,2.42264e-19,203.0
+XP_010131882.1, PREDICTED: 39S ribosomal protein L33,Buceros rhinoceros silvestris,2.64127e-19,204.0
+XP_010196970.1, PREDICTED: 39S ribosomal protein L33,Colius striatus,2.94101e-19,202.0
+XP_006115771.2, 39S ribosomal protein L33,Pelodiscus sinensis,3.11291e-19,204.0
+XP_035465611.1, 39S ribosomal protein L33,Scophthalmus maximus,3.25818e-19,202.0
+XP_009705804.1, PREDICTED: 39S ribosomal protein L33,Cariama cristata,3.29934e-19,205.0
+XP_013799298.1, PREDICTED: 39S ribosomal protein L33,Apteryx mantelli mantelli,3.49293e-19,202.0
+XP_034381557.1, 39S ribosomal protein L33,Cyclopterus lumpus,3.63611e-19,202.0
+XP_028420906.1, 39S ribosomal protein L33,Perca flavescens,3.7578200000000003e-19,202.0
+XP_006030737.1, 39S ribosomal protein L33,Alligator sinensis,4.33406e-19,201.0
+XP_029982528.1, 39S ribosomal protein L33,Sphaeramia orbicularis,4.73177e-19,201.0
+XP_050804624.1, 39S ribosomal protein L33,Gopherus flavomarginatus,5.18557e-19,201.0
+XP_039605473.1, 39S ribosomal protein L33,Polypterus senegalus,5.64002e-19,201.0
+XP_028652167.1, 39S ribosomal protein L33,Erpetoichthys calabaricus,8.37252e-19,200.0
+XP_020648779.1, 39S ribosomal protein L33,Pogona vitticeps,9.87064e-19,199.0
+XP_030299277.1, 39S ribosomal protein L33,Sparus aurata,1.2844800000000001e-18,198.0
+XP_037341960.1, 39S ribosomal protein L33,Pungitius pungitius,1.7465e-18,197.0
+XP_048699397.1, 39S ribosomal protein L33,Caretta caretta,3.10274e-18,201.0
+XP_033991114.1, 39S ribosomal protein L33,Trematomus bernacchii,5.527890000000001e-18,194.0
+XP_010774729.1, PREDICTED: 39S ribosomal protein L33,Notothenia coriiceps,5.9040800000000006e-18,194.0
+XP_010303240.1, PREDICTED: 39S ribosomal protein L33,Balearica regulorum gibbericeps,8.927090000000001e-18,193.0
+XP_029316817.1, 39S ribosomal protein L33,Cottoperca gobio,9.673770000000001e-18,193.0
+XP_009929791.1, PREDICTED: 39S ribosomal protein L33,Opisthocomus hoazin,9.996660000000001e-18,200.0
+XP_015672134.1, 39S ribosomal protein L33,Protobothrops mucrosquamatus,1.05231e-17,192.0
+XP_044229996.1, 39S ribosomal protein L33,Thunnus albacares,1.7759e-17,191.0
+XP_010154651.1, PREDICTED: 39S ribosomal protein L33,Eurypyga helias,5.67053e-17,188.0
+XP_041809853.1, 39S ribosomal protein L33,Chelmon rostratus,1.03476e-16,186.0
+XP_034283891.1, 39S ribosomal protein L33,Pantherophis guttatus,1.04983e-16,186.0
+XP_013915775.1, PREDICTED: 39S ribosomal protein L33,Thamnophis sirtalis,1.07312e-16,186.0
+XP_026537408.1, 39S ribosomal protein L33,Notechis scutatus,1.30286e-16,185.0
+XP_039192999.1, 39S ribosomal protein L33,Crotalus tigris,2.44324e-16,183.0
+XP_015212358.1, PREDICTED: 39S ribosomal protein L33,Lepisosteus oculatus,3.38e-16,186.0
+XP_035744909.1, 39S ribosomal protein L33,Egretta garzetta,1.93161e-15,177.0
+XP_023780323.1, 39S ribosomal protein L33,Cyanistes caeruleus,3.27314e-15,181.0
+XP_013865487.1, PREDICTED: 39S ribosomal protein L33,Austrofundulus limnaeus,3.9622e-15,176.0
+XP_021145163.1, 39S ribosomal protein L33,Columba livia,9.50644e-15,174.0
+XP_009953264.1, PREDICTED: LOW QUALITY PROTEIN: 39S ribosomal protein L33,Leptosomus discolor,1.29489e-14,172.0
+XP_033967238.1, 39S ribosomal protein L33,Pseudochaenichthys georgianus,1.3961e-14,174.0
+XP_027537759.1, 39S ribosomal protein L33,Neopelma chrysocephalum,2.52617e-14,169.0
+XP_026551398.1, 39S ribosomal protein L33,Pseudonaja textilis,2.74959e-14,171.0
+XP_012776800.1, 39S ribosomal protein L33,Maylandia zebra,4.34402e-14,172.0
+XP_010210035.1, PREDICTED: 39S ribosomal protein L33,Tinamus guttatus,5.27061e-14,167.0
+XP_009867886.1, PREDICTED: 39S ribosomal protein L33,Apaloderma vittatum,5.56797e-14,167.0
+XP_009078869.1, PREDICTED: 39S ribosomal protein L33,Acanthisitta chloris,6.93485e-14,166.0
+XP_009473335.1, PREDICTED: 39S ribosomal protein L33,Nipponia nippon,8.17601e-14,166.0
+XP_039553604.1, 39S ribosomal protein L33,Passer montanus,1.16167e-13,165.0
+XP_008938246.1, PREDICTED: 39S ribosomal protein L33,Merops nubicus,1.68715e-13,163.0
+XP_009878956.1, PREDICTED: 39S ribosomal protein L33,Charadrius vociferus,2.21985e-13,163.0
+XP_010077880.1, PREDICTED: 39S ribosomal protein L33,Pterocles gutturalis,4.01532e-13,161.0
+XP_010176698.1, 39S ribosomal protein L33,Antrostomus carolinensis,4.33597e-13,161.0
+XP_010019786.1, PREDICTED: 39S ribosomal protein L33,Nestor notabilis,4.53056e-13,161.0
+XP_009477746.1, PREDICTED: 39S ribosomal protein L33,Pelecanus crispus,5.00093e-13,160.0
+XP_031695577.1, 39S ribosomal protein L33,Anarrhichthys ocellatus,9.25686e-13,159.0
+XP_026702080.1, 39S ribosomal protein L33,Athene cunicularia,1.15158e-12,158.0
+XP_006455851.1, hypothetical protein AGABI2DRAFT_195181 [Agaricus bisporus var. bisporus H97] >ref,Agaricus bisporus var. bisporus H97,1.93036e-12,157.0
+XP_007387992.1, hypothetical protein PUNSTDRAFT_55343 [Punctularia strigosozonata HHB-11173 SS5],Punctularia strigosozonata HHB-11173 SS5,3.45203e-12,156.0
+XP_018275000.1, uncharacterized protein CC85DRAFT_331549 [Cutaneotrichosporon oleaginosum],Cutaneotrichosporon oleaginosum,4.00289e-12,155.0
+XP_009265844.1, hypothetical protein J056_000171 [Wallemia ichthyophaga EXF-994],Wallemia ichthyophaga EXF-994,6.12256e-12,154.0
+XP_043088682.1, 39S ribosomal protein L33,Puntigrus tetrazona,9.9644e-12,153.0
+XP_028473399.1, 39S ribosomal protein L33,Apiotrichum porosum,1.22532e-11,152.0
+XP_009541545.1, hypothetical protein HETIRDRAFT_141006 [Heterobasidion irregulare TC 32-1],Heterobasidion irregulare TC 32-1,2.42651e-11,150.0
+XP_001829864.1, mitochondrial 54S ribosomal protein YmL39 [Coprinopsis cinerea okayama7#130],Coprinopsis cinerea okayama7#130,2.48032e-11,150.0
+XP_007367242.1, uncharacterized protein DICSQDRAFT_88494 [Dichomitus squalens LYAD-421 SS1],Dichomitus squalens LYAD-421 SS1,2.71271e-11,150.0
+XP_016612760.1, ribosomal protein L33 [Spizellomyces punctatus DAOM BR117],Spizellomyces punctatus DAOM BR117,4.16667e-11,149.0
+XP_001888303.1, mitochondrial 54S ribosomal protein YmL39 [Laccaria bicolor S238N-H82],Laccaria bicolor S238N-H82,4.94904e-11,148.0
+XP_006680069.1, mitochondrial 54S ribosomal protein YmL39 [Batrachochytrium dendrobatidis JAM81],Batrachochytrium dendrobatidis JAM81,9.24253e-11,147.0
+XP_041410507.1, putative 50s ribosomal protein L33 [Ustilago hordei],Ustilago hordei,9.33266e-11,146.0
+XP_024336500.1, hypothetical protein POSPLADRAFT_1059003 [Postia placenta MAD-698-R-SB12],Postia placenta MAD-698-R-SB12,9.45078e-11,146.0
+XP_039756945.1, 39S ribosomal protein L33,Pararge aegeria,9.69377e-11,147.0
+XP_047783006.1, uncharacterized protein C8Q71DRAFT_738358 [Rhodofomes roseus],Rhodofomes roseus,1.14626e-10,145.0
+XP_043034033.1, uncharacterized protein BT62DRAFT_1012612 [Guyanagaster necrorhizus MCA 3950],Guyanagaster necrorhizus MCA 3950,1.32552e-10,145.0
+XP_012177809.1, predicted protein [Fibroporia radiculosa],Fibroporia radiculosa,1.56494e-10,145.0
+XP_007298169.1, hypothetical protein STEHIDRAFT_71286 [Stereum hirsutum FP-91666 SS1],Stereum hirsutum FP-91666 SS1,1.58488e-10,145.0
+XP_047136474.1, N(6)-adenine-specific methyltransferase METTL4 isoform X1 [Hydra vulgaris],Hydra vulgaris,1.61378e-10,157.0
+XP_025379454.1, putative 50s ribosomal protein L33 [Acaromyces ingoldii],Acaromyces ingoldii,2.24361e-10,144.0
+XP_003028980.2, mitochondrial 54S ribosomal protein YmL39 [Schizophyllum commune H4-8],Schizophyllum commune H4-8,2.24708e-10,144.0

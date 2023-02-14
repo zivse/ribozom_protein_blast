@@ -1,0 +1,449 @@
+query_id,protein_name,organism,e-value,score
+NP_055578.2, 39S ribosomal protein L19,Homo sapiens,0.0,1552.0
+XP_003309119.1, 39S ribosomal protein L19,Pan troglodytes,0.0,1549.0
+XP_004029544.3, 39S ribosomal protein L19,Gorilla gorilla gorilla,0.0,1546.0
+XP_003810359.2, 39S ribosomal protein L19,Pan paniscus,0.0,1544.0
+XP_032032471.1, 39S ribosomal protein L19,Hylobates moloch,0.0,1492.0
+XP_003268770.1, 39S ribosomal protein L19,Nomascus leucogenys,0.0,1483.0
+NP_001127477.1, 39S ribosomal protein L19,Pongo abelii,0.0,1481.0
+XP_010361105.1, 39S ribosomal protein L19,Rhinopithecus roxellana,0.0,1466.0
+XP_033031141.1, 39S ribosomal protein L19,Trachypithecus francoisi,0.0,1465.0
+XP_001112069.2, 39S ribosomal protein L19,Macaca mulatta,0.0,1463.0
+XP_011830872.1, PREDICTED: 39S ribosomal protein L19,Mandrillus leucophaeus,0.0,1460.0
+XP_005575547.2, 39S ribosomal protein L19,Macaca fascicularis,0.0,1458.0
+XP_007968276.2, 39S ribosomal protein L19,Chlorocebus sabaeus,0.0,1457.0
+XP_023043732.2, 39S ribosomal protein L19,Piliocolobus tephrosceles,0.0,1457.0
+XP_003908918.2, 39S ribosomal protein L19,Papio anubis,0.0,1456.0
+XP_002757629.1, 39S ribosomal protein L19,Callithrix jacchus,0.0,1402.0
+XP_032099362.1, 39S ribosomal protein L19,Sapajus apella,0.0,1395.0
+XP_017364283.1, 39S ribosomal protein L19,Cebus imitator,0.0,1382.0
+XP_012307543.1, 39S ribosomal protein L19,Aotus nancymaae,0.0,1382.0
+XP_003922610.1, 39S ribosomal protein L19,Saimiri boliviensis boliviensis,0.0,1347.0
+XP_003354803.2, 39S ribosomal protein L19,Sus scrofa,0.0,1329.0
+XP_004437245.1, PREDICTED: 39S ribosomal protein L19,Ceratotherium simum simum,0.0,1326.0
+XP_019575242.1, PREDICTED: 39S ribosomal protein L19,Rhinolophus sinicus,0.0,1325.0
+XP_047379489.1, 39S ribosomal protein L19,Sciurus carolinensis,0.0,1320.0
+XP_032981246.1, 39S ribosomal protein L19,Rhinolophus ferrumequinum,0.0,1319.0
+XP_047637622.1, 39S ribosomal protein L19,Phacochoerus africanus,0.0,1319.0
+XP_004005974.1, 39S ribosomal protein L19,Ovis aries,0.0,1315.0
+XP_052505208.1, 39S ribosomal protein L19,Budorcas taxicolor,0.0,1313.0
+XP_027799599.1, 39S ribosomal protein L19,Marmota flaviventris,0.0,1311.0
+XP_004369209.1, 39S ribosomal protein L19,Trichechus manatus latirostris,0.0,1310.0
+XP_043324588.1, 39S ribosomal protein L19,Cervus canadensis,1.66777e-180,1308.0
+XP_039708333.1, 39S ribosomal protein L19,Pteropus giganteus,1.86102e-180,1308.0
+XP_046288199.1, 39S ribosomal protein L19,Marmota monax,2.88538e-180,1307.0
+XP_015986126.2, 39S ribosomal protein L19,Rousettus aegyptiacus,3.32735e-180,1306.0
+XP_005686695.2, PREDICTED: 39S ribosomal protein L19,Capra hircus,5.04693e-180,1305.0
+XP_010861275.1, PREDICTED: 39S ribosomal protein L19,Bison bison bison,5.21568e-180,1305.0
+XP_007445597.1, PREDICTED: 39S ribosomal protein L19,Lipotes vexillifer,6.08091e-180,1305.0
+XP_020765830.1, 39S ribosomal protein L19,Odocoileus virginianus texanus,6.56594e-180,1304.0
+XP_040080116.1, 39S ribosomal protein L19,Oryx dammah,9.8506e-180,1303.0
+XP_027411197.1, 39S ribosomal protein L19,Bos indicus x Bos taurus,1.14847e-179,1303.0
+XP_008051483.1, 39S ribosomal protein L19,Carlito syrichta,1.17393e-179,1303.0
+XP_006073922.4, 39S ribosomal protein L19,Bubalus bubalis,1.57832e-179,1302.0
+XP_015355348.1, 39S ribosomal protein L19,Marmota marmota marmota,2.05335e-179,1301.0
+XP_005329452.1, 39S ribosomal protein L19,Ictidomys tridecemlineatus,2.42036e-179,1301.0
+NP_001039533.1, 39S ribosomal protein L19,Bos taurus,2.76067e-179,1300.0
+XP_006203844.1, 39S ribosomal protein L19,Vicugna pacos,5.38821e-179,1298.0
+XP_005889100.1, PREDICTED: 39S ribosomal protein L19,Bos mutus,9.3218e-179,1297.0
+XP_004704433.1, 39S ribosomal protein L19,Echinops telfairi,1.09887e-178,1296.0
+XP_036729875.1, 39S ribosomal protein L19,Balaenoptera musculus,1.39849e-178,1296.0
+XP_006905289.1, 39S ribosomal protein L19,Pteropus alecto,1.6849900000000002e-178,1295.0
+XP_011356384.1, 39S ribosomal protein L19,Pteropus vampyrus,2.0525700000000002e-178,1295.0
+XP_043773853.1, 39S ribosomal protein L19,Cervus elaphus,2.72951e-178,1294.0
+XP_004283279.1, 39S ribosomal protein L19,Orcinus orca,4.47024e-178,1292.0
+XP_047710077.1, 39S ribosomal protein L19,Prionailurus viverrinus,7.483370000000001e-178,1291.0
+XP_012612800.1, 39S ribosomal protein L19,Microcebus murinus,8.25935e-178,1291.0
+XP_007174752.1, 39S ribosomal protein L19,Balaenoptera acutorostrata scammoni,8.72471e-178,1290.0
+XP_040314332.1, 39S ribosomal protein L19,Puma yagouaroundi,9.1158e-178,1290.0
+XP_014925478.2, 39S ribosomal protein L19,Acinonyx jubatus,1.0284099999999998e-177,1290.0
+XP_026951736.1, 39S ribosomal protein L19,Lagenorhynchus obliquidens,1.173e-177,1290.0
+XP_006102991.1, 39S ribosomal protein L19,Myotis lucifugus,1.4133e-177,1289.0
+XP_025788276.1, 39S ribosomal protein L19,Puma concolor,1.4929199999999998e-177,1289.0
+XP_019489989.1, PREDICTED: 39S ribosomal protein L19,Hipposideros armiger,1.6718899999999998e-177,1289.0
+XP_007955119.1, 39S ribosomal protein L19,Orycteropus afer afer,2.09714e-177,1288.0
+XP_046924501.1, 39S ribosomal protein L19,Lynx rufus,2.6691099999999997e-177,1287.0
+XP_010629912.1, 39S ribosomal protein L19,Fukomys damarensis,3.54936e-177,1286.0
+XP_024614631.1, 39S ribosomal protein L19,Neophocaena asiaeorientalis asiaeorientalis,3.8324499999999995e-177,1286.0
+XP_022418806.1, 39S ribosomal protein L19,Delphinapterus leucas,4.51741e-177,1286.0
+XP_024414295.1, 39S ribosomal protein L19,Desmodus rotundus,9.838069999999999e-177,1284.0
+XP_030166824.1, 39S ribosomal protein L19,Lynx canadensis,1.19841e-176,1283.0
+XP_006753000.1, PREDICTED: 39S ribosomal protein L19,Myotis davidii,1.2939900000000001e-176,1283.0
+XP_005853174.1, PREDICTED: 39S ribosomal protein L19,Myotis brandtii,1.4598200000000001e-176,1282.0
+XP_006870841.1, PREDICTED: 39S ribosomal protein L19,Chrysochloris asiatica,1.5252600000000002e-176,1282.0
+XP_032706607.1, 39S ribosomal protein L19,Lontra canadensis,1.57625e-176,1282.0
+XP_003984211.2, 39S ribosomal protein L19,Felis catus,2.58143e-176,1281.0
+XP_006192398.1, 39S ribosomal protein L19,Camelus ferus,3.3583e-176,1280.0
+XP_017517103.1, 39S ribosomal protein L19,Manis javanica,4.368950000000001e-176,1279.0
+XP_043459751.1, 39S ribosomal protein L19,Prionailurus bengalensis,5.0381e-176,1279.0
+XP_036291740.1, 39S ribosomal protein L19,Pipistrellus kuhlii,5.09364e-176,1279.0
+XP_032509338.1, 39S ribosomal protein L19,Phocoena sinus,5.26393e-176,1279.0
+XP_029088466.1, 39S ribosomal protein L19,Monodon monoceros,8.908910000000001e-176,1277.0
+XP_004742340.1, 39S ribosomal protein L19,Mustela putorius furo,9.51457e-176,1277.0
+XP_047602447.1, 39S ribosomal protein L19,Lutra lutra,1.05011e-175,1277.0
+XP_049713285.1, 39S ribosomal protein L19,Elephas maximus indicus,1.32193e-175,1276.0
+XP_045684853.1, 39S ribosomal protein L19,Phyllostomus hastatus,1.39641e-175,1276.0
+XP_045834586.1, 39S ribosomal protein L19,Meles meles,1.701e-175,1275.0
+XP_028372037.1, 39S ribosomal protein L19,Phyllostomus discolor,1.8980699999999998e-175,1275.0
+XP_022360334.1, 39S ribosomal protein L19,Enhydra lutris kenyoni,2.07204e-175,1275.0
+XP_044117441.1, 39S ribosomal protein L19,Neogale vison,2.91056e-175,1274.0
+XP_036762384.1, 39S ribosomal protein L19,Manis pentadactyla,3.35634e-175,1274.0
+XP_010978317.2, 39S ribosomal protein L19,Camelus dromedarius,5.49659e-175,1272.0
+XP_036920834.1, 39S ribosomal protein L19,Sturnira hondurensis,7.80606e-175,1271.0
+XP_045405899.1, 39S ribosomal protein L19,Lemur catta,1.00444e-174,1270.0
+XP_003413752.1, 39S ribosomal protein L19,Loxodonta africana,1.4580900000000001e-174,1269.0
+XP_007119376.1, 39S ribosomal protein L19,Physeter catodon,1.4741600000000001e-174,1269.0
+XP_008145613.1, 39S ribosomal protein L19,Eptesicus fuscus,4.71149e-174,1266.0
+XP_002709746.1, 39S ribosomal protein L19,Oryctolagus cuniculus,7.38477e-174,1265.0
+XP_001498647.2, 39S ribosomal protein L19,Equus caballus,8.33109e-174,1264.0
+XP_032208482.1, 39S ribosomal protein L19,Mustela erminea,1.7364e-173,1262.0
+XP_008839803.1, 39S ribosomal protein L19,Nannospalax galili,4.50611e-173,1260.0
+XP_045302594.1, 39S ribosomal protein L19,Leopardus geoffroyi,5.7981399999999994e-173,1259.0
+XP_048208788.1, 39S ribosomal protein L19,Perognathus longimembris pacificus,7.46064e-173,1258.0
+XP_004473417.1, 39S ribosomal protein L19,Dasypus novemcinctus,1.33374e-172,1256.0
+XP_002927742.2, 39S ribosomal protein L19,Ailuropoda melanoleuca,1.90727e-172,1256.0
+XP_036986716.1, 39S ribosomal protein L19,Artibeus jamaicensis,3.42336e-172,1254.0
+XP_020033649.1, 39S ribosomal protein L19,Castor canadensis,5.69615e-172,1251.0
+XP_036118868.1, 39S ribosomal protein L19,Molossus molossus,7.10601e-172,1252.0
+XP_019298523.1, PREDICTED: 39S ribosomal protein L19,Panthera pardus,1.87188e-171,1249.0
+XP_007083553.1, 39S ribosomal protein L19,Panthera tigris,2.38231e-171,1248.0
+XP_026337748.1, 39S ribosomal protein L19,Ursus arctos,3.5083000000000004e-171,1247.0
+XP_035955330.1, 39S ribosomal protein L19,Halichoerus grypus,5.30254e-171,1246.0
+XP_039096037.1, 39S ribosomal protein L19,Hyaena hyaena,8.58866e-171,1245.0
+XP_007537359.1, PREDICTED: 39S ribosomal protein L19,Erinaceus europaeus,9.76231e-171,1244.0
+XP_021554869.1, 39S ribosomal protein L19,Neomonachus schauinslandi,1.0123400000000001e-170,1244.0
+XP_037383606.1, 39S ribosomal protein L19,Talpa occidentalis,1.08115e-170,1244.0
+XP_008698267.1, 39S ribosomal protein L19,Ursus maritimus,1.77653e-170,1243.0
+XP_008523794.1, PREDICTED: 39S ribosomal protein L19,Equus przewalskii,1.82834e-170,1243.0
+XP_006172367.1, LOW QUALITY PROTEIN: 39S ribosomal protein L19,Tupaia chinensis,2.47831e-170,1241.0
+XP_032266492.1, 39S ribosomal protein L19,Phoca vitulina,3.6097800000000004e-170,1240.0
+XP_006727447.1, 39S ribosomal protein L19,Leptonychotes weddellii,4.49448e-170,1240.0
+XP_004398806.1, PREDICTED: 39S ribosomal protein L19,Odobenus rosmarus divergens,6.04222e-170,1239.0
+XP_034857097.1, 39S ribosomal protein L19,Mirounga leonina,1.1115899999999999e-169,1237.0
+XP_012586907.1, PREDICTED: 39S ribosomal protein L19,Condylura cristata,3.1273199999999996e-169,1234.0
+XP_004844703.1, 39S ribosomal protein L19,Heterocephalus glaber,4.21499e-169,1234.0
+XP_037663351.1, 39S ribosomal protein L19,Choloepus didactylus,4.90142e-169,1233.0
+XP_027479738.1, 39S ribosomal protein L19,Zalophus californianus,6.517419999999999e-169,1232.0
+XP_025724102.1, 39S ribosomal protein L19,Callorhinus ursinus,1.21725e-168,1230.0
+XP_036036388.1, 39S ribosomal protein L19,Onychomys torridus,4.53459e-168,1227.0
+XP_031238104.1, 39S ribosomal protein L19,Mastomys coucha,7.5899399999999995e-168,1225.0
+XP_003469013.1, 39S ribosomal protein L19,Cavia porcellus,1.5138799999999999e-167,1223.0
+XP_029793543.1, 39S ribosomal protein L19,Suricata suricatta,2.6766099999999997e-167,1222.0
+XP_014702760.1, 39S ribosomal protein L19,Equus asinus,5.456949999999999e-167,1220.0
+XP_049640805.1, 39S ribosomal protein L19,Suncus etruscus,1.4267e-166,1217.0
+XP_042555671.1, 39S ribosomal protein L19,Dipodomys spectabilis,2.4489900000000002e-166,1215.0
+XP_041490025.1, 39S ribosomal protein L19,Microtus oregoni,6.56637e-166,1213.0
+XP_004612119.1, PREDICTED: 39S ribosomal protein L19,Sorex araneus,6.59025e-166,1211.0
+XP_046519465.1, 39S ribosomal protein L19,Equus quagga,1.00678e-165,1211.0
+XP_005364760.1, 39S ribosomal protein L19,Microtus ochrogaster,1.4140799999999999e-165,1210.0
+XP_038174213.1, 39S ribosomal protein L19,Arvicola amphibius,2.72913e-165,1208.0
+XP_012890110.1, PREDICTED: 39S ribosomal protein L19,Dipodomys ordii,2.78961e-165,1208.0
+XP_052030002.1, 39S ribosomal protein L19,Apodemus sylvaticus,3.55014e-165,1208.0
+XP_012974702.1, 39S ribosomal protein L19,Mesocricetus auratus,6.20814e-165,1206.0
+XP_023574128.1, 39S ribosomal protein L19,Octodon degus,7.13513e-165,1206.0
+XP_050020917.1, 39S ribosomal protein L19,Microtus fortis,7.39788e-165,1206.0
+XP_040849569.1, 39S ribosomal protein L19,Ochotona curzoniae,4.66259e-164,1200.0
+XP_005385520.1, PREDICTED: 39S ribosomal protein L19,Chinchilla lanigera,8.225680000000001e-164,1198.0
+XP_048272396.1, 39S ribosomal protein L19,Myodes glareolus,3.46344e-163,1195.0
+XP_004660604.2, 39S ribosomal protein L19,Jaculus jaculus,4.68484e-162,1187.0
+XP_041613495.1, 39S ribosomal protein L19,Vulpes lagopus,7.83499e-162,1185.0
+NP_080766.1, 39S ribosomal protein L19,Mus musculus,5.6530600000000005e-161,1180.0
+XP_025309510.1, 39S ribosomal protein L19,Canis lupus dingo,5.002680000000001e-160,1174.0
+XP_025850234.1, 39S ribosomal protein L19,Vulpes vulpes,6.628150000000001e-160,1172.0
+XP_021020834.1, 39S ribosomal protein L19,Mus caroli,2.47689e-159,1169.0
+XP_052575194.1, 39S ribosomal protein L19,Peromyscus californicus insignis,5.63338e-159,1167.0
+XP_006994743.1, 39S ribosomal protein L19,Peromyscus maniculatus bairdii,1.90071e-158,1164.0
+XP_028727216.1, 39S ribosomal protein L19,Peromyscus leucopus,2.1207800000000003e-158,1163.0
+XP_021046763.1, 39S ribosomal protein L19,Mus pahari,3.1059e-157,1156.0
+XP_032762199.1, 39S ribosomal protein L19,Rattus rattus,6.54209e-157,1153.0
+XP_051058752.1, 39S ribosomal protein L19,Phodopus roborovskii,1.13137e-156,1152.0
+XP_036189903.1, 39S ribosomal protein L19,Myotis myotis,3.64008e-156,1146.0
+NP_001025069.1, 39S ribosomal protein L19,Rattus norvegicus,2.37801e-155,1143.0
+XP_034367438.1, 39S ribosomal protein L19,Arvicanthis niloticus,7.19694e-155,1140.0
+XP_021515873.1, 39S ribosomal protein L19,Meriones unguiculatus,9.20164e-154,1133.0
+XP_003793405.2, 39S ribosomal protein L19,Otolemur garnettii,1.68026e-153,1130.0
+XP_003498048.1, 39S ribosomal protein L19,Cricetulus griseus,2.24122e-153,1130.0
+XP_038607142.1, 39S ribosomal protein L19,Tachyglossus aculeatus,7.81641e-150,1105.0
+XP_036608104.1, 39S ribosomal protein L19,Trichosurus vulpecula,7.96446e-149,1098.0
+XP_051010529.1, LOW QUALITY PROTEIN: 39S ribosomal protein L19,Acomys russatus,3.66251e-148,1097.0
+XP_028927782.1, 39S ribosomal protein L19,Ornithorhynchus anatinus,5.52838e-148,1093.0
+XP_016057975.1, PREDICTED: 39S ribosomal protein L19,Miniopterus natalensis,6.33698e-146,1077.0
+XP_027713812.1, 39S ribosomal protein L19,Vombatus ursinus,2.47798e-145,1075.0
+XP_043840992.1, 39S ribosomal protein L19,Dromiciops gliroides,2.60329e-144,1069.0
+XP_028618215.1, 39S ribosomal protein L19,Grammomys surdaster,4.6054500000000005e-141,1049.0
+XP_011801510.1, PREDICTED: 39S ribosomal protein L19,Colobus angolensis palliatus,1.84984e-136,1009.0
+XP_020833648.1, 39S ribosomal protein L19,Phascolarctos cinereus,1.37625e-133,998.0
+XP_001365631.1, PREDICTED: 39S ribosomal protein L19,Monodelphis domestica,1.40179e-132,997.0
+XP_015194527.1, PREDICTED: 39S ribosomal protein L19,Lepisosteus oculatus,1.25392e-131,987.0
+XP_042704601.1, 39S ribosomal protein L19,Chrysemys picta bellii,1.5321099999999998e-131,985.0
+XP_009989918.1, PREDICTED: 39S ribosomal protein L19,Tauraco erythrolophus,2.99202e-131,981.0
+XP_024049839.2, 39S ribosomal protein L19,Terrapene carolina triunguis,4.27882e-131,983.0
+XP_044512660.1, LOW QUALITY PROTEIN: 39S ribosomal protein L19,Gracilinanus agilis,4.83686e-131,1005.0
+XP_044867916.1, 39S ribosomal protein L19,Mauremys mutica,7.808179999999999e-131,979.0
+XP_031805414.1, 39S ribosomal protein L19,Sarcophilus harrisii,7.86675e-131,980.0
+XP_010000723.1, PREDICTED: 39S ribosomal protein L19,Chaetura pelagica,8.3092e-131,979.0
+XP_030411172.1, 39S ribosomal protein L19,Gopherus evgoodei,1.22336e-130,980.0
+XP_009903637.1, PREDICTED: 39S ribosomal protein L19,Dryobates pubescens,1.65334e-130,978.0
+XP_050806940.1, 39S ribosomal protein L19,Gopherus flavomarginatus,2.96819e-130,977.0
+XP_051830027.1, 39S ribosomal protein L19,Antechinus flavipes,4.54279e-130,975.0
+XP_039386599.1, 39S ribosomal protein L19,Mauremys reevesii,4.59811e-130,976.0
+XP_031460774.1, 39S ribosomal protein L19,Phasianus colchicus,4.81675e-130,975.0
+XP_032656000.1, 39S ribosomal protein L19,Chelonoidis abingdonii,6.38475e-130,975.0
+XP_051469616.1, 39S ribosomal protein L19,Apus apus,6.38475e-130,975.0
+XP_010308364.1, PREDICTED: 39S ribosomal protein L19,Balearica regulorum gibbericeps,6.4641500000000004e-130,972.0
+XP_009272153.1, PREDICTED: 39S ribosomal protein L19,Aptenodytes forsteri,1.0000800000000002e-129,974.0
+XP_010086239.1, PREDICTED: 39S ribosomal protein L19,Pterocles gutturalis,1.77642e-129,970.0
+XP_014813712.1, PREDICTED: 39S ribosomal protein L19,Calidris pugnax,1.849e-129,972.0
+XP_010128300.1, PREDICTED: 39S ribosomal protein L19,Chlamydotis macqueenii,3.6847500000000005e-129,967.0
+XP_052549414.1, 39S ribosomal protein L19,Tympanuchus pallidicinctus,3.9385800000000004e-129,969.0
+XP_048791345.1, 39S ribosomal protein L19,Lagopus muta,4.07004e-129,969.0
+XP_042739425.1, 39S ribosomal protein L19,Lagopus leucura,5.23498e-129,968.0
+XP_046770827.1, 39S ribosomal protein L19,Gallus gallus,8.20901e-129,964.0
+XP_010129370.1, PREDICTED: 39S ribosomal protein L19,Buceros rhinoceros silvestris,9.631240000000001e-129,965.0
+XP_009870920.1, PREDICTED: 39S ribosomal protein L19,Apaloderma vittatum,9.795810000000001e-129,964.0
+XP_021246756.1, 39S ribosomal protein L19,Numida meleagris,9.94495e-129,966.0
+XP_032040961.1, 39S ribosomal protein L19,Aythya fuligula,1.02583e-128,967.0
+XP_029892964.1, 39S ribosomal protein L19,Aquila chrysaetos chrysaetos,1.4031e-128,967.0
+XP_027545877.1, 39S ribosomal protein L19,Neopelma chrysocephalum,1.54065e-128,965.0
+XP_017311380.1, 39S ribosomal protein L19,Ictalurus punctatus,1.57565e-128,966.0
+XP_038253871.1, 39S ribosomal protein L19,Dermochelys coriacea,1.67153e-128,966.0
+XP_037749878.1, 39S ribosomal protein L19,Chelonia mydas,1.8771e-128,965.0
+XP_010211571.1, PREDICTED: 39S ribosomal protein L19,Tinamus guttatus,2.32369e-128,968.0
+XP_009465686.1, PREDICTED: LOW QUALITY PROTEIN: 39S ribosomal protein L19,Nipponia nippon,2.59199e-128,967.0
+XP_050171373.1, 39S ribosomal protein L19,Myiozetetes cayanensis,3.59434e-128,963.0
+XP_027496857.1, 39S ribosomal protein L19,Corapipo altera,4.5519499999999997e-128,962.0
+XP_009558749.1, PREDICTED: 39S ribosomal protein L19,Cuculus canorus,5.46677e-128,961.0
+XP_005013001.3, 39S ribosomal protein L19,Anas platyrhynchos,5.56812e-128,962.0
+XP_027758553.1, 39S ribosomal protein L19,Empidonax traillii,6.077509999999999e-128,961.0
+XP_009694698.1, PREDICTED: 39S ribosomal protein L19,Cariama cristata,6.24357e-128,960.0
+XP_048701624.1, 39S ribosomal protein L19,Caretta caretta,6.67844e-128,962.0
+XP_026773287.1, 39S ribosomal protein L19,Pangasianodon hypophthalmus,7.86952e-128,961.0
+XP_010160127.1, PREDICTED: 39S ribosomal protein L19,Eurypyga helias,9.45104e-128,962.0
+XP_029821659.1, 39S ribosomal protein L19,Manacus vitellinus,1.06381e-127,958.0
+XP_009936140.1, PREDICTED: 39S ribosomal protein L19,Opisthocomus hoazin,1.08588e-127,958.0
+XP_042688550.1, 39S ribosomal protein L19,Centrocercus urophasianus,1.09689e-127,959.0
+XP_032538811.1, 39S ribosomal protein L19,Chiroxiphia lanceolata,1.2872600000000001e-127,959.0
+XP_050749878.1, 39S ribosomal protein L19,Gymnogyps californianus,1.43641e-127,960.0
+XP_009481772.1, PREDICTED: 39S ribosomal protein L19,Pelecanus crispus,1.5397e-127,957.0
+XP_035416018.1, 39S ribosomal protein L19,Cygnus atratus,1.59545e-127,959.0
+XP_040453664.1, 39S ribosomal protein L19,Falco naumanni,1.86742e-127,958.0
+XP_005510162.1, 39S ribosomal protein L19,Columba livia,1.96088e-127,957.0
+XP_009082724.1, PREDICTED: LOW QUALITY PROTEIN: 39S ribosomal protein L19,Acanthisitta chloris,2.27907e-127,957.0
+XP_009318008.1, PREDICTED: 39S ribosomal protein L19,Pygoscelis adeliae,2.36937e-127,961.0
+XP_017668582.1, PREDICTED: 39S ribosomal protein L19,Lepidothrix coronata,2.50424e-127,957.0
+XP_040410274.1, 39S ribosomal protein L19,Cygnus olor,3.5077000000000005e-127,956.0
+XP_005146494.1, 39S ribosomal protein L19,Melopsittacus undulatus,4.40402e-127,956.0
+XP_015715414.1, 39S ribosomal protein L19,Coturnix japonica,6.71801e-127,954.0
+XP_009960225.1, PREDICTED: 39S ribosomal protein L19,Leptosomus discolor,7.744930000000001e-127,954.0
+XP_052665495.1, 39S ribosomal protein L19,Harpia harpyja,1.2338700000000001e-126,954.0
+XP_005239256.2, 39S ribosomal protein L19,Falco peregrinus,1.58218e-126,951.0
+XP_037247400.1, LOW QUALITY PROTEIN: 39S ribosomal protein L19,Falco rusticolus,1.7789600000000003e-126,951.0
+XP_010011091.1, PREDICTED: 39S ribosomal protein L19,Nestor notabilis,2.0718300000000003e-126,953.0
+XP_005441636.2, 39S ribosomal protein L19,Falco cherrug,2.5608500000000002e-126,949.0
+XP_009883639.1, PREDICTED: 39S ribosomal protein L19,Charadrius vociferus,2.65036e-126,949.0
+XP_026702235.1, 39S ribosomal protein L19,Athene cunicularia,9.924810000000001e-126,945.0
+XP_030346178.1, 39S ribosomal protein L19,Strigops habroptila,1.3194499999999998e-125,947.0
+XP_009912389.1, PREDICTED: 39S ribosomal protein L19,Haliaeetus albicilla,1.51211e-125,946.0
+XP_010582608.1, PREDICTED: 39S ribosomal protein L19,Haliaeetus leucocephalus,1.58584e-125,946.0
+XP_034622512.1, 39S ribosomal protein L19,Trachemys scripta elegans,2.7241099999999996e-125,944.0
+XP_049674428.1, 39S ribosomal protein L19,Accipiter gentilis,3.21343e-125,945.0
+XP_010186776.1, PREDICTED: 39S ribosomal protein L19,Mesitornis unicolor,3.3652299999999996e-125,941.0
+XP_035177969.1, 39S ribosomal protein L19,Oxyura jamaicensis,3.7731499999999997e-125,943.0
+XP_042659075.1, 39S ribosomal protein L19,Tyto alba,5.19267e-125,943.0
+XP_010279767.1, PREDICTED: 39S ribosomal protein L19,Phaethon lepturus,8.66921e-125,940.0
+XP_041044640.1, 39S ribosomal protein L19,Carcharodon carcharias,1.39929e-124,940.0
+XP_029451905.1, 39S ribosomal protein L19,Rhinatrema bivittatum,1.52126e-124,939.0
+XP_038655828.1, 39S ribosomal protein L19,Scyliorhinus canicula,1.63088e-124,939.0
+XP_026253256.1, 39S ribosomal protein L19,Urocitellus parryii,4.44703e-124,931.0
+XP_030303903.1, 39S ribosomal protein L19,Calypte anna,4.57916e-124,936.0
+XP_006899711.1, PREDICTED: 39S ribosomal protein L19,Elephantulus edwardii,1.16432e-123,925.0
+XP_027026952.1, 39S ribosomal protein L19,Tachysurus fulvidraco,1.57438e-123,931.0
+XP_025900667.1, 39S ribosomal protein L19,Nothoprocta perdicaria,3.18461e-123,930.0
+XP_042302883.1, 39S ribosomal protein L19,Sceloporus undulatus,4.00491e-123,930.0
+XP_006267255.2, PREDICTED: 39S ribosomal protein L19,Alligator mississippiensis,4.4514399999999996e-123,929.0
+XP_020375275.1, 39S ribosomal protein L19,Rhincodon typus,5.0699299999999995e-123,929.0
+XP_048386431.1, 39S ribosomal protein L19,Stegostoma fasciatum,9.568800000000001e-123,927.0
+XP_039549352.1, 39S ribosomal protein L19,Pimephales promelas,1.0179000000000001e-122,928.0
+XP_009684651.1, PREDICTED: 39S ribosomal protein L19,Struthio camelus australis,1.25301e-122,927.0
+XP_019376389.1, PREDICTED: 39S ribosomal protein L19,Gavialis gangeticus,5.2196e-122,923.0
+XP_013812413.1, PREDICTED: 39S ribosomal protein L19,Apteryx mantelli mantelli,6.98351e-122,920.0
+XP_039604904.1, 39S ribosomal protein L19,Polypterus senegalus,7.478370000000001e-122,923.0
+XP_005731078.1, PREDICTED: 39S ribosomal protein L19,Pundamilia nyererei,9.105450000000001e-122,922.0
+XP_043538986.1, 39S ribosomal protein L19,Chiloscyllium plagiosum,1.0222700000000001e-121,921.0
+XP_042246594.1, 39S ribosomal protein L19,Thunnus maccoyii,1.5225700000000002e-121,921.0
+XP_025923921.1, 39S ribosomal protein L19,Apteryx rowi,1.7641600000000002e-121,920.0
+XP_033794654.1, 39S ribosomal protein L19,Geotrypetes seraphini,2.07711e-121,918.0
+XP_042189007.1, 39S ribosomal protein L19,Callorhinchus milii,2.4522500000000003e-121,918.0
+XP_044185803.1, 39S ribosomal protein L19,Thunnus albacares,2.60175e-121,919.0
+XP_004568838.1, 39S ribosomal protein L19,Maylandia zebra,3.6513800000000005e-121,918.0
+XP_018121474.1, 39S ribosomal protein L19,Xenopus laevis,4.07604e-121,916.0
+XP_025948112.1, 39S ribosomal protein L19,Dromaius novaehollandiae,5.89671e-121,916.0
+XP_039981828.1, 39S ribosomal protein L19,Xiphias gladius,6.0383200000000005e-121,916.0
+XP_003458300.1, 39S ribosomal protein L19,Oreochromis niloticus,6.590360000000001e-121,916.0
+XP_005921676.1, 39S ribosomal protein L19,Haplochromis burtoni,8.85387e-121,915.0
+XP_039873292.1, 39S ribosomal protein L19,Simochromis diagramma,2.0775500000000002e-120,913.0
+XP_002936026.4, 39S ribosomal protein L19,Xenopus tropicalis,3.29219e-120,913.0
+XP_052390407.1, 39S ribosomal protein L19,Carassius gibelio,4.0623500000000005e-120,910.0
+XP_026050316.1, 39S ribosomal protein L19,Astatotilapia calliptera,4.87482e-120,910.0
+XP_006000091.1, PREDICTED: 39S ribosomal protein L19,Latimeria chalumnae,5.1264000000000005e-120,911.0
+XP_042359744.1, 39S ribosomal protein L19,Plectropomus leopardus,7.744140000000001e-120,909.0
+XP_051265808.1, 39S ribosomal protein L19,Dicentrarchus labrax,8.514180000000001e-120,909.0
+XP_028652648.1, 39S ribosomal protein L19,Erpetoichthys calabaricus,8.982420000000001e-120,910.0
+XP_036437044.1, 39S ribosomal protein L19,Colossoma macropomum,1.0595400000000001e-119,908.0
+XP_003971940.1, 39S ribosomal protein L19,Takifugu rubripes,1.19451e-119,908.0
+XP_050993838.1, 39S ribosomal protein L19,Labeo rohita,1.5144400000000001e-119,907.0
+XP_046729838.1, 39S ribosomal protein L19,Silurus meridionalis,1.52268e-119,907.0
+XP_041105654.1, 39S ribosomal protein L19,Polyodon spathula,1.6110500000000002e-119,907.0
+XP_035535215.1, 39S ribosomal protein L19,Morone saxatilis,1.62587e-119,907.0
+XP_035764341.1, 39S ribosomal protein L19,Neolamprologus brichardi,1.68634e-119,910.0
+XP_026088822.1, 39S ribosomal protein L19,Carassius auratus,1.75852e-119,906.0
+XP_031178284.1, 39S ribosomal protein L19,Sander lucioperca,2.22454e-119,906.0
+XP_035753815.1, 39S ribosomal protein L19,Egretta garzetta,2.3991600000000002e-119,908.0
+XP_032399406.1, 39S ribosomal protein L19,Etheostoma spectabile,2.67896e-119,905.0
+XP_007260532.2, 39S ribosomal protein L19,Astyanax mexicanus,3.67193e-119,904.0
+XP_034756492.1, 39S ribosomal protein L19,Etheostoma cragini,4.287e-119,904.0
+XP_051952330.1, 39S ribosomal protein L19,Xyrauchen texanus,4.51979e-119,904.0
+XP_016311629.1, PREDICTED: 39S ribosomal protein L19,Sinocyclocheilus anshuiensis,4.88804e-119,904.0
+XP_033861302.1, 39S ribosomal protein L19,Acipenser ruthenus,5.36313e-119,904.0
+XP_016404291.1, PREDICTED: 39S ribosomal protein L19,Sinocyclocheilus rhinocerous,5.63462e-119,903.0
+XP_030054667.1, 39S ribosomal protein L19,Microcaecilia unicolor,6.614510000000001e-119,902.0
+XP_036406311.1, 39S ribosomal protein L19,Megalops cyprinoides,8.71023e-119,902.0
+XP_035278391.1, 39S ribosomal protein L19,Anguilla anguilla,9.284180000000001e-119,902.0
+XP_017570193.1, 39S ribosomal protein L19,Pygocentrus nattereri,1.01869e-118,902.0
+XP_041815027.1, 39S ribosomal protein L19,Chelmon rostratus,1.0317e-118,902.0
+NP_001003544.1, 39S ribosomal protein L19,Danio rerio,1.1532800000000001e-118,901.0
+XP_045917010.1, 39S ribosomal protein L19,Micropterus dolomieu,1.21555e-118,901.0
+XP_003215367.2, PREDICTED: 39S ribosomal protein L19,Anolis carolinensis,1.42873e-118,901.0
+XP_029352634.1, 39S ribosomal protein L19,Echeneis naucrates,1.56036e-118,900.0
+XP_016094659.1, PREDICTED: 39S ribosomal protein L19,Sinocyclocheilus grahami,1.62726e-118,900.0
+XP_028460521.1, 39S ribosomal protein L19,Perca flavescens,1.66323e-118,900.0
+XP_038583230.1, 39S ribosomal protein L19,Micropterus salmoides,2.05439e-118,900.0
+XP_051500980.1, 39S ribosomal protein L19,Myxocyprinus asiaticus,2.57111e-118,899.0
+XP_023150737.1, 39S ribosomal protein L19,Amphiprion ocellaris,2.9098400000000003e-118,899.0
+XP_034383495.1, 39S ribosomal protein L19,Cyclopterus lumpus,3.15916e-118,898.0
+XP_038134590.1, 39S ribosomal protein L19,Cyprinodon tularosa,3.16474e-118,898.0
+XP_044025853.1, 39S ribosomal protein L19,Siniperca chuatsi,3.28737e-118,898.0
+XP_047921683.1, 39S ribosomal protein L19,Anser cygnoides,3.96113e-118,892.0
+XP_015225114.1, PREDICTED: 39S ribosomal protein L19,Cyprinodon variegatus,4.02531e-118,898.0
+XP_036236248.1, 39S ribosomal protein L19,Molothrus ater,5.08331e-118,896.0
+XP_012722827.2, 39S ribosomal protein L19,Fundulus heteroclitus,5.11988e-118,897.0
+XP_049914576.1, 39S ribosomal protein L19,Epinephelus moara,5.3089900000000005e-118,897.0
+XP_018922175.2, 39S ribosomal protein L19,Cyprinus carpio,6.08793e-118,896.0
+XP_008301262.1, PREDICTED: 39S ribosomal protein L19,Stegastes partitus,6.11978e-118,897.0
+XP_029985127.1, 39S ribosomal protein L19,Sphaeramia orbicularis,6.76411e-118,896.0
+XP_039638178.1, 39S ribosomal protein L19,Perca fluviatilis,8.4806e-118,895.0
+XP_049613847.1, 39S ribosomal protein L19,Syngnathus scovelli,9.580780000000001e-118,895.0
+XP_022045087.1, 39S ribosomal protein L19,Acanthochromis polyacanthus,9.68609e-118,895.0
+XP_030201713.1, 39S ribosomal protein L19,Gadus morhua,1.19627e-117,895.0
+XP_040016779.1, 39S ribosomal protein L19,Gasterosteus aculeatus aculeatus,1.34686e-117,894.0
+XP_046229793.1, 39S ribosomal protein L19,Scatophagus argus,1.73189e-117,894.0
+XP_030578119.1, 39S ribosomal protein L19,Archocentrus centrarchus,1.74796e-117,894.0
+XP_022593514.1, 39S ribosomal protein L19,Seriola dumerili,3.95493e-117,891.0
+XP_032877199.1, 39S ribosomal protein L19,Amblyraja radiata,4.3391e-117,889.0
+XP_008640113.1, PREDICTED: 39S ribosomal protein L19,Corvus brachyrhynchos,4.38215e-117,890.0
+XP_035384685.1, 39S ribosomal protein L19,Electrophorus electricus,4.77079e-117,891.0
+XP_033998106.1, 39S ribosomal protein L19,Trematomus bernacchii,6.12424e-117,890.0
+XP_019132928.2, 39S ribosomal protein L19,Larimichthys crocea,6.33167e-117,889.0
+XP_031959999.1, 39S ribosomal protein L19,Corvus moneduloides,6.42529e-117,889.0
+XP_018590672.1, 39S ribosomal protein L19,Scleropages formosus,7.18494e-117,890.0
+XP_014728444.1, PREDICTED: 39S ribosomal protein L19,Sturnus vulgaris,7.2465e-117,888.0
+XP_005044394.1, PREDICTED: 39S ribosomal protein L19,Ficedula albicollis,7.99589e-117,888.0
+XP_015802874.1, PREDICTED: 39S ribosomal protein L19,Nothobranchius furzeri,1.20618e-116,888.0
+XP_014426716.1, 39S ribosomal protein L19,Pelodiscus sinensis,1.5133699999999999e-116,888.0
+XP_037605978.1, 39S ribosomal protein L19,Sebastes umbrosus,1.59727e-116,887.0
+XP_032911606.1, 39S ribosomal protein L19,Catharus ustulatus,1.69721e-116,886.0
+XP_019392850.1, PREDICTED: 39S ribosomal protein L19,Crocodylus porosus,1.87868e-116,886.0
+XP_023662739.1, 39S ribosomal protein L19,Paramormyrops kingsleyae,1.93962e-116,887.0
+XP_048358084.1, 39S ribosomal protein L19,Sphaerodactylus townsendi,2.2203499999999998e-116,888.0
+XP_026196517.1, 39S ribosomal protein L19,Anabas testudineus,2.545e-116,886.0
+XP_010767637.1, PREDICTED: 39S ribosomal protein L19,Notothenia coriiceps,2.67908e-116,886.0
+XP_028809170.1, 39S ribosomal protein L19,Denticeps clupeoides,2.9017199999999997e-116,885.0
+XP_034554963.1, 39S ribosomal protein L19,Notolabrus celidotus,2.96586e-116,885.0
+XP_034018400.1, 39S ribosomal protein L19,Thalassophryne amazonica,3.78835e-116,884.0
+XP_019750563.1, PREDICTED: 39S ribosomal protein L19,Hippocampus comes,4.29468e-116,888.0
+XP_023780073.1, 39S ribosomal protein L19,Cyanistes caeruleus,4.49918e-116,883.0
+XP_049445870.1, 39S ribosomal protein L19,Epinephelus fuscoguttatus,5.530249999999999e-116,884.0
+XP_033846762.1, 39S ribosomal protein L19,Periophthalmus magnuspinnatus,5.95045e-116,883.0
+XP_005521881.1, PREDICTED: 39S ribosomal protein L19,Pseudopodoces humilis,6.17783e-116,882.0
+XP_034966249.1, 39S ribosomal protein L19,Zootoca vivipara,6.63157e-116,882.0
+XP_048842392.1, 39S ribosomal protein L19,Brienomyrus brachyistius,6.9038e-116,883.0
+XP_023270691.1, 39S ribosomal protein L19,Seriola lalandi dorsalis,7.16565e-116,883.0
+XP_046877226.1, 39S ribosomal protein L19,Hypomesus transpacificus,8.97461e-116,882.0
+XP_034087110.1, 39S ribosomal protein L19,Gymnodraco acuticeps,9.672e-116,881.0
+XP_010887810.1, 39S ribosomal protein L19,Esox lucius,9.77905e-116,882.0
+XP_015476303.1, 39S ribosomal protein L19,Parus major,9.9945e-116,881.0
+XP_030637474.1, 39S ribosomal protein L19,Chanos chanos,1.0105e-115,882.0
+XP_006027459.1, 39S ribosomal protein L19,Alligator sinensis,1.04532e-115,881.0
+XP_051729885.1, 39S ribosomal protein L19,Ctenopharyngodon idella,1.06208e-115,882.0
+XP_041950775.1, 39S ribosomal protein L19,Alosa sapidissima,1.0891e-115,882.0
+XP_030260647.1, 39S ribosomal protein L19,Sparus aurata,1.13961e-115,882.0
+XP_041660606.1, 39S ribosomal protein L19,Cheilinus undulatus,2.41881e-115,879.0
+XP_033931997.1, 39S ribosomal protein L19,Pseudochaenichthys georgianus,3.65251e-115,878.0
+XP_048062747.1, 39S ribosomal protein L19,Megalobrama amblycephala,3.77427e-115,878.0
+XP_033504189.1, 39S ribosomal protein L19,Epinephelus lanceolatus,3.8280000000000003e-115,878.0
+XP_047243391.1, 39S ribosomal protein L19,Girardinichthys multiradiatus,3.91439e-115,880.0
+XP_029902399.1, 39S ribosomal protein L19,Myripristis murdjan,3.96186e-115,878.0
+XP_007546725.1, PREDICTED: 39S ribosomal protein L19,Poecilia formosa,6.73636e-115,876.0
+XP_020652418.1, 39S ribosomal protein L19,Pogona vitticeps,7.56666e-115,875.0
+XP_039916523.1, 39S ribosomal protein L19,Hirundo rustica,9.09643e-115,874.0
+XP_012691103.1, 39S ribosomal protein L19,Clupea harengus,9.90701e-115,875.0
+XP_036942502.1, 39S ribosomal protein L19,Acanthopagrus latus,1.03659e-114,875.0
+XP_005802682.1, 39S ribosomal protein L19,Xiphophorus maculatus,1.1259800000000001e-114,875.0
+XP_051880772.1, LOW QUALITY PROTEIN: 39S ribosomal protein L19,Pristis pectinata,1.9768200000000003e-114,872.0
+XP_047429716.1, 39S ribosomal protein L19,Mugil cephalus,2.02382e-114,875.0
+XP_051908432.1, 39S ribosomal protein L19,Hippocampus zosterae,2.1950800000000003e-114,876.0
+XP_014910044.1, PREDICTED: 39S ribosomal protein L19,Poecilia latipinna,3.1115900000000002e-114,872.0
+XP_027897075.1, 39S ribosomal protein L19,Xiphophorus couchianus,3.18036e-114,872.0
+XP_008395837.1, PREDICTED: 39S ribosomal protein L19,Poecilia reticulata,3.5866500000000005e-114,872.0
+XP_029965979.1, 39S ribosomal protein L19,Salarias fasciatus,3.8416700000000004e-114,872.0
+XP_040920455.1, 39S ribosomal protein L19,Toxotes jaculatrix,5.51001e-114,870.0
+XP_028577644.1, 39S ribosomal protein L19,Podarcis muralis,5.7448600000000006e-114,871.0
+XP_039577558.1, 39S ribosomal protein L19,Passer montanus,1.0300400000000001e-113,868.0
+XP_032442137.1, 39S ribosomal protein L19,Xiphophorus hellerii,1.09355e-113,868.0
+XP_033001457.1, 39S ribosomal protein L19,Lacerta agilis,1.12977e-113,868.0
+XP_008311334.1, 39S ribosomal protein L19,Cynoglossus semilaevis,2.76875e-113,866.0
+XP_020791234.1, 39S ribosomal protein L19,Boleophthalmus pectinirostris,2.78129e-113,866.0
+XP_026174427.1, 39S ribosomal protein L19,Mastacembelus armatus,3.09784e-113,866.0
+XP_028253321.1, 39S ribosomal protein L19,Parambassis ranga,3.77128e-113,865.0
+XP_028296068.1, 39S ribosomal protein L19,Gouania willdenowi,4.04645e-113,864.0
+XP_020444172.1, 39S ribosomal protein L19,Monopterus albus,7.39826e-113,864.0
+XP_043963299.1, 39S ribosomal protein L19,Gambusia affinis,1.0053899999999999e-112,862.0
+XP_028997002.1, 39S ribosomal protein L19,Betta splendens,1.21424e-112,862.0
+XP_041832135.1, 39S ribosomal protein L19,Melanotaenia boesemani,1.52295e-112,861.0
+XP_037989051.1, 39S ribosomal protein L19,Motacilla alba alba,2.32169e-112,859.0
+XP_021385445.1, 39S ribosomal protein L19,Lonchura striata domestica,2.79578e-112,858.0
+NP_001232599.1, 39S ribosomal protein L19,Taeniopygia guttata,3.15296e-112,858.0
+XP_041336859.1, 39S ribosomal protein L19,Pyrgilauda ruficollis,8.61829e-112,855.0
+XP_041277454.1, 39S ribosomal protein L19,Onychostruthus taczanowskii,1.83205e-111,853.0
+XP_024146265.1, 39S ribosomal protein L19,Oryzias melastigma,1.93155e-111,853.0
+XP_031731369.1, 39S ribosomal protein L19,Anarrhichthys ocellatus,2.62065e-111,853.0
+XP_004083511.1, 39S ribosomal protein L19,Oryzias latipes,3.17682e-111,852.0
+XP_030091897.1, 39S ribosomal protein L19,Serinus canaria,3.26965e-111,851.0
+XP_044146503.1, 39S ribosomal protein L19,Bufo gargarizans,3.51988e-111,852.0
+XP_034436226.1, 39S ribosomal protein L19,Hippoglossus hippoglossus,3.53346e-111,852.0
+XP_035000665.2, 39S ribosomal protein L19,Hippoglossus stenolepis,3.73189e-111,851.0
+XP_040283388.1, 39S ribosomal protein L19,Bufo bufo,4.4762999999999996e-111,851.0
+XP_038824257.1, 39S ribosomal protein L19,Salvelinus namaycush,4.72764e-111,851.0
+XP_037100161.1, 39S ribosomal protein L19,Syngnathus acus,5.09637e-111,851.0
+XP_030801828.1, 39S ribosomal protein L19,Camarhynchus parvulus,5.52494e-111,850.0
+XP_023837474.1, 39S ribosomal protein L19,Salvelinus alpinus,1.32029e-110,848.0
+XP_019964561.1, PREDICTED: 39S ribosomal protein L19,Paralichthys olivaceus,5.79441e-110,844.0
+XP_018531514.1, 39S ribosomal protein L19,Lates calcarifer,5.88214e-110,844.0
+XP_041721407.2, 39S ribosomal protein L19,Coregonus clupeaformis,8.9327e-110,843.0
+XP_014121145.1, 39S ribosomal protein L19,Zonotrichia albicollis,1.99075e-109,839.0
+XP_013999377.1, 39S ribosomal protein L19,Salmo salar,2.3107e-109,840.0
+XP_021467172.2, 39S ribosomal protein L19,Oncorhynchus mykiss,2.67669e-109,840.0
+XP_043074571.1, 39S ribosomal protein L19,Puntigrus tetrazona,3.4392699999999997e-109,840.0
+XP_035473974.1, 39S ribosomal protein L19,Scophthalmus maximus,5.06723e-109,838.0
+XP_046149144.1, 39S ribosomal protein L19,Oncorhynchus gorbuscha,1.00365e-108,836.0
+XP_020328847.1, 39S ribosomal protein L19,Oncorhynchus kisutch,1.04847e-108,836.0
+XP_024275416.1, 39S ribosomal protein L19,Oncorhynchus tshawytscha,1.05998e-108,836.0
+XP_020497180.1, 39S ribosomal protein L19,Labrus bergylta,1.53817e-108,834.0
+XP_043918632.1, 39S ribosomal protein L19,Protopterus annectens,2.25166e-108,832.0
+XP_040204427.1, 39S ribosomal protein L19,Rana temporaria,2.45779e-108,834.0
+XP_017267326.1, 39S ribosomal protein L19,Kryptolebias marmoratus,2.87066e-108,833.0
+XP_044275170.1, 39S ribosomal protein L19,Varanus komodoensis,3.37817e-108,831.0
+XP_037541443.1, 39S ribosomal protein L19,Nematolebias whitei,4.3309399999999996e-108,831.0
+XP_018430965.1, PREDICTED: 39S ribosomal protein L19,Nanorana parkeri,5.01731e-108,831.0
+XP_029281272.1, 39S ribosomal protein L19,Cottoperca gobio,5.2679e-106,818.0
+XP_007444116.1, 39S ribosomal protein L19,Python bivittatus,2.0389999999999998e-105,813.0

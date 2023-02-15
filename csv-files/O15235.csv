@@ -1,5 +1,5 @@
 query_id,protein_name,organism,e-value,score
-NP_066930.1, 28S ribosomal protein S12,Homo sapiens,1.62657e-95,717.0
+NP_066930`.1, 28S ribosomal protein S12,Homo sapiens,1.62657e-95,717.0
 XP_001135068.1, 28S ribosomal protein S12,Pan troglodytes,1.64857e-94,711.0
 XP_030652720.1, 28S ribosomal protein S12,Nomascus leucogenys,6.23635e-93,700.0
 NP_001125594.1, 28S ribosomal protein S12,Pongo abelii,4.69893e-92,695.0

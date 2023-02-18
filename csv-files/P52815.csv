@@ -1,429 +1,65 @@
 query_id,protein_name,organism,e-value,score
-NP_002940.2, 39S ribosomal protein L12,Homo sapiens,4.3761599999999996e-139,1016.0
-XP_008954748.1, 39S ribosomal protein L12,Pan paniscus,6.159519999999999e-138,1009.0
-XP_004040863.1, 39S ribosomal protein L12,Gorilla gorilla gorilla,2.53669e-137,1005.0
 XP_003274878.1, 39S ribosomal protein L12,Nomascus leucogenys,7.4346e-137,1001.0
 XP_009250418.1, 39S ribosomal protein L12,Pongo abelii,2.1822699999999998e-135,992.0
-XP_011816300.1, PREDICTED: 39S ribosomal protein L12,Colobus angolensis palliatus,3.2392899999999996e-135,991.0
-XP_008011450.1, 39S ribosomal protein L12,Chlorocebus sabaeus,6.84065e-134,982.0
-XP_023057040.1, 39S ribosomal protein L12,Piliocolobus tephrosceles,1.41116e-133,980.0
-XP_017380345.1, 39S ribosomal protein L12,Cebus imitator,4.75119e-127,937.0
 XP_008996151.1, 39S ribosomal protein L12,Callithrix jacchus,9.58727e-127,935.0
-XP_039332309.1, 39S ribosomal protein L12,Saimiri boliviensis boliviensis,3.3848800000000005e-126,932.0
-NP_001253260.1, 39S ribosomal protein L12,Macaca mulatta,2.5795899999999997e-123,913.0
 XP_009189730.1, 39S ribosomal protein L12,Papio anubis,4.1340699999999996e-123,911.0
-XP_011921531.1, PREDICTED: 39S ribosomal protein L12,Cercocebus atys,4.927119999999999e-123,911.0
-XP_010352599.1, 39S ribosomal protein L12,Rhinopithecus roxellana,5.620219999999999e-123,910.0
-XP_011849492.1, PREDICTED: 39S ribosomal protein L12,Mandrillus leucophaeus,3.7072000000000005e-122,905.0
 XP_006912221.2, 39S ribosomal protein L12,Pteropus alecto,6.36083e-116,864.0
 XP_012308153.1, 39S ribosomal protein L12,Aotus nancymaae,6.44459e-116,864.0
-XP_012658557.1, 39S ribosomal protein L12,Otolemur garnettii,3.25897e-115,859.0
 XP_016019355.1, 39S ribosomal protein L12,Rousettus aegyptiacus,4.33406e-115,859.0
-XP_006145708.1, 39S ribosomal protein L12,Tupaia chinensis,1.042e-113,850.0
 XP_036766517.1, 39S ribosomal protein L12,Manis pentadactyla,1.70543e-113,849.0
 XP_045425663.1, 39S ribosomal protein L12,Lemur catta,4.05819e-113,846.0
-XP_019591247.1, PREDICTED: 39S ribosomal protein L12,Rhinolophus sinicus,4.67989e-113,845.0
-XP_004404546.1, PREDICTED: 39S ribosomal protein L12,Odobenus rosmarus divergens,5.33797e-113,845.0
-XP_044777581.1, 39S ribosomal protein L12,Neomonachus schauinslandi,1.43195e-112,842.0
 XP_007538304.2, PREDICTED: 39S ribosomal protein L12,Erinaceus europaeus,1.8053299999999998e-112,844.0
-XP_022379043.1, 39S ribosomal protein L12,Enhydra lutris kenyoni,2.22485e-112,841.0
-XP_032944932.1, 39S ribosomal protein L12,Rhinolophus ferrumequinum,3.0849e-112,840.0
-XP_012511892.1, PREDICTED: 39S ribosomal protein L12,Propithecus coquereli,6.4307899999999995e-112,838.0
 XP_006869566.1, PREDICTED: 39S ribosomal protein L12,Chrysochloris asiatica,2.07418e-111,834.0
 XP_028709485.1, 39S ribosomal protein L12,Peromyscus leucopus,6.99197e-111,841.0
-XP_036124947.1, 39S ribosomal protein L12,Molossus molossus,2.17102e-110,828.0
-XP_005694120.1, PREDICTED: 39S ribosomal protein L12,Capra hircus,3.22157e-110,827.0
-XP_025715778.1, 39S ribosomal protein L12,Callorhinus ursinus,8.01884e-110,824.0
-XP_006886209.1, PREDICTED: 39S ribosomal protein L12,Elephantulus edwardii,8.39505e-110,824.0
-XP_039082123.1, 39S ribosomal protein L12,Hyaena hyaena,9.433199999999999e-110,824.0
-XP_036268269.1, 39S ribosomal protein L12,Pipistrellus kuhlii,9.856059999999999e-110,824.0
-XP_040100802.1, 39S ribosomal protein L12,Oryx dammah,1.11192e-109,823.0
+XP_039082123.1, 39S ribosomal protein L12,Hyaena hyaena,9.4332e-110,824.0
 XP_029784941.1, 39S ribosomal protein L12,Suricata suricatta,2.50261e-109,821.0
 XP_005332716.1, 39S ribosomal protein L12,Ictidomys tridecemlineatus,4.2908e-109,819.0
 XP_034881678.1, 39S ribosomal protein L12,Mirounga leonina,5.28439e-109,819.0
-XP_036924913.1, 39S ribosomal protein L12,Sturnira hondurensis,8.3579e-109,817.0
 XP_020043695.1, 39S ribosomal protein L12,Castor canadensis,8.466639999999999e-109,817.0
-XP_016070928.1, PREDICTED: 39S ribosomal protein L12,Miniopterus natalensis,1.07547e-108,817.0
-XP_017536120.1, 39S ribosomal protein L12,Manis javanica,1.4110000000000002e-108,817.0
-XP_035950081.1, 39S ribosomal protein L12,Halichoerus grypus,1.59896e-108,816.0
-XP_005905447.1, PREDICTED: 39S ribosomal protein L12,Bos mutus,2.42047e-108,814.0
-XP_006743141.1, 39S ribosomal protein L12,Leptonychotes weddellii,3.52054e-108,813.0
-XP_011371997.1, 39S ribosomal protein L12,Pteropus vampyrus,6.85759e-108,811.0
-XP_045744230.1, 39S ribosomal protein L12,Mirounga angustirostris,1.11295e-107,810.0
-XP_008826719.1, 39S ribosomal protein L12,Nannospalax galili,1.1215100000000001e-107,811.0
+XP_017536120.1, 39S ribosomal protein L12,Manis javanica,1.4110000000000005e-108,817.0
+XP_008826719.1, 39S ribosomal protein L12,Nannospalax galili,1.12151e-107,811.0
 NP_963900.1, 39S ribosomal protein L12,Bos taurus,1.2395100000000001e-107,810.0
 XP_032285570.1, 39S ribosomal protein L12,Phoca vitulina,1.29755e-107,810.0
 XP_045013858.1, 39S ribosomal protein L12,Jaculus jaculus,1.84273e-107,809.0
-XP_045692109.1, 39S ribosomal protein L12,Phyllostomus hastatus,2.12089e-107,808.0
-XP_026266591.1, 39S ribosomal protein L12,Urocitellus parryii,3.2229100000000004e-107,807.0
 NP_081480.2, 39S ribosomal protein L12,Mus musculus,4.44578e-107,806.0
-XP_049632882.1, 39S ribosomal protein L12,Suncus etruscus,8.99681e-107,804.0
-XP_012888563.1, PREDICTED: 39S ribosomal protein L12,Dipodomys ordii,9.332780000000001e-107,804.0
-XP_003997319.1, 39S ribosomal protein L12,Felis catus,1.0394300000000001e-106,804.0
-XP_006064270.1, 39S ribosomal protein L12,Bubalus bubalis,1.19862e-106,803.0
-XP_004639541.2, 39S ribosomal protein L12,Octodon degus,2.06983e-106,805.0
+XP_003997319.1, 39S ribosomal protein L12,Felis catus,1.03943e-106,804.0
 XP_037666671.1, 39S ribosomal protein L12,Choloepus didactylus,2.21029e-106,801.0
 XP_003464948.2, 39S ribosomal protein L12,Cavia porcellus,2.34358e-106,801.0
-XP_007125698.1, 39S ribosomal protein L12,Physeter catodon,3.11054e-106,801.0
-XP_050620026.1, 39S ribosomal protein L12,Macaca thibetana thibetana,3.8053700000000003e-106,797.0
-XP_036051793.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Onychomys torridus,4.42583e-106,810.0
 XP_012644899.1, 39S ribosomal protein L12,Microcebus murinus,4.81327e-106,799.0
-XP_047564649.1, 39S ribosomal protein L12,Lutra lutra,4.83122e-106,799.0
-XP_036692773.1, 39S ribosomal protein L12,Balaenoptera musculus,5.322210000000001e-106,799.0
-XP_052612112.1, 39S ribosomal protein L12,Peromyscus californicus insignis,5.66117e-106,808.0
 XP_031209541.1, 39S ribosomal protein L12,Mastomys coucha,7.09026e-106,801.0
-XP_007185925.1, 39S ribosomal protein L12,Balaenoptera acutorostrata scammoni,7.55825e-106,798.0
-XP_051684273.1, 39S ribosomal protein L12,Oryctolagus cuniculus,9.106370000000001e-106,797.0
-XP_045345827.1, 39S ribosomal protein L12,Leopardus geoffroyi,9.51451e-106,797.0
-XP_049491455.1, 39S ribosomal protein L12,Panthera uncia,1.23775e-105,797.0
-XP_042525927.1, 39S ribosomal protein L12,Dipodomys spectabilis,1.33892e-105,796.0
+XP_051684273.1, 39S ribosomal protein L12,Oryctolagus cuniculus,9.10637e-106,797.0
 XP_024409693.1, 39S ribosomal protein L12,Desmodus rotundus,1.56097e-105,796.0
-XP_028376576.1, 39S ribosomal protein L12,Phyllostomus discolor,1.71964e-105,796.0
-XP_051015162.1, 39S ribosomal protein L12,Acomys russatus,1.78367e-105,796.0
-XP_025783493.1, 39S ribosomal protein L12,Puma concolor,1.87724e-105,795.0
-XP_006987781.1, 39S ribosomal protein L12,Peromyscus maniculatus bairdii,2.41096e-105,805.0
-XP_046949958.1, 39S ribosomal protein L12,Lynx rufus,3.13654e-105,794.0
-XP_010854625.1, PREDICTED: 39S ribosomal protein L12,Bison bison bison,3.14229e-105,794.0
 XP_004709158.1, 39S ribosomal protein L12,Echinops telfairi,5.60713e-105,792.0
-XP_034497348.1, 39S ribosomal protein L12,Ailuropoda melanoleuca,6.56087e-105,792.0
-XP_048221907.1, 39S ribosomal protein L12,Perognathus longimembris pacificus,7.21479e-105,791.0
-XP_048285377.1, 39S ribosomal protein L12,Myodes glareolus,9.42824e-105,802.0
-XP_041502391.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Microtus oregoni,9.53108e-105,800.0
-XP_025324096.1, 39S ribosomal protein L12,Canis lupus dingo,1.12051e-104,790.0
 XP_052052687.1, 39S ribosomal protein L12,Apodemus sylvaticus,1.62531e-104,799.0
-XP_045630909.1, 39S ribosomal protein L12,Ursus americanus,4.71779e-104,786.0
-XP_026339677.1, 39S ribosomal protein L12,Ursus arctos,4.71779e-104,786.0
-XP_021068418.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Mus pahari,5.02121e-104,796.0
-XP_021032395.2, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Mus caroli,5.85248e-104,797.0
-XP_013203049.1, 39S ribosomal protein L12,Microtus ochrogaster,6.499720000000001e-104,794.0
-XP_041910975.1, 39S ribosomal protein L12,Arvicola amphibius,6.7405e-104,800.0
-XP_032726281.1, 39S ribosomal protein L12,Lontra canadensis,2.4873499999999997e-103,784.0
+XP_013203049.1, 39S ribosomal protein L12,Microtus ochrogaster,6.499720000000002e-104,794.0
 XP_008071188.2, mitochondrial dicarboxylate carrier [Carlito syrichta],Carlito syrichta,2.89407e-103,804.0
-XP_025855728.1, 39S ribosomal protein L12,Vulpes vulpes,1.36203e-102,777.0
 XP_049996400.1, 39S ribosomal protein L12,Microtus fortis,1.43889e-102,794.0
-XP_004861002.1, 39S ribosomal protein L12,Heterocephalus glaber,1.508e-102,780.0
-XP_047401676.1, 39S ribosomal protein L12,Sciurus carolinensis,2.93828e-102,775.0
-XP_005407319.1, PREDICTED: 39S ribosomal protein L12,Chinchilla lanigera,3.0728999999999996e-102,778.0
-XP_027986223.1, 39S ribosomal protein L12,Eptesicus fuscus,3.6060900000000005e-102,774.0
+XP_005407319.1, PREDICTED: 39S ribosomal protein L12,Chinchilla lanigera,3.0729e-102,778.0
 XP_001488564.1, 39S ribosomal protein L12,Equus caballus,8.88754e-102,771.0
-XP_044103153.1, 39S ribosomal protein L12,Neogale vison,1.2079199999999998e-101,771.0
 XP_037013594.1, 39S ribosomal protein L12,Artibeus jamaicensis,1.6389599999999998e-101,770.0
-XP_044941624.1, 39S ribosomal protein L12,Mustela putorius furo,3.57433e-101,767.0
 XP_021493042.1, 39S ribosomal protein L12,Meriones unguiculatus,6.63746e-101,774.0
-XP_028643765.1, 39S ribosomal protein L12,Grammomys surdaster,6.98573e-101,766.0
-XP_043319337.1, 39S ribosomal protein L12,Cervus canadensis,9.779319999999999e-101,764.0
-XP_045841821.1, 39S ribosomal protein L12,Meles meles,1.9112600000000002e-100,763.0
-XP_004374145.1, 39S ribosomal protein L12,Trichechus manatus latirostris,2.8217e-100,761.0
-XP_036198054.1, 39S ribosomal protein L12,Myotis myotis,2.99524e-100,761.0
-XP_020922113.1, 39S ribosomal protein L12,Sus scrofa,3.3003200000000003e-100,761.0
-XP_006753077.1, PREDICTED: 39S ribosomal protein L12,Myotis davidii,5.01298e-100,760.0
-XP_049716016.1, 39S ribosomal protein L12,Elephas maximus indicus,1.14025e-99,758.0
 XP_005070234.1, 39S ribosomal protein L12,Mesocricetus auratus,1.65453e-99,767.0
 XP_003417400.1, 39S ribosomal protein L12,Loxodonta africana,2.01582e-99,756.0
 XP_005883702.1, PREDICTED: 39S ribosomal protein L12,Myotis brandtii,2.29909e-99,756.0
-XP_010948960.1, 39S ribosomal protein L12,Camelus bactrianus,3.71158e-99,754.0
 XP_019517506.1, PREDICTED: 39S ribosomal protein L12,Hipposideros armiger,4.94278e-99,753.0
-XP_020762063.1, 39S ribosomal protein L12,Odocoileus virginianus texanus,7.41376e-99,752.0
-XP_014644847.1, PREDICTED: 39S ribosomal protein L12,Ceratotherium simum simum,1.28976e-98,752.0
 XP_047613108.1, 39S ribosomal protein L12,Phacochoerus africanus,4.00721e-98,747.0
-XP_031325198.1, 39S ribosomal protein L12,Camelus dromedarius,4.18674e-98,747.0
-XP_014719763.1, 39S ribosomal protein L12,Equus asinus,6.31438e-98,747.0
-XP_032178090.1, 39S ribosomal protein L12,Mustela erminea,1.18733e-97,744.0
-XP_045232422.1, 39S ribosomal protein L12,Macaca fascicularis,1.68433e-97,740.0
 XP_037350066.1, 39S ribosomal protein L12,Talpa occidentalis,1.7258400000000002e-97,743.0
-XP_034363758.1, 39S ribosomal protein L12,Arvicanthis niloticus,2.81323e-97,749.0
 XP_040845383.1, 39S ribosomal protein L12,Ochotona curzoniae,3.84172e-97,740.0
 XP_036612235.1, 39S ribosomal protein L12,Trichosurus vulpecula,4.05622e-97,741.0
-XP_032769100.1, 39S ribosomal protein L12,Rattus rattus,5.42218e-97,747.0
-XP_027705968.1, 39S ribosomal protein L12,Vombatus ursinus,5.634540000000001e-97,740.0
-XP_051039091.1, 39S ribosomal protein L12,Phodopus roborovskii,6.80729e-97,749.0
+XP_027705968.1, 39S ribosomal protein L12,Vombatus ursinus,5.634540000000009e-97,740.0
 NP_001025071.1, 39S ribosomal protein L12,Rattus norvegicus,6.82583e-97,747.0
 XP_027281209.1, 39S ribosomal protein L12,Cricetulus griseus,1.34357e-95,731.0
-XP_007462383.1, PREDICTED: 39S ribosomal protein L12,Lipotes vexillifer,1.0562500000000001e-94,725.0
-XP_004310802.1, 39S ribosomal protein L12,Tursiops truncatus,3.80514e-94,721.0
-XP_022445034.1, 39S ribosomal protein L12,Delphinapterus leucas,4.19938e-94,721.0
-XP_042639499.1, 39S ribosomal protein L12,Orycteropus afer afer,2.483e-93,716.0
 XP_004275619.1, 39S ribosomal protein L12,Orcinus orca,3.01621e-93,715.0
 XP_043861339.1, 39S ribosomal protein L12,Dromiciops gliroides,4.95052e-93,714.0
 XP_004467560.1, 39S ribosomal protein L12,Dasypus novemcinctus,7.944869999999999e-92,706.0
-XP_020856418.1, 39S ribosomal protein L12,Phascolarctos cinereus,9.952369999999999e-92,705.0
-XP_044528298.1, 39S ribosomal protein L12,Gracilinanus agilis,1.79129e-91,704.0
-XP_010617050.3, 39S ribosomal protein L12,Fukomys damarensis,5.265249999999999e-91,704.0
+XP_020856418.1, 39S ribosomal protein L12,Phascolarctos cinereus,9.95237e-92,705.0
+XP_010617050.3, 39S ribosomal protein L12,Fukomys damarensis,5.265249999999996e-91,704.0
 XP_007482923.1, PREDICTED: 39S ribosomal protein L12,Monodelphis domestica,1.60115e-90,697.0
-XP_015090859.1, 39S ribosomal protein L12,Vicugna pacos,2.16978e-90,694.0
 XP_003768657.1, 39S ribosomal protein L12,Sarcophilus harrisii,4.72606e-89,688.0
-XP_008562646.1, PREDICTED: 39S ribosomal protein L12,Galeopterus variegatus,4.29182e-88,680.0
-XP_051851338.1, 39S ribosomal protein L12,Antechinus flavipes,5.80072e-88,681.0
-XP_015359550.1, 39S ribosomal protein L12,Marmota marmota marmota,7.991179999999999e-87,670.0
-XP_038226779.1, 39S ribosomal protein L12,Dermochelys coriacea,5.48904e-85,661.0
-XP_012590205.1, PREDICTED: 39S ribosomal protein L12,Condylura cristata,1.19654e-83,675.0
-XP_012791047.1, PREDICTED: hepatocyte growth factor-regulated tyrosine kinase substrate,Sorex araneus,1.33473e-81,688.0
-XP_038598841.1, 39S ribosomal protein L12,Tachyglossus aculeatus,6.00622e-80,628.0
-XP_032655057.1, 39S ribosomal protein L12,Chelonoidis abingdonii,3.8537999999999997e-79,623.0
 XP_030390498.1, 39S ribosomal protein L12,Gopherus evgoodei,1.02039e-78,620.0
-XP_050776026.1, 39S ribosomal protein L12,Gopherus flavomarginatus,5.87428e-78,615.0
-XP_044839421.1, 39S ribosomal protein L12,Mauremys mutica,1.0958600000000001e-77,613.0
-XP_023260142.1, 39S ribosomal protein L12,Seriola lalandi dorsalis,1.39143e-77,612.0
-XP_024058968.1, 39S ribosomal protein L12,Terrapene carolina triunguis,5.53168e-77,608.0
 XP_039358382.1, 39S ribosomal protein L12,Mauremys reevesii,6.4470900000000006e-77,608.0
-XP_037769797.1, 39S ribosomal protein L12,Chelonia mydas,1.19539e-75,599.0
-XP_004071435.1, 39S ribosomal protein L12,Oryzias latipes,1.45451e-75,599.0
 XP_048673382.1, 39S ribosomal protein L12,Caretta caretta,2.59866e-75,597.0
-XP_038158470.1, 39S ribosomal protein L12,Cyprinodon tularosa,6.65222e-75,594.0
-XP_033945200.1, 39S ribosomal protein L12,Pseudochaenichthys georgianus,8.741400000000001e-75,594.0
-XP_015253997.1, PREDICTED: 39S ribosomal protein L12,Cyprinodon variegatus,1.03029e-74,593.0
-XP_034960134.1, 39S ribosomal protein L12,Zootoca vivipara,3.2426999999999998e-74,589.0
-XP_032991933.1, 39S ribosomal protein L12,Lacerta agilis,3.90204e-74,593.0
-XP_010786612.1, PREDICTED: 39S ribosomal protein L12,Notothenia coriiceps,6.39766e-74,588.0
-XP_035471090.2, 39S ribosomal protein L12,Scophthalmus maximus,1.31637e-73,586.0
-XP_034075698.1, 39S ribosomal protein L12,Gymnodraco acuticeps,1.5345e-73,585.0
-XP_042304552.1, 39S ribosomal protein L12,Sceloporus undulatus,2.22166e-73,584.0
-XP_028311380.1, 39S ribosomal protein L12,Gouania willdenowi,4.15162e-73,583.0
-XP_004593060.1, 39S ribosomal protein L12,Ochotona princeps,4.71784e-73,589.0
-XP_048347545.1, 39S ribosomal protein L12,Sphaerodactylus townsendi,9.11228e-73,580.0
-XP_018560167.1, 39S ribosomal protein L12,Lates calcarifer,9.22688e-73,581.0
-XP_029015894.1, 39S ribosomal protein L12,Betta splendens,9.53206e-73,580.0
-XP_034000066.1, 39S ribosomal protein L12,Trematomus bernacchii,9.7398e-73,580.0
-XP_034449180.1, 39S ribosomal protein L12,Hippoglossus hippoglossus,1.0061e-72,580.0
-XP_041077047.1, 39S ribosomal protein L12,Polyodon spathula,1.71896e-72,578.0
-XP_045887126.1, 39S ribosomal protein L12,Micropterus dolomieu,2.33513e-72,577.0
-XP_029454954.1, 39S ribosomal protein L12,Rhinatrema bivittatum,3.46204e-72,576.0
-XP_039980285.1, 39S ribosomal protein L12,Xiphias gladius,3.6574999999999997e-72,576.0
-XP_035036079.2, 39S ribosomal protein L12,Hippoglossus stenolepis,3.73688e-72,576.0
-XP_005283109.1, 39S ribosomal protein L12,Chrysemys picta bellii,3.78051e-72,577.0
-XP_042248446.1, 39S ribosomal protein L12,Thunnus maccoyii,5.02208e-72,575.0
-XP_022608284.1, 39S ribosomal protein L12,Seriola dumerili,5.66388e-72,575.0
-XP_028912916.1, 39S ribosomal protein L12,Ornithorhynchus anatinus,6.31091e-72,574.0
-XP_038558315.1, 39S ribosomal protein L12,Micropterus salmoides,7.8599e-72,574.0
-XP_026179893.1, 39S ribosomal protein L12,Mastacembelus armatus,9.263590000000001e-72,574.0
-XP_019949703.1, PREDICTED: 39S ribosomal protein L12,Paralichthys olivaceus,1.28558e-71,572.0
-XP_032444411.1, 39S ribosomal protein L12,Xiphophorus hellerii,1.28594e-71,573.0
-XP_028571600.1, 39S ribosomal protein L12,Podarcis muralis,1.3425299999999999e-71,572.0
-XP_046894130.1, 39S ribosomal protein L12,Hypomesus transpacificus,1.67132e-71,572.0
-XP_008102808.1, PREDICTED: 39S ribosomal protein L12,Anolis carolinensis,6.385200000000001e-71,571.0
-XP_008278598.1, PREDICTED: 39S ribosomal protein L12,Stegastes partitus,6.41419e-71,568.0
-XP_013769351.1, PREDICTED: 39S ribosomal protein L12,Pundamilia nyererei,8.15814e-71,568.0
-XP_051905526.1, 39S ribosomal protein L12,Hippocampus zosterae,9.716879999999999e-71,567.0
-XP_041862281.1, 39S ribosomal protein L12,Melanotaenia boesemani,1.6066500000000003e-70,566.0
-NP_001006886.1, 39S ribosomal protein L12,Xenopus tropicalis,1.6418700000000002e-70,565.0
-XP_043905970.1, 39S ribosomal protein L12,Solea senegalensis,1.7344200000000002e-70,565.0
-XP_019724530.1, PREDICTED: 39S ribosomal protein L12,Hippocampus comes,2.18199e-70,564.0
-XP_033817298.1, 39S ribosomal protein L12,Geotrypetes seraphini,2.23012e-70,564.0
-XP_026882584.2, 39S ribosomal protein L12,Electrophorus electricus,5.11848e-70,562.0
-XP_034645510.1, 39S ribosomal protein L12,Trachemys scripta elegans,5.52416e-70,562.0
-XP_020669862.1, 39S ribosomal protein L12,Pogona vitticeps,7.49059e-70,562.0
-XP_020466234.1, 39S ribosomal protein L12,Monopterus albus,8.841230000000001e-70,560.0
-XP_039715790.1, 39S ribosomal protein L12,Pteropus giganteus,1.0057900000000001e-69,558.0
-XP_005989137.2, PREDICTED: 39S ribosomal protein L12,Latimeria chalumnae,2.72447e-69,558.0
-XP_032900100.1, 39S ribosomal protein L12,Amblyraja radiata,3.08675e-69,559.0
-XP_017309630.1, 39S ribosomal protein L12,Ictalurus punctatus,3.5816800000000004e-69,557.0
-XP_030064531.1, 39S ribosomal protein L12,Microcaecilia unicolor,3.62135e-69,556.0
-XP_010566432.1, PREDICTED: 39S ribosomal protein L12,Haliaeetus leucocephalus,4.3047100000000004e-69,553.0
-XP_039682144.1, 39S ribosomal protein L12,Perca fluviatilis,4.3129900000000004e-69,556.0
-XP_049925828.1, 39S ribosomal protein L12,Epinephelus moara,4.811560000000001e-69,556.0
-XP_049416569.1, 39S ribosomal protein L12,Epinephelus fuscoguttatus,4.811560000000001e-69,556.0
-XP_051243874.1, 39S ribosomal protein L12,Dicentrarchus labrax,5.486360000000001e-69,555.0
-XP_022070745.1, 39S ribosomal protein L12,Acanthochromis polyacanthus,5.5456e-69,555.0
-XP_028454828.1, 39S ribosomal protein L12,Perca flavescens,7.05294e-69,555.0
-XP_029364815.1, 39S ribosomal protein L12,Echeneis naucrates,1.01158e-68,554.0
-XP_044037863.1, 39S ribosomal protein L12,Siniperca chuatsi,1.14107e-68,553.0
-XP_015282049.1, PREDICTED: 39S ribosomal protein L12,Gekko japonicus,1.6017e-68,552.0
-XP_029996809.1, 39S ribosomal protein L12,Sphaeramia orbicularis,2.05795e-68,552.0
-XP_042658429.1, 39S ribosomal protein L12,Tyto alba,4.477100000000001e-68,548.0
-XP_047427297.1, 39S ribosomal protein L12,Mugil cephalus,4.67229e-68,549.0
-XP_047215406.1, 39S ribosomal protein L12,Girardinichthys multiradiatus,4.9329e-68,549.0
-XP_039518579.1, 39S ribosomal protein L12,Pimephales promelas,6.416600000000001e-68,548.0
-XP_050769865.1, 39S ribosomal protein L12,Gymnogyps californianus,8.61749e-68,547.0
-XP_014806039.1, PREDICTED: 39S ribosomal protein L12,Calidris pugnax,1.0842300000000001e-67,547.0
-XP_041633733.1, 39S ribosomal protein L12,Cheilinus undulatus,1.2909200000000001e-67,546.0
-XP_042360578.1, 39S ribosomal protein L12,Plectropomus leopardus,1.3631200000000001e-67,546.0
-XP_028675165.1, 39S ribosomal protein L12,Erpetoichthys calabaricus,1.50461e-67,546.0
-XP_024127898.1, 39S ribosomal protein L12,Oryzias melastigma,2.3522e-67,545.0
-XP_037113200.1, 39S ribosomal protein L12,Syngnathus acus,2.96186e-67,544.0
-XP_020496574.1, 39S ribosomal protein L12,Labrus bergylta,3.68531e-67,543.0
-XP_033826879.1, 39S ribosomal protein L12,Periophthalmus magnuspinnatus,4.01991e-67,543.0
-XP_042172094.1, 39S ribosomal protein L12,Oncorhynchus tshawytscha,4.38935e-67,543.0
-XP_034567991.1, 39S ribosomal protein L12,Notolabrus celidotus,4.7393800000000006e-67,542.0
-XP_049601820.1, 39S ribosomal protein L12,Syngnathus scovelli,6.29941e-67,541.0
-XP_040917588.1, 39S ribosomal protein L12,Toxotes jaculatrix,6.71787e-67,542.0
-XP_041073138.1, 39S ribosomal protein L12,Carcharodon carcharias,7.842850000000001e-67,541.0
-XP_041321969.1, 39S ribosomal protein L12,Pyrgilauda ruficollis,8.19012e-67,541.0
-XP_008492936.2, 39S ribosomal protein L12,Calypte anna,8.62575e-67,541.0
-XP_029872026.1, 39S ribosomal protein L12,Aquila chrysaetos chrysaetos,8.7368e-67,541.0
-XP_035511181.1, 39S ribosomal protein L12,Morone saxatilis,9.4337e-67,540.0
-XP_029914578.1, 39S ribosomal protein L12,Myripristis murdjan,1.02868e-66,540.0
-XP_036400669.1, 39S ribosomal protein L12,Megalops cyprinoides,1.1356299999999999e-66,540.0
-XP_027573208.1, 39S ribosomal protein L12,Pipra filicauda,1.27717e-66,540.0
-XP_043956204.1, 39S ribosomal protein L12,Gambusia affinis,1.34373e-66,541.0
-XP_027561008.1, 39S ribosomal protein L12,Neopelma chrysocephalum,1.53712e-66,540.0
-XP_018610194.2, 39S ribosomal protein L12,Scleropages formosus,1.57655e-66,539.0
-XP_030361888.1, 39S ribosomal protein L12,Strigops habroptila,1.7038999999999998e-66,538.0
-XP_017280825.1, 39S ribosomal protein L12,Kryptolebias marmoratus,1.75642e-66,539.0
-XP_017693128.1, PREDICTED: 39S ribosomal protein L12,Lepidothrix coronata,1.79702e-66,544.0
-XP_039599411.1, 39S ribosomal protein L12,Polypterus senegalus,2.5019199999999997e-66,536.0
-XP_051653390.1, 39S ribosomal protein L12,Manacus candei,2.91752e-66,542.0
-XP_046272274.1, 39S ribosomal protein L12,Scatophagus argus,3.6565799999999997e-66,537.0
-XP_023677503.1, 39S ribosomal protein L12,Paramormyrops kingsleyae,3.90431e-66,536.0
-XP_028267854.1, 39S ribosomal protein L12,Parambassis ranga,3.99056e-66,536.0
-XP_049667875.1, 39S ribosomal protein L12,Accipiter gentilis,4.20895e-66,537.0
-XP_033500092.1, 39S ribosomal protein L12,Epinephelus lanceolatus,4.74973e-66,536.0
-XP_036797895.1, 39S ribosomal protein L12,Oncorhynchus mykiss,5.35802e-66,536.0
-XP_027017986.1, 39S ribosomal protein L12,Tachysurus fulvidraco,5.47453e-66,536.0
-XP_030087311.1, 39S ribosomal protein L12,Serinus canaria,5.52162e-66,536.0
-XP_031670282.1, 39S ribosomal protein L12,Oncorhynchus kisutch,7.27532e-66,535.0
-XP_008327627.1, 39S ribosomal protein L12,Cynoglossus semilaevis,7.58896e-66,535.0
-XP_041265343.1, 39S ribosomal protein L12,Onychostruthus taczanowskii,7.68798e-66,539.0
-XP_014886532.1, PREDICTED: 39S ribosomal protein L12,Poecilia latipinna,1.0227e-65,535.0
-XP_014743046.1, PREDICTED: 39S ribosomal protein L12,Sturnus vulgaris,1.0868e-65,534.0
-XP_044276032.1, 39S ribosomal protein L12,Varanus komodoensis,1.17588e-65,536.0
-XP_034750956.1, 39S ribosomal protein L12,Etheostoma cragini,1.2286399999999999e-65,533.0
-XP_036423323.1, 39S ribosomal protein L12,Colossoma macropomum,1.5286499999999999e-65,533.0
-XP_034154234.1, 39S ribosomal protein L12,Pangasianodon hypophthalmus,1.7427599999999998e-65,532.0
-XP_043570945.1, 39S ribosomal protein L12,Chiloscyllium plagiosum,2.0361599999999997e-65,531.0
-XP_014855900.1, PREDICTED: 39S ribosomal protein L12,Poecilia mexicana,2.16408e-65,534.0
-XP_007556320.1, PREDICTED: 39S ribosomal protein L12,Poecilia formosa,2.19596e-65,533.0
-XP_008414320.1, PREDICTED: 39S ribosomal protein L12,Poecilia reticulata,2.52555e-65,531.0
-XP_032392734.1, 39S ribosomal protein L12,Etheostoma spectabile,3.2481999999999998e-65,531.0
-XP_033894556.1, 39S ribosomal protein L12,Acipenser ruthenus,3.8310000000000005e-65,530.0
-XP_038633580.1, 39S ribosomal protein L12,Scyliorhinus canicula,3.83622e-65,529.0
-XP_052664818.1, 39S ribosomal protein L12,Harpia harpyja,4.2699e-65,530.0
-XP_026215968.1, 39S ribosomal protein L12,Anabas testudineus,4.36594e-65,529.0
-XP_031168757.1, 39S ribosomal protein L12,Sander lucioperca,5.858769999999999e-65,529.0
-XP_031723797.1, 39S ribosomal protein L12,Anarrhichthys ocellatus,7.13475e-65,528.0
-XP_029945495.1, 39S ribosomal protein L12,Salarias fasciatus,7.44684e-65,528.0
-XP_050175573.1, 39S ribosomal protein L12,Myiozetetes cayanensis,7.66766e-65,533.0
-XP_041813417.1, 39S ribosomal protein L12,Chelmon rostratus,8.78403e-65,527.0
-XP_030264166.1, 39S ribosomal protein L12,Sparus aurata,8.887609999999999e-65,527.0
-XP_043090793.1, 39S ribosomal protein L12,Puntigrus tetrazona,9.593879999999999e-65,527.0
-XP_052360971.1, 39S ribosomal protein L12,Oncorhynchus keta,1.1921499999999998e-64,527.0
-XP_005801537.1, 39S ribosomal protein L12,Xiphophorus maculatus,1.61713e-64,526.0
-XP_048467047.1, 39S ribosomal protein L12,Rhincodon typus,1.8724799999999998e-64,537.0
-XP_004559572.2, 39S ribosomal protein L12,Maylandia zebra,2.26872e-64,525.0
-XP_036004227.1, 39S ribosomal protein L12,Fundulus heteroclitus,2.67256e-64,525.0
-XP_027140870.1, 39S ribosomal protein L12,Larimichthys crocea,2.9147000000000003e-64,527.0
-XP_034395118.1, 39S ribosomal protein L12,Cyclopterus lumpus,3.0194399999999998e-64,524.0
-XP_032562972.1, 39S ribosomal protein L12,Chiroxiphia lanceolata,3.62108e-64,529.0
-XP_034046952.1, 39S ribosomal protein L12,Thalassophryne amazonica,5.08773e-64,523.0
-XP_033923489.1, 39S ribosomal protein L12,Melopsittacus undulatus,5.39623e-64,522.0
-XP_030591823.1, 39S ribosomal protein L12,Archocentrus centrarchus,6.128919999999999e-64,522.0
-XP_027745596.1, 39S ribosomal protein L12,Empidonax traillii,7.915289999999999e-64,522.0
-XP_023133702.1, 39S ribosomal protein L12,Amphiprion ocellaris,8.23939e-64,521.0
-XP_039571765.1, 39S ribosomal protein L12,Passer montanus,8.771e-64,519.0
-XP_031592386.1, 39S ribosomal protein L12,Oreochromis aureus,9.90967e-64,521.0
-XP_051888969.1, 39S ribosomal protein L12,Pristis pectinata,1.00534e-63,520.0
-XP_016307113.1, PREDICTED: 39S ribosomal protein L12,Sinocyclocheilus anshuiensis,1.24638e-63,520.0
-XP_037544351.1, 39S ribosomal protein L12,Nematolebias whitei,1.42245e-63,520.0
-XP_009298024.1, 39S ribosomal protein L12,Danio rerio,2.12304e-63,519.0
-XP_044153728.1, 39S ribosomal protein L12,Bufo gargarizans,2.6855e-63,517.0
-XP_003964750.1, 39S ribosomal protein L12,Takifugu rubripes,3.48479e-63,517.0
-XP_039418226.1, 39S ribosomal protein L12,Corvus cornix cornix,4.1857600000000004e-63,517.0
-XP_046690273.1, 39S ribosomal protein L12,Silurus meridionalis,5.04568e-63,516.0
-XP_039904144.1, 39S ribosomal protein L12,Simochromis diagramma,5.09798e-63,516.0
-XP_030203574.1, 39S ribosomal protein L12,Gadus morhua,5.277090000000001e-63,516.0
-XP_026557627.1, 39S ribosomal protein L12,Pseudonaja textilis,5.90163e-63,515.0
-XP_040294637.1, 39S ribosomal protein L12,Bufo bufo,6.226530000000001e-63,515.0
-XP_026523099.1, 39S ribosomal protein L12,Notechis scutatus,6.7247e-63,515.0
-XP_051491047.1, 39S ribosomal protein L12,Apus apus,6.8025e-63,516.0
-XP_041881386.1, 39S ribosomal protein L12,Corvus kubaryi,1.1223300000000001e-62,513.0
-XP_031984986.1, 39S ribosomal protein L12,Corvus moneduloides,1.20452e-62,514.0
-XP_048179658.1, 39S ribosomal protein L12,Corvus hawaiiensis,1.36893e-62,514.0
-XP_051988026.1, 39S ribosomal protein L12,Xyrauchen texanus,1.44194e-62,513.0
-XP_039200735.1, 39S ribosomal protein L12,Crotalus tigris,1.57538e-62,512.0
-XP_025892675.1, 39S ribosomal protein L12,Nothoprocta perdicaria,1.81833e-62,509.0
-XP_003442157.1, 39S ribosomal protein L12,Oreochromis niloticus,2.22602e-62,512.0
-XP_013916867.1, PREDICTED: 39S ribosomal protein L12,Thamnophis sirtalis,3.03521e-62,510.0
-XP_036943712.1, 39S ribosomal protein L12,Acanthopagrus latus,3.73064e-62,510.0
-XP_006791398.1, 39S ribosomal protein L12,Neolamprologus brichardi,3.92715e-62,510.0
-XP_030817734.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Camarhynchus parvulus,5.14018e-62,510.0
-XP_037394871.1, 39S ribosomal protein L12,Pygocentrus nattereri,5.18883e-62,509.0
-XP_028843067.1, 39S ribosomal protein L12,Denticeps clupeoides,5.21613e-62,509.0
-XP_037333351.1, 39S ribosomal protein L12,Pungitius pungitius,5.34563e-62,509.0
-XP_036250560.1, 39S ribosomal protein L12,Molothrus ater,6.01411e-62,513.0
-XP_020790601.1, 39S ribosomal protein L12,Boleophthalmus pectinirostris,7.00419e-62,509.0
-XP_042575743.1, 39S ribosomal protein L12,Cyprinus carpio,7.8121e-62,508.0
-XP_016386875.1, PREDICTED: 39S ribosomal protein L12,Sinocyclocheilus rhinocerous,8.16078e-62,508.0
-NP_001279628.1, 39S ribosomal protein L12,Callorhinchus milii,8.38484e-62,507.0
-XP_050958290.1, 39S ribosomal protein L12,Labeo rohita,8.52502e-62,508.0
-XP_047906299.1, 39S ribosomal protein L12,Anser cygnoides,8.93374e-62,505.0
-XP_038842902.1, 39S ribosomal protein L12,Salvelinus namaycush,1.12161e-61,507.0
-XP_039937667.1, 39S ribosomal protein L12,Hirundo rustica,1.2240200000000001e-61,513.0
-XP_040438193.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Falco naumanni,1.24405e-61,510.0
-XP_005940353.1, 39S ribosomal protein L12,Haplochromis burtoni,1.30494e-61,507.0
-XP_007229080.2, 39S ribosomal protein L12,Astyanax mexicanus,2.1095e-61,505.0
-XP_029585000.1, 39S ribosomal protein L12,Salmo trutta,2.43477e-61,505.0
-XP_034268770.1, 39S ribosomal protein L12,Pantherophis guttatus,2.48638e-61,508.0
 XP_015735325.1, 39S ribosomal protein L12,Coturnix japonica,2.89726e-61,504.0
-XP_016150760.1, PREDICTED: 39S ribosomal protein L12,Sinocyclocheilus grahami,2.92791e-61,503.0
-XP_051572466.1, 39S ribosomal protein L12,Myxocyprinus asiaticus,3.3487300000000005e-61,504.0
-XP_021389838.1, 39S ribosomal protein L12,Lonchura striata domestica,3.8147800000000004e-61,503.0
-XP_015830259.1, PREDICTED: 39S ribosomal protein L12,Nothobranchius furzeri,4.1504e-61,504.0
-XP_038013024.1, 39S ribosomal protein L12,Motacilla alba alba,5.59994e-61,503.0
-XP_005530703.1, PREDICTED: 39S ribosomal protein L12,Pseudopodoces humilis,7.954840000000001e-61,502.0
-XP_045571770.1, 39S ribosomal protein L12,Salmo salar,8.63732e-61,501.0
-XP_010901368.1, 39S ribosomal protein L12,Esox lucius,1.89833e-60,499.0
-XP_037258816.1, 39S ribosomal protein L12,Falco rusticolus,2.16224e-60,502.0
-XP_048028836.1, 39S ribosomal protein L12,Megalobrama amblycephala,2.83833e-60,498.0
-XP_035168518.1, 39S ribosomal protein L12,Oxyura jamaicensis,2.84068e-60,496.0
-XP_026074642.1, 39S ribosomal protein L12,Carassius auratus,3.72557e-60,497.0
-XP_052409166.1, 39S ribosomal protein L12,Carassius gibelio,3.93451e-60,497.0
-XP_035424527.1, 39S ribosomal protein L12,Cygnus atratus,5.18184e-60,496.0
-NP_001088496.1, mitochondrial ribosomal protein L12 L homeolog [Xenopus laevis],Xenopus laevis,5.72136e-60,496.0
-XP_041720083.2, 39S ribosomal protein L12,Coregonus clupeaformis,6.22233e-60,496.0
-XP_018409155.1, PREDICTED: 39S ribosomal protein L12,Nanorana parkeri,1.18774e-59,494.0
-XP_015501438.1, 39S ribosomal protein L12,Parus major,3.28408e-59,491.0
-XP_035262142.1, 39S ribosomal protein L12,Anguilla anguilla,4.68014e-59,490.0
 XP_021270371.1, 39S ribosomal protein L12,Numida meleagris,5.34006e-59,490.0
-XP_030646246.1, 39S ribosomal protein L12,Chanos chanos,5.45788e-59,489.0
-NP_001232089.1, 39S ribosomal protein L12,Taeniopygia guttata,6.03258e-59,489.0
-XP_024000747.1, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Salvelinus alpinus,7.02156e-59,489.0
 XP_040542575.1, 39S ribosomal protein L12,Gallus gallus,7.40803e-59,489.0
-XP_048821278.1, 39S ribosomal protein L12,Lagopus muta,8.53695e-59,488.0
-XP_009557315.1, PREDICTED: 39S ribosomal protein L12,Cuculus canorus,8.86318e-59,485.0
-XP_029294309.1, 39S ribosomal protein L12,Cottoperca gobio,1.07458e-58,487.0
-XP_042739815.1, 39S ribosomal protein L12,Lagopus leucura,1.1213999999999999e-58,487.0
-XP_015679642.1, 39S ribosomal protein L12,Protobothrops mucrosquamatus,2.0955e-58,495.0
-XP_031454845.1, 39S ribosomal protein L12,Phasianus colchicus,3.1927e-58,485.0
-XP_013880660.1, PREDICTED: 39S ribosomal protein L12,Austrofundulus limnaeus,3.7603e-58,484.0
-XP_037647568.1, 39S ribosomal protein L12,Sebastes umbrosus,3.94038e-58,484.0
 XP_027327398.1, 39S ribosomal protein L12,Anas platyrhynchos,5.21613e-58,483.0
-XP_042689252.1, 39S ribosomal protein L12,Centrocercus urophasianus,8.078289999999999e-58,482.0
-XP_032932982.1, 39S ribosomal protein L12,Catharus ustulatus,8.86081e-58,482.0
-XP_040386658.1, 39S ribosomal protein L12,Cygnus olor,1.98247e-57,479.0
-XP_032055522.1, 39S ribosomal protein L12,Aythya fuligula,2.93603e-57,478.0
-XP_048101132.1, 39S ribosomal protein L12,Alosa alosa,1.8304800000000001e-56,473.0
-XP_006110799.1, 39S ribosomal protein L12,Pelodiscus sinensis,2.37596e-56,467.0
-XP_048871607.1, 39S ribosomal protein L12,Brienomyrus brachyistius,3.9653700000000003e-56,471.0
-XP_027523330.1, 39S ribosomal protein L12,Corapipo altera,4.9728800000000005e-56,470.0
-XP_041943319.1, 39S ribosomal protein L12,Alosa sapidissima,6.141310000000001e-56,469.0
-XP_040047203.1, 39S ribosomal protein L12,Gasterosteus aculeatus aculeatus,1.77306e-55,466.0
-XP_040186760.1, 39S ribosomal protein L12,Rana temporaria,3.1298900000000003e-55,464.0
-XP_015745419.2, LOW QUALITY PROTEIN: 39S ribosomal protein L12,Python bivittatus,5.1684400000000005e-55,462.0
-XP_006270761.1, PREDICTED: 39S ribosomal protein L12,Alligator mississippiensis,3.1000799999999998e-52,444.0
-XP_032823153.1, 39S ribosomal protein L12,Petromyzon marinus,3.1096e-51,437.0
-XP_006109297.1, 39S ribosomal protein L12,Myotis lucifugus,1.8585e-49,427.0
-XP_031428692.1, 39S ribosomal protein L12,Clupea harengus,1.57343e-43,383.0
-XP_015211439.1, PREDICTED: 39S ribosomal protein L12,Lepisosteus oculatus,1.3013e-41,371.0
-XP_005092988.1, 39S ribosomal protein L12,Aplysia californica,1.10065e-39,362.0
-XP_014778913.1, PREDICTED: 39S ribosomal protein L12,Octopus bimaculoides,1.99379e-39,361.0
-XP_013068321.1, PREDICTED: 39S ribosomal protein L12,Biomphalaria glabrata,2.6498299999999998e-39,358.0
-XP_037570705.1, 39S ribosomal protein L12,Dermacentor silvarum,9.90278e-39,355.0
-XP_022783159.1, 39S ribosomal protein L12,Stylophora pistillata,5.009539999999999e-38,352.0
-XP_050029555.1, 39S ribosomal protein L12,Dermacentor andersoni,6.9674e-38,350.0
-XP_009507875.1, PREDICTED: 39S ribosomal protein L12,Phalacrocorax carbo,1.7921899999999998e-37,338.0
-XP_035755903.1, 39S ribosomal protein L12,Egretta garzetta,2.6336e-37,338.0
-XP_052715321.1, 39S ribosomal protein L12,Crassostrea angulata,3.03863e-37,346.0
-XP_029815988.1, 39S ribosomal protein L12,Manacus vitellinus,5.00112e-37,335.0
-XP_026717125.1, 39S ribosomal protein L12,Athene cunicularia,8.56907e-37,334.0
-XP_010283529.1, PREDICTED: 39S ribosomal protein L12,Phaethon lepturus,9.56214e-37,333.0
-XP_009470065.1, PREDICTED: 39S ribosomal protein L12,Nipponia nippon,1.19916e-36,333.0
-XP_009579614.1, PREDICTED: 39S ribosomal protein L12,Fulmarus glacialis,1.66795e-36,332.0
-XP_010134009.1, PREDICTED: 39S ribosomal protein L12,Buceros rhinoceros silvestris,2.04193e-36,331.0
-XP_009696732.1, PREDICTED: 39S ribosomal protein L12,Cariama cristata,3.02231e-36,329.0
-XP_009896307.1, PREDICTED: 39S ribosomal protein L12,Dryobates pubescens,3.45909e-36,330.0
-XP_009492026.1, PREDICTED: 39S ribosomal protein L12,Pelecanus crispus,4.91626e-36,328.0
-XP_027036063.1, 39S ribosomal protein L12,Pocillopora damicornis,1.07217e-35,336.0
-XP_009067930.1, PREDICTED: 39S ribosomal protein L12,Acanthisitta chloris,1.2601499999999999e-35,326.0
-XP_031570568.1, 39S ribosomal protein L12,Actinia tenebrosa,1.34516e-35,333.0
-XP_041473251.1, 39S ribosomal protein L12,Lytechinus variegatus,1.43126e-35,336.0
-XP_039267194.1, 39S ribosomal protein L12,Styela clava,1.74179e-35,333.0
-XP_033630521.1, 39S ribosomal protein L12,Asterias rubens,2.92847e-35,333.0

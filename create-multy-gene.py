@@ -1,7 +1,10 @@
+import pickle
 from pathlib import Path
 import modules
 import pandas as pd
 from Bio import SeqIO
+import json
+import os
 
 from consts import CSV_FILES_NAME, HITS_FILES_NAME
 
@@ -20,46 +23,44 @@ def generate_csv_files_list():
     return files_list
 
 
-def read_seq_from_fasta(organism_id):
-    files_list = generate_fasta_files_list()
-    for file in files_list:
+def read_seq_from_fasta(organism_id, file_name):
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/hits-files/' + file_name + '_hits.fasta', 'r') as file:
         sequences = [i for i in SeqIO.parse(file, 'fasta')]
         for seq in sequences:
-           # print(seq.id.split('|')[1])
             if(seq.id.split('|')[1] == organism_id):
                 return (seq.seq)
 
 
-
-
-def multy_gene(organism_name):
+def multy_gene(organism_name, gene_maping):
     multy_gene = ""
+    gene_maping[organism_name] = {}
     csv_list = generate_csv_files_list()
     for file in csv_list:
         df = pd.read_csv(file)
-        organism_list = df[['organism', 'query_id']]
-        #print(organism_list.get(organism_name))
-        #print(organism_list)
+        # organism_list = df[['organism', 'query_id']]
         line = df.loc[df['organism'] == organism_name]
         new_df = pd.DataFrame(line)
-      #  print(line)
         if not new_df.empty:
             organism_id = new_df.iloc[:,0].values[0]
-            cur_seq = read_seq_from_fasta(organism_id)
+            protein_name = file.name.split('.')[0]
+            cur_seq = read_seq_from_fasta(organism_id, protein_name)
+            gene_maping[organism_name][protein_name] = len(multy_gene)
             multy_gene += str(cur_seq)
-        write_gene = open(multy_gene.fasta, 'w')
-        write_gene.write(multy_gene)
-        #print(multy_gene)
+
+    with open('multy_gene.fasta', 'a') as write_gene:
+        write_gene.write(organism_name + '\n')
+        write_gene.write(multy_gene + '\n')
 
 
 if __name__ == '__main__':
-    #read_seq_from_fasta()
-    # files_list = generate_files_list();
-    # for file in files_list:
-    #     print(file.name)
+    gene_maping = {}
+    with open('multy_gene.fasta' ,'w'):
+        pass
+    with open('common_organisms', 'rb') as f:
+        common_organisms = pickle.load(f)
+        for organism in common_organisms:
+            multy_gene(organism, gene_maping)
 
-    with open('common_organisms', 'w') as f:
-        for organism in list:
-            multy_gene(organism)
-
+    with open('gene_maping.json' , 'w') as file:
+        file.write(json.dumps(gene_maping, indent=4))
 

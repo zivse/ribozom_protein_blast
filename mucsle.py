@@ -10,9 +10,10 @@ def generate_files_list():
 
 
 if __name__ == '__main__':
-    files_list = generate_files_list()
-    for file in files_list:
-        out_file = f'{MUSCLE_FILES_NAME}/{os.path.basename(file)}'
+    # files_list = generate_files_list()
+    # for file in files_list:
+    with open('multy_gene.fasta', 'r') as file:
+        out_file = f'{MUSCLE_FILES_NAME}/{file.name}'
         muscle_cline = MuscleCommandline(MUSCLE_EXE, input=file, out=out_file)
         print(muscle_cline)
         muscle_cline()

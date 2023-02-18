@@ -164,6 +164,7 @@ def find_protein_seq(PATH,organism_id):
     seq = record.seq  # Isolate the mtDNA sequence (entire sequence)
     return seq
 
+
 def gene_csv(gene):
     """
     Receive a gene name, isolate its sequence from all organisms in the common_organisms list, and save all sequences into a fasta file.
@@ -246,7 +247,7 @@ if __name__ == '__main__':
     #gene_csv('rrnL')
     #animals_list()
     check_csv()
-    #protein_from_animal()
+    protein_from_animal()
     #sync_hits_files_with_csv_files()
     #generate_files_list()
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))

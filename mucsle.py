@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # files_list = generate_files_list()
     # for file in files_list:
     with open('multy_gene.fasta', 'r') as file:
-        out_file = f'{MUSCLE_FILES_NAME}/{file.name}'
+        out_file = 'muscle_multy_gene'
         muscle_cline = MuscleCommandline(MUSCLE_EXE, input=file, out=out_file)
         print(muscle_cline)
         muscle_cline()

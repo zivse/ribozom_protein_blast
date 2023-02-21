@@ -48,7 +48,7 @@ def multy_gene(organism_name, gene_maping):
             multy_gene += str(cur_seq)
 
     with open('multy_gene.fasta', 'a') as write_gene:
-        write_gene.write(organism_name + '\n')
+        write_gene.write('>' + organism_name + '\n')
         write_gene.write(multy_gene + '\n')
 
 

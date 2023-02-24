@@ -1,6 +1,5 @@
 import pickle
 from pathlib import Path
-import modules
 import pandas as pd
 from Bio import SeqIO
 import json

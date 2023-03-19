@@ -186,24 +186,24 @@ def gene_csv(gene):
         df[c] = df[c].apply(literal_eval)
 
     fasta_lines = ''
-    for organism in common_organisms:
+    for organism_name in common_organisms:
         try: # Try to find the gene in the organism
-            organism_id = df.loc[df['organism'] == organism]['RefSeq'].iloc[0]  # Get the RefSeq ID of the organism, .iloc[0] is required because otherwise it returns a series
-            organism_locs = df.loc[df['organism'] == organism]['Gene_locations'].iloc[0]
-            organism_gene_order = df.loc[df['organism'] == organism]['Gene_order'].iloc[0]
+            organism_id = df.loc[df['organism'] == organism_name]['RefSeq'].iloc[0]  # Get the RefSeq ID of the organism, .iloc[0] is required because otherwise it returns a series
+            organism_locs = df.loc[df['organism'] == organism_name]['Gene_locations'].iloc[0]
+            organism_gene_order = df.loc[df['organism'] == organism_name]['Gene_order'].iloc[0]
         except IndexError: # If the organism is not in the table, skip it
-            print('ERROR: Could not find ' + organism + ' in the table')
+            print('ERROR: Could not find ' + organism_name + ' in the table')
             continue
         seq = find_protein_seq(PATH, organism_id)
         try: seq[0]
         except Seq.UndefinedSequenceError:
-            print('ERROR: Could not find ' + organism + ' in the genbank DB bad sequence!')
+            print('ERROR: Could not find ' + organism_name + ' in the genbank DB bad sequence!')
             continue
         name = gene  # The gene name
         try:
             ind = organism_gene_order.index(name)  # The gene location based on the list of gene order
         except ValueError: # If the gene is not in the organism, skip it
-            print('Could not find ' + name + ' in ' + organism)
+            print('Could not find ' + name + ' in ' + organism_name)
             continue
         loc = organism_locs[ind]  # The gene location based on the list of gene locations
         print(loc)
@@ -213,7 +213,7 @@ def gene_csv(gene):
             cur_seq = seq[int(start):int(end)].reverse_complement()  # Reverse complement ONLY IF strand is -1
         else:
             cur_seq = seq[int(start):int(end)]
-        fasta_lines += f'>{organism_id}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
+        fasta_lines += f'>{organism_name}_{name}\n{cur_seq}\n'  # This is just for one organism, need to do for all
     with open(f'{gene}_fasta.fasta', 'w') as fasta:  # Write the sequence to a fasta file. Ziv - If you want to write multiple sequences, you need to append to the file or move it out of the loop and write all at once
         fasta.write(fasta_lines)
 
@@ -244,10 +244,11 @@ def sync_hits_files_with_csv_files():
 
 
 if __name__ == '__main__':
-    #gene_csv('rrnL')
+    gene_csv('rrnL')
+    gene_csv('rrnS')
     #animals_list()
-    check_csv()
-    protein_from_animal()
+    #check_csv()
+    #protein_from_animal()
     #sync_hits_files_with_csv_files()
     #generate_files_list()
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))

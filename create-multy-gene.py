@@ -30,6 +30,28 @@ def read_seq_from_fasta(organism_id, file_name):
                 return (seq.seq)
 
 
+def human_multy_gene(gene_maping):
+    protein_list = generate_csv_files_list()
+    human_multy_gene = ""
+    gene_maping["human"] = {}
+    for protein in protein_list:
+        protein_name = protein.name.split('.')[0]
+        with open(os.path.dirname(os.path.realpath(__file__)) + '/seq-files/' + protein_name + '.fasta',
+                  'r') as file:
+            lines = file.readlines()
+            i = 1
+            gen_seq = ""
+            while(lines[i] != '\n'):
+                gen_seq += lines[i].strip()
+                i += 1
+            human_multy_gene += gen_seq
+        gene_maping["human"][protein_name] = len(human_multy_gene)
+
+    with open('multy_gene.fasta', 'a') as write_gene:
+        write_gene.write('>' + "human" + '\n')
+        write_gene.write(human_multy_gene + '\n')
+
+
 def multy_gene(organism_name, gene_maping):
     multy_gene = ""
     gene_maping[organism_name] = {}
@@ -40,21 +62,44 @@ def multy_gene(organism_name, gene_maping):
         line = df.loc[df['organism'] == organism_name]
         new_df = pd.DataFrame(line)
         if not new_df.empty:
-            organism_id = new_df.iloc[:,0].values[0]
+            organism_id = new_df.iloc[:, 0].values[0]
             protein_name = file.name.split('.')[0]
             cur_seq = read_seq_from_fasta(organism_id, protein_name)
             gene_maping[organism_name][protein_name] = len(multy_gene)
             multy_gene += str(cur_seq)
+    ...
+    rrnL = get_organism_rna(organism_name, "rrnL_fasta.fasta" )
+    rrnS = get_organism_rna(organism_name, "rrnS_fasta.fasta" )
+    gene_maping[organism_name]["rrnL"] = len(multy_gene)
+    multy_gene += rrnL
+    gene_maping[organism_name]["rrnS"] = len(multy_gene)
+    multy_gene += rrnS
+
 
     with open('multy_gene.fasta', 'a') as write_gene:
+        organism_name = organism_name.replace(' ', '_')
         write_gene.write('>' + organism_name + '\n')
         write_gene.write(multy_gene + '\n')
+
+
+def get_organism_rna(organism_name, file_name):
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/' + file_name, 'r') as file:
+        lines = file.readlines()
+        counter = 0
+        for line in lines:
+            if organism_name in line:
+                return lines[counter + 1]
+            counter += 1
+        return "not found"
+
+
 
 
 if __name__ == '__main__':
     gene_maping = {}
     with open('multy_gene.fasta' ,'w'):
         pass
+    human_multy_gene(gene_maping)
     with open('common_organisms', 'rb') as f:
         common_organisms = pickle.load(f)
         for organism in common_organisms:

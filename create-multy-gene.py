@@ -93,11 +93,9 @@ def get_organism_rna(organism_name, file_name):
         return "not found"
 
 
-
-
 if __name__ == '__main__':
     gene_maping = {}
-    with open('multy_gene.fasta' ,'w'):
+    with open('multy_gene.fasta', 'w'):
         pass
     human_multy_gene(gene_maping)
     with open('common_organisms', 'rb') as f:

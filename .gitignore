@@ -2,3 +2,7 @@
 sequence.fasta
 protein-ribozom2.txt
 **.gbk
+csv-files/*
+hits-files/*
+gene_maping.json
+multy_gene.fasta

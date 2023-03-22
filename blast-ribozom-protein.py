@@ -25,7 +25,7 @@ def handle_entrez(protein_id):
 
 
 def blast_results_to_xml(record, protein_id):
-    result_handle = NCBIWWW.qblast(program="blastp", database="refseq_protein", sequence=record.seq, hitlist_size=500)
+    result_handle = NCBIWWW.qblast(program="blastp", database="refseq_protein", sequence=record.seq, hitlist_size=1000)
     # Save the results of the search as an XML file MAKE SURE YOU SAVE SINCE RUNTIME IS LONG
     with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'w') as f:
         my_xml = result_handle.read()

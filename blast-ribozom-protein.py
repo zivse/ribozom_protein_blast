@@ -29,9 +29,10 @@ def blast_results_to_xml(record, protein_id):
     # Save the results of the search as an XML file MAKE SURE YOU SAVE SINCE RUNTIME IS LONG
     with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'w') as f:
         my_xml = result_handle.read()
-        create_view_index = my_xml.find("CREATE_VIEW")
-        if create_view_index != -1:
-            my_xml = my_xml[:create_view_index] + my_xml[create_view_index + 11:]
+        my_xml = my_xml.replace("CREATE_VIEW", "")
+        # create_view_index = my_xml.find("CREATE_VIEW")
+        # if create_view_index != -1:
+        #     my_xml = my_xml[:create_view_index] + my_xml[create_view_index + 11:]
         f.write(my_xml)
     result_handle.close()
 

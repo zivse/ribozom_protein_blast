@@ -184,7 +184,8 @@ def gene_csv(gene):
     df = pd.read_csv("table_of_organisms.csv")
     for c in ['Gene_locations', 'Gene_order']: # Convert the column values to lists
         df[c] = df[c].apply(literal_eval)
-
+    if "Homo sapiens" not in common_organisms:
+        common_organisms.insert(0, "Homo sapiens")
     fasta_lines = ''
     for organism_name in common_organisms:
         try: # Try to find the gene in the organism
@@ -247,9 +248,9 @@ if __name__ == '__main__':
     gene_csv('rrnL')
     gene_csv('rrnS')
     #animals_list()
-    #check_csv()
-    #protein_from_animal()
-    #sync_hits_files_with_csv_files()
-    #generate_files_list()
+    check_csv()
+    protein_from_animal()
+    sync_hits_files_with_csv_files()
+    # print(generate_files_list())
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))
 

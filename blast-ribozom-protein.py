@@ -4,6 +4,8 @@ from consts import XML_FOLDER_NAME, HITS_FILES_NAME, SEQ_FILES_NAME, CSV_FILES_N
 
 ssl._create_default_https_context = ssl._create_unverified_context
 import os
+import argparse
+
 PATH = os.getcwd()
 from Bio import SeqIO
 from Bio import Entrez
@@ -78,8 +80,12 @@ def handle_protein(protein_id):
     results_to_csv(blast_records, protein_id)
 
 
-with open('protein-ribozom.txt') as f:
-    proteins = f.readlines()
-    for protein_id in proteins:
-        handle_protein(protein_id.replace('\n', ''))
-
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--file_path', help='foo help')
+    args = parser.parse_args()
+    file_path = args.file_path
+    with open(file_path) as f:
+        proteins = f.readlines()
+        for protein_id in proteins:
+            handle_protein(protein_id.replace('\n', ''))

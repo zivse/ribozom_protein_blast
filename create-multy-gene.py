@@ -68,12 +68,12 @@ def multy_gene(organism_name, gene_maping):
             gene_maping[organism_name][protein_name] = len(multy_gene)
             multy_gene += str(cur_seq)
     ...
-    rrnL = get_organism_rna(organism_name, "rrnL_fasta.fasta" )
-    rrnS = get_organism_rna(organism_name, "rrnS_fasta.fasta" )
-    gene_maping[organism_name]["rrnL"] = len(multy_gene)
-    multy_gene += rrnL
-    gene_maping[organism_name]["rrnS"] = len(multy_gene)
-    multy_gene += rrnS
+    # rrnL = get_organism_rna(organism_name, "rrnL_fasta.fasta" )
+    # rrnS = get_organism_rna(organism_name, "rrnS_fasta.fasta" )
+    # gene_maping[organism_name]["rrnL"] = len(multy_gene)
+    # multy_gene += rrnL
+    # gene_maping[organism_name]["rrnS"] = len(multy_gene)
+    # multy_gene += rrnS
 
 
     with open('multy_gene.fasta', 'a') as write_gene:

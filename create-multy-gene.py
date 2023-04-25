@@ -67,7 +67,6 @@ def multy_gene(organism_name, gene_maping):
             cur_seq = read_seq_from_fasta(organism_id, protein_name)
             gene_maping[organism_name][protein_name] = len(multy_gene)
             multy_gene += str(cur_seq)
-    ...
     # rrnL = get_organism_rna(organism_name, "rrnL_fasta.fasta" )
     # rrnS = get_organism_rna(organism_name, "rrnS_fasta.fasta" )
     # gene_maping[organism_name]["rrnL"] = len(multy_gene)

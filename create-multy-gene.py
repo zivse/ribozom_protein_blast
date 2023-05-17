@@ -55,6 +55,8 @@ def human_multy_gene(gene_maping):
 def multy_gene(organism_name, gene_maping):
     multy_gene = ""
     gene_maping[organism_name] = {}
+    Q9P0M9 = '/Q9P0M9_hits.fasta'
+    Q9Y399 = './Q9Y399_hits.fasta'
     csv_list = generate_csv_files_list()
     for file in csv_list:
         df = pd.read_csv(file)

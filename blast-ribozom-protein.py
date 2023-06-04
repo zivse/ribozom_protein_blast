@@ -5,7 +5,7 @@ from consts import XML_FOLDER_NAME, HITS_FILES_NAME, SEQ_FILES_NAME, CSV_FILES_N
 ssl._create_default_https_context = ssl._create_unverified_context
 import os
 import argparse
-
+from pathlib import Path
 PATH = os.getcwd()
 from Bio import SeqIO
 from Bio import Entrez
@@ -99,5 +99,13 @@ def parser_from_py_charm():
             handle_protein(protein_id.replace('\n', ''))
 
 
+def create_folders():
+    Path(os.path.join(PATH, SEQ_FILES_NAME)).mkdir(parents=True, exist_ok=True)
+    Path(os.path.join(PATH, HITS_FILES_NAME)).mkdir(parents=True, exist_ok=True)
+    Path(os.path.join(PATH, CSV_FILES_NAME)).mkdir(parents=True, exist_ok=True)
+    Path(os.path.join(PATH, XML_FOLDER_NAME)).mkdir(parents=True, exist_ok=True)
+
+
 if __name__ == '__main__':
+    create_folders()
     parser_from_command_line()

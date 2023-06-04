@@ -67,6 +67,7 @@ def animals_list():
             common_organisms.remove(not_common_org)
     with open('common_organisms', 'wb') as f:  # Save the list to a file
         pickle.dump(common_organisms, f)
+    print(common_organisms)
     return common_organisms
 
 
@@ -245,10 +246,10 @@ def sync_hits_files_with_csv_files():
 
 
 if __name__ == '__main__':
-    gene_csv('rrnL')
-    gene_csv('rrnS')
-    #animals_list()
-    check_csv()
+    # gene_csv('rrnL')
+    # gene_csv('rrnS')
+    # animals_list()
+    # check_csv()
     protein_from_animal()
     sync_hits_files_with_csv_files()
     # print(generate_files_list())

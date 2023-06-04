@@ -99,7 +99,7 @@ human_refrence = {
     "Q96EL2": 17445
 }
 
-df = pd.read_csv("coroletion_mutaion_result.csv")
+df = pd.read_csv("../bio_projects_files/coroletion_mutaion_result.csv")
 i_protein = df['Residue_i']
 j_protein = df['Residue_j']
 for i, j in zip(i_protein, j_protein):
@@ -116,5 +116,6 @@ for i, j in zip(i_protein, j_protein):
 # plt.imshow(counting_matrix, cmap='hot', interpolation='nearest')
 # plt.show()
 
-fig = px.imshow(counting_matrix)
+# fig = px.imshow(counting_matrix, color_continuous_scale='RdBu_r', origin='lower')
+fig = px.imshow(counting_matrix, color_map='jet')
 fig.show()

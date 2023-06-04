@@ -12,7 +12,7 @@ def generate_files_list():
 if __name__ == '__main__':
     # files_list = generate_files_list()
     # for file in files_list:
-    with open('multy_gene.fasta', 'r') as file:
+    with open('../bio_projects_files/multy_gene.fasta', 'r') as file:
         out_file = 'muscle_multy_gene'
         muscle_cline = MuscleCommandline(MUSCLE_EXE, input=file, out=out_file)
         print(muscle_cline)

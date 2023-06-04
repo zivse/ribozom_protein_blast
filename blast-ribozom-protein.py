@@ -81,10 +81,10 @@ def handle_protein(protein_id):
 
 
 def parser_from_command_line():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--file_path', help='foo help')
-    args = parser.parse_args()
-    file_path = args.file_path
+    # parser = argparse.ArgumentParser()
+    # parser.add_argument('--file_path', help='foo help')
+    # args = parser.parse_args()
+    file_path = '/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/protein-ribozom.txt'
     with open(file_path) as f:
         proteins = f.readlines()
         for protein_id in proteins:

@@ -4,6 +4,9 @@ protein-ribozom2.txt
 **.gbk
 csv-files/*
 hits-files/*
+xml-files/*
+seq-files/*
+muscle-files/*
 ../bio_projects_files/gene_maping.json
 ../bio_projects_files/multy_gene.fasta
 ../bio_projects_files/try_for_table.pdf

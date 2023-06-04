@@ -80,7 +80,7 @@ def handle_protein(protein_id):
     results_to_csv(blast_records, protein_id)
 
 
-def parser_from_command_line():
+if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--file_path', help='foo help')
     args = parser.parse_args()
@@ -91,13 +91,13 @@ def parser_from_command_line():
             handle_protein(protein_id.replace('\n', ''))
 
 
-def parser_from_py_charm():
-    file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
-    with open(file_path) as f:
-        proteins = f.readlines()
-        for protein_id in proteins:
-            handle_protein(protein_id.replace('\n', ''))
-
-
-if __name__ == '__main__':
-    parser_from_py_charm()
+# def parser_from_py_charm():
+#     file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
+#     with open(file_path) as f:
+#         proteins = f.readlines()
+#         for protein_id in proteins:
+#             handle_protein(protein_id.replace('\n', ''))
+#
+#
+# if __name__ == '__main__':
+#     parser_from_py_charm()

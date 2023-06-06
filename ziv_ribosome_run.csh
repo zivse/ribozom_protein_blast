@@ -8,5 +8,5 @@
 #$ -e "/gpfs0/biores/users/mishmarlab/Ziv/stderr/"
 
 python "/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/blast-ribozom-protein.py"
-python "/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/check_results.py"
-python "/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/create-multy-gene.py"
+# python "/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/check_results.py"
+# python "/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/create-multy-gene.py"

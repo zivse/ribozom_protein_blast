@@ -250,8 +250,10 @@ if __name__ == '__main__':
     # gene_csv('rrnS')
     # animals_list()
     # check_csv()
-    protein_from_animal()
-    sync_hits_files_with_csv_files()
+    # remove_duplicate_organisms_from_csv_files()
+    # protein_from_animal()
+    print(animals_list())
+    # sync_hits_files_with_csv_files()
     # print(generate_files_list())
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))
 

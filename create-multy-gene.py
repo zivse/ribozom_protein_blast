@@ -17,8 +17,8 @@ def generate_fasta_files_list():
 
 def generate_csv_files_list():
     directory = CSV_FILES_NAME
-    # files = Path(directory).glob('*.csv')
-    files = [Path('../bio_projects_files/Q9Y399.csv'), Path('../bio_projects_files/Q9P0M9.csv')]
+    files = Path(directory).glob('*.csv')
+    # files = [Path('../bio_projects_files/Q9Y399.csv'), Path('../bio_projects_files/Q9P0M9.csv')]
     files_list = list(files)
     return files_list
 
@@ -56,8 +56,6 @@ def human_multy_gene(gene_maping):
 def multy_gene(organism_name, gene_maping):
     multy_gene = ""
     gene_maping[organism_name] = {}
-    Q9P0M9 = '/Q9P0M9_hits.fasta'
-    Q9Y399 = './Q9Y399_hits.fasta'
     csv_list = generate_csv_files_list()
     for file in csv_list:
         df = pd.read_csv(file)
@@ -97,7 +95,7 @@ def get_organism_rna(organism_name, file_name):
 
 if __name__ == '__main__':
     gene_maping = {}
-    with open('../bio_projects_files/multy_gene.fasta', 'w'):
+    with open('../multy_gene.fasta', 'w'):
         pass
     human_multy_gene(gene_maping)
     with open('common_organisms', 'rb') as f:
@@ -105,6 +103,6 @@ if __name__ == '__main__':
         for organism in common_organisms:
             multy_gene(organism, gene_maping)
 
-    with open('../bio_projects_files/gene_maping.json', 'w') as file:
+    with open('../gene_maping.json', 'w') as file:
         file.write(json.dumps(gene_maping, indent=4))
 

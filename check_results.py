@@ -61,7 +61,7 @@ def animals_list():
     organisms_list = df[['organism']]
     numpy_organisms = organisms_list.to_numpy()
     common_organisms, not_common_organisms = generate_common_and_noncommon_organisms(numpy_organisms, files_list)
-    common_organisms = compare_common_with_table(common_organisms)
+    # common_organisms = compare_common_with_table(common_organisms)
     for not_common_org in not_common_organisms:
         if not_common_org in common_organisms:
             common_organisms.remove(not_common_org)
@@ -251,8 +251,8 @@ if __name__ == '__main__':
     # animals_list()
     # check_csv()
     # remove_duplicate_organisms_from_csv_files()
-    # protein_from_animal()
-    print(animals_list())
+    protein_from_animal()
+    # print(animals_list())
     # sync_hits_files_with_csv_files()
     # print(generate_files_list())
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))

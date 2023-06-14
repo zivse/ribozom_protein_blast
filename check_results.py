@@ -16,7 +16,7 @@ from consts import HITS_FILES_NAME, CSV_FILES_NAME
 def check_csv():
     """check that all the protein in the csv have right names and delete the ones that dont"""
     #check the names of all the proteins in the csv files
-    files = generate_files_list()
+    files = generate_csv_files_list()
     #go over all the files in csv-files
     for file in files:
         #using df to check the names of all the proteins
@@ -54,7 +54,7 @@ def escape_characters(string):
 
 def animals_list():
     """returns a list of strings representing the common organizems and saving them to a file"""
-    files_list = generate_files_list()
+    files_list = generate_csv_files_list()
     first_file = files_list[0]
     df = pd.read_csv(first_file)
     #take the list from the first csv
@@ -65,9 +65,9 @@ def animals_list():
     for not_common_org in not_common_organisms:
         if not_common_org in common_organisms:
             common_organisms.remove(not_common_org)
-    with open('common_organisms', 'wb') as f:  # Save the list to a file
-        pickle.dump(common_organisms, f)
-    print(common_organisms)
+    with open('common_organisms', 'w') as f:  # Save the list to a file
+        for organism in common_organisms:
+             f.write(organism + '\n')
     return common_organisms
 
 
@@ -101,7 +101,7 @@ def generate_common_and_noncommon_organisms(numpy_organisms, files_list):
 def protein_from_animal():
     """delete all the information related to organisms that dont exist in the common organisms list """
     common_organisms = animals_list()
-    files = generate_files_list()
+    files = generate_csv_files_list()
     # go over all the files in csv-files
     for file in files:
         df = pd.read_csv(file)
@@ -116,16 +116,23 @@ def protein_from_animal():
 
 def remove_duplicate_organisms_from_csv_files():
     """"#for each csv find the duplicate and select the one with the lowest e-value"""
-    files_list = generate_files_list()
+    files_list = generate_csv_files_list()
     for file in files_list:
         df = pd.read_csv(file)
         df1 = df.loc[df.groupby('organism', sort=False)['e-value'].idxmin()]
         df1.to_csv(file, sep=',', index=False)
 
 
-def generate_files_list():
+def generate_csv_files_list():
     directory = CSV_FILES_NAME
     files = Path(directory).glob('*.csv')
+    files_list = list(files)
+    return files_list
+
+
+def generate_fasta_files_list():
+    directory = HITS_FILES_NAME
+    files = Path(directory).glob('*.fasta')
     files_list = list(files)
     return files_list
 
@@ -235,7 +242,7 @@ def remove_proteins_from_hits_if_not_in_ids(protein_ids, hits_file):
 
 
 def sync_hits_files_with_csv_files():
-    files_list = generate_files_list()
+    files_list = generate_csv_files_list()
     for file in files_list:
         df = pd.read_csv(file)
         query_ids = df[['query_id']].to_numpy()
@@ -252,7 +259,7 @@ if __name__ == '__main__':
     # check_csv()
     # remove_duplicate_organisms_from_csv_files()
     protein_from_animal()
-    # print(animals_list())
+    print(animals_list())
     # sync_hits_files_with_csv_files()
     # print(generate_files_list())
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))

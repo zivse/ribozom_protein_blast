@@ -15,30 +15,6 @@ Entrez.api_key = '016d35b4600f9c5d1d5ced586898c3ff3a09' # Enter your API key her
 import pandas as pd
 
 
-def handle_entrez(protein_id):
-    """Fetch the handle for the protein, based on protein ID as a fasta file"""
-    handle = Entrez.efetch(db="protein", id=protein_id, rettype='fasta', retmode='text')
-    # Save handle as a fasta file
-    output = open(os.path.join(PATH, SEQ_FILES_NAME, f'{protein_id}.fasta'), 'w')
-    output.write(handle.read())
-    output.close()
-    # Close the handle
-    handle.close()
-
-
-def blast_results_to_xml(record, protein_id):
-    result_handle = NCBIWWW.qblast(program="blastp", database="nr", sequence=record.seq, hitlist_size=1000)
-    # Save the results of the search as an XML file MAKE SURE YOU SAVE SINCE RUNTIME IS LONG
-    with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'w') as f:
-        my_xml = result_handle.read()
-        my_xml = my_xml.replace("CREATE_VIEW", "")
-        # create_view_index = my_xml.find("CREATE_VIEW")
-        # if create_view_index != -1:
-        #     my_xml = my_xml[:create_view_index] + my_xml[create_view_index + 11:]
-        f.write(my_xml)
-    result_handle.close()
-
-
 def get_blast_from_xml(protein_id):
     """Parse the BLASTp results which were saved into xml file as a BLAST record object"""
     with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'r') as result_handle:
@@ -123,44 +99,13 @@ def get_max_score_hsp(hsps):
     return max_hsp
 
 
-def handle_protein(protein_id):
-    """run BLASTp search for the protein and return the hits"""
-    handle_entrez(protein_id)
-    # Read the record after it has been saved as a file.
-    record = SeqIO.read(os.path.join(SEQ_FILES_NAME, f'{protein_id}.fasta'), 'fasta')
-    # Run the BLASTp search against a database of all RefSeq proteins
-    # Currently set to run against the RefSeq protein database and return atleast 500 hits
-    blast_results_to_xml(record, protein_id)
-    blast_records = get_blast_from_xml(protein_id)
-    results_to_csv(blast_records, protein_id)
-
-
-def parser_from_command_line():
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument('--file_path', help='foo help')
-    # args = parser.parse_args()
-    file_path = '/gpfs0/biores/users/mishmarlab/Ziv/ribozom_protein_blast/protein-ribozom.txt'
-    with open(file_path) as f:
-        proteins = f.readlines()
-        for protein_id in proteins:
-            handle_protein(protein_id.replace('\n', ''))
-
-
-def parser_from_py_charm():
+if __name__ == '__main__':
     file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
     with open(file_path) as f:
         proteins = f.readlines()
         for protein_id in proteins:
-            handle_protein(protein_id.replace('\n', ''))
-
-
-def create_folders():
-    Path(os.path.join(PATH, SEQ_FILES_NAME)).mkdir(parents=True, exist_ok=True)
-    Path(os.path.join(PATH, HITS_FILES_NAME)).mkdir(parents=True, exist_ok=True)
-    Path(os.path.join(PATH, CSV_FILES_NAME)).mkdir(parents=True, exist_ok=True)
-    Path(os.path.join(PATH, XML_FOLDER_NAME)).mkdir(parents=True, exist_ok=True)
-
-
-if __name__ == '__main__':
-    create_folders()
-    parser_from_command_line()
+            protein_id = protein_id.strip()
+            blast_records = get_blast_from_xml(protein_id)
+            results_to_csv(blast_records, protein_id)
+    # blast_records = get_blast_from_xml('O75394')
+    # results_to_csv(blast_records, 'O75394')

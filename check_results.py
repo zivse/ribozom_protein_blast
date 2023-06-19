@@ -67,13 +67,14 @@ def animals_list():
             common_organisms.remove(not_common_org)
     with open('common_organisms', 'w') as f:  # Save the list to a file
         for organism in common_organisms:
-             f.write(organism + '\n')
+            print(organism)
+            f.write(organism + '\n')
     return common_organisms
 
 
 def compare_common_with_table(common_organisms):
     """check that all the organisms in the lists appear in the table"""
-    df = pd.read_csv('table_of_organisms.csv')
+    df = pd.read_csv('../bio_projects_files/table_of_organisms.csv')
     organism_from_table_list = df[['organism']]
     numpy_organism_from_table_list = organism_from_table_list.to_numpy()
     for organism in common_organisms.copy():
@@ -189,7 +190,7 @@ def gene_csv(gene):
 
     else:
         common_organisms = animals_list()
-    df = pd.read_csv("table_of_organisms.csv")
+    df = pd.read_csv("../bio_projects_files/table_of_organisms.csv")
     for c in ['Gene_locations', 'Gene_order']: # Convert the column values to lists
         df[c] = df[c].apply(literal_eval)
     if "Homo sapiens" not in common_organisms:
@@ -257,9 +258,9 @@ if __name__ == '__main__':
     # gene_csv('rrnS')
     # animals_list()
     # check_csv()
-    # remove_duplicate_organisms_from_csv_files()
-    protein_from_animal()
-    print(animals_list())
+     remove_duplicate_organisms_from_csv_files()
+     protein_from_animal()
+    # print(animals_list())
     # sync_hits_files_with_csv_files()
     # print(generate_files_list())
     #df = pd.read_csv(pathlib.PosixPath('csv-files/O15235.csv'))

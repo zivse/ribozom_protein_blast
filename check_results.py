@@ -256,10 +256,10 @@ def sync_hits_files_with_csv_files():
 if __name__ == '__main__':
     # gene_csv('rrnL')
     # gene_csv('rrnS')
-    # animals_list()
     # check_csv()
-     remove_duplicate_organisms_from_csv_files()
-     protein_from_animal()
+    # remove_duplicate_organisms_from_csv_files()
+    print(animals_list())
+     # protein_from_animal()
     # print(animals_list())
     # sync_hits_files_with_csv_files()
     # print(generate_files_list())

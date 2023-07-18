@@ -151,9 +151,9 @@ def parser_from_py_charm():
     file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
     with open(file_path) as f:
         proteins = f.readlines()
-        handle_protein('Q6P161')
-        # for protein_id in proteins:
-        #     # handle_protein(protein_id.replace('\n', ''))
+
+        for protein_id in proteins:
+            handle_protein(protein_id.replace('\n', ''))
 
 
 
@@ -166,5 +166,5 @@ def create_folders():
 
 if __name__ == '__main__':
     create_folders()
-    # parser_from_command_line()
-    parser_from_py_charm()
+    parser_from_command_line()
+    # parser_from_py_charm()

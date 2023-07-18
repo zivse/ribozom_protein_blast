@@ -127,8 +127,8 @@ def handle_protein(protein_id):
     handle_entrez(protein_id)
     # Read the record after it has been saved as a file.
     record = SeqIO.read(os.path.join(SEQ_FILES_NAME, f'{protein_id}.fasta'), 'fasta')
-    with open('protein_id.record.fasta') as f:
-        f.write(record)
+    # with open('protein_id.record.fasta') as f:
+    #     f.write(record)
     # Run the BLASTp search against a database of all RefSeq proteins
     # Currently set to run against the RefSeq protein database and return atleast 500 hits
     blast_results_to_xml(record, protein_id)

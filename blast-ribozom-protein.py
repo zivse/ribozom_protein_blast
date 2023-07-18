@@ -74,7 +74,6 @@ def results_to_csv(blast_records, protein_id):
                 if title.split('[')[1].split(']')[0] not in alraedy_done_organisms:
                     sqeuence_fasta.write(
                         '>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
-                    # print(hsp.sbjct)
                     alraedy_done_organisms.append(title.split('[')[1].split(']')[0])
 
     report_df = pd.DataFrame(report)  # convert the report dictionary to a dataframe
@@ -128,6 +127,8 @@ def handle_protein(protein_id):
     handle_entrez(protein_id)
     # Read the record after it has been saved as a file.
     record = SeqIO.read(os.path.join(SEQ_FILES_NAME, f'{protein_id}.fasta'), 'fasta')
+    with open('protein_id.record.fasta') as f:
+        f.write(record)
     # Run the BLASTp search against a database of all RefSeq proteins
     # Currently set to run against the RefSeq protein database and return atleast 500 hits
     blast_results_to_xml(record, protein_id)
@@ -150,8 +151,10 @@ def parser_from_py_charm():
     file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
     with open(file_path) as f:
         proteins = f.readlines()
-        for protein_id in proteins:
-            handle_protein(protein_id.replace('\n', ''))
+        handle_protein('Q6P161')
+        # for protein_id in proteins:
+        #     # handle_protein(protein_id.replace('\n', ''))
+
 
 
 def create_folders():
@@ -163,4 +166,5 @@ def create_folders():
 
 if __name__ == '__main__':
     create_folders()
-    parser_from_command_line()
+    # parser_from_command_line()
+    parser_from_py_charm()

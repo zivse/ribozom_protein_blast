@@ -53,7 +53,9 @@ def results_to_csv(blast_records, protein_id):
     sqeuence_fasta = open(os.path.join(PATH, HITS_FILES_NAME, protein_id + '_hits' + '.fasta'), 'w')  # initialize a fasta file to store the protein sequences of all hits
     all_organisms = []
     alraedy_done_organisms = []
+    print(f"protein {protein_id} got {len(blast_records.alignments)} alignments")
     for alignment in blast_records.alignments:  # iterate over all hits
+        print(f"current alignment title is {alignment.title}")
         organisms = get_organisms_from_title(alignment.title, all_organisms)
         all_organisms.extend(organisms)
         titles = split_title(alignment.title)
@@ -125,15 +127,19 @@ def get_max_score_hsp(hsps):
 def handle_protein(protein_id):
     """run BLASTp search for the protein and return the hits"""
     handle_entrez(protein_id)
+    print(f"ran handle_entrez for {protein_id}")
     # Read the record after it has been saved as a file.
     record = SeqIO.read(os.path.join(SEQ_FILES_NAME, f'{protein_id}.fasta'), 'fasta')
+    print(f"red protein fasta file for protein {protein_id}")
     # with open('protein_id.record.fasta') as f:
     #     f.write(record)
     # Run the BLASTp search against a database of all RefSeq proteins
     # Currently set to run against the RefSeq protein database and return atleast 500 hits
     blast_results_to_xml(record, protein_id)
+    print(f"wrote blast results into xml for protein {protein_id}")
     blast_records = get_blast_from_xml(protein_id)
     results_to_csv(blast_records, protein_id)
+    print(f"wrote blast results into csv for protein {protein_id}")
 
 
 def parser_from_command_line():
@@ -147,13 +153,12 @@ def parser_from_command_line():
             handle_protein(protein_id.replace('\n', ''))
 
 
-def parser_from_py_charm(protein_id):
-    # # file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
-    # with open(file_path) as f:
-    handle_protein(protein_id)
-        # proteins = f.readlines()
-        # for protein_id in proteins:
-        #     handle_protein(protein_id.replace('\n', ''))
+def parser_from_py_charm():
+    file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
+    with open(file_path) as f:
+        proteins = f.readlines()
+        for protein_id in proteins:
+            handle_protein(protein_id.replace('\n', ''))
 
 
 
@@ -167,4 +172,5 @@ def create_folders():
 if __name__ == '__main__':
     create_folders()
     parser_from_command_line()
-    # parser_from_py_charm(protein_id)
+    # parser_from_py_charm()
+

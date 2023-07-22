@@ -1,6 +1,6 @@
 import ssl  # monkey patch for BioPython 1.68 & 1.69
 
-from consts import XML_FOLDER_NAME, HITS_FILES_NAME, SEQ_FILES_NAME, CSV_FILES_NAME
+from consts import XML_FOLDER_NAME, HITS_FILES_NAME, SEQ_FILES_NAME, CSV_FILES_NAME, DATABASE
 
 ssl._create_default_https_context = ssl._create_unverified_context
 import os
@@ -27,7 +27,7 @@ def handle_entrez(protein_id):
 
 
 def blast_results_to_xml(record, protein_id):
-    result_handle = NCBIWWW.qblast(program="blastp", database="nr", sequence=record.seq, hitlist_size=3000)
+    result_handle = NCBIWWW.qblast(program="blastp", database=DATABASE, sequence=record.seq, hitlist_size=3000)
     # Save the results of the search as an XML file MAKE SURE YOU SAVE SINCE RUNTIME IS LONG
     with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'w') as f:
         my_xml = result_handle.read()

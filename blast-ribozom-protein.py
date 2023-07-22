@@ -172,8 +172,8 @@ def create_folders():
 
 
 if __name__ == '__main__':
-    # create_folders()
-    # parser_from_command_line()
+     create_folders()
+     parser_from_command_line()
     # parser_from_py_charm()
-    handle_protein('P82912')
+    # handle_protein('P82912')
 

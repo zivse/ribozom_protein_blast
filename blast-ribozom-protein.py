@@ -55,28 +55,31 @@ def results_to_csv(blast_records, protein_id):
     alraedy_done_organisms = []
     print(f"protein {protein_id} got {len(blast_records.alignments)} alignments")
     for alignment in blast_records.alignments:  # iterate over all hits
-        print(f"current alignment title is {alignment.title}")
-        organisms = get_organisms_from_title(alignment.title, all_organisms)
-        all_organisms.extend(organisms)
-        titles = split_title(alignment.title)
-        hsp = get_max_score_hsp(alignment.hsps)
-        if hsp.expect < 0.05:  # if the e-value is less than 0.05
-            for organism in organisms:
-                if alignment.title.split('|')[2].split(',')[0] == 'ref':
-                    start = 2
-                else:
-                    start = 0
-                report['query_id'].append(alignment.title.split('|')[1 + start])  # add the query id to the report dictionary
-                report['protein_name'].append(
-                alignment.title.split('|')[2+start].split('[')[0].replace(' ', '_').replace(',', '_'))  # add the protein name to the report dictionary
-                report['organism'].append(organism)  # add the organism to the report dictionary
-                report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
-                report['score'].append(hsp.score)  # add the alignment score to the report dictionary
-            for title in titles:
-                if title.split('[')[1].split(']')[0] not in alraedy_done_organisms:
-                    sqeuence_fasta.write(
-                        '>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
-                    alraedy_done_organisms.append(title.split('[')[1].split(']')[0])
+        try:
+            print(f"current alignment title is {alignment.title}")
+            organisms = get_organisms_from_title(alignment.title, all_organisms)
+            all_organisms.extend(organisms)
+            titles = split_title(alignment.title)
+            hsp = get_max_score_hsp(alignment.hsps)
+            if hsp.expect < 0.05:  # if the e-value is less than 0.05
+                for organism in organisms:
+                    if alignment.title.split('|')[2].split(',')[0] == 'ref':
+                        start = 2
+                    else:
+                        start = 0
+                    report['query_id'].append(alignment.title.split('|')[1 + start])  # add the query id to the report dictionary
+                    report['protein_name'].append(
+                    alignment.title.split('|')[2+start].split('[')[0].replace(' ', '_').replace(',', '_'))  # add the protein name to the report dictionary
+                    report['organism'].append(organism)  # add the organism to the report dictionary
+                    report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
+                    report['score'].append(hsp.score)  # add the alignment score to the report dictionary
+                for title in titles:
+                    if title.split('[')[1].split(']')[0] not in alraedy_done_organisms:
+                        sqeuence_fasta.write(
+                            '>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
+                        alraedy_done_organisms.append(title.split('[')[1].split(']')[0])
+        except Exception as e:
+            print("exception in alignment", str(e))
 
     report_df = pd.DataFrame(report)  # convert the report dictionary to a dataframe
     report_df.to_csv(os.path.join(PATH, CSV_FILES_NAME, protein_id + '.csv'), index=False)  # save the report dataframe to a csv file
@@ -161,7 +164,6 @@ def parser_from_py_charm():
             handle_protein(protein_id.replace('\n', ''))
 
 
-
 def create_folders():
     Path(os.path.join(PATH, SEQ_FILES_NAME)).mkdir(parents=True, exist_ok=True)
     Path(os.path.join(PATH, HITS_FILES_NAME)).mkdir(parents=True, exist_ok=True)
@@ -170,7 +172,8 @@ def create_folders():
 
 
 if __name__ == '__main__':
-    create_folders()
-    parser_from_command_line()
+    # create_folders()
+    # parser_from_command_line()
     # parser_from_py_charm()
+    handle_protein('P82912')
 

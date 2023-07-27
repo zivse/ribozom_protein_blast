@@ -1,102 +1,112 @@
-Homo_sapiens
-Nomascus_leucogenys
-Pan_paniscus
-Hylobates_moloch
-Pan_troglodytes
-Pongo_abelii
-Aotus_nancymaae
-Pongo_pygmaeus
-Callithrix_jacchus
-Saimiri_boliviensis_boliviensis
-Sapajus_apella
-Cebus_imitator
-Rhinopithecus_roxellana
-Sciurus_carolinensis
-Chlorocebus_sabaeus
-Phacochoerus_africanus
-Macaca_fascicularis
-Neomonachus_schauinslandi
-Phoca_vitulina
-Mirounga_leonina
-Halichoerus_grypus
-Mirounga_angustirostris
-Sus_scrofa
-Lontra_canadensis
-Lutra_lutra
-Jaculus_jaculus
-Felis_catus
-Panthera_tigris
-Panthera_pardus
-Lynx_canadensis
-Leopardus_geoffroyi
-Lynx_rufus
-Prionailurus_viverrinus
-Panthera_uncia
-Trichechus_manatus_latirostris
-Nycticebus_coucang
-Camelus_ferus
-Camelus_dromedarius
-Myodes_glareolus
-Panthera_leo
-Grammomys_surdaster
-Bos_taurus
-Mustela_putorius_furo
-Neogale_vison
-Cavia_porcellus
-Manis_javanica
-Phyllostomus_hastatus
-Arvicanthis_niloticus
-Enhydra_lutris_kenyoni
-Ictidomys_tridecemlineatus
-Meles_meles
-Orcinus_orca
-Monodon_monoceros
-Ochotona_curzoniae
-Phyllostomus_discolor
-Artibeus_jamaicensis
-Balaenoptera_musculus
-Peromyscus_californicus_insignis
-Phodopus_roborovskii
-Hippopotamus_amphibius_kiboko
-Pteropus_alecto
-Pteropus_vampyrus
-Mesocricetus_auratus
-Heterocephalus_glaber
-Vulpes_lagopus
-Microtus_oregoni
-Chionomys_nivalis
-Peromyscus_leucopus
-Ursus_arctos
-Cricetulus_griseus
-Ursus_americanus
-Ailuropoda_melanoleuca
-Peromyscus_maniculatus_bairdii
-Microtus_ochrogaster
-Sorex_araneus
-Apodemus_sylvaticus
-Microtus_fortis
-Molossus_molossus
-Rousettus_aegyptiacus
-Sorex_cinereus
-Desmodus_rotundus
-Suncus_etruscus
-Canis_lupus_dingo
-Psammomys_obesus
-Meriones_unguiculatus
-Pipistrellus_kuhlii
-Dasypus_novemcinctus
-Hyaena_hyaena
-Elephas_maximus_indicus
-Acomys_russatus
-Mus_musculus
-Mus_pahari
-Tachyglossus_aculeatus
-Ornithorhynchus_anatinus
-Trichosurus_vulpecula
-Dromiciops_gliroides
-Gopherus_evgoodei
-Mauremys_mutica
-Mauremys_reevesii
-Malaclemys_terrapin_pileata
-Polyodon_spathula
-Grus_americana
+Homo sapiens
+Nomascus leucogenys
+Pan paniscus
+Hylobates moloch
+Pan troglodytes
+synthetic construct
+Pongo abelii
+Aotus nancymaae
+Pongo pygmaeus
+Callithrix jacchus
+Saimiri boliviensis boliviensis
+Sapajus apella
+Cebus imitator
+Rhinopithecus roxellana
+Sciurus carolinensis
+Chlorocebus sabaeus
+Phacochoerus africanus
+Macaca fascicularis
+Otolemur garnettii
+Neomonachus schauinslandi
+Phoca vitulina
+Mirounga leonina
+Halichoerus grypus
+Mirounga angustirostris
+Sus scrofa
+Lontra canadensis
+Lutra lutra
+Jaculus jaculus
+Muntiacus muntjak
+Muntiacus reevesi
+Rattus rattus
+Felis catus
+Panthera tigris
+Panthera pardus
+Lynx canadensis
+Leopardus geoffroyi
+Lynx rufus
+Prionailurus viverrinus
+Panthera uncia
+Trichechus manatus latirostris
+Nycticebus coucang
+Camelus ferus
+Camelus dromedarius
+Myodes glareolus
+Panthera leo
+Rattus norvegicus
+Grammomys surdaster
+Bos taurus
+Mustela putorius furo
+Neogale vison
+Cavia porcellus
+Manis javanica
+Phyllostomus hastatus
+Arvicanthis niloticus
+Enhydra lutris kenyoni
+Ictidomys tridecemlineatus
+Marmota flaviventris
+Marmota monax
+Meles meles
+Orcinus orca
+Monodon monoceros
+Ochotona curzoniae
+Phyllostomus discolor
+Artibeus jamaicensis
+Balaenoptera musculus
+Peromyscus californicus insignis
+Phodopus roborovskii
+Hippopotamus amphibius kiboko
+Pteropus alecto
+Pteropus vampyrus
+Mesocricetus auratus
+Heterocephalus glaber
+Vulpes lagopus
+Microtus oregoni
+Chionomys nivalis
+Peromyscus leucopus
+Ursus arctos
+Cricetulus griseus
+Ursus americanus
+Ailuropoda melanoleuca
+Peromyscus maniculatus bairdii
+Microtus ochrogaster
+Sorex araneus
+Apodemus sylvaticus
+Microtus fortis
+Molossus molossus
+Rousettus aegyptiacus
+Nyctereutes procyonoides
+Sorex cinereus
+Desmodus rotundus
+Suncus etruscus
+Canis lupus dingo
+Psammomys obesus
+Meriones unguiculatus
+Pipistrellus kuhlii
+Dasypus novemcinctus
+Hyaena hyaena
+Elephas maximus indicus
+Acomys russatus
+Mus musculus
+Mus pahari
+Tachyglossus aculeatus
+Ornithorhynchus anatinus
+Trichosurus vulpecula
+Dromiciops gliroides
+Gopherus evgoodei
+Chelonia mydas
+Mauremys mutica
+Mauremys reevesii
+Malaclemys terrapin pileata
+Polyodon spathula
+Grus americana

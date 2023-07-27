@@ -59,16 +59,23 @@ def multy_gene(organism_name, gene_maping):
     csv_list = generate_csv_files_list()
     for file in csv_list:
         df = pd.read_csv(file)
+        print(df)
         # organism_list = df[['organism', 'query_id']]
         organism_name_temp = organism_name.replace('_',' ')
         line = df.loc[df['organism'] == organism_name_temp]
         new_df = pd.DataFrame(line)
+        print(new_df)
         if not new_df.empty:
             organism_id = new_df.iloc[:, 0].values[0]
             organism_id = organism_id.replace(' ', '_')
             protein_name = file.name.split('.')[0]
             cur_seq = read_seq_from_fasta(organism_id, protein_name)
+            if cur_seq == None:
+                raise Exception("cur seq in empty " + organism_name + ' ' + protein_name+  ' '+ organism_id)
             gene_maping[organism_name][protein_name] = len(multy_gene)
+            if 'o' in str(cur_seq):
+                print(cur_seq)
+                raise Exception("O in " + organism_name + ' ' + protein_name)
             multy_gene += str(cur_seq)
     # rrnL = get_organism_rna(organism_name, "rrnL_fasta.fasta" )
     # rrnS = get_organism_rna(organism_name, "rrnS_fasta.fasta" )

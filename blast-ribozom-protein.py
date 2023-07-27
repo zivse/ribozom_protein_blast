@@ -46,7 +46,7 @@ def get_blast_from_xml(protein_id):
     return blast_records
 
 
-def results_to_csv(blast_records, protein_id):
+def results_to_csv_and_fasta(blast_records, protein_id):
     """iterate over all hits, print information, generate a report dataframe and a fasta of the protein sequence of all hits"""
     report = {i: [] for i in ['query_id', 'protein_name', 'organism', 'e-value',
                               'score']}  # initialize a dictionary to store the report data
@@ -56,27 +56,36 @@ def results_to_csv(blast_records, protein_id):
     print(f"protein {protein_id} got {len(blast_records.alignments)} alignments")
     for alignment in blast_records.alignments:  # iterate over all hits
         try:
-            print(f"current alignment title is {alignment.title}")
+            # print(f"current alignment title is {alignment.title}")
             organisms = get_organisms_from_title(alignment.title, all_organisms)
             all_organisms.extend(organisms)
             titles = split_title(alignment.title)
             hsp = get_max_score_hsp(alignment.hsps)
             if hsp.expect < 0.05:  # if the e-value is less than 0.05
-                for organism in organisms:
-                    if alignment.title.split('|')[2].split(',')[0] == 'ref':
-                        start = 2
-                    else:
-                        start = 0
-                    report['query_id'].append(alignment.title.split('|')[1 + start])  # add the query id to the report dictionary
-                    report['protein_name'].append(
-                    alignment.title.split('|')[2+start].split('[')[0].replace(' ', '_').replace(',', '_'))  # add the protein name to the report dictionary
-                    report['organism'].append(organism)  # add the organism to the report dictionary
-                    report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
-                    report['score'].append(hsp.score)  # add the alignment score to the report dictionary
+                # for organism in organisms:
+                #     if alignment.title.split('|')[2].split(',')[0] == 'ref':
+                #         start = 2
+                #     else:
+                #         start = 0
+                #     report['query_id'].append(alignment.title.split('|')[1 + start])  # add the query id to the report dictionary
+                #     report['protein_name'].append(
+                #     alignment.title.split('|')[2+start].split('[')[0].replace(' ', '_').replace(',', '_'))  # add the protein name to the report dictionary
+                #     report['organism'].append(organism)  # add the organism to the report dictionary
+                #     report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
+                #     report['score'].append(hsp.score)  # add the alignment score to the report dictionary
                 for title in titles:
                     if title.split('[')[1].split(']')[0] not in alraedy_done_organisms:
-                        sqeuence_fasta.write(
-                            '>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
+                        sqeuence_fasta.write('>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
+                        if alignment.title.split('|')[2].split(',')[0] == 'ref':
+                            start = 2
+                        else:
+                            start = 0
+                        report['query_id'].append(title.split('|')[1 + start])  # add the query id to the report dictionary
+                        report['protein_name'].append(
+                        alignment.title.split('|')[2+start].split('[')[0].replace(' ', '_').replace(',', '_'))  # add the protein name to the report dictionary
+                        report['organism'].append(title.split('[')[1].split(']')[0])  # add the organism to the report dictionary
+                        report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
+                        report['score'].append(hsp.score)  # add the alignment score to the report dictionary
                         alraedy_done_organisms.append(title.split('[')[1].split(']')[0])
         except Exception as e:
             print("exception in alignment", str(e))
@@ -141,7 +150,7 @@ def handle_protein(protein_id):
     blast_results_to_xml(record, protein_id)
     print(f"wrote blast results into xml for protein {protein_id}")
     blast_records = get_blast_from_xml(protein_id)
-    results_to_csv(blast_records, protein_id)
+    results_to_csv_and_fasta(blast_records, protein_id)
     print(f"wrote blast results into csv for protein {protein_id}")
 
 
@@ -170,10 +179,21 @@ def create_folders():
     Path(os.path.join(PATH, CSV_FILES_NAME)).mkdir(parents=True, exist_ok=True)
     Path(os.path.join(PATH, XML_FOLDER_NAME)).mkdir(parents=True, exist_ok=True)
 
+#
+# if __name__ == '__main__':
+#      # create_folders()
+#      # parser_from_command_line()
+#      parser_from_py_charm()
+#     # handle_protein('P82912')
 
 if __name__ == '__main__':
-     create_folders()
-     parser_from_command_line()
-    # parser_from_py_charm()
-    # handle_protein('P82912')
-
+    file_path = '/Users/zivseker/Desktop/Projects/bio-project/protein-ribozom.txt'
+    with open(file_path) as f:
+        proteins = f.readlines()
+        for protein_id in proteins:
+        # protein_id = 'Q8N983'
+            protein_id = protein_id.strip()
+            blast_records = get_blast_from_xml(protein_id)
+            results_to_csv_and_fasta(blast_records, protein_id)
+    # blast_records = get_blast_from_xml('O75394')
+    # results_to_csv(blast_records, 'O75394')

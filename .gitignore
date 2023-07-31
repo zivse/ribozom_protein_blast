@@ -1,6 +1,7 @@
 .idea
 sequence.fasta
 protein-ribozom2.txt
+human_msa_try.txt
 **.gbk
 csv-files/*
 hits-files/*

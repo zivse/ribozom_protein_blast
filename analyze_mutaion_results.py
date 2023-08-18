@@ -116,6 +116,6 @@ for i, j in zip(i_protein, j_protein):
 # plt.imshow(counting_matrix, cmap='hot', interpolation='nearest')
 # plt.show()
 
-# fig = px.imshow(counting_matrix, color_continuous_scale='RdBu_r', origin='lower')
-fig = px.imshow(counting_matrix, color_map='jet')
+fig = px.imshow(counting_matrix, color_continuous_scale='RdBu_r', origin='lower')
+# fig = px.imshow(counting_matrix, color_map='jet')
 fig.show()

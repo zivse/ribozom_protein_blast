@@ -32,6 +32,7 @@ def blast_results_to_xml(record, protein_id):
     with open(os.path.join(PATH, XML_FOLDER_NAME, protein_id + '.xml'), 'w') as f:
         my_xml = result_handle.read()
         my_xml = my_xml.replace("CREATE_VIEW", "")
+        # TODO: go over all the comments in the project and remove them if they are not needed
         # create_view_index = my_xml.find("CREATE_VIEW")
         # if create_view_index != -1:
         #     my_xml = my_xml[:create_view_index] + my_xml[create_view_index + 11:]
@@ -53,6 +54,7 @@ def results_to_csv_and_fasta(blast_records, protein_id):
     sqeuence_fasta = open(os.path.join(PATH, HITS_FILES_NAME, protein_id + '_hits' + '.fasta'), 'w')  # initialize a fasta file to store the protein sequences of all hits
     all_organisms = []
     alraedy_done_organisms = []
+    # TODO: remove the prints that we added
     print(f"protein {protein_id} got {len(blast_records.alignments)} alignments")
     for alignment in blast_records.alignments:  # iterate over all hits
         try:
@@ -74,6 +76,7 @@ def results_to_csv_and_fasta(blast_records, protein_id):
                 #     report['e-value'].append(hsp.expect)  # add the e-value to the report dictionary
                 #     report['score'].append(hsp.score)  # add the alignment score to the report dictionary
                 for title in titles:
+                    # TODO: we have `title.split('[')[1].split(']')[0]` in three differnet places, extract it to a variable
                     if title.split('[')[1].split(']')[0] not in alraedy_done_organisms:
                         sqeuence_fasta.write('>' + title + '\n' + hsp.sbjct + '\n')  # add the protein sequence to the fasta file
                         if alignment.title.split('|')[2].split(',')[0] == 'ref':
@@ -103,6 +106,7 @@ def get_organisms_from_title(title, all_organisms):
             break
         organism = ref.split('[')[1].split(']')[0]
         organism = organism.replace(' ', '_')
+        # TODO: remove unused `words` and comments
         words = organism.split()
         # if(len(words) > 3 ):
         #     organism = words[0] +  + words[1] + " " + words[2]

@@ -74,7 +74,7 @@ def animals_list():
 
 def compare_common_with_table(common_organisms):
     """check that all the organisms in the lists appear in the table"""
-    df = pd.read_csv('../bio_projects_files/table_of_organisms.csv')
+    df = pd.read_csv('../bio_projects_files/table_of_organisms.csv')  # TODO: extract the path to a variable
     organism_from_table_list = df[['organism']]
     numpy_organism_from_table_list = organism_from_table_list.to_numpy()
     for organism in common_organisms.copy():
@@ -138,6 +138,7 @@ def generate_fasta_files_list():
     return files_list
 
 
+# TODO: fix the indentation in this function
 def record_check( ID, type = 'gb'):
   """
   Check whether org genbank exists, if not download it, based on RefSeq ID.

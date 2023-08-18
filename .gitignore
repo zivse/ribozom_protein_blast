@@ -7,7 +7,9 @@ csv-files/*
 hits-files/*
 xml-files/*
 seq-files/*
+psicov-files/*
 muscle-files/*
+./protein_to_index_mapping.txt
 ../bio_projects_files/gene_maping.json
 ../bio_projects_files/multy_gene.fasta
 ../bio_projects_files/try_for_table.pdf
